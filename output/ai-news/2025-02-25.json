@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-25",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "Claude 3.7 Sonnet发布：AI推理与编码能力的双重突破",
+      "url": "https://ai-bot.cn/claude-3-7-sonnet/",
+      "content": "Anthropic发布全球首个混合推理模型——Claude 3.7 Sonnet。模型结合了标准和扩展思考模式，可在快速响应与深度思考间切换，用户可通过API细粒度控制思考时间。Anthropic推出命令行工具Claude Code，支持代码搜索、编辑、测试、提交及复杂应用开发，显著提升开发效率。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "DeepSeek 开源通信库 DeepEP，大幅提升 MoE 模型训练与推理效率",
+      "url": "https://ai-bot.cn/deepep/",
+      "content": "DeepSeek 开源周第二天，发布开源项目 DeepEP，专为混合专家模型（MoE）训练和推理设计的高效通信库。DeepEP 提供高吞吐量和低延迟的全对全 GPU 内核，支持 NVLink 和 RDMA 通信，优化训练和推理效率。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "ChatGPT 变身苹果 Safari 浏览器默认搜索引擎",
+      "url": "https://www.ithome.com/0/833/385.htm",
+      "content": "OpenAI更新ChatGPT应用，新增Safari扩展功能，用户可将ChatGPT设为Safari地址栏的默认搜索引擎。更新后，用户在“设置”中启用“ChatGPT搜索扩展”，输入搜索查询时，结果将直接由ChatGPT提供，非传统的谷歌等搜索引擎。",
+      "source": "IT之家"
+    },
+    {
+      "title": "阿里Qwen团队发布推理模型QwQ，会展示完整的思维链",
+      "url": "https://ai-bot.cn/qwq-max/",
+      "content": "阿里通义千问团队推出QwQ-Max-Preview深度思考模型，支持联网搜索，具备强大的通用能力，可完成创意写作、代码生成、数学题解答等任务。模型基于Qwen2.5-Max构建，未来将以Apache 2.0许可协议开源。目前已上线官网，用户可通过点击“深度思考（QwQ）”按钮体验。",
+      "source": "AI工具集"
+    }
+  ]
+}
