@@ -56,8 +56,6 @@ def job():
     webhook_url = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=2e9f5a61-9ec3-4049-b981-c9b01f56f410'
     if send_wecom_message(webhook_url, content):
         print("新闻已成功发送到企业微信")
-    
-    send_wecom_message(webhook_url, content)
 
 def git_add_commit_push(date, filename):
     cmd_git_add = 'git add {filename}'.format(filename=filename)
