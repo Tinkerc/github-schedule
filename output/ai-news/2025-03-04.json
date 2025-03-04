@@ -1,0 +1,18 @@
+{
+  "date": "2025-03-04",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "通义灵码上新Qwen2.5-Max模型，体验数学和编程双冠王能力",
+      "url": "https://mp.weixin.qq.com/s/51fTnZyZS_6shyYwl27zKg",
+      "content": "阿里云和通义实验室联合推出的AI编码助手“通义灵码”上线了Qwen2.5-Max模型。模型使用超过20万亿token的预训练数据及优化的后训练方案，在Arena-Hard、LiveBench等基准测试中，Qwen2.5-Max领先业界，在数学和编程能力上排名第一。",
+      "source": "通义灵码"
+    },
+    {
+      "title": "Anthropic完成35亿美元E轮融资，估值飙升至615亿美元",
+      "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+      "content": "Anthropic完成35亿美元E轮融资，估值达615亿美元。本轮融资由Lightspeed Venture Partners领投，Bessemer Venture Partners、Cisco Investments等多家机构参与。资金将用于推进下一代AI系统开发、扩大计算能力、加速国际扩张。Anthropic推出的Claude 3.7 Sonnet和Claude Code，在代码能力上取得突破。",
+      "source": "Anthropic"
+    }
+  ]
+}
