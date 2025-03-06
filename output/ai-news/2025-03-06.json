@@ -1,0 +1,18 @@
+{
+  "date": "2025-03-06",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "Vidu API 开放平台全面开放，开启智能化内容生产范式",
+      "url": "https://mp.weixin.qq.com/s/VfrQusBQZ26sBh5qTeXUNg",
+      "content": "全球领先的专业级视频生成服务Vidu API开放平台全面开放，面向企业级用户与个人开发者。具备多模态语义理解能力，支持文字、图片等多模态指令输入，精准匹配创作意图。动漫风格稳定，画面流畅，帧间一致性高，首创多主体一致性技术，突破模型上下文理解限制。",
+      "source": "Vidu AI"
+    },
+    {
+      "title": "OpenAI宣布提供3.6亿，联合15个大学和机构建立NextGenAI教育联盟",
+      "url": "https://mp.weixin.qq.com/s/9VGr0KXg5TxdUo9eMlFxyw",
+      "content": "OpenAI宣布成立NextGenAI教育联盟，联合15家顶尖大学和机构，包括加州理工学院、哈佛大学、麻省理工学院、牛津大学等。OpenAI将提供5000万美元（约合人民币3.6亿元）的研究补助金、计算资源和API访问权限，支持学生、教育工作者和研究人员推进AI研究与教育创新。",
+      "source": "钛媒体AGI"
+    }
+  ]
+}
