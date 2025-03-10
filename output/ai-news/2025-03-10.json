@@ -1,0 +1,30 @@
+{
+  "date": "2025-03-10",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "MetaGPT 团队推出 OpenManus ：开源版 Manus",
+      "url": "https://ai-bot.cn/openmanus/",
+      "content": "MetaGPT的5人小团队仅用3小时成功复刻了开源版Manus——OpenManus，在GitHub上获得了8k+的star。OpenManus无需邀请码，可以自由使用。用户可通过创建conda环境、克隆存储库、安装依赖项并配置API密钥等步骤快速上手使用。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "超算互联网QwQ-32B API接口服务上线，免费100万Tokens",
+      "url": "https://mp.weixin.qq.com/s/La5FT1EXrWjJf_YdT8UazA",
+      "content": "超算互联网平台上线阿里巴巴开源推理模型QwQ-32B的API接口服务，提供免费100万Tokens。QwQ-32B基于Qwen2.5-32B+强化学习构建，在数学和代码能力上表现优异。用户可通过超算互联网平台快速开发或私有化部署该模型，平台提供保姆级教程，支持多种访问形式。",
+      "source": "超算互联网"
+    },
+    {
+      "title": "北京大学联合华为发布全栈开源DeepSeek推理方案",
+      "url": "https://mp.weixin.qq.com/s/YtulR7kb9pNYFybNf-dfbA",
+      "content": "北京大学联合华为发布DeepSeek全栈开源推理方案。方案基于北大自研的SCOW算力平台系统、鹤思调度系统，整合了DeepSeek、openEuler、MindSpore与vLLM/RAY等开源组件，实现了华为昇腾上的高效推理，支持大规模算力集群的训推一体化部署。",
+      "source": "北京大学高性能计算校级公共平台"
+    },
+    {
+      "title": "OpenAI 更新 macOS 版 ChatGPT，可在 Xcode 等 IDE 中直接编辑代码",
+      "url": "https://www.ithome.com/0/836/016.htm",
+      "content": "OpenAI更新macOS版ChatGPT应用，新增在Xcode、VS Code等IDE中直接编辑代码的功能。用户通过“与应用程序协作”功能，可让ChatGPT自动检测当前活跃编辑器并交互，能在编辑过程中对话ChatGPT。",
+      "source": "IT之家"
+    }
+  ]
+}
