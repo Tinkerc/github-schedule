@@ -1,0 +1,18 @@
+{
+  "date": "2025-03-12",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "OpenAI 发布 Agent 工具包，助力开发者构建智能体",
+      "url": "https://mp.weixin.qq.com/s/40eeCBkNSgVhDD8sAQSReA",
+      "content": "OpenAI发布了专为构建AI Agents设计的新工具包，包括Responses API、Web搜索工具、文件搜索工具、计算机使用工具以及开源的Agents SDK。简化开发者创建自动完成任务的AI Agents的过程。",
+      "source": "APPSO"
+    },
+    {
+      "title": "Manus将与阿里通义千问团队正式达成战略合作",
+      "url": "https://mp.weixin.qq.com/s/_F5bRtzheW1AAWO9bvFbEw",
+      "content": "Manus平台宣布与阿里通义千问团队达成战略合作。双方将基于通义千问系列开源模型，在国产模型和算力平台上实现Manus的全部功能，为中国用户打造更具创造力的通用智能体产品。",
+      "source": "财联社"
+    }
+  ]
+}
