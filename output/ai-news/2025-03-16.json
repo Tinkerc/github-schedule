@@ -1,0 +1,18 @@
+{
+  "date": "2025-03-16",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "谷歌免费开放Deep Research功能：人人皆可深度探索信息",
+      "url": "https://ai-bot.cn/sites/736.html",
+      "content": "谷歌近日向所有用户免费开放了Deep Research功能，此前该功能仅限Gemini Advanced付费用户使用。用户可登录Gemini官网体验。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "谷歌Gemini 2.0 Flash全模态图像生成上线，动嘴就能P图",
+      "url": "https://ai-bot.cn/gemini-2-0-flash/",
+      "content": "谷歌Gemini 2.0 Flash全模态图像生成功能正式上线，用户可通过自然语言对话生成和编辑图像，支持文本与图像结合、对话式编辑、世界知识理解和文本渲染等亮点。开发者可通过Gemini API或Google AI Studio使用。",
+      "source": "AI工具集"
+    }
+  ]
+}
