@@ -1,0 +1,18 @@
+{
+  "date": "2025-03-19",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "黄仁勋甩出三代核弹AI芯片！个人超算每秒运算1000万亿次，DeepSeek成最大赢家",
+      "url": "https://mp.weixin.qq.com/s/ITMdYNE99Ankv7qnC7rWvA",
+      "content": "英伟达GTC大会上，黄仁勋发布了新一代核弹级AI芯片Blackwell Ultra（GB300），性能大幅提升，推理速度可达每秒1000万亿次。芯片配备20TB HBM3内存和40TB快速内存，支持14.4TB/s的CX8带宽。还推出了基于Blackwell Ultra的AI PC，包括DGX Station和DGX Spark，适用于AI推理、机器人训练及自动驾驶等领域。",
+      "source": "APPSO"
+    },
+    {
+      "title": "马斯克xAI公司收购视频生成初创公司Hotshot，加速布局AI视频领域",
+      "url": "https://mp.weixin.qq.com/s/DgYseRVqfOy8_HvZC5aFbg",
+      "content": "马斯克的xAI公司收购了 Hotshot 视频生成初创公司。Hotshot由4人组成，在13个月内开发出3款视频生成模型，包括Hotshot-XL、Hotshot Act-One和Hotshot。Hotshot模型可生成最长10秒的720p视频。公司由Aakash Sastry和John Mullan于2017年创立，曾获Reddit联合创始人Alexis Ohanian等投资。",
+      "source": "量子位"
+    }
+  ]
+}
