@@ -1,0 +1,12 @@
+{
+  "date": "2025-03-20",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "OpenAI 推出最贵 o1-pro API，定价远超 DeepSeek",
+      "url": "https://mp.weixin.qq.com/s/gIeKKMO9oBl55HiBBKc3hQ ",
+      "content": "OpenAI 推出了最昂贵的API——o1-pro。是o1的升级版，使用更多计算资源以提供更优质响应，仅对特定开发者开放（Tier 1–5）。定价极高：每百万输入token收费150美元，输出token收费600美元。",
+      "source": "机器之心"
+    }
+  ]
+}
