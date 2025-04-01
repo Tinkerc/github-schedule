@@ -1,0 +1,24 @@
+{
+  "date": "2025-04-01",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "Runway发布AI视频生成模型Gen-4，一张照片生成连贯全片，首次实现“世界一致性”",
+      "url": "https://ai-bot.cn/runway-gen-4/",
+      "content": "Runway发布新一代AI视频生成模型Gen-4，全球首款实现“世界一致性”的模型。Gen-4可在多个场景中保持人物、场景和物体的一致性，无需额外精调，能凭借一张参考图在不同光线和场景中生成一致的角色或物体，从任意角度重建和捕捉场景。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "OpenAI宣布将开源推理模型，首次计划发布开放权重语言模型",
+      "url": "https://mp.weixin.qq.com/s/-QgYzgV0l5o_esB4vD9Zaw",
+      "content": "OpenAI宣布将在未来几个月内推出一款具备推理能力的开放权重语言模型。是自GPT-2以来，OpenAI首次计划发布此类模型。OpenAI CEO Sam Altman表示，模型将遵循严格的准备框架进行评估，确保安全性与可靠性。OpenAI计划举办一系列开发者活动，收集反馈并展示早期原型，首场活动将在旧金山启动。",
+      "source": "APPSO"
+    },
+    {
+      "title": "OpenAI完成400亿美元融资，估值3000亿美元，资金用于AI研究及扩大计算基础设施",
+      "url": "https://mp.weixin.qq.com/s/8QaiZp-9JJAA83zgE9Sllg",
+      "content": "OpenAI宣布完成400亿美元融资，投后估值达3000亿美元。本轮融资由日本软银领投300亿美元，微软及其他投资者参与。资金将用于推动AI研究及扩大计算基础设施。",
+      "source": "腾讯科技"
+    }
+  ]
+}
