@@ -1,0 +1,30 @@
+{
+  "date": "2025-04-05",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "前百度高管创立的 Genspark 推出通用智能体，免费开放使用，无需邀请码",
+      "url": "https://ai-bot.cn/genspark/",
+      "content": "由前百度高管景鲲和朱凯华创立的Genspark推出通用智能体，在GAIA基准测试中超越Manus和OpenAI的Deep Research。智能体可完成旅游规划、视频生成、PPT制作等任务，支持实时交互和低错误率。目前免费开放，用户无需邀请码即可使用。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "谷歌 AI 笔记应用 NotebookLM 新增“发现资料”功能，可自动检索相关网络资源",
+      "url": "https://ai-bot.cn/sites/21562.html",
+      "content": "谷歌旗下人工智能笔记应用NotebookLM推出“发现资料”功能，基于Gemini技术，用户可在应用中输入主题，快速检索网络资源，获取最多10个相关资料及摘要，并导入笔记本。功能支持生成音频概览、思维导图等，提升资料收集效率。新增“好奇心驱动”按钮，可随机生成主题资料。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "元鼎智能完成近10亿元融资，携手Fluidra加速全球市场布局",
+      "url": "https://mp.weixin.qq.com/s/2h2evuK4MXUhEKVJnrU9yA",
+      "content": "元鼎智能近日完成近10亿元人民币的战略融资，由全球泳池巨头Fluidra战略投资，云启资本加入，XVC、复星锐正、蜂巧资本等老股东增持。此次融资助力元鼎智能打通全球泳池专业渠道，实现从“线上领先”到“全渠道突破”的转型。",
+      "source": "元鼎智能Aiper"
+    },
+    {
+      "title": "Augment Code 发布 AI 编程助手 Augment Agent，可处理数百万行代码项目",
+      "url": "https://ai-bot.cn/augment-agent/",
+      "content": "Augment Code推出AI编程助手Augment Agent。专为大型代码库设计，拥有20万token的上下文窗口，可处理数百万行代码项目。“记忆”功能可适应个人编码风格，实时同步代码变更，支持多模态输入、终端命令等实用功能。Augment Agent已上线VS Code，JetBrains开发工具。",
+      "source": "AI工具集"
+    }
+  ]
+}
