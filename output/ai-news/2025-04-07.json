@@ -1,0 +1,42 @@
+{
+  "date": "2025-04-07",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "DeepSeek 联合清华大学发布 DeepSeek-GRM 模型，推理时可扩展性显著提升",
+      "url": "https://ai-bot.cn/deepseek-grm/",
+      "content": "DeepSeek 联合清华大学发布 DeepSeek-GRM 模型，模型采用点式生成奖励建模（GRM）方法，通过“自我原则批评调整”（SPCT）学习方法，使模型在推理时具有可扩展性。实验表明，DeepSeek-GRM-27B 在推理时扩展到 32 个样本时，性能可与 671B 参数模型相当，展现出推理时可扩展性的巨大优势。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Meta 开源的多模态系列 AI 模型— —Llama 4，重夺开源王座",
+      "url": "https://ai-bot.cn/llama-4/",
+      "content": "Meta 发布 Llama 4 系列 AI 模型，包括 Llama 4 Scout、Llama 4 Maverick 和 Llama 4 Behemoth。模型采用“混合专家架构”，将数据处理任务分解给专门的“专家”模型，提升训练和回答效率。Maverick 有 4000 亿参数，128 个“专家”模型中 170 亿参数活跃；Scout 有 170 亿活跃参数、16 个“专家”模型，总参数 1090 亿。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Midjourney 发布 AI 图片生成模型 V7，新增“草图模式”支持语音生图",
+      "url": "https://ai-bot.cn/midjourney-v7/",
+      "content": "Midjourney 发布 AI 图片生成模型 Midjourney V7 版本并开启 alpha 测试。V7 版本在常规更新方面增强了文本理解能力，升级了细节纹理质感，提升了人物肢体、手部、物体结构等连贯性，默认启用“个性化模型”功能，可学习用户偏好。全新的“草图模式”，支持对话式交互界面、实时编辑、语音识别生成功能。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "微软 Copilot 增加记忆、操控网页、创建播客等海量功能，打造独一无二 AI 伴侣",
+      "url": "https://www.ithome.com/0/843/145.htm",
+      "content": "微软为庆祝成立 50 周年，更新了 Copilot 的多项新功能，更接近 ChatGPT 或 Claude 等替代品。Copilot 现在支持记忆、个性化、基于 Web 的操作、播客创建、摄像头和屏幕分析、深度研究等功能。能跟踪用户偏好和详细信息以定制回复，用户可选择让 Copilot 记住的信息。能使用网络浏览器执行任务，如预订演出门票和餐厅。",
+      "source": "IT之家"
+    },
+    {
+      "title": "微软 Bing 重大革新：Copilot Search 上线，AI 与传统搜索结合",
+      "url": "https://www.ithome.com/0/843/150.htm",
+      "content": "微软宣布 Bing 搜索引擎上线 Copilot Search 功能。工具将传统网络搜索与生成式搜索结果相结合，通过 Bing 检查多个网站信息，显示更详细准确的响应内容，提供引用和建议。",
+      "source": "IT之家"
+    },
+    {
+      "title": "即梦 3.0 绘图模型上线，中文 AI 绘图能力迎来最强表现",
+      "url": "https://ai-bot.cn/sites/17772.html",
+      "content": "即梦 3.0 绘图模型灰度内测上线。模型在中文直出方面取得重大突破，提升了大字的准确性、设计感和丰富度，大幅解决了小字稳定性问题。即梦 3.0 能直出 2K 图像，支持多种风格，如写实、卡通等，可生成复杂场景和艺术字体。",
+      "source": "AI工具集"
+    }
+  ]
+}
