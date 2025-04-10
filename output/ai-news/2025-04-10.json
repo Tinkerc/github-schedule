@@ -1,0 +1,18 @@
+{
+  "date": "2025-04-10",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "alphaXiv推出「Deep Research for arXiv」功能，让文献检索秒速完成",
+      "url": "https://mp.weixin.qq.com/s/IAdpqmlvFHGOF_iHsG7IFg",
+      "content": "alphaXiv推出「Deep Research for arXiv」功能，可协助研究人员在arXiv平台上快速检索与阅读学术论文，提升文献检索及研究效率。用户输入相关问题，系统能迅速生成文献综述或热门论文回答，将数小时的搜索过程缩短至几秒。",
+      "source": "机器之心"
+    },
+    {
+      "title": "火山引擎推出AI数据专家“Data Agent”，企业数据全场景智能体",
+      "url": "https://mp.weixin.qq.com/s/BXmmTDNxYBphAqUhhHxcYA",
+      "content": "火山引擎迎来首位AI数据专家「Data Agent」。作为企业数据全场景智能体，Data Agent在数据分析和智能营销领域表现出色。可融合企业内部结构化与非结构化数据，理解业务需求，生成深度研究报告，无缝制定并执行营销策略，为每位用户精准配置触达时机和营销文案，活动结束后自动复盘并持续学习进化。",
+      "source": "火山引擎"
+    }
+  ]
+}
