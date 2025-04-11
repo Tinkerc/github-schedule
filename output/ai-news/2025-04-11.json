@@ -1,0 +1,42 @@
+{
+  "date": "2025-04-11",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "OpenAI宣布ChatGPT新功能，新增长期记忆功能，可以记住过去所有的聊天记录",
+      "url": "https://mp.weixin.qq.com/s/NLixAJp8bfUsPgNPUMAaJw",
+      "content": "OpenAI宣布ChatGPT推出新功能，能引用过去所有聊天记录，为用户提供更加私人订制的体验。标志着LLM交互范式从偶发性互动向持续性互动转变，使ChatGPT更像私人助理。新功能已向Plus和Pro用户开放，用户可以与ChatGPT进行更深入的互动。",
+      "source": "量子位"
+    },
+    {
+      "title": "谷歌发布 Gemini 2.5 Flash AI 模型：专为省钱高效而生",
+      "url": "https://ai-bot.cn/gemini-2-5-flash/",
+      "content": "谷歌推出Gemini 2.5 Flash AI模型，专为高效能和成本优化设计。模型即将登陆谷歌Vertex AI平台，具备动态且可控的计算能力，开发者可根据查询复杂度灵活调整处理时间，平衡速度、准确性和成本。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Anthropic 推出 Claude Max 订阅计划，月费最高 200 美元",
+      "url": "https://www.ithome.com/0/844/141.htm",
+      "content": "Anthropic推出Claude Max订阅计划，月费最高200美元，与OpenAI的ChatGPT Pro竞争。Max计划分为两个层级：每月100美元的Max速率限制是Claude Pro的5倍，每月200美元的Max速率限制是Claude Pro的20倍。计划提供更宽松的使用限制和优先获取最新AI模型的功能。",
+      "source": "IT之家"
+    },
+    {
+      "title": "谷歌Deep Research迎来重大升级，搭载Gemini 2.5 Pro模型，性能超OpenAI",
+      "url": "https://mp.weixin.qq.com/s/Tmuzdhi212vunT7JtwFtzg",
+      "content": "谷歌Deep Research迎来重大升级，搭载全球顶尖的Gemini 2.5 Pro模型。新版本在分析推理、信息整合和报告洞察力方面显著提升，5分钟可生成46页学术论文，能将复杂报告转为10分钟播客。性能较OpenAI DR提升超40%，价格仅为1/10。",
+      "source": "新智元"
+    },
+    {
+      "title": "继 OpenAI 后，谷歌 Gemini 模型将支持 Anthropic 的 MCP 协议",
+      "url": "https://www.ithome.com/0/844/163.htm",
+      "content": "谷歌DeepMind宣布为Gemini模型和SDK添加对Anthropic的模型上下文协议（MCP）的支持。谷歌DeepMind首席执行官德米斯·哈萨比斯表示，MCP正在迅速成为AI代理时代的开放标准，谷歌期待与其他行业伙伴共同开发这一协议。",
+      "source": "IT之家"
+    },
+    {
+      "title": "悠船宣布V7模型正式上线：图像生成质量大幅提升",
+      "url": "https://mp.weixin.qq.com/s/42EUWyP3o4VAoR1OUDlM6w",
+      "content": "悠船团队宣布悠船V7模型正式上线。V7版本在图像生成质量上显著提升，包括人物肤色、面部细节、材质纹理和光影效果等方面。能更好地解析复杂场景，实现背景与主体的自然融合。V7在视角表现和风格还原度上也更加专业，显著提升了身体、手部及物体细节的一致性。",
+      "source": "悠船助手"
+    }
+  ]
+}
