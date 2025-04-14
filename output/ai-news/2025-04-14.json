@@ -1,0 +1,24 @@
+{
+  "date": "2025-04-14",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "昆仑万维推出Skywork-OR1系列模型，同规模下性能超越阿里QwQ-32B，对齐DeepSeek-R1",
+      "url": "https://mp.weixin.qq.com/s/tEIaqE07Z5j_tAl31ElK8w",
+      "content": "昆仑万维天工团队推出全新升级的Skywork-OR1系列模型，包括7B和32B版本，聚焦数学和代码推理能力。系列模型在同等参数规模下性能超越阿里QwQ-32B，接近DeepSeek-R1。Skywork-OR1系列全面开源，涵盖模型权重、训练数据集和完整代码，团队采用多阶段GRPO训练，优化数据过滤和训练流程，显著提升模型推理性能。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "OPPO 推出的小布助手网页版上线，登录 OPPO 账号可同步手机端历史对话记录",
+      "url": "https://ai-bot.cn/xiaobu-ai/",
+      "content": "OPPO小布助手网页版正式上线，网页版接入满血版DeepSeek，支持联网搜索和结果导出功能。登录OPPO账号后，可同步手机端历史对话记录。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "OpenAI 宣布 ChatGPT 自 4 月 30 日起停用 GPT-4 模型，全面升级至 4o 版本",
+      "url": "https://mp.weixin.qq.com/s/IdyZc1Nz4kOVpErE-0TlqA",
+      "content": "OpenAI 宣布于2025年4月30日起，将让GPT-4在ChatGPT中退役，全面启用GPT-4o。GPT-4o在能力、一致性和创造力上更胜一筹。GPT-4退出ChatGPT，开发者仍可通过API调用。",
+      "source": "APPSO"
+    }
+  ]
+}
