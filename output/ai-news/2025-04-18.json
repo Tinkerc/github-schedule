@@ -1,0 +1,36 @@
+{
+  "date": "2025-04-18",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "OpenAI 推出最强推理模型 o3 和 o4-mini，支持“图像思考”与多模态推理",
+      "url": "https://ai-bot.cn/openai-o3/",
+      "content": "OpenAI 推出了最新的满血版o3 和 o4-mini 模型，是目前最智能的版本，具备全面的工具访问能力。o3 是功能最强大的推理模型，擅长多领域任务，如编程、数学、科学和视觉感知等，在视觉任务上表现出色，能分析图像、图表等，在复杂查询中提供精准答案。o4-mini 以快速、高效的推理能力著称，适合高吞吐量任务。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "字节跳动正式发布豆包1.5深度思考模型，文生图模型升级至3.0",
+      "url": "https://ai-bot.cn/seed-thinking-v1-5/",
+      "content": "字节跳动在火山引擎AI创新巡展杭州站发布豆包1.5深度思考模型。模型采用MoE架构，总参数200B，激活参数20B，推理成本优势显著。在数学、编程、科学推理及创意写作等领域表现出色，结合视觉理解技术可实现地貌分析、辅助点餐等功能。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "再创开源多模态大模型性能标杆，书生·万象3.0升级发布，创新预训练方法",
+      "url": "https://mp.weixin.qq.com/s/rb_gVjQTuwdx0hse6KuAkA",
+      "content": "上海人工智能实验室开源升级了通用多模态大模型书生·万象3.0（InternVL3）。模型采用创新的多模态预训练方法，将语言和多模态学习整合于同一预训练阶段，显著提升了多模态基础能力。在10亿至780亿参数的全量级版本中，InternVL3在开源模型性能上位列第一，接近闭源模型Gemini-2.5-Pro。",
+      "source": "上海人工智能实验室"
+    },
+    {
+      "title": "消息称 OpenAI 考虑以 30 亿美元收购人工智能编程工具 Windsurf",
+      "url": "https://www.ithome.com/0/845/837.htm",
+      "content": "OpenAI 正在考虑以约 30 亿美元收购人工智能编程工具 Windsurf（原名 Codeium）。如果收购成功，将是 OpenAI 有史以来最大的一笔交易，增强其在 AI 编程助手市场的竞争力。Windsurf 专注于根据自然语言提示编写代码，此前曾计划按 30 亿美元估值融资。",
+      "source": "IT之家"
+    },
+    {
+      "title": "Anthropic官方推出了两个重磅新功能：Research 与 Google Workspace 集成",
+      "url": "https://mp.weixin.qq.com/s/SwFOS0P9CPGy2zg5VM2T5A",
+      "content": "Anthropic公司旗下的Claude推出两大新功能：Research和与Google Workspace集成。Research功能可快速检索网络与内部文件，精准回答复杂问题；Google Workspace集成则让用户能无缝调用Gmail、日历和文档信息，轻松完成任务。",
+      "source": "新智元"
+    }
+  ]
+}
