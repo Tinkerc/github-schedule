@@ -1,0 +1,12 @@
+{
+  "date": "2025-04-25",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "OpenAI推出「轻量级」Deep Research，免费用户也能薅羊毛",
+      "url": "https://mp.weixin.qq.com/s/RqS5FA2prTwMzQWjIcVGNw",
+      "content": "OpenAI推出轻量级Deep Research版本，免费用户也可使用。基于o4-mini模型支持，响应更简短但维持深度与质量。免费版每月提供5个轻量任务额度，Plus & Team版每月提供10个原始版和15个轻量版额度，Pro版每月提供125个原始版和125个轻量版额度。用户达到查询限制后，系统自动切换至轻量级版本。",
+      "source": "机器之心"
+    }
+  ]
+}
