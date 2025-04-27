@@ -1,0 +1,18 @@
+{
+  "date": "2025-04-27",
+  "weekday": "周日",
+  "items": [
+    {
+      "title": "阶跃星辰开源图像编辑模型 Step1X-Edit：人人都能用的“改图大师”",
+      "url": "https://mp.weixin.qq.com/s/2gGraRc5zpCa5bTms7kVxw",
+      "content": "阶跃星辰正式开源图像编辑大模型Step1X-Edit，总参数量达19B，融合了7B多模态大语言模型（MLLM）和12B扩散模型（DiT）。模型具备语义精准解析、身份一致性保持和高精度区域级控制三大核心能力，支持11类高频图像编辑任务，如文字替换、风格迁移、材质变换等。",
+      "source": "阶跃星辰"
+    },
+    {
+      "title": "Kimi开源音频基础模型Kimi-Audio，多项基准测试夺冠",
+      "url": "https://ai-bot.cn/kimi-audio/",
+      "content": "Kimi团队发布Kimi-Audio的开源音频基础模型。模型在语音识别、音频理解、音频转文本、语音对话等多任务上表现出色，横扫十多项基准测试，总体性能排名第一。在LibriSpeech ASR测试中，Kimi-Audio的词错误率仅为1.28%，显著优于其他模型。",
+      "source": "AI工具集"
+    }
+  ]
+}
