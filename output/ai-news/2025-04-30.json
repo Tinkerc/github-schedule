@@ -1,0 +1,18 @@
+{
+  "date": "2025-04-30",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "小米首个推理大模型开源 Xiaomi MiMo：为“Reasoning”而生！",
+      "url": "https://mp.weixin.qq.com/s/Sx48m4tTTc6bJzMLU5scbQ",
+      "content": "小米开源首个推理大模型「Xiaomi MiMo」。模型专注于提升推理能力，通过联动预训练和后训练，在数学推理和代码竞赛公开测评集中，仅用7B参数规模就超越了OpenAI的o1-mini和阿里的QwQ-32B-Preview。MiMo在强化学习潜力上显著领先，采用三阶段预训练和创新的后训练算法，设计了Seamless Rollout系统加速训练。",
+      "source": "Xiaomi MiMo"
+    },
+    {
+      "title": "Meta 推出独立 AI 助手应用，融合社交元素挑战 ChatGPT",
+      "url": "https://www.ithome.com/0/849/946.htm",
+      "content": "Meta发布独立AI助手应用“Meta AI”，挑战ChatGPT。应用具备文字输入、语音对话、图像生成和实时搜索功能，最大创新是“发现”信息流，用户可查看并互动其他用户分享的AI交互内容。语音模式基于“全双工”AI模型，更具对话性，目前已在美国、加拿大、澳大利亚和新西兰上线。",
+      "source": "IT之家"
+    }
+  ]
+}
