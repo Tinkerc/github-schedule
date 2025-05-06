@@ -1,0 +1,42 @@
+{
+  "date": "2025-05-06",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "OpenAI 深夜官宣大调整！奥特曼全员信：放弃营利转型，开源强大模型",
+      "url": "https://mp.weixin.qq.com/s/yRPnJp2y5v3AEL74hGlUbw",
+      "content": "OpenAI宣布重大调整，其营利业务将转型为“公共利益公司”（PBC），由非营利组织继续掌控并成为重要股东。此举确保通用人工智能（AGI）造福全人类，同时放弃复杂的“利润上限结构”，采用常规股权结构。OpenAI将继续秉持民主化AI的理念，开源强大模型，让用户自由使用工具，推动AI在健康、教育、公共服务等领域产生积极影响。",
+      "source": "APPSO"
+    },
+    {
+      "title": "微软发布 Phi-4 系列小语言 AI 推理模型Phi-4-reasoning",
+      "url": "https://mp.weixin.qq.com/s/t_x51ZdgngH8I0Fir2qRHg",
+      "content": "微软推出Phi-4推理模型系列，包括Phi-4-reasoning、Phi-4-reasoning-plus和Phi-4-mini-reasoning。模型参数最多仅14B，能在本地高性能笔记本上流畅运行。其中，3.8B参数的Phi-4-mini-reasoning在数学推理上超越8B的DeepSeek-R1蒸馏模型，展现了小模型的强大推理能力。",
+      "source": "新智元"
+    },
+    {
+      "title": "基于科学基础大模型的智能科研平台ScienceOne正式发布，为科研打造AI底座",
+      "url": "https://mp.weixin.qq.com/s/bq9immhhL5EIFbCprq2X7w",
+      "content": "中国科学院自动化研究所在第八届数字中国建设峰会上发布了基于科学基础大模型的智能科研平台ScienceOne。由自动化所联合多个中科院单位及产业化平台共同研发，推动多学科协同的智能科研新范式。ScienceOne首发了S1-Literature文献助手和S1-ToolChain科学工具调度台两个产品，分别用于文献综述生成与科研任务的工具调度。",
+      "source": "中国科学院自动化研究所"
+    },
+    {
+      "title": "通义千问Qwen推出Qwen2.5-Omni-3B模型，尺寸更小，性能依旧",
+      "url": "https://mp.weixin.qq.com/s/_AG9RZRJpLrVT9lvmJ8ZFA",
+      "content": "Qwen2.5-Omni-3B模型正式发布。是Qwen2.5-Omni-7B的轻量级版本，3B版本在长上下文序列处理（约25k tokens）中显存消耗减少超50%，可在普通24GB消费级GPU上支持长达30秒的音视频交互。尺寸更小，3B版本保留了7B模型90%以上的多模态理解能力，语音输出的自然度与稳定性与7B版本一致。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "DeepSeek开源Prover-V2强推理模型，奥数解题不再难",
+      "url": "https://mp.weixin.qq.com/s/UYn-9vX5rpWpB3Y1xFW8Jg",
+      "content": "DeepSeek开源Prover-V2强推理模型，专注于数学定理证明。模型分为7B和671B两个版本，其中671B版本基于DeepSeek-V3-Base训练而成，7B版本支持最长32K tokens的上下文长度扩展。Prover-V2通过递归定理证明流程生成冷启动数据，结合强化学习提升性能，在MiniF2F测试中达到88.9%的通过率。",
+      "source": "机器之心"
+    },
+    {
+      "title": "快手旗下轻雀科技推出“喵记多”AI笔记工具",
+      "url": "https://ai-bot.cn/mojidoc/",
+      "content": "快手旗下轻雀科技推出“喵记多”AI笔记工具，用户可将碎片化的文字、图片、文件发送给内置AI“喵仔”，将其转为笔记，支持二次编辑和删除。若发送网页超链接，喵仔会自动爬取内容生成笔记。App具备“提醒待办”功能，用户可通过特定指令创建和查看待办事项。",
+      "source": "AI工具集"
+    }
+  ]
+}
