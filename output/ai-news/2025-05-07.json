@@ -1,0 +1,30 @@
+{
+  "date": "2025-05-07",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "Kimi 长思考模型 API 正式发布，擅长解决复杂问题",
+      "url": "https://mp.weixin.qq.com/s/vJIZ9wu_IWPCGxm0pyB-ZQ",
+      "content": "月之暗面推出 kimi-thinking-preview 模型，具有多模态推理能力和通用推理能力的多模态思考模型，擅长深度推理，可帮助解决复杂问题。模型通过 HTTP 接口或 openai SDK 使用，响应中包含 reasoning_content 字段展示思考过程。",
+      "source": "Kimi开放平台"
+    },
+    {
+      "title": "商汤科技携手中移动香港与香港中文大学法学院 开展视觉 AI 与大模型领域合作",
+      "url": "https://mp.weixin.qq.com/s/K46C7njX-xNoP2bWYNSX5w",
+      "content": "商汤科技在香港与中国移动香港、香港中文大学法律学院签署合作备忘录。商汤在香港落地10年，从视觉 AI 守护机场地铁海关口岸安全，到 AR 助力文旅和教育，再到大模型落地政务、网安、法律等新领域。",
+      "source": "商汤科技SenseTime"
+    },
+    {
+      "title": "Recraft 完成 3000 万美元 B 轮融资，其图像生成模型曾击败 DALL-E 和 Midjourney",
+      "url": "https://www.ithome.com/0/851/022.htm",
+      "content": "图像生成初创公司 Recraft 完成 3000 万美元 B 轮融资，由 Accel 领投，Khosla Ventures 和 Madrona 等参投。Recraft 总部位于美国旧金山，在 2024 年获得 1200 万美元 A 轮融资。其图像生成模型“red_panda”在去年的基准测试中超越 DALL-E 和 Midjourney。",
+      "source": "IT之家"
+    },
+    {
+      "title": "最火AI编程独角兽又融资！估值超650亿",
+      "url": "https://mp.weixin.qq.com/s/PPHHYOrjYJiIfJt_KopcOw",
+      "content": "AI编程工具Cursor母公司Anysphere完成9亿美元融资，估值增长两倍多至90亿美元。本轮融资由Thrive Capital领投，a16z、Accel等参投。Cursor可帮助开发者用自然语言生成代码、查错修复等，客户包括OpenAI、Midjourney等知名企业。",
+      "source": "智东西"
+    }
+  ]
+}
