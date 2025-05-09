@@ -1,0 +1,18 @@
+{
+  "date": "2025-05-09",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "阿里开源创新大模型搜索引擎 ZeroSearch，成本直降 80%",
+      "url": "https://ai-bot.cn/zerosearch/",
+      "content": "阿里巴巴开源 ZeroSearch 大模型搜索引擎，是无需与真实搜索引擎交互即可激励大模型搜索能力的强化学习框架。基于大模型预训练知识，将其转化为检索模块，可动态控制生成内容质量。在 7 大问答数据集综合评测中，搜索能力超谷歌。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "专注轻办公场景，AR+AI眼镜品牌INAIR完成数千万元融资",
+      "url": "https://mp.weixin.qq.com/s/1JPb4b5qIle87HurP75lsQ",
+      "content": "AR+AI眼镜品牌INAIR完成数千万元A轮融资，由威海创投领投，真知创投等老股东继续支持。INAIR成立于2022年，聚焦轻办公场景，以AR眼镜为核心入口，构建一体化便携式计算终端，自主研发的INAIR OS支持多屏协同、3D内容显示及跨终端数据流转，兼容Android应用生态，内建智能代理INAIR AI Agent，提升多任务处理效率。",
+      "source": "智能涌现"
+    }
+  ]
+}
