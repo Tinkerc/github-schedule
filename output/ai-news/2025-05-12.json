@@ -1,0 +1,18 @@
+{
+  "date": "2025-05-12",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "QwenChat上线 Web Dev，一句话生成精美网页",
+      "url": "https://mp.weixin.qq.com/s/Wpjz2TTAU6SukpA2fSFzoQ",
+      "content": "QwenChat正式上线网页开发功能，用户只需输入一句自然语言指令，可生成结构清晰、风格美观的网站页面代码，支持直接预览。新功能已在QwenChat（chat.qwen.ai）上线，用户点击对话框下方的WebDev/网页开发即可体验。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "清言新功能！智能体社区上线、支持微信文件一键导入",
+      "url": "https://mp.weixin.qq.com/s/ISa5myj6WWNuQ58n9thTHQ",
+      "content": "智谱清言推出新功能，智能体社区上线，支持微信文件一键导入。用户可以在清言App内直接上传微信文件，享受便捷的文件管理和溯源功能。智能体社区为用户打造了一个交流平台，可以轻松发帖，与创作者直接对话，分享使用心得。",
+      "source": "智谱清言"
+    }
+  ]
+}
