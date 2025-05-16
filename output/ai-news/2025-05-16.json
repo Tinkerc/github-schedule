@@ -1,0 +1,18 @@
+{
+  "date": "2025-05-16",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "问小白学术搜索来了，可检索海量权威文献",
+      "url": "https://mp.weixin.qq.com/s/M8i3RX8dCA7FN3HnkCQFcg",
+      "content": "问小白推出“学术搜索”功能，基于谷歌学术数据库，可检索海量权威文献。功能搭载DeepSeek R1/V3、Qwen3等模型，具备智能检索能力，能将用户问题转化为中英检索词，提高检索质量。",
+      "source": "问小白"
+    },
+    {
+      "title": "Manus推出图像生成Agent功能，可调用多种工具协同工作",
+      "url": "https://ai-bot.cn/manus/",
+      "content": "Manus推出图像生成Agent功能。用户上传家中照片后，Manus可理解家居风格并自动在宜家网站找到匹配家具进行搭配。上传产品照片，Manus能依据市场趋势设计新茶饮品牌，创建上市计划，制作吸引人的在线销售列表和网站。可调用多种工具协同工作。",
+      "source": "AI工具集"
+    }
+  ]
+}
