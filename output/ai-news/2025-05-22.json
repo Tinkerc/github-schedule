@@ -1,0 +1,18 @@
+{
+  "date": "2025-05-22",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "昆仑万维面向全球发布天工超级智能体：基于deep research的“AI版office”",
+      "url": "https://mp.weixin.qq.com/s/5vqrIevfZRWULzTwtHK7nQ",
+      "content": "昆仑万维面向全球发布天工超级智能体（Skywork Super Agents），采用AI agent架构和deep research技术，能生成文档、PPT、表格、网页、播客和音视频等多模态内容。其deep research能力在GAIA榜单上排名全球第一，超过OpenAI Deep Research和Manus。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "特斯拉展示 Optimus 人形机器人做家务能力：扔垃圾、扫地、炒菜",
+      "url": "https://www.ithome.com/0/854/951.htm",
+      "content": "埃隆·马斯克重申Optimus将成为特斯拉重要产品。Optimus社交媒体账号发布视频，展示机器人扔垃圾、扫地、炒菜等家务能力，成功搬运Model X零件。",
+      "source": "IT之家"
+    }
+  ]
+}
