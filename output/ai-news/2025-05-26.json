@@ -1,0 +1,30 @@
+{
+  "date": "2025-05-26",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "昆仑万维天工超级智能体APP今日正式上线！全球首款Office智能体APP",
+      "url": "https://mp.weixin.qq.com/s/44t96TjwWEJpQDLuVlE_Mg",
+      "content": "昆仑万维宣布天工超级智能体APP正式上线。是全球首款基于AI Agent架构的Office智能体手机APP，标志着AI Office智能体时代从桌面端全面迈向移动端。APP以“8分钟完成8小时工作”为核心理念，包含文档、PPT、表格智能体及通用智能体，支持多模态创作与跨端协同，用户可随时随地发起任务并在PC上深入编辑。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "OpenAI 升级 Operator 智能体，AI 模型从 4o 到 o3",
+      "url": "https://ai-bot.cn/operator/",
+      "content": "OpenAI 升级 Operator 智能体，AI 模型从 4o 升级到 o3。升级后，推理能力大幅提升，在与浏览器交互时更稳定、准确，任务成功率显著提高，回复也更清晰、详尽且结构化。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "豆包可以打视频电话了，支持视频聊天问答",
+      "url": "https://mp.weixin.qq.com/s/JSjCuc3LhigXndkUsjBI3Q",
+      "content": "豆包在App端上线实时视频通话功能。用户可在“打电话”界面点击视频按钮开启，支持基于真实场景的实时问答互动。背后依托豆包最新的视觉理解模型，可融合视觉与语言输入进行深度思考和创作。",
+      "source": "豆包"
+    },
+    {
+      "title": "QQ浏览器推出首个高考 Agent“AI 高考通”，量身定制志愿填报方案",
+      "url": "https://mp.weixin.qq.com/s/qRyM1aGTYX01cHy-RobWJQ",
+      "content": "QQ浏览器推出行业内首个高考Agent——“AI高考通”，为高考生提供全流程AI助力。考生可通过它快速获取全面权威的高考信息，如院校资料、专业信息等，能一键得到量身定制的志愿填报方案。高考期间，AI全程陪伴，提供“AI解题答疑”“AI作文辅导”等功能，助力考生考前提分、考中查询日程、考后个性化推荐志愿。",
+      "source": "QQ浏览器"
+    }
+  ]
+}
