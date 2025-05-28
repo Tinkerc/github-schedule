@@ -1,0 +1,18 @@
+{
+  "date": "2025-05-28",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "AI编程IDE Trae.ai 海外版正式上线Pro订阅模式",
+      "url": "https://ai-bot.cn/trae/",
+      "content": "字节跳动的AI编程IDE Trae海外版正式上线Pro订阅模式，结束了完全免费和无限调用的时代。Pro订阅首月3美元，次月起10美元/月或90美元/年，提供600次快速请求额度。Pro用户仍需排队，但速度更快。Trae支持9款高级模型，包括Claude Sonnet 4和GPT-4.1等。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "阿里巴巴集团与SAP达成战略合作，探索接入通义千问大模型",
+      "url": "https://mp.weixin.qq.com/s/32FSP-SXBF1_U3j2W2QbOQ",
+      "content": "阿里巴巴集团与SAP宣布达成战略合作。合作将SAP领先的企业级软件与阿里云的基础设施及AI能力相结合，加速企业客户的创新和数字化转型。阿里云将作为SAP超大规模云服务提供商，支持企业在阿里云上部署SAP ERP云及私有云版本，加入SAP IaaS认证计划。SAP将探索接入通义千问大模型，使企业客户能在SAP应用中使用本地化生成式AI功能。",
+      "source": "阿里云"
+    }
+  ]
+}
