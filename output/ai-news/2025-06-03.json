@@ -1,0 +1,18 @@
+{
+  "date": "2025-06-03",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "谷歌 DeepMind 推出手语翻译模型：SignGemma，打破手语沟通壁垒",
+      "url": "https://ai-bot.cn/signgemma/",
+      "content": "谷歌 DeepMind 推出 SignGemma，是强大的手语翻译模型，可将手语转化为口语文本，主要针对美国手语（ASL）和英语深度优化，为开源模型，将于今年晚些时候加入 Gemma 模型家族。DeepMind 希望借此打破手语使用者的沟通障碍，助力他们在工作、学习和社交中更顺畅地参与。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "小米多模态大模型 MiMo-VL 开源，多方面领先 Qwen2.5-VL-7B",
+      "url": "https://ai-bot.cn/mimo-vl/",
+      "content": "小米多模态大模型 MiMo-VL 正式开源。在图片、视频、语言的通用问答和理解推理等多个任务上大幅领先同尺寸标杆多模态模型 Qwen2.5-VL-7B，在 GUI Grounding 任务上比肩专用模型。",
+      "source": "AI工具集"
+    }
+  ]
+}
