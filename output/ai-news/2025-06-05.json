@@ -1,0 +1,18 @@
+{
+  "date": "2025-06-05",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "OpenAI 发布了两项 ChatGPT 新功能：「连接器」与「记录模式」",
+      "url": "https://mp.weixin.qq.com/s/2x_z04W-_mjKpqpWcmZPzA",
+      "content": "OpenAI为ChatGPT推出两项新功能：“连接器”与“记录模式”。连接器可接入GitHub、Google Drive等平台，实现数据查询与整理，助力企业知识管理。记录模式则能自动录音、记笔记、生成会议纪要，提升会议效率。新功能让ChatGPT融入企业日常，成为打工人“第二大脑”。",
+      "source": "APPSO"
+    },
+    {
+      "title": "秘塔“今天学点啥”平台上线导出PPT功能",
+      "url": "https://mp.weixin.qq.com/s/6LtnhKnHqOU5fiFGUsP5HQ",
+      "content": "“今天学点啥”平台上线一键导出PPT功能。用户在视频讲解页面点击“导出PPT”按钮，可下载包含图文、语音讲解及逐字稿的完整PPT。功能因算力消耗大，仅前三天（6月5日—6月7日）限时免费。",
+      "source": "AI秘塔"
+    }
+  ]
+}
