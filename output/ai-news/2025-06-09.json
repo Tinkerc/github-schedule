@@ -1,0 +1,24 @@
+{
+  "date": "2025-06-09",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "面壁智能推出端侧大模型 MiniCPM 4.0",
+      "url": "https://ai-bot.cn/minicpm-4-0/",
+      "content": "面壁智能推出端侧大模型 MiniCPM 4.0，包含 8B 闪电稀疏版和 0.5B 版。8B 版采用「高效双频换挡」机制，可自动切换注意力模式，兼顾长、短文本场景。模型通过自研 CPM.cu 推理框架，在极限场景下最高提速 220 倍，常规提速 5 倍，实现 90% 模型瘦身。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Meta 正谈判投资 Scale AI，预计价值超 100 亿美元",
+      "url": "https://www.ithome.com/0/859/219.htm",
+      "content": "Meta 正与 AI 初创公司 Scale AI 进行投资谈判，融资价值有望超 100 亿美元。Scale AI 由亚历山大・王于 2016 年创立，主要提供数据标签服务，客户包括微软、OpenAI 等。若交易达成，将是 Meta 最大外部 AI 投资。",
+      "source": "IT之家"
+    },
+    {
+      "title": "智平方×东风柳汽：国产具身大模型首获汽车制造全场景验证，启动数据飞轮",
+      "url": "https://mp.weixin.qq.com/s/foKKNPQWdec30sNn5uyVpw",
+      "content": "智平方与东风柳汽在深圳签署协议，共同探索具身大模型在汽车制造全场景的深度应用。智平方的AlphaBot 2（爱宝）机器人搭载GOVLA大模型，将在东风柳汽工厂的上下料、拖拽料车、贴标签等场景执行智能化作业。",
+      "source": "智平方科技"
+    }
+  ]
+}
