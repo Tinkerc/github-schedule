@@ -1,0 +1,42 @@
+{
+  "date": "2025-06-10",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "智谱推出首个企业级超级助手Agent——CoCo",
+      "url": "https://mp.weixin.qq.com/s/3COowx-TJcJ2y13RvsXX2g",
+      "content": "智谱推出首个企业级超级助手Agent——CoCo，具备交付导向、记忆机制和无缝嵌入三大企业级特性。能全流程辅助工作，根据员工职能和需求主动服务，无缝接入企业资源，提供个性化服务。",
+      "source": "智谱"
+    },
+    {
+      "title": "硅基流动完成新一轮数亿元融资，阿里云领投",
+      "url": "https://mp.weixin.qq.com/s/zBTNc9sHoEAnJLvHU1r8Vg",
+      "content": "硅基流动宣布完成数亿元人民币A轮融资，由阿里云领投，创新工场等老股东超额跟投，华兴资本担任独家财务顾问。硅基流动专注于AI基础设施领域，通过技术突破和产品创新，有效解决国内AI行业发展难题。",
+      "source": "硅基流动"
+    },
+    {
+      "title": "小红书hi lab团队首次开源文本大模型 ：dots.llm1",
+      "url": "https://mp.weixin.qq.com/s/alrgkHayznBd6TOyNXyuCg",
+      "content": "小红书hi lab（人文智能实验室）首次开源文本大模型dots.llm1。模型是中等规模的Mixture of Experts（MoE）语言模型，总参数量1420亿，激活参数140亿。在训练11.2万亿token高质量数据后，性能可与Qwen2.5-72B媲美。",
+      "source": "小红书技术REDtech"
+    },
+    {
+      "title": "面壁智能推出端侧大模型 MiniCPM 4.0",
+      "url": "https://ai-bot.cn/minicpm-4-0/",
+      "content": "面壁智能推出端侧大模型 MiniCPM 4.0，包含 8B 闪电稀疏版和 0.5B 版。8B 版采用「高效双频换挡」机制，可自动切换注意力模式，兼顾长、短文本场景。模型通过自研 CPM.cu 推理框架，在极限场景下最高提速 220 倍，常规提速 5 倍，实现 90% 模型瘦身。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Meta 正谈判投资 Scale AI，预计价值超 100 亿美元",
+      "url": "https://www.ithome.com/0/859/219.htm",
+      "content": "Meta 正与 AI 初创公司 Scale AI 进行投资谈判，融资价值有望超 100 亿美元。Scale AI 由亚历山大・王于 2016 年创立，主要提供数据标签服务，客户包括微软、OpenAI 等。若交易达成，将是 Meta 最大外部 AI 投资。",
+      "source": "IT之家"
+    },
+    {
+      "title": "智平方×东风柳汽：国产具身大模型首获汽车制造全场景验证，启动数据飞轮",
+      "url": "https://mp.weixin.qq.com/s/foKKNPQWdec30sNn5uyVpw",
+      "content": "智平方与东风柳汽在深圳签署协议，共同探索具身大模型在汽车制造全场景的深度应用。智平方的AlphaBot 2（爱宝）机器人搭载GOVLA大模型，将在东风柳汽工厂的上下料、拖拽料车、贴标签等场景执行智能化作业。",
+      "source": "智平方科技"
+    }
+  ]
+}
