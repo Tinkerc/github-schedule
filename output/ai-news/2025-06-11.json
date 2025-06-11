@@ -1,0 +1,24 @@
+{
+  "date": "2025-06-11",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "OpenAI 发布 o3-pro升级版推理模型，支持调用ChatGPT全套工具",
+      "url": "https://mp.weixin.qq.com/s/ESY_QgCy2t2-cRbZXOSP5g",
+      "content": "OpenAI发布o3-pro模型，替代o1-pro向Pro和Team用户开放。o3-pro是推理模型o3的升级版，处理复杂问题、精准回答能力更强，支持调用ChatGPT全套工具，响应速度稍慢，适合对答案准确性要求高的场景。o3-pro在表达清晰度、答案完整性等方面优于o3。",
+      "source": "APPSO"
+    },
+    {
+      "title": "Mistral 推出推理模型 Magistral 系列，Small 版已开源",
+      "url": "https://www.ithome.com/0/859/897.htm",
+      "content": "法国AI实验室Mistral推出推理模型Magistral系列，包含Magistral Small和Magistral Medium两个版本。Magistral Small拥有240亿参数，已在Hugging Face平台开源；Magistral Medium能力更强，处于预览阶段，仅在特定平台提供。",
+      "source": "IT之家"
+    },
+    {
+      "title": "3D大模型公司VAST再次完成数千万美元的Pre-A+轮融资",
+      "url": "https://mp.weixin.qq.com/s/8XfDitWx8l5UfLS-kyX5Ww",
+      "content": "3D大模型公司VAST完成数千万美元Pre-A+轮融资，由北京市人工智能产业投资基金领投，靖亚资本跟投。VAST同时发布全球首个AI驱动的一站式3D工作台Tripo Studio，即将推出全新算法Tripo 3.0。融资将重点投入Tripo系列大模型研发及Tripo Studio产品及生态平台建设。",
+      "source": "Tripo AI"
+    }
+  ]
+}
