@@ -1,0 +1,12 @@
+{
+  "date": "2025-06-17",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "MiniMax-M1，全球首个开源大规模混合架构的推理模型",
+      "url": "https://mp.weixin.qq.com/s/OWrbRE3zHaeNahXkPnP0fg",
+      "content": "MiniMax稀宇科技发布全球首个开源大规模混合架构推理模型MiniMax-M1。在复杂生产力场景中表现卓越，接近海外领先水平，性价比极高。M1支持100万上下文输入和8万Token推理输出，基于闪电注意力机制和混合架构，算力效率显著提升。强化学习算法CISPO收敛性能优异，训练成本仅53.74万美金。",
+      "source": "MiniMax 稀宇科技"
+    }
+  ]
+}
