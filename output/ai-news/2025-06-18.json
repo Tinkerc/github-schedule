@@ -1,0 +1,60 @@
+{
+  "date": "2025-06-18",
+  "weekday": "周三 6月17",
+  "items": [
+    {
+      "title": "重磅！MiniMax推出全新AI视频模型——Hailuo 02，刷新排名 力压可灵和Veo 3",
+      "url": "https://ai-bot.cn/hailuo-02/",
+      "content": "国内MiniMax旗下视频生成模型海螺AI推出新版本Hailuo 02，这个模型目前在图生视频、文生视频的榜单位于第二，超越快手的可灵以及谷歌的Veo3，仅次于字节上周刚刚发布Seedance 1.0。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Google发布Gemini 2.5 AI模型家族更新",
+      "url": "https://mp.weixin.qq.com/s/dzxRkhiptJ2xuc7iWeMwoQ",
+      "content": "Google发布Gemini 2.5 AI模型家族更新，三大亮点：Gemini 2.5 Flash-Lite上线预览版，支持多模态输入、Google搜索、代码执行等工具接入；Gemini 2.5 Flash正式上线并调整定价，输入每百万Token价格为0.3美元，输出为2.5美元；Gemini 2.5 Pro正式版上线，在多个基准测试中超越DeepSeek R1等模型，视频理解能力显著提升。",
+      "source": "APPSO"
+    },
+    {
+      "title": "腾讯元宝上线 AI 编程模式：支持边修改代码边实时预览",
+      "url": "https://mp.weixin.qq.com/s/dzxRkhiptJ2xuc7iWeMwoQ",
+      "content": "腾讯元宝上线AI编程模式，用户可通过“一句话写代码”实现快速编程。模式基于DeepSeek V3模型，支持双栏展示，左侧提需求，右侧实时生成代码并可在线运行，支持HTML、Python、C++等多种语言。",
+      "source": "腾讯元宝"
+    },
+    {
+      "title": "豆包电脑版、网页版上线“AI 播客”功能",
+      "url": "https://mp.weixin.qq.com/s/9-Wpw_MnoR1s6EecQ8bvZA",
+      "content": "豆包电脑版和网页版上线了“AI播客”功能。用户只需上传PDF文件或添加网页链接，可生成自然流畅的拟人化双人对话播客。语音效果逼真，模拟真人播客的口语习惯，停顿和附和细节恰到好处。用户可将行业报告、课程知识点等资料上传，快速生成通俗易懂的播客。",
+      "source": "豆包"
+    },
+    {
+      "title": "MiniMax-M1，全球首个开源大规模混合架构的推理模型",
+      "url": "https://mp.weixin.qq.com/s/OWrbRE3zHaeNahXkPnP0fg",
+      "content": "MiniMax稀宇科技发布全球首个开源大规模混合架构推理模型MiniMax-M1。在复杂生产力场景中表现卓越，接近海外领先水平，性价比极高。M1支持100万上下文输入和8万Token推理输出，基于闪电注意力机制和混合架构，算力效率显著提升。强化学习算法CISPO收敛性能优异，训练成本仅53.74万美金。",
+      "source": "MiniMax 稀宇科技"
+    },
+    {
+      "title": "Qwen3 全系适配 MLX，开源 32 款 MLX 量化模型",
+      "url": "https://mp.weixin.qq.com/s/L-QbHv7Rggh6TX38Vh21nw",
+      "content": "Qwen3模型宣布全系适配苹果芯片的MLX框架，开源32款量化模型。MLX是专为苹果芯片深度适配的开源机器学习框架，可高效训练和部署AI大模型。Qwen3此次推出的模型包括4bit、6bit、8bit和BF16四种精度的量化版本，覆盖从Mac Pro到iPhone的全场景设备。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "Kimi新模型Kimi-Dev拿下代码开源SOTA，仅仅72B，发布即开源",
+      "url": "https://mp.weixin.qq.com/s/f6rZVucyUf47WGUwbLjXJA",
+      "content": "月之暗面发布了开源代码模型Kimi-Dev，在SWE-bench Verified上以60.4%的成绩取得开源SOTA，其参数量仅72B，但编程能力超越DeepSeek-R1。Kimi-Dev采用BugFixer和TestWriter两种角色，通过文件定位和代码编辑实现功能。",
+      "source": "量子位"
+    },
+    {
+      "title": "美国国防部与 OpenAI 签订 2 亿美元合同，开发 AI 工具应对国家安全挑战",
+      "url": "https://www.ithome.com/0/861/406.htm",
+      "content": "美国国防部与OpenAI签订了一份价值2亿美元的合同，开发人工智能工具以应对国家安全挑战。根据合同，相关工作将在华盛顿及其周边地区开展，预计于2026年7月完成。",
+      "source": "IT之家"
+    },
+    {
+      "title": "普惠算力新标杆 九章智算云 Alaya NeW Cloud 2.0 震撼发布",
+      "url": "https://mp.weixin.qq.com/s/VliALWlzn8W1QROhnoiHZg",
+      "content": "九章云极DataCanvas公司在北京发布新一代全栈智能计算云平台——九章智算云Alaya NeW Cloud 2.0，启动全球首个强化学习智算服务。平台基于Serverless技术架构与强化学习技术，突破“秒级生成百万级token”的性能瓶颈，支持万卡级至十万卡级异构算力统一调度，推理优化效率提升数倍，采用创新计价模型，显著降低成本。",
+      "source": "九章云极DataCanvas"
+    }
+  ]
+}
