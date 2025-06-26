@@ -1,0 +1,36 @@
+{
+  "date": "2025-06-26",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "饿了么推出AI助手“小饿”已全国上线",
+      "url": "https://mp.weixin.qq.com/s/QoAsG0gN9IfVFumg_bxs2Q",
+      "content": "饿了么AI助手“小饿”已在全国上线。作为国内首个骑手端智能体，“小饿”通过语音交互，可完成接单、确认到店等操作，减少手动步骤。能主动提醒取货、送达，分析订单热力图，优化接单策略。",
+      "source": "饿了么蓝骑士"
+    },
+    {
+      "title": "谷歌推出首个本地具身智能模型Gemini Robotics On-Device",
+      "url": "https://ai-bot.cn/gemini-robotics-on-device/",
+      "content": "谷歌DeepMind推出首个本地具身智能模型Gemini Robotics On-Device。模型可在机器人本地运行，无需依赖云端，具备强大的离线操作能力，能遵循自然语言指令完成精细任务，如拉开袋子、叠衣服等。支持多种机器人本体部署，响应延迟低，能快速适应新任务，仅需50到100个演示样本可学会新动作。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "阿里云百炼X支付宝：「AI打赏」功能上线，Agent变现更灵活",
+      "url": "https://mp.weixin.qq.com/s/RIFsoua9aeYhnSvLX2pi8A",
+      "content": "阿里云百炼与支付宝联合推出业内首发的“AI打赏”功能。开发者在阿里云百炼平台上可为Agent应用配置打赏功能，用户打赏金额将直接转入开发者个人支付宝钱包。",
+      "source": "阿里云"
+    },
+    {
+      "title": "小米官宣将发布AI眼镜，正式加入“百镜大战”",
+      "url": "https://mp.weixin.qq.com/s/vilDy7XYWGxvTPKJ0pSLeg",
+      "content": "小米宣布将于6月26日晚7点发布小米AI眼镜。这款产品被视为小米“人车家全生态”战略的一部分，可能与汽车、智能家居等场景联动。小米AI眼镜售价可能在999-1299元，有望凭借价格优势抢占市场份额。",
+      "source": "界面新闻"
+    },
+    {
+      "title": "Fellou Windows版本正式上线",
+      "url": "https://mp.weixin.qq.com/s/SZA79N4Eiy0oq0fBfhvcGQ",
+      "content": "Fellou Windows版本正式上线。Fellou是一款AI浏览器，用户只需输入自然指令，可完成跨平台复杂操作，任务成功率从31%提升至80%。支持信息填报、代码编写、招聘流程、数据分析等多种场景，本地化运行保障数据安全。",
+      "source": "FellouAI"
+    }
+  ]
+}
