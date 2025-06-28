@@ -1,0 +1,36 @@
+{
+  "date": "2025-06-28",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "腾讯混元新成员——混元-A13B模型发布并开源",
+      "url": "https://mp.weixin.qq.com/s/mWfUrWz7bc7f9RhnOltQOA",
+      "content": "腾讯发布了混元-A13B模型并宣布开源。模型基于专家混合（MoE）架构，总参数800亿，激活参数130亿，推理效率高，仅需1张中低端GPU卡即可部署。在数学、科学和逻辑推理任务中表现出色，支持快思考和慢思考模式，兼顾速度与准确性。",
+      "source": "腾讯"
+    },
+    {
+      "title": "快手可灵AI 上线“视频音效”功能，向用户限时免费开放",
+      "url": "https://ai-bot.cn/sites/13002.html",
+      "content": "快手旗下可灵AI宣布上线“视频音效”功能，向用户限时免费开放。功能可在生成视频时同步生成高质量立体声音效，支持用户上传视频或调用历史作品，一键匹配精准同步音效。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Black Forest Labs 推出 FLUX.1 Kontext 图像生成与编辑模型",
+      "url": "https://ai-bot.cn/flux-1-kontext/",
+      "content": "Black Forest Labs 推出 FLUX.1 Kontext 图像生成与编辑模型。模型基于文本和图像提示，支持上下文感知的图像处理，具备角色一致性保持、局部编辑、风格转换等功能。Pro 版本可快速迭代编辑，保持图像质量稳定；Max 版本在提示词遵循和排版生成方面表现出色；dev 开源版本适合定制化开发。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "快手推出自主研发的多模态大语言模型 Kwai Keye-VL",
+      "url": "https://ai-bot.cn/kwai-keye-vl/",
+      "content": "快手推出自主研发的多模态大语言模型 Kwai Keye-VL，具备强大的视频理解与推理能力。该模型融合文本、图像、视频等多模态信息，能快速解析复杂视觉内容，如精准计数图像中的草莓，并在短时间内为商品视频生成推销方案。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Hengbot 推出 Sirius 机器狗：集成 OpenAI，可跳舞、踢足球",
+      "url": "https://www.ithome.com/0/863/979.htm",
+      "content": "Hengbot 推出 Sirius 机器狗，主打敏捷运动，可跳舞、踢足球，集成了 OpenAI 大语言模型，支持语音对话，能根据主人需求调整性格和声音。腿部和头部内置 14 个运动轴，配备“Neurocore”关节，动作自然流畅。",
+      "source": "IT之家"
+    }
+  ]
+}
