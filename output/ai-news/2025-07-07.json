@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-07",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "字节跳动开源 AI IDE 工具核心组件 Trae-Agent",
+      "url": "https://mp.weixin.qq.com/s/PQGkNXXw0IDcvHJVgwV8lA",
+      "content": "字节开源TRAE Agent 在 SWE-bench Verified 排行榜上取得 75.2% 的求解率，位居第一。TRAE Agent 是基于大语言模型的智能助手，专为软件工程任务设计，能自主完成代码理解、问题复现、修复方案制定、高质量代码编写等任务。",
+      "source": "TRAE.ai"
+    },
+    {
+      "title": "通义实验室开源首个音频生成模型 ThinkSound",
+      "url": "https://mp.weixin.qq.com/s/JHmZQpLBtplZX670E-td_A",
+      "content": "通义实验室开源首个音频生成模型ThinkSound，专为打破“静音画面”局限而生。模型通过引入思维链（CoT）技术，让AI学会结构化推理画面与声音的关系，实现高保真、强同步的空间音频生成。基于2531.8小时高质量多模态数据训练，包含对象级和指令级样本，支持交互式编辑。",
+      "source": "通义大模型"
+    },
+    {
+      "title": "AIGC独角兽硅基智能完成D轮融资，数字人业务营收数亿",
+      "url": "https://36kr.com/p/3362675516901129",
+      "content": "AIGC独角兽硅基智能完成数亿元D轮融资，投资方为嘉兴高新区产业基金。本轮资金将用于研发创新、技术落地及产品市场化。自2017年成立以来，硅基智能已完成10轮融资，投资方包括腾讯、红杉中国等。",
+      "source": "36氪"
+    },
+    {
+      "title": "TNG推出DeepSeek“野生版”R1T2：速度碾压官方，开源",
+      "url": "https://ai-bot.cn/deepseek-r1t2/",
+      "content": "德国AI公司TNG推出“DeepSeek R1T2”模型。基于DeepSeek R1、R1-0528和V3三大模型开发，采用专家组合（AoE）技术，速度比R1快20%，推理能力显著提升。与初代模型相比，R1T2的智力大幅提升，解决了token一致性缺陷，在无系统提示时也能提供自然对话体验。",
+      "source": "AI工具集"
+    }
+  ]
+}
