@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-09",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "混元3D再升级，推出业界首个美术级3D生成大模型Hunyuan3D-PolyGen",
+      "url": "https://mp.weixin.qq.com/s/l12y2IPExhvz2fvUJPm-tw",
+      "content": "腾讯混元3D宣布升级，推出业界首个美术级3D生成大模型Hunyuan3D-PolyGen。模型结合自研高压缩率表征BPT技术，可生成上万面复杂几何模型，布线精度高，细节丰富，支持三边面和四边面，满足不同专业需求。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "它石智航完成1.22亿美元天使+轮融",
+      "url": "https://mp.weixin.qq.com/s/pg1QYrRIcldQUK-0fVj1UA",
+      "content": "具身智能公司它石智航（TARS）宣布完成1.22亿美元天使+轮融资，由美团战投领投，钧山投资、碧鸿投资、国汽投资、临港科创投、赛富投资基金、建发新兴投资跟投，老股东线性资本、襄禾资本持续加码。",
+      "source": "蓝驰创投"
+    },
+    {
+      "title": "强化学习新范式！元石提出“自反思生成范式”MetaStone-S1",
+      "url": "https://mp.weixin.qq.com/s/7PaUtJ0ZiwdQWohRGTbQJQ",
+      "content": "元石科技发布新一代反思型生成式模型MetaStone-S1，采用“自反思生成范式”，融合Long-CoT强化学习与过程评分学习，实现深度推理与推理链路筛选能力统一。模型在多个基准测试中性能对标OpenAI o3-mini，具备更长思考长度与更低推理成本。",
+      "source": "问小白"
+    },
+    {
+      "title": "云深处科技完成近5亿元新融资 加速具身智能产业化布局",
+      "url": "https://zhidx.com/p/491022.html",
+      "content": "由浙大博导朱秋国创立的云深处科技宣布完成近5亿元融资，由达晨财智、国新基金等联合领投。本轮融资将用于四足机器人产线扩建、人形机器人技术研发及高端人才引进。",
+      "source": "智东西"
+    }
+  ]
+}
