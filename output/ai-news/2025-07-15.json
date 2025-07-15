@@ -1,0 +1,36 @@
+{
+  "date": "2025-07-15",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "秘塔AI搜索推出“深度研究”模块，动态展示研究过程",
+      "url": "https://mp.weixin.qq.com/s/-w48s1XuIEcWg6Rd3ZGRXg",
+      "content": "秘塔AI搜索宣布其“深度研究”模块正式上线。秘塔通过优化数据和算法，降低了算力成本，提升了准确率，在中文搜索上表现突出。秘塔版“深度研究”免费开放，增加了“问题链”功能，可动态展示研究过程，为复杂问题提供结构化报告。",
+      "source": "AI秘塔"
+    },
+    {
+      "title": "华人团队Cognition收购Windsurf剩余团队",
+      "url": "https://mp.weixin.qq.com/s/gJo8toPvrcqd-Fic17-vOw",
+      "content": "编程助手公司 Cognition 宣布收购编程初创公司Windsurf剩余员工和资产，获得其银行账户中超过 1 亿美元资金。此次收购后，Windsurf 将短期独立运营，继续开发其 AI 驱动的 IDE，Cognition 提供资金支持并计划将 Windsurf 的 IP 和功能集成到自身产品中。",
+      "source": "机器之心"
+    },
+    {
+      "title": "ima 网页版正式上线，随时进入知识库",
+      "url": "https://mp.weixin.qq.com/s/MoQI8jHCly3Uzyi2kDi64w",
+      "content": "ima 网页版正式上线，用户无需下载，打开浏览器即可使用。访问 ima.qq.com 并登录账号，可基于全网或知识库内容提问，能逛知识库广场、加入感兴趣的知识库。",
+      "source": "ima.copilot"
+    },
+    {
+      "title": "MiniMax已基本完成近 3 亿美元新一轮融资",
+      "url": "https://www.ithome.com/0/868/117.htm",
+      "content": "大模型公司 MiniMax 近期已完成近 3 亿美元新一轮融资，估值超 40 亿美元。本轮融资新增上海国资等出资方，成为今年 AI 六小虎中仅有的两家获得融资的公司之一。",
+      "source": "IT之家"
+    },
+    {
+      "title": "智源全面开源RoboBrain 2.0与RoboOS 2.0：刷新10项评测基准",
+      "url": "https://mp.weixin.qq.com/s/GYvMrzf1KApwwUgLG9hNSw",
+      "content": "智源研究院发布 RoboBrain 2.0 和 RoboOS 2.0，RoboBrain 2.0 是集感知、推理与规划于一体的通用具身大脑，32B 版本刷新多项权威评测基准，7B 版本适配边缘设备。RoboOS 2.0 是全球首个具身智能 SaaS 开源框架，集成 MCP 协议与无服务器架构，支持多机协作，推出单机版及技能商店。",
+      "source": "智源研究院"
+    }
+  ]
+}
