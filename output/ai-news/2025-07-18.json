@@ -1,0 +1,12 @@
+{
+  "date": "2025-07-18",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "OpenAI正式发布ChatGPT Agent！",
+      "url": "https://mp.weixin.qq.com/s/UPr9BkYiimI1YXhlBoRLXA",
+      "content": "OpenAI正式发布ChatGPT Agent功能。功能整合了Operator、Deep Research和ChatGPT本体，用户只需描述任务，Agent能自主调用工具，完成网页访问、信息提取、代码运行、PPT生成等操作，支持任务中断与修改。ChatGPT Agent支持手机端使用，可连接Gmail、GitHub等应用，深度嵌入工作流。",
+      "source": "APPSO"
+    }
+  ]
+}
