@@ -1,0 +1,36 @@
+{
+  "date": "2025-07-21",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "千寻智能完成近6亿元PreA+轮融资，京东领投",
+      "url": "https://mp.weixin.qq.com/s/ur9-EPgEVmz9P0Li0Dvaqw",
+      "content": "具身智能领域头部企业千寻智能宣布完成近6亿元PreA+轮融资，由京东领投，中网投、浙江省科创母基金等知名机构跟投，老股东P7、顺为资本等超额追加投资。本轮融资由高鹄资本担任独家财务顾问。",
+      "source": "千寻智能 Spirit AI"
+    },
+    {
+      "title": "Le Chat再一次升级，全方面对标ChatGPT",
+      "url": "https://mp.weixin.qq.com/s/Mj3DV4_M72zYI_9SStl_4Q",
+      "content": "Mistral AI推出升级版Le Chat，全方位对标ChatGPT。Le Chat新增深度研究模式，可生成结构化研究报告；语音模式借助新发布的Voxtral模型实现语音输入；原生多语言推理功能提供更精准回答；项目管理功能可组织对话内容；高级图像编辑功能支持复杂图像修改。",
+      "source": "机器之心"
+    },
+    {
+      "title": "宇树科技，开启上市辅导",
+      "url": "https://mp.weixin.qq.com/s/Cy4WA85-m99PG6u8EGLvNg",
+      "content": "中国证监会官网显示，宇树科技已正式开启上市辅导，中信证券担任辅导机构。辅导备案报告披露，宇树科技控股股东及实际控制人为王兴兴，直接持有公司23.8216%股权，通过上海宇翼企业管理咨询合伙企业（有限合伙）控制10.9414%股权，合计控制公司34.7630%股权。",
+      "source": "财联社"
+    },
+    {
+      "title": "逐际动力获京东战略领投，以IDS生态协同加速具身智能技术落地",
+      "url": "https://mp.weixin.qq.com/s/7URtGqPXIl0N_4J-OnPEYA",
+      "content": "具身智能机器人公司逐际动力LimX Dynamics宣布完成新一轮融资，由京东战略领投。逐际动力将推进全尺寸人形机器人量产与销售，深化具身大模型技术研发及IDS生态平台建设。其全尺寸人形机器人将于下半年公开销售，双足机器人TRON 1持续升级。",
+      "source": "逐际动力"
+    },
+    {
+      "title": "「众擎机器人」连续完成Pre-A++与A1轮融资，京东领投",
+      "url": "https://mp.weixin.qq.com/s/tyKRr-Nd0Cyp3PnckP7HoQ",
+      "content": "众擎机器人连续完成两轮融资，Pre-A++轮由星航资本投资，A1轮由京东领投，宁德时代旗下溥泉资本、银泰集团等参投，老股东中东资本等也参与增资。",
+      "source": "众擎机器人"
+    }
+  ]
+}
