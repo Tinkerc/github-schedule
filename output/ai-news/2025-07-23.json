@@ -1,0 +1,18 @@
+{
+  "date": "2025-07-23",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "通义千问 Qwen3-Coder 宣布开源：480B 参数、原生支持 256K 上下文",
+      "url": "https://mp.weixin.qq.com/s/CArpTOknOQC5O90Wgih3SA",
+      "content": "Qwen团队正式发布Qwen3-Coder，是迄今为止最具代理能力的代码模型。Qwen3-Coder-480B-A35B-Instruct是其最强大的版本，拥有480B参数激活35B参数，原生支持256K token上下文并可通过YaRN扩展到1M token，在Agentic Coding等任务上达到开源模型SOTA效果。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "昆仑万维发布最新AI音乐模型——Mureka V7",
+      "url": "https://ai-bot.cn/mureka-v7/",
+      "content": "昆仑万维发布AI音乐模型Mureka V7。模型通过核心技术MusiCoT（音乐思维链）实现了先规划整体音乐结构再生成细节的功能，解决了传统AI音乐模型“走一步看一步”的问题，生成的音乐作品更具连贯性和感染力。Mureka V7支持10种语言，可创作流行、摇滚等多种风格音乐，最长单曲时长5.5分钟。",
+      "source": "AI工具集"
+    }
+  ]
+}
