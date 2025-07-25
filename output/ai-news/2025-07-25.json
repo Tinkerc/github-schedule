@@ -1,0 +1,18 @@
+{
+  "date": "2025-07-25",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "快手 AutoThink 大模型 KAT-V1 正式开源，40B 性能逼近 R1-0528",
+      "url": "https://mp.weixin.qq.com/s/VQo5uRAJGGqhwlf7it1GlA",
+      "content": "快手开源了KAT-V1自动思考大模型，包含40B和200B两个版本。40B版本性能追平DeepSeek-R1（6850亿参数），200B版本在多项基准测试中超越Qwen、DeepSeek和Llama等旗舰模型。KAT-V1通过长短思考混合训练范式、新型强化学习方法Step-SRPO等技术创新，实现了根据问题难度自动切换思考模式。",
+      "source": "快手技术"
+    },
+    {
+      "title": "阿里云通义千问宣布 Qwen-MT 机器翻译模型：支持 92 种语言互译",
+      "url": "https://mp.weixin.qq.com/s/2LQIrsaBgXcxw76BYshfdw",
+      "content": "基于Qwen3模型的机器翻译模型Qwen-MT正式发布。该模型支持92种语言互译，覆盖全球95%以上人口，具备高度可控性，提供术语干预、领域提示等功能。采用轻量级MoE架构，低延迟、低成本，API调用价格低至每百万输出token 2元。",
+      "source": "通义千问Qwen"
+    }
+  ]
+}
