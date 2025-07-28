@@ -1,0 +1,42 @@
+{
+  "date": "2025-07-28",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "腾讯正式发布混元3D世界模型 1.0，全面开源",
+      "url": "https://mp.weixin.qq.com/s/yg4yto3vhPw_LxWX1ubEVQ",
+      "content": "腾讯在世界人工智能大会上正式发布并开源混元3D世界模型1.0。是业界首个开源的可沉浸漫游、可交互、可仿真的3D世界生成模型，融合全景视觉生成与分层3D重建技术，支持文字和图片输入，能在几分钟内生成高质量3D场景。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "千问推出Qwen3升级版：Qwen3-235B-A22B-Thinking-2507",
+      "url": "https://mp.weixin.qq.com/s/SuAfRxg-GpTz_OIeDzd9-w",
+      "content": "Qwen3-235B-A22B推理模型升级版本Qwen3-235B-A22B-Thinking-2507正式发布。版本在推理性能和通用能力上取得巨大飞跃，可比肩Gemini-2.5 Pro、O4-mini等顶尖闭源模型，创下全球开源模型SOTA最佳性能表现。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "阶跃星辰发布新一代基模Step 3，推理效率创行业新高",
+      "url": "https://mp.weixin.qq.com/s/81oz1RiRkkA9pJGE6KT8jg",
+      "content": "阶跃星辰在上海发布新一代基础大模型Step 3。模型总参数量321B，激活参数量38B，采用MoE架构，具备强大的视觉感知和复杂推理能力，性能达到开源SOTA水平。Step 3在推理效率上实现行业领先，尤其在国产芯片上效率显著提升。",
+      "source": "阶跃星辰"
+    },
+    {
+      "title": "上海AI实验室开源发布『书生』科学多模态大模型Intern-S1",
+      "url": "https://mp.weixin.qq.com/s/-MLtqHfGVP8zaJcr81Fxmg",
+      "content": "上海人工智能实验室在世界人工智能大会（WAIC 2025）上发布并开源了“书生”科学多模态大模型Intern-S1。模型是首个融合专业科学能力的开源通用模型，具备跨模态科学解析能力，可精准解读多种复杂科学模态数据，如化学分子式、蛋白质结构、地震波信号等，并在化学、材料、地球等多学科专业任务基准上超越顶尖闭源模型Grok-4。",
+      "source": "书生Intern"
+    },
+    {
+      "title": "商汤科技发布「悟能」具身智能平台，官宣入局具身智能",
+      "url": "https://mp.weixin.qq.com/s/13qP9NLRID-YVWpAzKsaDw",
+      "content": "在世界人工智能大会（WAIC 2025）大模型论坛上，商汤科技发布「悟能」具身智能平台，正式入局具身智能领域。商汤凭借十年多模态技术积累和世界模型经验，推出日日新V6.5多模态推理大模型，其图文交错思维链显著提升了跨模态推理精度，性价比提升5倍。",
+      "source": "量子位"
+    },
+    {
+      "title": "扣子开源：扣子开发平台Coze Studio和扣子罗盘Coze Loop",
+      "url": "https://ai-bot.cn/coze-studio/",
+      "content": "Coze宣布开源两款核心产品：零代码开发平台Coze Studio和调试工具Coze Loop。扣子开发平台采用Apache 2.0开源协议，支持零代码开发，用户可通过拖拽组件快速搭建智能体工作流程。Coze Loop提供全生命周期管理工具链，涵盖开发、评测、观测和优化四大阶段，助力开发者高效调试和优化智能体。",
+      "source": "AI工具集"
+    }
+  ]
+}
