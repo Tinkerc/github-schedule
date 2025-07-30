@@ -1,0 +1,24 @@
+{
+  "date": "2025-07-30",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "拒绝代做作业：OpenAI 发布 ChatGPT Study 学习模式",
+      "url": "https://ai-bot.cn/chatgpt-study/",
+      "content": "OpenAI发布ChatGPT Study学习模式，面向教育领域，提供交互式提示、支架式回应、个性化教育和知识点检查等功能，深度解读难题解题思路，培养学生的批判性思维和自主学习能力。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "昆仑万维开源多模态统一预训练模型「Skywork UniPic」",
+      "url": "https://mp.weixin.qq.com/s/PX-pKw0N341590wm7GpdYw",
+      "content": "昆仑万维推出并开源了多模态统一预训练模型Skywork UniPic。模型融合图像理解、文本生成图像和图像编辑三大核心能力，采用自回归路线，基于大规模高质量数据进行端到端预训练。1.5B参数规模实现轻量级与高性能的平衡，具备指令遵循、复杂指令生图和图像编辑的领先能力。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "无影AgentBay来了！给AI智能体装上“超级大脑”",
+      "url": "https://mp.weixin.qq.com/s/mh9DgjObg8l2_0DCNghVvw",
+      "content": "阿里云在上海世界人工智能大会上推出首款AI Agents“超级大脑”——无影AgentBay。是一款云端电脑，具备视觉理解、自然语言控制等AI技能，可在多系统间无缝切换，调用云端算力与资源，仅需三行代码即可接入。",
+      "source": "阿里云"
+    }
+  ]
+}
