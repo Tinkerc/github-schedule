@@ -1,0 +1,24 @@
+{
+  "date": "2025-07-31",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "通义千问推出全新推理模型 Qwen3-30B-A3B-Thinking-2507",
+      "url": "https://mp.weixin.qq.com/s/HVj3RtfK90iKmUTxCQDEtw",
+      "content": "Qwen3-30B-A3B模型迎来重大升级，新版本Qwen3-30B-A3B-Thinking-2507在推理能力、通用能力及上下文长度上显著提升。在数学和代码能力评测中超越Gemini2.5-Flash和Qwen3-235B-A22B，在写作、Agent能力、多轮对话等通用能力上也表现优异。新模型原生支持256K tokens，可扩展至1M tokens，思考长度增加，适合复杂推理任务。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "阿里推出 AI 医学助手“氢离子”，收录千万级医学核心期刊文献",
+      "url": "https://ai-bot.cn/ali-doctor/",
+      "content": "阿里健康发布 AI 医学助手“氢离子”。收录千万级医学核心期刊文献，支持权威指南查阅、AI 总结、全文翻译及智能问答，能查询疾病和药品信息。AI 研读功能可总结外文文献重点并标注出处。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "京东健康推出 AI 情绪漫画生成应用“小星绪”",
+      "url": "https://ai-bot.cn/xiaoxingxu/",
+      "content": "京东健康团队推出 AIGC 产品“小星绪”，用户可通过语音或文字输入情绪或讲述故事，AI 将生成个性化漫画及故事解读。帮助用户表达情绪、激发创意并构建社交关系链。",
+      "source": "AI工具集"
+    }
+  ]
+}
