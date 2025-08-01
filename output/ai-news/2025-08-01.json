@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-01",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "Manus 推出 Wide Research，支持上百个 Agents 同时工作",
+      "url": "https://mp.weixin.qq.com/s/1MDCgaEO20sNUHiaxu61dA",
+      "content": "Manus AI 上线以来最大更新，推出 Wide Research 功能。功能支持用户一键开启大规模并行 Agent 协作，可同时启动多达100个 Agent 处理复杂任务。",
+      "source": "APPSO"
+    },
+    {
+      "title": "Black Forest Labs开源新版Flux模型：FLUX.1 Krea dev",
+      "url": "https://ai-bot.cn/flux-1-krea-dev/",
+      "content": "Flux开源模型新版本FLUX.1 Krea dev 正式发布。模型由Black Forest Labs与krea_ai联合开发，专为照片级写实而生，具备业界领先的开源文本生成图像能力，图像质量卓越且真实感强，能有效避免常见的“AI感”和过度饱和纹理问题。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "阿里通义千问发布 Qwen3-Coder-Flash 编程模型",
+      "url": "https://mp.weixin.qq.com/s/8A-AsmnrtuwR2dvbQJK3HA",
+      "content": "编程模型 Qwen3-Coder-Flash 正式发布。模型全称 Qwen3-Coder-30B-A3B-Instruct，性能出色，具备超强的 Agentic 能力，超越当前顶级开源模型，仅次于顶配版 Qwen3-Coder 和部分领先闭源模型。原生支持 256K tokens，可通过 YaRN 扩展至 1M tokens，能理解整个项目库代码，避免上下文断层。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "字节跳动发布实验性扩散语言模型 Seed Diffusion",
+      "url": "https://mp.weixin.qq.com/s/ry3BsjzOG5DhBL0QWrtNqg",
+      "content": "字节跳动Seed团队发布实验性扩散语言模型Seed Diffusion Preview。验证离散扩散技术作为下一代语言模型基础框架的可行性，通过两阶段扩散训练、约束顺序学习与强化高效并行解码等关键技术，实现了每秒2146 tokens的推理速度，相比同等规模的自回归模型提升5.4倍。",
+      "source": "字节跳动Seed"
+    }
+  ]
+}
