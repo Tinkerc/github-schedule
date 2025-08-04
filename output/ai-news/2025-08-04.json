@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-04",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "全球首个！纳米AI多智能体蜂群上线",
+      "url": "https://mp.weixin.qq.com/s/FYyCIKj4kSzZiDf2MnZynA",
+      "content": "360集团宣布纳米AI完成品牌焕新，升级为“多智能体蜂群”，成为全球首个迈入L4级别的智能体系统。实现了从“单兵作战”到“群体协同”的进化，突破以往智能体在跨领域复杂问题上的瓶颈。纳米AI独创的“蜂群协作框架”可让多个推理型智能体灵活拉群、多层嵌套、组队协作，完成超长复杂任务，如制作10分钟电影级大片仅需20分钟。",
+      "source": "360公司"
+    },
+    {
+      "title": "小红书推出首个社交大模型RedOne",
+      "url": "https://ai-bot.cn/redone/",
+      "content": "小红书推出首个社交大模型RedOne。模型采用“继续预训练→监督微调→偏好优化”的三阶段训练策略，针对社交网络服务（SNS）领域的复杂数据特征和多元场景进行优化。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "谷歌推出 Gemini 2.5 Deep Think 模型",
+      "url": "https://ai-bot.cn/gemini-2-5-deep-think/",
+      "content": "谷歌推出 Gemini 2.5 Deep Think，面向 Google AI Ultra 订阅者开放。模型基于在国际数学奥林匹克竞赛中获得金牌标准的版本改进，具备更快的推理速度和日常可用性，达到 2025 年 IMO 铜牌水平。Deep Think 通过并行思考技术，延长推理时间，生成多种想法并逐步优化，适用于复杂问题解决、科学发现、算法开发等场景。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "昆仑万维发布并开源全新推理大模型 MindLink",
+      "url": "https://ai-bot.cn/skywork-mindlink/",
+      "content": "昆仑万维推出并开源全新推理大模型Skywork MindLink，基于Qwen3-32B和Qwen2.5-72B后训练而成。模型采用新的推理范式Plan-based Reasoning，去掉了“think”标签，能根据任务难度自适应整合推理和非推理生成回复，降低推理成本且提升多轮对话能力。",
+      "source": "AI工具集"
+    }
+  ]
+}
