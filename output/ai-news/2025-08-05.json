@@ -1,0 +1,12 @@
+{
+  "date": "2025-08-05",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "告别文字乱码！全新文生图模型Qwen-Image来咯",
+      "url": "https://mp.weixin.qq.com/s/CdLk_CwFk5Ui-JAvHV9-8Q",
+      "content": "通义千问团队开源了20B参数的文生图模型Qwen-Image。作为通义千问系列首个图像生成基础模型，Qwen-Image在复杂文本渲染和精确图像编辑方面表现出色，支持多行布局、段落级文本生成及细粒度细节呈现，英语或是中文，能实现高保真输出。",
+      "source": "通义千问Qwen"
+    }
+  ]
+}
