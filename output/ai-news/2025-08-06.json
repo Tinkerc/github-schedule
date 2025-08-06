@@ -1,0 +1,24 @@
+{
+  "date": "2025-08-06",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "OpenAI首次推出开源语言模型——gpt-oss",
+      "url": "https://ai-bot.cn/gpt-oss/",
+      "content": "OpenAI开源大模型gpt-oss，包含1200亿和200亿参数两种版本，支持Apache 2.0商业化。模型针对AI Agent进行特殊训练，支持函数调用、网络搜索等功能，可助力快速开发智能体。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "谷歌DeepMind推出通用世界模型Genie 3，首个可实时交互世界模型",
+      "url": "https://mp.weixin.qq.com/s/IhVHS3y57ANI14J5W0XLYQ",
+      "content": "谷歌DeepMind推出通用世界模型Genie 3，是首个可实时交互的世界模型。基于文本提示，Genie 3能以每秒24帧、720p分辨率生成长达数分钟的交互式3D环境，相比Genie 2的10到20秒有了显著提升。Genie 3在模拟世界物理特性、自然世界、动画和小说建模等方面表现出色，能突破时空限制生成内容。",
+      "source": "智东西"
+    },
+    {
+      "title": "Anthropic发布Claude Opus 4.1模型，全面超越OpenAI o3",
+      "url": "https://ai-bot.cn/claude-opus-4-1/",
+      "content": "Anthropic发布Claude Opus 4.1模型，Pro/Max/Team用户可在网页端使用，API也已开放。Claude Opus 4.1性能更强，价格不变。在Agent能力、高级编程、搜索和写作等方面全面提升，能准确处理长时程任务和复杂企业工作流程，完成上千步骤的长程编程任务。",
+      "source": "AI工具集"
+    }
+  ]
+}
