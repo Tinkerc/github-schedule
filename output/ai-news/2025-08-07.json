@@ -1,0 +1,48 @@
+{
+  "date": "2025-08-07",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "OpenAI首次推出开源语言模型——gpt-oss",
+      "url": "https://ai-bot.cn/gpt-oss/",
+      "content": "OpenAI开源大模型gpt-oss，包含1200亿和200亿参数两种版本，支持Apache 2.0商业化。模型针对AI Agent进行特殊训练，支持函数调用、网络搜索等功能，可助力快速开发智能体。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "小红书 hi lab 开源多模态大模型 dots.vlm1，效果接近闭源 SoTA 模型",
+      "url": "https://mp.weixin.qq.com/s/akO8a2c_hVsSz2vNdExdIw",
+      "content": "小红书hi lab开源了多模态大模型dots.vlm1。模型基于12亿参数的NaViT视觉编码器和DeepSeek V3 LLM构建，具备强大的视觉感知和文本推理能力。视觉编码器从零训练，支持动态分辨率，引入纯视觉监督提升感知能力。",
+      "source": "小红书技术REDTech"
+    },
+    {
+      "title": "谷歌DeepMind推出通用世界模型Genie 3，首个可实时交互世界模型",
+      "url": "https://mp.weixin.qq.com/s/IhVHS3y57ANI14J5W0XLYQ",
+      "content": "谷歌DeepMind推出通用世界模型Genie 3，是首个可实时交互的世界模型。基于文本提示，Genie 3能以每秒24帧、720p分辨率生成长达数分钟的交互式3D环境，相比Genie 2的10到20秒有了显著提升。Genie 3在模拟世界物理特性、自然世界、动画和小说建模等方面表现出色，能突破时空限制生成内容。",
+      "source": "智东西"
+    },
+    {
+      "title": "Anthropic发布Claude Opus 4.1模型，全面超越OpenAI o3",
+      "url": "https://ai-bot.cn/claude-opus-4-1/",
+      "content": "Anthropic发布Claude Opus 4.1模型，Pro/Max/Team用户可在网页端使用，API也已开放。Claude Opus 4.1性能更强，价格不变。在Agent能力、高级编程、搜索和写作等方面全面提升，能准确处理长时程任务和复杂企业工作流程，完成上千步骤的长程编程任务。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "谷歌Gemini上线 AI 生成故事书功能——Storybook",
+      "url": "https://ai-bot.cn/storybook/",
+      "content": "谷歌Gemini AI聊天机器人上线“Storybook”功能，可生成10页图文并茂的故事书。用户只需简单描述，能生成带插图的故事，Gemini能朗读内容。用户可定制故事风格，如黏土动画、动漫等，可上传图片，如孩子的画作，让Gemini以此编故事。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "美国AI Agent营销平台Clay完成1亿美元C轮融资",
+      "url": "https://zhidx.com/p/495576.html",
+      "content": "美国AI营销平台Clay完成1亿美元C轮融资，投后估值达31亿美元。本轮融资由Alphabet旗下CapitalG领投，Meritech Capital Partners、红杉资本等参投。Clay成立于2017年，总部位于纽约，最初聚焦“让编程民主化”，后转型为AI营销工具，帮助销售和市场团队寻找潜在客户并推动转化。",
+      "source": "智东西"
+    },
+    {
+      "title": "ElevenLabs推出AI音乐生成工具：Eleven Music",
+      "url": "https://ai-bot.cn/eleven-music/",
+      "content": "ElevenLabs推出AI音乐生成工具Eleven Music，可根据文本提示快速生成高质量、定制化的音乐作品。用户通过自然语言描述调整歌曲风格、节奏、歌词等，支持逐段编辑，实现无缝过渡和精确情绪转换。",
+      "source": "AI工具集"
+    }
+  ]
+}
