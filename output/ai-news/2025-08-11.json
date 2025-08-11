@@ -1,0 +1,18 @@
+{
+  "date": "2025-08-11",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "昆仑万维正式发布SkyReels-A3模型，让数字人“说话”的魔法",
+      "url": "https://mp.weixin.qq.com/s/irBGMx6PmISwZlPBSYZYQw",
+      "content": "昆仑万维发布SkyReels-A3模型，是基于“DiT视频扩散模型+插帧模型+强化学习动作优化+运镜可控”的音频驱动人像视频生成模型。用户只需上传人像图片和音频，可生成自然同步的视频，支持照片“活”起来、创作新视频、改台词等功能。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "Grok 4 现已免费开放，非订阅用户每天可限量使用",
+      "url": "https://ai-bot.cn/grok-4/",
+      "content": "马斯克宣布AI模型Grok 4向所有用户免费开放，非订阅用户每天可限量使用。Grok 4号称“全球最强”AI模型，具备深度推理能力，经过xAI的Colossus超级计算机训练，逻辑推理和文本生成能力出色。",
+      "source": "AI工具集"
+    }
+  ]
+}
