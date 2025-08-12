@@ -1,0 +1,24 @@
+{
+  "date": "2025-08-12",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "全球多模态推理新标杆，GLM-4.5V正式上线并开源",
+      "url": "https://mp.weixin.qq.com/s/8cKtGwUtEvAaPriVzBI1Dg",
+      "content": "智谱发布并开源了全球100B级效果最佳的开源视觉推理模型GLM-4.5V，总参数106B，激活参数12B。模型基于智谱新一代文本基座模型GLM-4.5-Air，综合效果在41个公开视觉多模态榜单中达到SOTA水平，支持图像、视频、文档理解及GUI Agent等任务。",
+      "source": "智谱"
+    },
+    {
+      "title": "昆仑万维发布「Matrix-Game 2.0」，国产开源的Genie 3来啦！",
+      "url": "https://mp.weixin.qq.com/s/PhnkrpTuQ-ntZfFNHTrGBw",
+      "content": "昆仑万维发布自研世界模型Matrix系列的升级版本「Matrix-Game 2.0」。实现通用场景下的交互式实时长序列生成，支持25 FPS速度生成连续视频内容，时长可达分钟级，具备高帧率、低延迟、强物理一致性和多场景泛化能力。与依赖文本语义的模型不同，「Matrix-Game 2.0」通过视觉驱动和物理规律学习构建虚拟世界，避免语义偏置。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "达摩院开源具身智能“三大件” 机器人上下文协议首次开源",
+      "url": "https://mp.weixin.qq.com/s/zlSQztSL2HQW9hIUITL9kA",
+      "content": "阿里达摩院宣布开源具身智能“三大件”：视觉 – 语言 – 动作模型RynnVLA-001-7B、世界理解模型RynnEC和机器人上下文协议RynnRCP。RynnVLA-001-7B可从第一人称视频中学习人类操作技能并迁移到机器人手臂操控；RynnEC能从多维度解析场景物体并精准定位；RynnRCP打通了从传感器数据采集到机器人动作执行的完整工作流，支持多款热门模型和机械臂。",
+      "source": "达摩院DAMO"
+    }
+  ]
+}
