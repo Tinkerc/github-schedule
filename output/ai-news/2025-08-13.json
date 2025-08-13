@@ -1,0 +1,18 @@
+{
+  "date": "2025-08-13",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "「Skywork UniPic 2.0」开源，统一多模态模型再迎新突破",
+      "url": "https://mp.weixin.qq.com/s/CN8NaVnxsqxFe6WF_eo2iA",
+      "content": "昆仑万维正式开源「Skywork UniPic 2.0」模型，是面向统一多模态建模的高效训练和推理框架。模型由生图编辑、统一模型能力和生图编辑后训练三个核心模块组成，具备生成模块轻量高效、引入强化学习提升性能和一体化灵活切换等核心优势。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "Anthropic宣布Claude Sonnet 4支持高达100万Token的上下文窗口",
+      "url": "https://ai-bot.cn/claude-4/",
+      "content": "Anthropic宣布Claude Sonnet 4 API支持高达100万Token的上下文窗口，容量是之前的5倍。开发者可在单次请求中处理大型代码库或数十篇研究论文。",
+      "source": "AI工具集"
+    }
+  ]
+}
