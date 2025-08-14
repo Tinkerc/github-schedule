@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-14",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "「Skywork UniPic 2.0」开源，统一多模态模型再迎新突破",
+      "url": "https://mp.weixin.qq.com/s/CN8NaVnxsqxFe6WF_eo2iA",
+      "content": "昆仑万维正式开源「Skywork UniPic 2.0」模型，是面向统一多模态建模的高效训练和推理框架。模型由生图编辑、统一模型能力和生图编辑后训练三个核心模块组成，具备生成模块轻量高效、引入强化学习提升性能和一体化灵活切换等核心优势。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "Anthropic宣布Claude Sonnet 4支持高达100万Token的上下文窗口",
+      "url": "https://ai-bot.cn/claude-4/",
+      "content": "Anthropic宣布Claude Sonnet 4 API支持高达100万Token的上下文窗口，容量是之前的5倍。开发者可在单次请求中处理大型代码库或数十篇研究论文。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "OpenAI ChatGPT 更新：GPT-5 引入三种模式，4o 模型回归",
+      "url": "https://www.ithome.com/0/874/964.htm",
+      "content": "OpenAI CEO 萨姆・奥尔特曼宣布 ChatGPT 重大更新。GPT-5 新增“自动”“快速”“思考”三种模式，用户可按需选择。“思考”模式每周限 3000 条消息，超限可用 mini 版，上下文限制为 196,000 个 token。4o 模型回归，付费用户可在网页设置中切换多款模型。",
+      "source": "IT之家"
+    },
+    {
+      "title": "Perplexity想花345亿美元收购谷歌Chrome",
+      "url": "https://mp.weixin.qq.com/s/_4Dj-eolquFuF4kupS8b-g",
+      "content": "美国AI搜索初创公司Perplexity计划以345亿美元全现金收购谷歌Chrome浏览器。收购动机在于AI搜索领域增长焦虑，传统浏览器仍是重要流量入口。Perplexity承诺若收购成功，将投资30亿美元维持Chrome开源并保留默认搜索引擎。",
+      "source": "智能涌现"
+    }
+  ]
+}
