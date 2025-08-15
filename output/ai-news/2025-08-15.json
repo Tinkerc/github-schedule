@@ -1,0 +1,18 @@
+{
+  "date": "2025-08-15",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "混元最新开源：Hunyuan-GameCraft，一张图，秒变游戏大片",
+      "url": "https://mp.weixin.qq.com/s/GPPPNtQxn9l8nxPupfTo0w",
+      "content": "腾讯混元开源新工具 Hunyuan-GameCraft，可将一张图片结合文字描述和动作指令生成高清动态游戏视频。工具基于 HunyuanVideo 底模，支持第一人称跑酷、第三人称探险等多种场景，具备自由流畅的动作控制、记忆增强的历史一致性以及低成本生产优势。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "昆仑万维正式发布Skywork Deep Research Agent v2",
+      "url": "https://mp.weixin.qq.com/s/KBSBOO6bq125BQ9YT4eiYA",
+      "content": "昆仑万维发布 Skywork Deep Research Agent v2，是天工超级智能体的核心引擎。新版本首次整合多模态检索、理解和生成能力，推出“多模态深度调研”Agent，可将图文信息完整整合到深度研究中，提升交付物质量。",
+      "source": "昆仑万维集团"
+    }
+  ]
+}
