@@ -1,0 +1,42 @@
+{
+  "date": "2025-08-17",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "Mureka V7.5模型上线，AI音乐创作水平再迎新高度",
+      "url": "https://mp.weixin.qq.com/s/q61f8PeEhMzzLXUseQrY9A",
+      "content": "昆仑万维正式上线Mureka V7.5模型。模型在中文歌曲创作上取得重大突破，提升了音色与演奏技法，优化了咬字和情感表现。通过ASR技术精准捕捉演唱细节，使AI演绎的歌曲更贴近真人演唱，显著增强了自然度和情感深度。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "消费级显卡就能跑的世界模型来了，腾讯混元3D世界模型推出Lite版本",
+      "url": "https://mp.weixin.qq.com/s/BzHIro5xbmPq6mGP1Sd1qA",
+      "content": "腾讯混元3D世界模型1.0推出Lite版本，大幅降低显存开销，支持消费级显卡运行。模型是业界首个开源可编辑的世界生成模型，用户可通过文本或图片输入生成可漫游的3D世界。Lite版本采用动态FP8量化、SageAttention量化及Cache算法优化，显存需求从26GB降至17GB以下，推理速度提升3倍以上。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "会记住你说的每句话：谷歌 AI Gemini App 上线记忆功能",
+      "url": "https://www.ithome.com/0/875/265.htm",
+      "content": "谷歌Gemini AI助手App新增“记忆”与“临时聊天”功能。开启“记忆”功能后，Gemini可记住用户对话内容及偏好，实现更自然的交流，目前该功能已向部分国家或地区的Gemini 2.5 Pro用户开放，将在未来几周内推广至欧盟、英国、瑞士等地区的Gemini 2.5 Flash用户。",
+      "source": "IT之家"
+    },
+    {
+      "title": "Meta视觉基座DINOv3王者归来：自监督首次全面超越弱监督，商用开源",
+      "url": "https://mp.weixin.qq.com/s/IG5OaG05O_-Ce9o7KkzKLg",
+      "content": "Meta推出并开源了DINOv3，基于自监督学习的SOTA级视觉基础模型。DINOv3在多个视觉任务中首次超越弱监督学习模型，训练数据量达17亿张图像，模型参数规模达70亿，创新的自监督学习技术摆脱了对标注数据的依赖，降低了训练成本。",
+      "source": "机器之心"
+    },
+    {
+      "title": "智元推出首个机器人世界模型开源平台 Genie Envisioner",
+      "url": "https://www.ithome.com/0/875/487.htm",
+      "content": "智元机器人推出行业首个机器人世界模型开源平台Genie Envisioner（GE）。GE基于约3000小时真实机器人操控视频数据，整合未来帧预测、策略学习与仿真评估，形成闭环架构，使机器人实现从“看”到“想”再到“动”的端到端推理与执行。",
+      "source": "IT之家"
+    },
+    {
+      "title": "解锁任意模态模型训练，字节跳动Seed开源VeOmni框架",
+      "url": "https://mp.weixin.qq.com/s/A1CdiEiSaGrh_aH_ggBINg",
+      "content": "字节跳动Seed团队开源了全模态PyTorch原生训练框架VeOmni，推动全模态大模型的研究与应用。VeOmni采用以模型为中心的分布式训练方案，将复杂的分布式并行逻辑与模型计算解耦，大幅降低工程开销，提升训练效率和扩展性。",
+      "source": "字节跳动Seed"
+    }
+  ]
+}
