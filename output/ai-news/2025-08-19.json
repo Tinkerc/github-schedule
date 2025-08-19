@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-19",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "逗逗AI 1.0发布：为了实现HER中的AI陪伴体验，我们做了三件事",
+      "url": "https://mp.weixin.qq.com/s/mPhB6XKTnRq8xdVK4P6skA",
+      "content": "逗逗AI 1.0版本正式上线。打造“陪你游戏的AI伙伴”，通过无扰陪伴、实时感知和长效记忆三大创新功能，为用户提供深度陪伴体验。逗逗AI采用桌宠和悬浮球双模式，支持实时语音交互，具备视觉和听觉感知能力，能将多模态信息融合为场景记忆。",
+      "source": "逗逗游戏伙伴"
+    },
+    {
+      "title": "腾讯AI Lab团队推出的多模态音频生成工具AudioGenie",
+      "url": "https://ai-bot.cn/audiogenie/",
+      "content": "腾讯团队提出了一种全新的多智能体框架AudioGenie，用于从多模态输入（如视频、文本、图像）生成多样化且上下文对齐的音频类型（如音效、语音、音乐和歌曲）。采用双层架构，包含生成团队和监督团队。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "智元机器人全系产品正式开售！领衔人机共生新时代",
+      "url": "https://mp.weixin.qq.com/s/lVN7gCVDogRqHmYaOhZIJQ",
+      "content": "智元机器人宣布其全系产品正式开售，涵盖六大机器人产品线。精灵G1通用具身智能机器人售价45万元，具备高质量数据集和软硬件开发支持，适用于科研教育、数据采集和垂域场景训练。智元远征A2青春版售价16.8万元，具备文娱表演、展厅讲解等功能。",
+      "source": "智元机器人"
+    },
+    {
+      "title": "上交投资的首家语音大模型宇生月伴完成数千万元融资",
+      "url": "https://mp.weixin.qq.com/s/DchiouG1Ok1Oug-mBqWvaQ",
+      "content": "情感语音交互模型初创公司宇生月伴完成新一轮融资，由靖亚资本和小苗朗程领投，上海交大母基金跟投。本轮融资将用于语音模型优化、产品矩阵拓展及国际化商业落地。",
+      "source": "Z Finance"
+    },
+    {
+      "title": "Anthropic为Claude赋予“结束聊天”能力",
+      "url": "https://www.ithome.com/0/875/970.htm",
+      "content": "Anthropic宣布为Claude Opus 4及4.1版本推出新功能，模型可在极少数情况下主动结束对话。功能针对持续性有害或辱骂性互动，如用户索取可能导致大规模暴力或恐怖行动的信息。Anthropic强调，此举旨在保护AI模型本身，同时与模型对齐和安全措施相关。",
+      "source": "IT之家"
+    }
+  ]
+}
