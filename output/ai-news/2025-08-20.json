@@ -1,0 +1,18 @@
+{
+  "date": "2025-08-20",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "ChatExcel获近千万天使轮融资，打造数据全链路商业闭环平台",
+      "url": "https://mp.weixin.qq.com/s/1SX6jKO-nfzJKiFxsgIJxQ",
+      "content": "ChatExcel团队宣布完成近千万天使轮融资，投资方为上海常垒资本和武汉东湖天使基金。ChatExcel由北京大学团队创立，是国内领先的生成式AI表格处理与数据智能体，累计服务用户超千万次。此次融资将用于加速产品研发迭代和全球化市场推广。",
+      "source": "元空AIExcel"
+    },
+    {
+      "title": "DeepSeek 开源新模型 V3.1，上下文长度拓展至 128K",
+      "url": "https://ai-bot.cn/deepseek-v3-1/",
+      "content": "DeepSeek宣布开源新基础模型DeepSeek-V3.1-Base。模型在Hugging Face发布后迅速冲上热门模型榜第4位。DeepSeek-V3.1-Base采用混合专家（MoE）架构，上下文长度拓展至128k，与V3版本参数量相同。",
+      "source": "AI工具集"
+    }
+  ]
+}
