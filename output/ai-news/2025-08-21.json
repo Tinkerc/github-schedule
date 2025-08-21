@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-21",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "ChatExcel获近千万天使轮融资，打造数据全链路商业闭环平台",
+      "url": "https://mp.weixin.qq.com/s/1SX6jKO-nfzJKiFxsgIJxQ",
+      "content": "ChatExcel团队宣布完成近千万天使轮融资，投资方为上海常垒资本和武汉东湖天使基金。ChatExcel由北京大学团队创立，是国内领先的生成式AI表格处理与数据智能体，累计服务用户超千万次。此次融资将用于加速产品研发迭代和全球化市场推广。",
+      "source": "元空AIExcel"
+    },
+    {
+      "title": "DeepSeek 开源新模型 V3.1，上下文长度拓展至 128K",
+      "url": "https://ai-bot.cn/deepseek-v3-1/",
+      "content": "DeepSeek宣布开源新基础模型DeepSeek-V3.1-Base。模型在Hugging Face发布后迅速冲上热门模型榜第4位。DeepSeek-V3.1-Base采用混合专家（MoE）架构，上下文长度拓展至128k，与V3版本参数量相同。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "智谱AutoGLM上线：给每个手机都装上通用Agent",
+      "url": "https://mp.weixin.qq.com/s/j6BGkYXc8sMsh-iOMYTiaw",
+      "content": "智谱AutoGLM 2.0正式上线，作为全球首个手机Agent，开创了Agent+云手机/云电脑的新技术范式，不占用用户本地设备资源，可在任何设备和场景下运行。AutoGLM 2.0由国产模型GLM-4.5和GLM-4.5V驱动，具备推理、代码与多模态能力，可完成多样化任务，如在生活场景中操作美团、京东等应用，或在办公场景中完成全流程工作。",
+      "source": "智谱"
+    },
+    {
+      "title": "Firecrawl融资1450万美元：AI爬虫独角兽盈利突围，百万美元悬赏“AI员工”",
+      "url": "https://ai-bot.cn/firecrawl/",
+      "content": "AI爬虫公司Firecrawl完成1450万美元A轮融资，由Nexus Venture Partners领投，Shopify首席执行官Tobias Lütke和Y Combinator跟投。Firecrawl为开发者和AI智能体提供开源网络爬虫工具，通过API提供商业支持版本。",
+      "source": "AI工具集"
+    }
+  ]
+}
