@@ -1,0 +1,60 @@
+{
+  "date": "2025-08-22",
+  "weekday": "周五 8月21",
+  "items": [
+    {
+      "title": "阿里巴巴推出 AI Agentic 编程工具：Qoder，预览阶段全功能免费开放",
+      "url": "https://ai-bot.cn/sites/60584.html",
+      "content": "阿里巴巴推出AI编程工具 Qoder ，具备代码库语义搜索、架构洞察、持续记忆、动态模型路由等功能，支持自然语言任务委派与一键“维基化”代码库。预览阶段全功能免费开放。传统编程工具只是帮你“写代码”，Qoder 则像一个“读过你全部代码、记得你全部习惯、能跨系统替你干活”的资深同事。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "阿里云和五所高校一起，共同打造了一门免费AI课程！",
+      "url": "https://mp.weixin.qq.com/s/8DXXIbuLoxYiBogocUCg6w",
+      "content": "阿里云联合超星尔雅及北京大学、南京大学、复旦大学、上海交通大学、浙江大学五所高校名师，共同推出 AI 通识公益系列课程「动手学 AI：人工智能通识与实践」，将于 9 月 1 日正式开放。课程依托阿里云技术，采用“学 – 练 – 评 – 管”模式，分为理论课和在线实践课，涵盖 AI 发展历程、核心技术等内容，设置 8 个实验环节。",
+      "source": "阿里云"
+    },
+    {
+      "title": "字节跳动Seed开源Seed-OSS-36B模型，512k上下文",
+      "url": "https://mp.weixin.qq.com/s/R7fpT8tOj9GE89UVd2WeuQ",
+      "content": "字节跳动Seed团队开源了Seed-OSS系列模型，包含360亿参数的Base和Instruct版本，支持最长512k上下文窗口，是目前开源模型中最长的。模型使用12万亿tokens训练，在多个基准测试中表现优异，如AIME24上达91.7%。其推理预算功能允许用户灵活调整推理长度，提升效率。",
+      "source": "机器之心"
+    },
+    {
+      "title": "轻量级易开发，8B参数释放大实力！科学多模态模型Intern-S1-mini开源",
+      "url": "https://mp.weixin.qq.com/s/2gFcIcagisAnXfsDZ8OS1g",
+      "content": "上海人工智能实验室推出轻量化科学多模态模型Intern-S1-mini。模型参数为8B，兼具通用与专业科学能力，适合快速部署和二次开发。Intern-S1-mini在多项权威基准测试中表现卓越，尤其在化学、材料等领域显著领先，强大的跨领域泛化能力。轻量化设计降低了对高端计算设备的依赖，仅需24GB单卡即可完成微调。",
+      "source": "书生Intern"
+    },
+    {
+      "title": "vivo首款MR头显vivo Vision，硬刚苹果，全球最轻，眼手交互，预约名额秒空",
+      "url": "https://mp.weixin.qq.com/s/0hAg0PN6ybC-Rc8k2u-NkA",
+      "content": "vivo正式发布首款MR头显——vivo Vision探索版，正式进军XR赛道。该头显重量仅398克，比苹果AirPods Max耳机还轻，搭载双目8K Micro-OLED屏幕，支持眼动追踪和手势交互，VST全彩透视延迟低至13ms。vivo Vision探索版支持PC VR无线连接、多窗口办公等功能。",
+      "source": "智东西"
+    },
+    {
+      "title": "前美团硬件负责人创业，做了一款项链式的“AI相机”：Looki L1",
+      "url": "https://mp.weixin.qq.com/s/08N6WjiqCAqEUf0mhOUV2Q",
+      "content": "前美团硬件负责人孙洋创立的「光智时空Looki」发布首款多模态AI穿戴设备——Looki L1。这是一款仅重30克的AI生活相机，可磁吸或佩戴于脖子上，具备视觉和听觉感知能力，结合云端大模型为用户提供主动式服务。",
+      "source": "智能涌现"
+    },
+    {
+      "title": "金数据发布 Jiri AI表单助手，把想法变成专业表单",
+      "url": "https://mp.weixin.qq.com/s/TIPuJK0g6NoMA-_cmzO9Ag",
+      "content": "金数据推出名为Jiri的AI表单助手。Jiri能根据用户描述秒懂需求，自动生成表单字段组合，自动撰写专业文案，智能匹配高清头图，能根据用户反馈随时修改调整。用户可以通过一句话描述、粘贴内容、上传图片或链接等多种方式生成表单。",
+      "source": "金数据"
+    },
+    {
+      "title": "百度推出蒸汽机MuseSteamer 2.0版本",
+      "url": "https://ai-bot.cn/huixiang/",
+      "content": "百度将推出蒸汽机MuseSteamer 2.0版本，包括Turbo、Lite、Pro和有声版全系模型，具备多人音视频一体化生成、复杂运镜、电影级人物表演等能力，将在影视创作、客户营销等多场景应用。官方应用平台为绘想，自7月2日上线以来，注册用户超30万。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "腾讯开源ToonComposer：能生成一部完整的动画短片",
+      "url": "https://ai-bot.cn/tooncomposer/",
+      "content": "腾讯 ARC 实验室联合北京大学、香港中文大学开源了 ToonComposer。仅需 1 张关键帧草图和 1 张彩色参考图，能生成完整的上色动画，能通过文本、草图、图片混合输入，一键转换为多种卡通风格动画。",
+      "source": "AI工具集"
+    }
+  ]
+}
