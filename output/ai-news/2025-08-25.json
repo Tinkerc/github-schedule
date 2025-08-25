@@ -1,0 +1,18 @@
+{
+  "date": "2025-08-25",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "马斯克开源Grok 2.5：中国公司才是xAI最大对手",
+      "url": "https://mp.weixin.qq.com/s/SfS8ZxExG5EdJph4p8mH6A",
+      "content": "马斯克宣布xAI开源Grok 2.5，Grok 3也将在半年后开源。Grok 2.5可在HuggingFace下载，包含42个文件，大小约500GB，需8个超40GB显存的GPU运行。模型曾在LMSYS排行榜上超越Claude和GPT-4，在多领域表现优异。开源协议较严格，仅限非商业用途。",
+      "source": "量子位"
+    },
+    {
+      "title": "Meta 与 Midjourney 达成美学技术授权合作",
+      "url": "https://www.ithome.com/0/877/737.htm",
+      "content": "Meta与AI文生图片/视频研究团队Midjourney达成授权合作。Meta未来AI模型和产品将使用Midjourney的美学技术。Meta首席AI官Alexandr Wang在Threads上宣布了这一合作，称赞Midjourney在AI技术和美学表现上的成就。此次合作是Meta联合其他AI参与者实现优势互补的策略之一，也是其扩大AI技术资源储备的行动的一部分。",
+      "source": "IT之家"
+    }
+  ]
+}
