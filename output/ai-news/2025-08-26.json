@@ -1,0 +1,42 @@
+{
+  "date": "2025-08-26",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "会头脑风暴的 AI — 国内首个并行思考模型 问小白o4 来啦！",
+      "url": "https://mp.weixin.qq.com/s/lOuFggxvgvmDy7jbNHygKg",
+      "content": "国内首个并行思考模型问小白o4上线。模型可同时开启8条思考路径，自动筛选最优解，大幅提升答案精准度。问小白o4采用第四代开源推理范式，融合强化学习与过程奖励学习机制，具备深度推理与高质量思考筛选能力。",
+      "source": "问小白"
+    },
+    {
+      "title": "Looki L1 国行版上市计划",
+      "url": "https://mp.weixin.qq.com/s/nQOtWVfGd0iHlgQf3-Odew",
+      "content": "Looki L1 国行版计划于2025年第四季度上市。自全球上线以来，产品受到广泛关注，尤其在国内，众多用户表达了对它的喜爱与期待。目前，Looki L1 正在进行本地化部署与适配工作，以确保国内用户获得成熟、流畅且贴合本地使用习惯的体验。",
+      "source": "LookiAI"
+    },
+    {
+      "title": "打造“AI版Labubu”，深圳AI硬件创企跃然创新获2亿融资",
+      "url": "https://mp.weixin.qq.com/s/vvGF5rKTNL0DRAzzPgPrnw",
+      "content": "国内AI玩具龙头企业跃然创新（Haivivi）宣布完成2亿元A轮融资，由中金资本旗下基金、红杉中国等领投。跃然创新成立于2021年，由前锤子手机营销总监李勇创办，打造AI玩具。2024年6月，推出全球首款AI玩具BubblePal，融合多语言对话、AI故事共创等功能，首月售出超万台，总销量突破20万台。",
+      "source": "智东西"
+    },
+    {
+      "title": "首款类人决策智能体Bloom，获高瓴光速数千万美元投资",
+      "url": "https://mp.weixin.qq.com/s/j4W9e6BchjzqnE2JsLSyLQ",
+      "content": "前阿里云高管占超群创立的质变科技发布首款类人决策智能体Bloom。获得高瓴创投与光速光合数千万美元投资。Bloom解决复杂数据分析和决策场景中的准确性、可解释性和可用性问题，采用智能体团队协作、可解释性技术栈和端到端结果级交付等创新方式，推动AI成为更可靠的生产力工具。",
+      "source": "Z Finance"
+    },
+    {
+      "title": "马斯克开源Grok 2.5：中国公司才是xAI最大对手",
+      "url": "https://mp.weixin.qq.com/s/SfS8ZxExG5EdJph4p8mH6A",
+      "content": "马斯克宣布xAI开源Grok 2.5，Grok 3也将在半年后开源。Grok 2.5可在HuggingFace下载，包含42个文件，大小约500GB，需8个超40GB显存的GPU运行。模型曾在LMSYS排行榜上超越Claude和GPT-4，在多领域表现优异。开源协议较严格，仅限非商业用途。",
+      "source": "量子位"
+    },
+    {
+      "title": "Meta 与 Midjourney 达成美学技术授权合作",
+      "url": "https://www.ithome.com/0/877/737.htm",
+      "content": "Meta与AI文生图片/视频研究团队Midjourney达成授权合作。Meta未来AI模型和产品将使用Midjourney的美学技术。Meta首席AI官Alexandr Wang在Threads上宣布了这一合作，称赞Midjourney在AI技术和美学表现上的成就。此次合作是Meta联合其他AI参与者实现优势互补的策略之一，也是其扩大AI技术资源储备的行动的一部分。",
+      "source": "IT之家"
+    }
+  ]
+}
