@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-27",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "谷歌推出图像生成与编辑模型Gemini 2.5 Flash Image（代号nano banana）",
+      "url": "https://mp.weixin.qq.com/s/jF5G4rYbUOfrxkEOWsICZQ",
+      "content": "谷歌正式推出最新的图像生成与编辑模型Gemini 2.5 Flash Image（代号nano banana），模型在多个榜单上名列前茅，表现出色。主要特点包括保持角色一致性、基于提示的图片编辑、利用Gemini的现实世界知识进行推理以及多幅图像融合。已通过Gemini APP、API、Google AI Studio和Vertex AI开放访问，每张图片生成成本约0.039美元。",
+      "source": "APPSO"
+    },
+    {
+      "title": "Wan2.2-S2V开源！图片+音频丝滑生成电影级视频",
+      "url": "https://mp.weixin.qq.com/s/GnfWVpk6EotfmbNTUPvuMg",
+      "content": "通义万相开源了全新多模态视频生成模型「Wan2.2-S2V」。模型仅需一张静态图片和一段音频，能生成电影级数字人视频，视频时长可达分钟级，大幅提升数字人直播、影视制作等行业的视频创作效率。模型支持真人、卡通、动物等多种图片类型，可通过文本控制视频画面。",
+      "source": "通义万相Wan"
+    },
+    {
+      "title": "文心快码多项升级更新，新增Zulu-CLI终端编码能力",
+      "url": "https://mp.weixin.qq.com/s/kyHX6TE_qgVbEKqABAaTlw",
+      "content": "文心快码进行了多项升级更新，新增了Zulu-CLI，允许开发者在终端中使用Zulu的智能编码能力，无需离开命令行界面。企业版支持自定义模型，可根据不同场景灵活切换模型。",
+      "source": "文心快码Baidu Comate"
+    },
+    {
+      "title": "微软开源TTS模型：VibeVoice，可生成 90 分钟语音",
+      "url": "https://ai-bot.cn/vibevoice/",
+      "content": "微软开源了文本转语音（TTS）模型VibeVoice-1.5B，可生成最长90分钟、最多4位说话者的自然语音，支持跨语言及歌声合成。模型基于1.5B参数的Qwen2.5语言模型，结合声学与语义双分词器，以7.5Hz低帧率处理。",
+      "source": "AI工具集"
+    }
+  ]
+}
