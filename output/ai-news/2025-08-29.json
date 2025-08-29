@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-29",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "问小白5 重磅发布：国产大模型实力对标 GPT-5",
+      "url": "https://mp.weixin.qq.com/s/f1KMMfHOCiBKH2eV5zNS0g",
+      "content": "问小白团队发布最新旗舰模型——问小白5。模型在智能水平上取得重大突破，成为国产大模型中智能水平最接近GPT-5的标杆之作。在AA-Index综合性能评测中，问小白5以64.7分超过Gemini2.5 Pro，接近GPT-5。其在STEM能力、前沿知识能力、代码编程能力以及指令遵循能力等多个维度均展现出卓越表现，分别获得86分、17.7分、79.2分和58.1分的高分。",
+      "source": "问小白"
+    },
+    {
+      "title": "混元开源又+1：HunyuanVideo-Foley，视频音效可以自动生成了",
+      "url": "https://mp.weixin.qq.com/s/GlElEMmmI8W_8NGU8cl1Kw",
+      "content": "腾讯混元宣布开源端到端视频音效生成模型HunyuanVideo-Foley。只需输入视频和文字，能为视频匹配电影级音效，解决了AI生成视频只能“看”不能“听”的问题。HunyuanVideo-Foley具有三大核心亮点：强大的泛化能力，可适配多种视频类型；多模态语义均衡响应，结合视频画面和文字描述生成复合音效；专业级音频保真度，提升音效质量。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "阿里巴巴发布首个数据分析Agent：Quick BI，人人拥有AI分析师",
+      "url": "https://mp.weixin.qq.com/s/tXnRkBLNe2OKAvVyRz_faQ",
+      "content": "阿里巴巴旗下瓴羊发布首个数据分析Agent，Quick BI里的“智能小Q”升级为由问数、解读和报告三大核心Agent组成的“超级数据分析师”。Agent可快速获取、解读数据并输出洞察报告，将数据获取时间从一天缩短至10秒，报告生成时间从数天缩短至20分钟。",
+      "source": "瓴羊DaaS"
+    },
+    {
+      "title": "PixVerse V5 全新模型上线：把创作门槛再拍下去几厘米",
+      "url": "https://mp.weixin.qq.com/s/HmT0FiG9IcTfCzzrKK3VSw",
+      "content": "PixVerse V5全球同步上线，此次更新聚焦于提升用户高频生成场景的视频效果，如复杂运动中主体不再违背重力、动漫同人创作细节更到位、广告制作文案不再“横飞”等。根据权威独立测评平台Artificial Analysis的最新测试结果，PixVerse V5在图生视频项目中排名全球Top2，在文生视频项目中位列Top3，保持在全球第一梯队。",
+      "source": "爱诗科技 AIsphere"
+    },
+    {
+      "title": "全球首款！浙大一院、阿里发布“平扫CT+AI”主动脉急诊模型iAorta",
+      "url": "https://mp.weixin.qq.com/s/c_jAnwCvMwlUr_CeOFwLCg",
+      "content": "浙江大学医学院附属第一医院与阿里巴巴达摩院发布全球首款“平扫CT+AI”主动脉急诊模型iAorta。模型可在几秒内识别急性主动脉综合征，将确诊时间缩短至2小时内，显著降低漏诊率。研究团队通过回顾性分析发现，传统方法初诊漏诊率达48.8%，iAorta可将漏诊率降至4.8%。",
+      "source": "阿里巴巴"
+    }
+  ]
+}
