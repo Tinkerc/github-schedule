@@ -1,0 +1,36 @@
+{
+  "date": "2025-09-01",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "OpenAI发布语音AI Agent专用模型GPT-realtime",
+      "url": "https://ai-bot.cn/gpt-realtime/",
+      "content": "OpenAI发布语音模型GPT-realtime。模型是专用于语音AI Agent的多模态模型，可生成自然流畅语音，完美模仿人类语调、情感和语速，支持图像理解并与语音或文本对话结合。新增Marin与Cedar两种语音，升级原有8种语音，具备智力、推理和理解能力，能捕捉非语言信号、切换语言和调整语气。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "真·深度长文写作，上扣子空间！",
+      "url": "https://mp.weixin.qq.com/s/xMYeR5WL-BElCzKaLJBeUg",
+      "content": "扣子空间推出深度长文写作加速器，助力高效创作。用户可一键生成从选题到排版的全链路内容，涵盖研究论文、行业报告等多类型。平台提供高质信息源，支持深度思考与真实数据引用。其生成内容抛弃模板化，搭配专属洞察，风格多样，如专业分析、散文游记等。用户还可二次修改，管理文档版本。",
+      "source": "扣子Coze"
+    },
+    {
+      "title": "海螺首尾帧正式上线，「AI海龟汤·帧间宇宙」挑战赛来袭！",
+      "url": "https://mp.weixin.qq.com/s/WmwIxW-sP86zqvdkwtC1tw",
+      "content": "海螺AI全球上线首尾帧功能，接入Hailuo 02模型，支持复杂指令遵循、极限物理动态、大幅度运镜、超预期想象力及仅尾帧玩法。",
+      "source": "海螺AI"
+    },
+    {
+      "title": "美团 M17 团队开源 Meeseeks 评测集：揭秘大模型的 “听话”能力",
+      "url": "https://mp.weixin.qq.com/s/Ak70v0OAYHgVOxkG66C8IQ",
+      "content": "美团M17团队推出全新评测基准Meeseeks，专注于大模型指令遵循能力的系统化研究与精准评估。该评测基准基于真实业务数据构建，采用精细化的三级评测框架，从任务核心意图、具体约束类型到细粒度规则，全面衡量模型的指令遵循能力。Meeseeks还引入“多轮纠错”模式，首次将模型的自我纠错能力纳入评测范畴。",
+      "source": "美团技术团队"
+    },
+    {
+      "title": "xAI 推出智能代码生成模型 Grok Code Fast 1",
+      "url": "https://ai-bot.cn/grok-code-fast-1/",
+      "content": "埃隆·马斯克旗下xAI发布智能代码生成模型Grok Code Fast 1。模型采用全新架构，擅长TypeScript、Python等语言，可处理从新项目构建到漏洞修复的多种任务。定价为每百万输入token 0.20美元，输出token 1.50美元，缓存输入token 0.02美元，限时免费开放给主流智能编程平台用户。",
+      "source": "AI工具集"
+    }
+  ]
+}
