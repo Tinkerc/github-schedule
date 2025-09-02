@@ -1,0 +1,36 @@
+{
+  "date": "2025-09-02",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "美团正式发布并开源 LongCat-Flash-Chat，动态计算开启高效 AI 时代",
+      "url": "https://mp.weixin.qq.com/s/hNIJPJZ0L7ORR0ziOzovaw",
+      "content": "美团发布并开源 LongCat-Flash-Chat，采用混合专家模型架构的 AI 模型，总参数量达 560B，平均激活参数 27B。在性能上比肩主流模型，尤其在智能体任务中表现突出，推理速度更快，适合复杂智能体应用。可以访问官方平台 Longcat AI，与 LongCat-Flash-Chat 开启对话。",
+      "source": "Longcat"
+    },
+    {
+      "title": "GLM-4.5编码套餐：20元包月，人人畅享全球顶级Claude Code编码体验",
+      "url": "https://mp.weixin.qq.com/s/JKSKSrjw3aqUODEN_LzRMg",
+      "content": "智谱推出限时「GLM Coding Plan」套餐，月费低至20元，降低AI编码工具使用门槛。GLM-4.5在前端开发、跨文件修改、全栈项目构建等场景表现出色，性能接近Claude Sonnet 4，成本仅为其1.5%。在CC-Bench评测中，GLM-4.5在开源模型中表现优异，性价比高。",
+      "source": "智谱"
+    },
+    {
+      "title": "开源SOTA：阶跃发布端到端语音大模型Step-Audio 2 mini！",
+      "url": "https://mp.weixin.qq.com/s/aiJe0286r-oN2AFeXmcRLQ",
+      "content": "阶跃星辰发布开源端到端语音大模型 Step-Audio 2 mini，模型在多个国际基准测试集上取得 SOTA 成绩。将语音理解、音频推理与生成统一建模，在音频理解、语音识别、跨语种翻译、情感与副语言解析、语音对话等任务中表现突出，率先支持语音原生的 Tool Calling 能力，可实现联网搜索等操作。",
+      "source": "阶跃星辰"
+    },
+    {
+      "title": "微软推出自研 AI 模型：MAI-Voice-1 秒级生成音频",
+      "url": "https://ai-bot.cn/mai-voice-1/",
+      "content": "微软推出首批两款自研 AI 模型 MAI-Voice-1 和 MAI-1-preview。MAI-Voice-1 仅需单块 GPU，1 秒内可生成 1 分钟音频，已应用于“Copilot Daily”等，用户可在 Copilot Labs 平台体验并自定义音色与风格。MAI-1-preview 专为特定需求用户设计，训练使用约 1.5 万块英伟达 H100 GPU，具备遵循指令的能力。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "智平方完成新一轮A系列融资，由深创投领投",
+      "url": "https://zhidx.com/p/500836.html",
+      "content": "智平方完成新一轮A系列融资，由深创投领投，金额超亿元。老股东敦鸿资产、国投创盈等持续加码，华熙生物等产业资本参与。本轮融资将用于GOVLA大模型及AlphaBot系列机器人的迭代、产线扩容与市场拓展。",
+      "source": "智东西"
+    }
+  ]
+}
