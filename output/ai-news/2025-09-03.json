@@ -1,0 +1,24 @@
+{
+  "date": "2025-09-03",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "混元世界模型上新：混元Voyager，综合能力问鼎WorldScore排行榜",
+      "url": "https://mp.weixin.qq.com/s/vCkFWwV5vUQhjMRfMQB2XA",
+      "content": "腾讯发布混元3D世界模型系列新成员——HunyuanWorld-Voyager。模型是业界首个支持原生3D重建的超长漫游世界模型，可生成长距离、世界一致的漫游场景，突破传统视频生成局限。支持3D输入输出，与混元世界模型1.0高度适配，可扩展漫游范围、提升生成质量，支持多种3D应用。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "开发更可控，部署更便捷：AgentScope 迈入1.0时代",
+      "url": "https://mp.weixin.qq.com/s/7p525jsxZg3hA-qA12mKJA",
+      "content": "通义实验室推出新一代智能体开发框架AgentScope 1.0。解决智能体构建、运行和管理中的难题，提供覆盖“开发、部署、监控”全生命周期的生产级解决方案。采用三层技术架构：AgentScope核心框架负责智能体构建与应用编排；AgentScope Runtime提供安全可靠的运行和部署环境；AgentScope Studio提供可视化开发与监控工具。",
+      "source": "通义大模型"
+    },
+    {
+      "title": "拿下30个第1名的腾讯混元翻译模型Hunyuan-MT-7B，开源",
+      "url": "https://mp.weixin.qq.com/s/rKcf7jXAYlCKcwan0o756Q",
+      "content": "腾讯混元Hunyuan-MT-7B翻译模型开源。模型参数量仅7B，支持33个语种及5种民汉语言/方言互译。在国际机器翻译比赛WMT2025中拿下30个第1名，推出业界首个翻译集成模型Hunyuan-MT-Chimera-7B，可生成更优翻译结果。Hunyuan-MT-7B计算效率高、部署友好，已接入腾讯多个业务，助力产品体验提升。",
+      "source": "腾讯混元"
+    }
+  ]
+}
