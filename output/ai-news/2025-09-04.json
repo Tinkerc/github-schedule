@@ -1,0 +1,18 @@
+{
+  "date": "2025-09-04",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "Anthropic宣布完成130亿美元（约928亿元）F轮融资",
+      "url": "https://zhidx.com/p/501337.html",
+      "content": "AI独角兽Anthropic完成130亿美元F轮融资，估值达1830亿美元，成为全球第三大AI独角兽，仅次于字节跳动和OpenAI。AI编程工具Claude Code是增长主力，3个月使用量增长超10倍，创造超5亿美元年收入。本轮融资由多家知名风投和主权基金领投，将用于扩大企业采用规模、深化安全研究及支持国际扩张。",
+      "source": "智东西"
+    },
+    {
+      "title": "谷歌垄断案获“阶段性胜利”，Alphabet盘后涨近7%",
+      "url": "https://mp.weixin.qq.com/s/45wtYSmb6KRugrvF4xgtxA",
+      "content": "美国地区法官作出关键裁定，在谷歌母公司Alphabet的反垄断审判中，谷歌无需剥离Chrome浏览器与安卓系统，也可继续向苹果等合作伙伴支付默认搜索引擎费用。消息发布后，Alphabet股价在盘后交易中大涨近6.7%。法院仅要求谷歌向竞争对手共享部分搜索数据，以改善市场竞争环境。",
+      "source": "第一财经"
+    }
+  ]
+}
