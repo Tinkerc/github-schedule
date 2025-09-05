@@ -1,0 +1,24 @@
+{
+  "date": "2025-09-05",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "杨植麟又发大模型！Kimi K2-0905登场，更强编程、创意写作",
+      "url": "https://mp.weixin.qq.com/s/V8U6TrvQvdlsXwNQWwQHiA",
+      "content": "北京大模型独角兽月之暗面发布新版本Kimi K2-0905模型。模型在编程能力上进行了升级，上下文长度提升至256K，创意写作能力也有所增强，同时兼容Claude Code，支持前端功能解锁，让网页和图表更美观。",
+      "source": "智东西"
+    },
+    {
+      "title": "MetaGPT发布新型AI开发能力评估基准RealDevWorld",
+      "url": "https://ai-bot.cn/realdevworld/",
+      "content": "MetaGPT推出用户智能体，开启端到端自主软件测试新范式。智能体具备双重身份，既是产品经理严格验收，又是不知疲倦的AI测试工程师，实现全链路自主化。研究团队发布RealDevWorld框架，包含194个软件开发任务数据集RealDevBench和评估智能体AppEvalPilot。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "瑞士发布国家级开源大语言模型Apertus",
+      "url": "https://ai-bot.cn/apertus/",
+      "content": "瑞士发布国家级开源大语言模型Apertus。模型由瑞士洛桑联邦理工学院等机构联合打造，完全开源，训练数据涵盖超1000种语言，总token量达15万亿，非英语数据占比40%。目前推出80亿参数和700亿参数两个版本。",
+      "source": "AI工具集"
+    }
+  ]
+}
