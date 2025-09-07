@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-07",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "Kimi K2-0905正式发布，带来更强的代码能力、更快的 API",
+      "url": "https://mp.weixin.qq.com/s/Lac1gHCmuQ1mxTCWnSmuEA",
+      "content": "月之暗面科技有限公司正式发布Kimi K2-0905。新版本在真实编程任务中表现提升，具体包括：Agentic Coding能力增强，在基准测试和实际任务中性能更好；前端编程体验升级，代码更美观实用；上下文长度从128K扩展到256K，支持复杂长线任务；新增高速版API，输出速度达60-100 Token/s。",
+      "source": "月之暗面 Kimi"
+    },
+    {
+      "title": "智谱推出「Claude API 用户特别搬家计划」",
+      "url": "https://mp.weixin.qq.com/s/2MOVb88tK-D0G7MVTKkw5A",
+      "content": "美国大模型公司Anthropic宣布停止向多数股权由中国资本持有的集团出售Claude服务。智谱推出“Claude API用户特别搬家计划”，帮助开发者无缝切换至智谱GLM模型API。智谱已全面兼容Claude协议，用户只需替换API URL即可完成迁移。智谱为新用户提供2000万Tokens免费体验，开发者可享受更低价格、更高性能的GLM-4.5编码专属套餐。",
+      "source": "智谱"
+    },
+    {
+      "title": "Atlassian以 6.1 亿美元全现金收购The Browser Company",
+      "url": "https://mp.weixin.qq.com/s/7Au4tIf369oOlxTqoyb8Cg",
+      "content": "全球首家AI浏览器公司The Browser Company被软件公司Atlassian以6.1亿美元全现金收购。公司曾开发Arc浏览器，后转向打造AI原生浏览器Dia。Dia主打将浏览与对话结合，能跨标签搬运数据、总结文档等。收购后，Dia将继续独立运营，Atlassian计划将其打造成“AI时代知识型工作浏览器”。",
+      "source": "极客公园"
+    },
+    {
+      "title": "Anthropic加强服务限制：禁止受中国等地区控制的实体使用其技术",
+      "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions",
+      "content": "Anthropic更新了其服务条款，加强对不受支持地区的销售限制。此前，尽管条款禁止某些地区（如中国）使用其服务，但仍有公司通过在其他国家设立子公司等方式获取Anthropic的服务。Anthropic指出，这些公司可能面临法律要求，迫使其共享数据或与情报机构合作，从而带来国家安全风险。",
+      "source": "Anthropic"
+    }
+  ]
+}
