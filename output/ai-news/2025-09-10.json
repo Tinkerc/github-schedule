@@ -1,0 +1,54 @@
+{
+  "date": "2025-09-10",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "腾讯发布自研AI CLI：CodeBuddy Code，国内首家支持全形态AI编程工具",
+      "url": "https://mp.weixin.qq.com/s/twmCoGDSr7Sv6UxQUBvRmg",
+      "content": "腾讯发布全新AI CLI工具CodeBuddy Code，腾讯云成为业内首家同时支持插件、IDE和CLI三种形态的AI编程工具厂商。CodeBuddy Code支持在命令行中用自然语言驱动开发全流程，实现极致自动化。无缝融入现有流程，开箱即用，扩展性强，可自动化复杂任务。",
+      "source": "腾讯云"
+    },
+    {
+      "title": "星火电脑版全新升级！年轻人的AI“硬核装备”",
+      "url": "https://mp.weixin.qq.com/s/J0rLTDQHIX1yqlwe6s80NQ",
+      "content": "讯飞星火电脑版全新上线。升级聚焦垂直场景，涵盖AI写作、解题答疑、AI阅读、深度研究等实用功能。新版本界面简洁流畅，操作便捷，成为用户的“有颜有才”AI伙伴。解题答疑功能可逐步引导思考或展示完整解题步骤；AI写作覆盖60+场景；AI阅读能一键总结网页或文档内容；深度研究可自动搭建研究框架，输出专业报告。",
+      "source": "讯飞开放平台"
+    },
+    {
+      "title": "生数科技全球上线Vidu Q1参考生图，打造真正可用生产力工具",
+      "url": "https://mp.weixin.qq.com/s/Ym5ZtPWSbsOQjOdYA99s2A",
+      "content": "生数科技正式向大众用户开放其视频大模型Vidu的Q1参考生图功能。功能以“参考够多，还原够真”为核心，支持最多7张参考图输入，可实现多主体一致性、高还原度、自由创作等五大亮点。Vidu Q1参考生图覆盖合成、替换、变换三大生成模式，适配多主体复杂场景，大幅降低AI内容生产门槛。",
+      "source": "生数ShengShu"
+    },
+    {
+      "title": "听得清，识得准，语音识别模型Qwen3-ASR-Flash来了",
+      "url": "https://mp.weixin.qq.com/s/SPL5Aiu6afEXK3-nEwy6_Q",
+      "content": "通义千问团队发布了Qwen3-ASR-Flash语音识别模型。模型基于Qwen3基座模型，经海量数据训练而成，支持11种语言及多种口音，支持歌声识别。核心特性包括领先的识别准确率、惊艳的歌声识别能力、定制化识别、语种识别与非人声拒识以及高鲁棒性。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "Seedream 4.0 全量上线，扣子空间100+官方模版打包送！",
+      "url": "https://mp.weixin.qq.com/s/GWrVoy8qSlsN6qDhtekoEw",
+      "content": "Seedream 4.0全量上线扣子空间，带来多种玩法。用户可实现多图无缝融合，创作手办、周边、装潢装置设计等，还能穿越多种场景、融入指定图片、出演漫画主角、制作系列表情包。在文字能力提升方面，可精准修改海报，生成不同风格作品。",
+      "source": "扣子Coze"
+    },
+    {
+      "title": "百度最强深度思考模型文心大模型X1.1来了！性能追平GPT-5",
+      "url": "https://mp.weixin.qq.com/s/hPUkm3oe2dRptFpmc4xc8Q",
+      "content": "在百度Wave Summit深度学习开发者大会上，百度发布文心大模型X1.1、飞桨框架V3.2、文心快码3.5S等。文心大模型X1.1事实性能力提升34.8%，指令遵循能力提升12.5%，智能体能力提升9.6%，在多项基准测试中超越DeepSeek-R1-0528，效果与GPT-5和Gemini 2.5 Pro基本持平。",
+      "source": "智东西"
+    },
+    {
+      "title": "告别服务中断焦虑！LongCat API 开放平台为开发者保驾护航",
+      "url": "https://mp.weixin.qq.com/s/juIDqBJvj2FPuSxQmnhIDA",
+      "content": "美团LongCat团队推出「LongCat API开放平台」，为受美国大模型公司Anthropic停止服务影响的在华企业和开发者提供平滑迁移方案。平台每日提供10万免费tokens，支持OpenAI API和Anthropic API两种格式，开发者可轻松从Claude切换至LongCat-Flash-Chat模型。",
+      "source": "LongCat"
+    },
+    {
+      "title": "专为“超大模型而生”，新一代训练引擎 XTuner V1 开源",
+      "url": "https://mp.weixin.qq.com/s/_ThFxekq291-y5iuxkc55A",
+      "content": "上海人工智能实验室开源了书生大模型新一代训练引擎XTuner V1。XTuner V1基于PyTorch FSDP开发，针对超大规模稀疏混合专家（MoE）模型训练进行了优化，可支持1T参数量级MoE模型训练，在200B以上量级混合专家模型上实现训练吞吐超越传统3D并行训练方案。",
+      "source": "书生Intern"
+    }
+  ]
+}
