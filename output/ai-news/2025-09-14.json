@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-14",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "阿里通义正式发布：Qwen3-Next-80B-A3B 双模型！",
+      "url": "https://mp.weixin.qq.com/s/ZCZdbsh8yHq9iPzYa7lmCA",
+      "content": "Qwen3-Next-80B-A3B双模型正式发布，包含擅长指令理解和执行的Instruct版本以及擅长多步推理和深度思考的Thinking版本。模型采用混合动力引擎，75%高效处理长文本，25%精准召回关键信息，实现长文处理的稳与快。",
+      "source": "通义大模型"
+    },
+    {
+      "title": "美团正式发布首个生活类AI Agent——小美",
+      "url": "https://ai-bot.cn/xiaomei/",
+      "content": "美团上线了首个生活类Agent——小美。小美可快速完成外卖点单、支付等操作，能记住用户过往订单和收货地址，支持跨地区点单。小美能设置定时任务，如定时点咖啡等。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "MiniMax音乐模型新突破：MiniMax Music 1.5上线",
+      "url": "https://mp.weixin.qq.com/s/UzMDWMHFZDlIUZwhhBpcYQ",
+      "content": "MiniMax发布新一代音乐生成模型Music 1.5，开启“一人即乐队”新时代。模型生成时长升至4分钟，具备四大突破：强控制力，可对歌曲风格、情绪、场景等进行自定义；人声自然饱满，转音顺畅；编曲层次丰富，支持中国小众及民族乐器；歌曲结构清晰，带来“叙事级”听觉体验。",
+      "source": "MiniMax稀宇科技"
+    },
+    {
+      "title": "微软 Copilot 新增音频表达式功能",
+      "url": "https://www.ithome.com/0/882/297.htm",
+      "content": "微软为Copilot工具新增“Copilot音频表达式”功能，基于自研MAI-Voice-1模型。用户可从三种语音模式中选择：有感染力模式，适合传递情感；故事模式，适合多角色故事讲述；脚本模式，适合精准传递信息。每种模式还提供多种语音类型与风格，如莎士比亚朗读风、体育解说风等。",
+      "source": "IT之家"
+    }
+  ]
+}
