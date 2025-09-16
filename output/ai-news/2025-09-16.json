@@ -1,0 +1,42 @@
+{
+  "date": "2025-09-16",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "FunAudio-ASR：解决语音大模型企业落地的“最后一公里”",
+      "url": "https://mp.weixin.qq.com/s/7l5EPTU7cpz7GSN4RP91rg",
+      "content": "阿里巴巴推出FunAudio-ASR语音识别大模型，专为解决企业落地难题。模型通过创新的Context增强模块，有效优化了“幻觉”“串语种”等关键问题。在高噪声等复杂场景下，其识别准确率显著提升，幻觉率从78.5%降至10.7%。",
+      "source": "通义大模型"
+    },
+    {
+      "title": "Mureka上线「Agent Studio」新功能，让每个人都拥有私人音乐工作室！",
+      "url": "https://mp.weixin.qq.com/s/LNjbrW6yNoKFmnPnywxiVg",
+      "content": "昆仑万维旗下AI音乐创作平台Mureka上线新功能“Agent Studio”，让音乐创作变得轻松。用户只需说出想法，如一句话、情绪或梗，Agent可自动生成歌词、匹配风格并输出完整歌曲。目前有六个场景，如创作专辑、热点写歌、以歌致礼等，覆盖多种生活场景。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "火山引擎veCLI发布，开启智能开发新模式",
+      "url": "https://mp.weixin.qq.com/s/-UTsE4yDf2XRrbpP3TqOww",
+      "content": "火山引擎发布命令行AI Agent：veCLI，无缝集成豆包大模型1.6，助力开发者在终端直接访问火山方舟大模型及火山云产品。veCLI采用“思考-行动”循环机制，集成多种模型，降低技术门槛，提升开发效率。",
+      "source": "火山引擎"
+    },
+    {
+      "title": "金山办公与华为联合发布 WPS 365 一体化 AI 办公解决方案",
+      "url": "https://www.ithome.com/0/882/571.htm",
+      "content": "金山办公与华为在珠海联合发布WPS 365一体化AI办公解决方案。方案整合WPS 365的协同办公优势与华为的全栈技术能力，通过AI、软件与云计算、硬件的协同创新，解决组织在知识资产管理、协同办公、安全合规等方面的核心需求。",
+      "source": "IT之家"
+    },
+    {
+      "title": "小米AI团队发布ZipVoice：高效零样本语音合成模型",
+      "url": "https://mp.weixin.qq.com/s/INzamOADBu6rc0rXdnPoRQ",
+      "content": "小米集团AI实验室发布ZipVoice系列语音合成模型，包括零样本单说话人语音合成模型ZipVoice和零样本对话语音合成模型ZipVoice-Dialog。ZipVoice通过技术创新，解决了现有模型参数大、速度慢的问题，实现轻量化建模和推理加速。ZipVoice-Dialog则突破对话语音合成的稳定性和速度瓶颈，提供又快又稳又自然的语音对话合成。",
+      "source": "小米技术"
+    },
+    {
+      "title": "腾讯开源Youtu-GraphRAG：让图检索增强生成更准确、更省钱！",
+      "url": "https://mp.weixin.qq.com/s/Ddf3rpdJP8P_L5yaPnBFBA",
+      "content": "腾讯优图实验室开源图检索增强生成框架Youtu-GraphRAG。框架主打大语言模型+RAG模式，将知识组织成图谱，帮助大模型在处理复杂问答任务时更精准、可追溯，适用于知识密集型场景。其创新点包括四层知识树、社区检测升级和智能迭代检索，可减少“胡言乱语”。",
+      "source": "腾讯云"
+    }
+  ]
+}
