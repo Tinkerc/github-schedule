@@ -1,0 +1,36 @@
+{
+  "date": "2025-09-18",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "李飞飞发布世界模型新成果：Marble！一张图生成 3D 世界",
+      "url": "https://mp.weixin.qq.com/s/mcAHDdgThYLtvZfd35nFcw",
+      "content": "斯坦福大学教授李飞飞的创业公司World Labs上线空间智能新成果Marble。Marble是限量访问的Beta测试版平台，用户可在官网浏览和创建3D世界。技术通过给AI一张照片，让其生成场景的几何结构等，创建可探索的3D世界。",
+      "source": "APPSO"
+    },
+    {
+      "title": "不止SOTA！通义 DeepResearch模型、框架、方案全开源",
+      "url": "https://mp.weixin.qq.com/s/23b-aWTArhATJRupaTYC8A",
+      "content": "阿里巴巴通义实验室发布通义DeepResearch模型、框架及方案，全部开源。研究针对AI“做研究”能力，进行系统性创新。自研全流程合成数据方案，无需人类干预，构造高质量数据集。提出智能体增量预训练阶段，提供大规模数据合成方案。在后训练数据合成、形式化建模、自动化生成高难度学科数据等方面均有创新。模型支持多种推理形式，革新Agent模型训练流程。",
+      "source": "通义大模型"
+    },
+    {
+      "title": "首个数字界面生产级Agent：MasterGo Agent 正式发布",
+      "url": "https://mp.weixin.qq.com/s/LSIY77AKHF0BmqtYbypf8A",
+      "content": "莫高设计（MasterGo）宣布正式发布MasterGo Agent，是全球首个数字界面生产级AI Agent。自MasterGo AI整页生成上线以来，团队不断听取设计师的需求，包括调用设计规范、在画布中直接生成和灵活修改设计，以及AI融入生产协作流程。",
+      "source": "MasterGo莫高设计"
+    },
+    {
+      "title": "全球估值最高的机器人公司，刚刚融了71亿，黄仁勋又投了",
+      "url": "https://zhidx.com/p/504601.html",
+      "content": "美国人形机器人公司Figure宣布完成超10亿美元（约合人民币71亿元）C轮融资，投后估值达390亿美元（约合人民币2774亿元）。本轮融资由Parkway Venture Capital等多家知名机构领投，英伟达、英特尔资本等参投。Figure计划将资金用于人形机器人在家庭和商业的扩展、构建下一代GPU基础架构以及先进数据收集。",
+      "source": "智东西"
+    },
+    {
+      "title": "通用奖励模型VLAC上线，机器人在真实世界强化学习的“好搭子”",
+      "url": "https://mp.weixin.qq.com/s/N3-aaqZF5pFUGDcUv2P3kw",
+      "content": "上海人工智能实验室上线具身奖励大模型VLAC。VLAC基于InternVL多模态大模型，融合多种数据，为机器人在真实世界强化学习提供过程奖励和完成情况估计，同时输出动作指令。能有效区分正常与异常行为，支持小样本快速泛化。",
+      "source": "书生Intern"
+    }
+  ]
+}
