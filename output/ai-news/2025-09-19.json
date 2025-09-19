@@ -1,0 +1,42 @@
+{
+  "date": "2025-09-19",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "面壁小钢炮迎新：VoxCPM 语音生成媲美真人、声音复刻超像！",
+      "url": "https://mp.weixin.qq.com/s/8vTOZkhWYnqVUQRDVPIuEA",
+      "content": "面壁智能推出0.5B参数语音生成基座模型VoxCPM。模型由面壁智能与清华大学深圳国际研究生院联合研发，具备高自然度、高音色相似度和强韵律表现力。VoxCPM在权威语音合成评测中达SOTA水平，支持零样本声音克隆，可生成独特个人声音。",
+      "source": "面壁智能"
+    },
+    {
+      "title": "具身操作大模型InternVLA·A1上线，助力实现高动态场景下的多机器人协作",
+      "url": "https://mp.weixin.qq.com/s/7dRRI8nwEoz8C7Bw3rjf3w",
+      "content": "上海人工智能实验室推出首个理解、想象、执行一体化具身操作大模型InternVLA·A1。模型基于自研虚实混合操作数据集InternData·A1、国地中心实训场数据及互联网多源数据联合训练而成。在真机评测中，InternVLA·A1显著优于π0及GR00T N1.5，尤其在高动态场景下表现出强适应能力。",
+      "source": "书生Intern"
+    },
+    {
+      "title": "AI芯片黑马Groq融资狂吸7.5亿美元 估值直冲69亿",
+      "url": "https://www.cls.cn/detail/2148311",
+      "content": "美国人工智能芯片初创公司Groq在最新一轮融资中筹集了7.5亿美元，估值达到69亿美元。本轮融资由Disruptive领投，贝莱德、路博迈、DTCP等参与，三星、思科等现有投资者也继续参与。Groq计划利用这笔资金扩大数据中心容量，包括今年和明年的新地点，并计划在年内宣布首个亚太地区的选址。",
+      "source": "财联社"
+    },
+    {
+      "title": "AI代码审查初创公司CodeRabbit获6000万美元B轮融资",
+      "url": "https://zhidx.com/p/504650.html",
+      "content": "AI代码审查初创公司CodeRabbit获6000万美元B轮融资，估值达5.5亿美元。本轮融资由Scale Venture Partners领投，英伟达企业风投等跟投。CodeRabbit通过云端与本地工具为开发团队提供自动化代码审查、安全检测和修复建议，帮助开发者提升代码质量与上线效率。",
+      "source": "智东西"
+    },
+    {
+      "title": "可调节思考时长，ChatGPT 网页端新增 GPT-5 Thinking 调整功能",
+      "url": "https://www.ithome.com/0/883/831.htm",
+      "content": "OpenAI宣布为ChatGPT网页版的Plus、Pro和Business用户推出“Thinking”调整功能，用户可自由选择GPT-5模型的思考时长。功能包括标准模式（默认）、扩展模式、轻量模式和重度模式，分别对应不同的思考深度和回复速度。用户设置将保持不变，直至手动更改。",
+      "source": "IT之家"
+    },
+    {
+      "title": "天工超级智能体海外版上线Vibe Coding Agent：AI Developer",
+      "url": "https://mp.weixin.qq.com/s/PyhfcKrpwaMCyD5MEl2_DQ",
+      "content": "昆仑万维集团宣布天工超级智能体（Skywork Super Agents）海外版上线全新Vibe Coding Agent——AI Developer。功能帮助非专业开发人员，如白领、营销人员、教师、学生等，通过自然语言与Agent交互，快速构建、部署和管理全栈Web应用程序。用户通过几轮交互即可得到专属网站，支持自动收发邮件、对接支付系统等后端能力，能自动部署上线。",
+      "source": "昆仑万维集团"
+    }
+  ]
+}
