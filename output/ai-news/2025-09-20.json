@@ -1,0 +1,42 @@
+{
+  "date": "2025-09-20",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "一个模型支持两种场景！Wan2.2-Animate开源发布",
+      "url": "https://mp.weixin.qq.com/s/kLmiZv6L-_RoIRUgeYfx9A",
+      "content": "阿里开源全新动作生成模型通义万相Wan2.2-Animate。可同时支持动作模仿和角色扮演两种模式，输入角色图片和参考视频，能将视频角色动作迁移到图片角色中，也可在保留原视频动作、表情及环境基础上替换角色。构建大规模人物视频数据集，实现单一模型兼容两种推理模式，精准复刻动作和表情，设计光照融合LoRA保证光照融合效果。",
+      "source": "通义万相Wan"
+    },
+    {
+      "title": "小米开源首个原生端到端语音大模型 Xiaomi-MiMo-Audio",
+      "url": "https://mp.weixin.qq.com/s/5TjOye3yLNAfVkOKRlb8rg",
+      "content": "小米开源首个原生端到端语音大模型Xiaomi-MiMo-Audio。模型基于创新预训练架构和上亿小时训练数据，首次在语音领域实现基于ICL的少样本泛化，展现出跨模态对齐能力。Xiaomi-MiMo-Audio在多项标准评测中超越同参数量开源模型及Google、OpenAI的闭源模型。",
+      "source": "Xiaomi MiMo"
+    },
+    {
+      "title": "2025H1大模型公有云服务，火山引擎占比49.2%中国第一",
+      "url": "https://mp.weixin.qq.com/s/ptDBa9siRIoWWLdNLrPGCw",
+      "content": "IDC发布《中国大模型公有云服务市场分析，2025H1》报告。报告显示，2025年上半年，中国公有云上大模型调用量达536.7万亿Tokens，火山引擎以49.2%的份额位居中国第一。相比2024年全年114万亿Tokens的市场规模，2025年上半年调用量增长近400%。火山引擎推出多个多模态大模型，助力AI应用落地。",
+      "source": "火山引擎"
+    },
+    {
+      "title": "Notion重磅发布AI智能体！自动生成会议笔记、竞品分析",
+      "url": "https://ai-bot.cn/sites/189.html",
+      "content": "Notion 发布了首个 AI Agent。能以用户的页面与数据库为上下文，自动生成会议纪要、竞品分析、反馈汇总等内容，能新建或更新页面、整合 Slack/邮箱/Google Drive 等外部信息。相比已有的 Notion AI，新 Agent 具备多步骤执行能力，可完成跨数百页、耗时 20 分钟的复杂任务。用户可为 Agent 设置 profile 来定义引用规则、风格与记忆信息。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "生数科技完成新一轮数亿元人民币规模的A轮融资",
+      "url": "https://mp.weixin.qq.com/s/HdmdHlAqXmLFp6R79zqArQ",
+      "content": "生数科技于2025年9月完成数亿元人民币A轮融资，由博华资本领投，百度战投等跟投。公司成立于2023年，核心团队由顶尖高校技术人才和产业界人才组成，专注于多模态大模型及应用的自主研发。新一轮融资将用于模型研发、技术创新和全球商业布局。",
+      "source": "生数ShengShu"
+    },
+    {
+      "title": "Chrome 迎来大更新，刚刚登顶 App Store 的 AI 可以直接用了",
+      "url": "https://www.ithome.com/0/884/044.htm",
+      "content": "谷歌浏览器Chrome迎来自2008年发布以来最大更新，引入Gemini模型，新增多项AI功能。用户可通过点击右上角Gemini图标，实现跨标签页对话，解决找不到标签页等问题。Gemini还能整合多标签页信息，如对比产品优缺点、生成旅行计划等，提升信息处理效率。此外，Chrome新增智能体能力，可自动完成网页操作，如预订餐厅、购物等。",
+      "source": "APPSO"
+    }
+  ]
+}
