@@ -1,0 +1,36 @@
+{
+  "date": "2025-09-24",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "智元机器人GO-1通用具身基座大模型全面开源！",
+      "url": "https://mp.weixin.qq.com/s/nbjABx-VwYdA2giwpA7PRQ",
+      "content": "智元机器人宣布其通用具身基座大模型GO-1正式在GitHub开源。是全球首个采用Vision-Language-Latent-Action（ViLLA）架构的具身智能模型，可降低技术门槛，推动行业发展。GO-1通过引入隐式动作标记，弥合了图像-文本输入与机器人执行动作之间的语义鸿沟，能更好地理解人类意图并转化为精确动作执行。",
+      "source": "智元机器人"
+    },
+    {
+      "title": "ChatExcel生成PPT功能上线，10秒，100M表格秒变数据报告PPT",
+      "url": "https://mp.weixin.qq.com/s/mX8-vD-gjDqhjvIYCJbCDA",
+      "content": "ChatExcel一键生成PPT功能正式上线，仅需10秒，即可将100M表格转化为数据报告PPT。可自动分析表格和聊天上下文，生成逻辑严谨、结论清晰的专业数据报告PPT，支持单元格级溯源，准确率高达100%。用户只需上传表格、对话并点击“生成PPT”按钮，即可获得排版精美、逻辑完整、可直接汇报的PPT。",
+      "source": "元空AIExcel"
+    },
+    {
+      "title": "英伟达1000亿美元投资OpenAI！一切从算力开始",
+      "url": "https://mp.weixin.qq.com/s/gK1ZSUiZ3hp4nLMmDnbT9Q",
+      "content": "英伟达与OpenAI宣布签署战略合作意向书，计划未来数年建设至少10GW的AI数据中心，部署数百万颗英伟达GPU。英伟达将按每1GW交付进度，逐步向OpenAI投资最高1000亿美元，换取非投票股权。这是AI行业迄今最大规模的资金与硬件捆绑交易，被视为全球算力格局的重塑。",
+      "source": "有新Newin"
+    },
+    {
+      "title": "DeepSeek-V3.1 现已更新至 DeepSeek-V3.1-Terminus 版本",
+      "url": "https://mp.weixin.qq.com/s/DGf1DjjIt_gnm5Ajkp98hA",
+      "content": "DeepSeek-V3.1版本已更新为DeepSeek-V3.1-Terminus。此次更新优化了语言一致性，缓解中英文混杂等问题，同时提升了Code Agent与Search Agent的表现，输出效果更稳定。新版本已在官方App、网页端、小程序及DeepSeek API同步更新。",
+      "source": "DeepSeek"
+    },
+    {
+      "title": "Qwen3-Omni 和 Qwen3-TTS 同时发布！",
+      "url": "https://ai-bot.cn/qwen3-tts-flash/",
+      "content": "Qwen团队发布Qwen3-TTS和Qwen3-Omni两款模型。Qwen3-TTS-Flash支持17种音色和10种语言，包括多国语言和中国方言，延迟低至97毫秒，性能卓越。Qwen3-Omni发布三个版本，包括全模态描述模型、标准版和思考版，支持119种文本语言交互、19种语音理解语言和10种语音生成语言。",
+      "source": "AI工具集"
+    }
+  ]
+}
