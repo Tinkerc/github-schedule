@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-25",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "6款模型和1个全新品牌，云栖大会一口气全发了！",
+      "url": "https://mp.weixin.qq.com/s/O-3bPs3tKXi0glYvFO9Myg",
+      "content": "云栖大会上通义大模型团队一口气发布了6款模型和1个全新品牌。Qwen MAX是万亿参数旗舰模型，Coding能力和工具调用能力登顶国际榜单。Qwen3-VL是视觉理解模型，支持2小时视频精确定位和多种语言OCR。Wan2.5-Preview是音画同步创意引擎，支持音画同步和多种图像生成编辑功能。通义百聆是企业级语音基座大模型，解决语音识别和合成中的痛点。",
+      "source": "通义大模型"
+    },
+    {
+      "title": "夸克全新AI图像与视频创作平台「造点AI」正式上线！",
+      "url": "https://mp.weixin.qq.com/s/a_cVjhCYmiSEkXCUNB6aSA",
+      "content": "夸克全新AI图像与视频创作平台「造点AI」正式上线。平台拥有AI生图、AI生视频、P图、编辑一体化等功能，搭载通义万相Wan2.5等多个模型，更懂中国元素，更具实用性。「AI生图」可生成真实亚洲人像、准确中文内容，驾驭多种艺术风格；「AI生视频」支持原生音画同步生成等，助力普通人实现导演梦。",
+      "source": "夸克"
+    },
+    {
+      "title": "阶跃AI的新朋友：桌面伙伴「小跃」开启邀测",
+      "url": "https://mp.weixin.qq.com/s/BHl59Z1BtxaFM9Pu_07fPw",
+      "content": "阶跃AI推出桌面伙伴“小跃”并开启邀测。小跃常驻桌面右上角，可同时执行多任务，连接本地操作系统，支持查看管理本地文件、访问互联网、执行复杂任务等。其“妙计”功能可复用操作步骤，“定时任务”可到点自动执行。小跃能自主完成任务规划与执行，可与本地文件交互，一键处理文件。",
+      "source": "阶跃星辰"
+    },
+    {
+      "title": "ProcessOn发布：Calicat AI ，人人都是产品专家！",
+      "url": "https://mp.weixin.qq.com/s/Iil2nzO5N3Ljf36UcK7lUA",
+      "content": "ProcessOn团队推出一站式产设研协作平台Calicat，整合原型设计、需求管理和任务管理功能，并融合AI能力。Calicat的AI设计助理可实现零门槛画高保真原型图，支持多种设计需求，如整套页面设计、组件模块设计、草图转原型、从网页提取设计等。",
+      "source": "ProcessOn"
+    }
+  ]
+}
