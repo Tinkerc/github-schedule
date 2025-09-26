@@ -1,0 +1,36 @@
+{
+  "date": "2025-09-26",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "生数科技全球发布Vidu Q2，推动“视频生成”走向“演技生成”时代",
+      "url": "https://mp.weixin.qq.com/s/P3IU_PtUWaEVPk5muPSt8g",
+      "content": "生数科技发布新一代图生视频大模型Vidu Q2。模型以“Vidu Q2 看AI演戏”为主题，核心在于“细微表情生成”，在表情变化、运镜、生成速度及语义理解等方面取得突破，实现了从“生成视频”到“生成演技”的跨越。Vidu Q2能够生成复杂表情变化的文戏、多人打斗的武戏及炫酷特效场景，推动AI视频生成从“形似”到“神似”。",
+      "source": "生数ShengShu"
+    },
+    {
+      "title": "智能编程助手 Neovate Code 正式开源",
+      "url": "https://mp.weixin.qq.com/s/-aCu8sI12x8fz5QTIwf3zg",
+      "content": "蚂蚁集团支付宝体验技术部开源智能编程助手Neovate Code。工具可深度理解代码库，遵循编码习惯，实现功能开发、Bug修复和代码重构等功能。支持对话式开发、自定义规则文件、会话继续与恢复等，兼容OpenAI、Anthropic、Google等模型和提供商。",
+      "source": "蚂蚁开源"
+    },
+    {
+      "title": "Meta FAIR推出了代码世界模型：CWM（Code World Model）",
+      "url": "https://mp.weixin.qq.com/s/njwrJotkrNvXoCfgJZ44kA",
+      "content": "Meta FAIR推出全球首个代码世界模型CWM。是一个参数量为32B、上下文大小达131k token的密集语言模型，专为代码生成和推理打造。CWM不仅能生成代码、理解语义，还能模拟代码运行过程中的变量状态变化与环境反馈，具备接近人类程序员的思考能力。",
+      "source": "量子位"
+    },
+    {
+      "title": "英伟达开源 Audio2Face 模型：AI 实时生成面部动画",
+      "url": "https://www.ithome.com/0/885/570.htm",
+      "content": "英伟达开源生成式AI面部动画模型Audio2Face，涵盖模型、SDK及完整训练框架，加速游戏和3D应用中AI智能虚拟角色开发。通过分析音频特征，实时驱动虚拟角色面部动作，生成精准口型同步和自然情感表情，广泛应用于游戏、影视制作等领域。",
+      "source": "IT之家"
+    },
+    {
+      "title": "阿里云推出创业者的AI数字员工“万小智”",
+      "url": "https://mp.weixin.qq.com/s/VZfxEBMQdNiaie6NqerqmA",
+      "content": "阿里云在云栖大会上推出面向中小微企业及个人创业者的AI数字员工“万小智”。集成AI开发、设计、客服与内容创作能力，帮助企业解决从品牌官网搭建到持续运营的问题。万小智依托通义大模型，具备四大核心功能：通过对话搭建官网、生成设计师级视觉效果、提供7×24小时智能客服以及生成SEO优化的内容。",
+      "source": "阿里云万网"
+    }
+  ]
+}
