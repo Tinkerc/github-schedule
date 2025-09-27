@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-27",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "全球首个动漫制作神器“萌动AI”国内登场，免费不限次",
+      "url": "https://ai-bot.cn/sites/63694.html",
+      "content": "全球首款二次元/动漫专用AI创作工具“萌动AI”在国内上线。用户可通过官网免费不限次数使用文字/图片、首尾帧及视频续写功能创作优质动漫图片和视频。其生图板块支持文生图和图生图，有多种风格可选，人物一致性编辑效果好。视频生成功能可将图片转为视频，并进行续写和首尾帧生成。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "AI陪伴硬件公司珞博智能（Robopoet）宣布完成数千万元天使+轮融资",
+      "url": "https://mp.weixin.qq.com/s/QnKNxxKzkmb6eWEDc90UCQ",
+      "content": "AI陪伴硬件公司珞博智能（Robopoet）完成数千万元天使+轮融资，由红杉中国领投，金沙江创投、零一创投跟投。首款产品“Fuzozo芙崽”定位AI电子宠物，凭借可爱外观与好玩的AI体验，深受20-30岁一线女性喜爱，本轮融资后，公司将强化AI能力，拓展销售渠道，构建品牌认知及IP世界观，并计划推出联名款新品。",
+      "source": "Robopoet珞博智能"
+    },
+    {
+      "title": "OpenAI推出ChatGPT Pulse，奥特曼：这是我最喜欢的功能",
+      "url": "https://mp.weixin.qq.com/s/fId7hhg1uEuc1DAHn0Rw0w",
+      "content": "OpenAI推出ChatGPT Pulse预览版，目前仅限Pro用户使用，未来将逐步扩展。该功能会在用户睡觉时根据其聊天记录、反馈及连接应用进行研究，第二天以主题卡片形式推送个性化内容，如旅游攻略、育儿贴士等。它旨在成为AI版私人助理和个性化资讯流，且不会让用户沉迷刷屏。",
+      "source": "APPSO"
+    },
+    {
+      "title": "Kimi 全新 Agent 模式 OK Computer 启动测试",
+      "url": "https://www.ithome.com/0/885/750.htm",
+      "content": "月之暗面的Kimi发布全新Agent模式OK Computer并开启灰度测试。模式延续“模型即Agent”理念，通过端到端训练Kimi K2模型，提升智能体及工具调用能力。用户下达需求后，Kimi可操作虚拟电脑，完成多功能网站开发、海量数据分析、图片视频生成及高品质PPT制作等复杂任务。",
+      "source": "IT之家"
+    }
+  ]
+}
