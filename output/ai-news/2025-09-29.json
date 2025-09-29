@@ -1,0 +1,24 @@
+{
+  "date": "2025-09-29",
+  "weekday": "周日",
+  "items": [
+    {
+      "title": "混元图像3.0正式发布：开源，免费使用",
+      "url": "https://mp.weixin.qq.com/s/rxpUU-oqmo-kKPVpFbM90Q",
+      "content": "腾讯混元图像3.0正式发布并开源。模型是首个工业级原生多模态生图模型，参数规模达800亿，是目前测评效果最好、参数量最大的开源生图模型。混元图像3.0具备强大的语义理解能力、极致美学质感，可生成高质感图片，并能解析复杂语义，生成长文本和小文字。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "Qoder CLI 开启邀测：把 Qoder 的智能带到每一个终端",
+      "url": "https://mp.weixin.qq.com/s/9-ZZH1ySfjveMxVjlXKzfA",
+      "content": "Qoder团队宣布推出Qoder CLI，开启邀测。Qoder CLI是一款轻量级、AI原生的命令行工具，为开发者提供更高效、更智能的编码体验。支持自然语言交互，可生成代码、调试、重构、自动化任务等，与Qoder IDE深度集成，同时支持无头模式，便于CI/CD流程调用。",
+      "source": "Qoder"
+    },
+    {
+      "title": "腾讯混元3D开源+2：瞄准游戏建模、3D 打印痛点",
+      "url": "https://mp.weixin.qq.com/s/7wfsQ1qTOyTMQrm-93QDfg",
+      "content": "腾讯混元发布并开源3D生成模型混元3D-Omni和混元3D-Part。混元3D-Omni是业界首个统一支持多条件控制的3D生成框架，突破图像输入局限，支持多种模态输入，可精细控制物体几何结构等。混元3D-Part实现灵活可控的部件拆分和生成，让3D模型像乐高一样可拆卸，便于游戏制作、3D打印等。",
+      "source": "腾讯混元"
+    }
+  ]
+}
