@@ -1,0 +1,24 @@
+{
+  "date": "2025-09-30",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "DeepSeek-V3.2-Exp 发布，训练推理提效，API 同步降价",
+      "url": "https://mp.weixin.qq.com/s/6hKi5F_S2zQ4g6SyF0UNow",
+      "content": "DeepSeek团队发布实验性模型DeepSeek-V3.2-Exp。模型在V3.1-Terminus基础上引入DeepSeek Sparse Attention（DSA）机制，大幅提升长文本训练和推理效率，性能与V3.1-Terminus持平。目前，DeepSeek-V3.2-Exp已更新至官方App、网页端和小程序，API价格大幅下降，调用成本降低50%以上。",
+      "source": "DeepSeek"
+    },
+    {
+      "title": "乐享科技完成2亿元“天使++”轮融资，天使轮融资总额近5亿元",
+      "url": "https://mp.weixin.qq.com/s/11Ir5fEiBNZuFFb4Zs_ueQ",
+      "content": "苏州乐享智能科技有限公司宣布完成2亿元“天使++”轮融资，是其9个月内第三轮融资，天使轮总金额近5亿元。本轮融资由钟鼎资本领投，IDG资本加注，资金将用于核心零部件自研、机器人本体与运动控制技术研发等。",
+      "source": "乐享科技JoyIn"
+    },
+    {
+      "title": "苹果自研多模态 AI 模型 Manzano：兼具理解与生成能力",
+      "url": "https://www.ithome.com/0/886/285.htm",
+      "content": "苹果正在研发名为Manzano的多模态AI模型，兼具图像理解和生成能力，目标是解决现有模型在处理图像任务时的取舍问题。Manzano采用混合图像分词器，通过共享编码器输出连续标记和离散标记，减少任务冲突。其架构包括混合分词器、统一语言模型和独立图像解码器，参数规模从9亿到35.2亿不等，支持多种分辨率。",
+      "source": "IT之家"
+    }
+  ]
+}
