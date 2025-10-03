@@ -1,0 +1,36 @@
+{
+  "date": "2025-10-03",
+  "weekday": "周三 9月30",
+  "items": [
+    {
+      "title": "OpenAI 正式发布 Sora 2 ，称“视频生成进入ChatGPT时刻”",
+      "url": "https://ai-bot.cn/sora-2/",
+      "content": "OpenAI 正式发布 Sora 2 ，称“视频生成进入ChatGPT时刻”。新模型可一次性生成20秒1080p音视频同步短片，物理真实度与多镜头叙事大幅提升；配套iOS社交应用“Sora APP”同步上线，支持AI虚拟形象“客串”及社区混剪，仅限邀美国、加拿大用户试用，API与安卓版将随后推出。附：Sora 2邀请码",
+      "source": "AI工具集"
+    },
+    {
+      "title": "智谱旗舰模型GLM-4.6上线，代码能力全面进阶",
+      "url": "https://mp.weixin.qq.com/s/0zJBg5hBbHLgGsoHjXADiQ",
+      "content": "智谱清言发布新一代大模型GLM-4.6，代码能力全面升级，对齐Claude Sonnet 4，成为国内最强Coding模型。模型在真实编程任务中表现优异，平均token消耗较上一代降低30%。上下文长度提升至200K，推理、搜索、写作能力显著增强。",
+      "source": "智谱"
+    },
+    {
+      "title": "Claude 4.5 发布，史上最强AI编程模型诞生",
+      "url": "https://mp.weixin.qq.com/s/Uc3_I3IXHqTICu0u5ff_Qw",
+      "content": "Anthropic发布Claude Sonnet 4.5，AI模型在编程能力上取得重大突破。在SWE-bench Verified测试中，Claude Sonnet 4.5登顶业界第一，能连续工作超30小时，可一次性写出约1.1万行代码。其在OSWorld测试中拿下61.4%的成绩，同样位居第一。Claude Sonnet 4.5还增加了“检查点”功能，可随时保存进度，终端界面翻新，并发布了原生VS Code插件。",
+      "source": "APPSO"
+    },
+    {
+      "title": "蚂蚁百灵发布Ring-1T-preview，深思不必久等",
+      "url": "https://mp.weixin.qq.com/s/SgXKWf1ZygLiK4GLkSkakg",
+      "content": "Ling Team发布万亿规模语言基座模型Ring-1T-preview。模型在AIME 2025等竞赛中表现优异，接近GPT-5水平。在IMO 2025测试中，Ring-1T展现出强大的推理能力。为探索其上限，团队提前开源Ring-1T-preview，模型在20T语料上预训练，结合强化学习训练。",
+      "source": "百灵大模型"
+    },
+    {
+      "title": "OpenAI 推出“即时结账”功能，ChatGPT 变身购物支付一体机",
+      "url": "https://www.ithome.com/0/886/769.htm",
+      "content": "OpenAI宣布推出“即时结账”功能，用户可在ChatGPT内直接购物。目前，美国地区的ChatGPT用户可在对话界面内完成Etsy平台购物及Shopify平台下单。该功能已面向ChatGPT Pro、Plus付费用户及登录状态下的免费用户开放，现阶段支持从美国本土Etsy卖家处购物，超100万家Shopify商户将“很快”支持该功能。",
+      "source": "IT之家"
+    }
+  ]
+}
