@@ -1,0 +1,12 @@
+{
+  "date": "2025-10-09",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "OpenAI开发者大会重磅发布：AgentKit、Codex正式版、Sora 2 API",
+      "url": "https://mp.weixin.qq.com/s/d9-xJiuuxvLyyE52cL6Jog",
+      "content": "OpenAI开发者大会发布多项重要产品：包括AgentKit智能体开发工具（含可视化构建器、连接器注册表和ChatKit）、Codex正式版（集成Slack并提升十倍日活）、ChatGPT内置应用及开源Apps SDK。同时推出实时音频gpt-realtime-mini、图像生成gpt-image-1-mini、视频生成Sora 2 API以及GPT-5 pro API。所有功能均纳入标准API计费体系。",
+      "source": "机器之心"
+    }
+  ]
+}
