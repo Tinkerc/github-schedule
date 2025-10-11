@@ -1,0 +1,36 @@
+{
+  "date": "2025-10-11",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "吴恩达官宣新课《Agentic AI》，手把手教你构建AI智能体",
+      "url": "https://ai-bot.cn/ai-tutorials-2025101001/",
+      "content": "吴恩达宣布推出新课程《Agentic AI》，教授构建AI智能体的技能。课程已在deeplearning.ai上线。学习者将掌握反思、工具使用、规划和多智能体协作等四种关键智能体设计模式。课程强调规范化评估和错误分析流程的重要性，帮助学员高效改进智能体工作流。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Sand.AI 团队推出的 AI 视频生成平台Gaga，国产的 Sora2",
+      "url": "https://ai-bot.cn/gaga/",
+      "content": "国产AI视频生成产品Gaga上线。Gaga由Sand.ai团队开发，专注于对话场景的视频生成，用户上传一张照片和一段台词，3分钟内即可生成包含声音、表情、情绪和背景音的视频。与Sora2相比，Gaga专精于胸部以上的对话演绎，成本不到Sora2的1/20。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Figure AI 发布最新人形机器人——Figure 03",
+      "url": "https://mp.weixin.qq.com/s/NA-49PlmoadYXW1VVAQD4A",
+      "content": "Figure AI发布第三代人形机器人Figure 03，号称全球最强大。机器人配备全新传感系统和手部结构，搭载自研“视觉 – 语言 – 动作”AI系统Helix，能思考而非仅执行指令。以家庭场景优先，采用柔性材质、无线充电等，零部件制造成本降低90%，目标是帮用户做家务。",
+      "source": "APPSO"
+    },
+    {
+      "title": "镜识科技获数千万元融资，做出全球首款双形态家庭机器人",
+      "url": "https://36kr.com/p/3471946984724102",
+      "content": "镜识科技完成数千万元A轮融资，由常春藤资本独家投资。公司成立于2024年，专注于具身智能技术的研发与应用。其研发的“黑豹2.0”四足机器人以10.9米/秒的速度打破波士顿动力Wildcat尘封十余年的纪录。",
+      "source": "36氪"
+    },
+    {
+      "title": "谷歌加入CUA战场，发布Gemini 2.5 Computer Use模型",
+      "url": "https://mp.weixin.qq.com/s/7j9hC317kcixXz2qiPWVBQ",
+      "content": "谷歌DeepMind发布Gemini 2.5 Computer Use模型，可让AI直接控制浏览器，执行点击、滚动、输入等操作。模型基于Gemini 2.5，与OpenAI的CUA类似，通过视觉理解和推理能力帮助用户完成任务。在基准测试中，其性能达到SOTA水平，速度优于其他模型。",
+      "source": "机器之心"
+    }
+  ]
+}
