@@ -1,0 +1,36 @@
+{
+  "date": "2025-10-15",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "Karpathy最新开源项目“nanochat”爆火，一夜近5k star",
+      "url": "https://ai-bot.cn/nanochat/",
+      "content": "前特斯拉AI总监Karpathy推出开源项目“nanochat”，仅用约8000行代码复现ChatGPT全流程。项目在GitHub上线不到12小时，星标数已破4.2k。用户只需一台GPU、约4小时和100美元成本，就能训练出一个能写诗、回答基础问题的“小型ChatGPT”。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "蚂蚁正式发布万亿思考模型Ring-1T，发布即开源",
+      "url": "https://mp.weixin.qq.com/s/S4rS5fYGrq62SkYPB2xgDw",
+      "content": "百灵团队正式发布万亿思考模型Ring-1T，宣布开源。模型基于Ling 2.0架构，具备1T总参数和50B激活参数，支持最高128K上下文窗口。通过大规模可验证奖励强化学习（RLVR）训练，Ring-1T在数学竞赛、代码生成、逻辑推理等高难度任务上表现优异，达到开源领先水平。",
+      "source": "百灵大模型"
+    },
+    {
+      "title": "微软推出的首款自研图像生成模型MAI-Image-1",
+      "url": "https://ai-bot.cn/mai-image-1/",
+      "content": "微软宣布推出首款完全自主研发的图像生成模型MAI-Image-1，模型在LMArena的文本到图像模型排行榜上首次进入前十。微软AI致力于为所有人创造AI，MAI-Image-1为创作者提供真正的价值，避免重复或泛泛的输出。专注于生成逼真的图像，如光影效果和风景，并在速度和质量上表现出色。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "OpenAI再出手！与博通双方达成AI芯片合作",
+      "url": "https://mp.weixin.qq.com/s/LaCk4eEmfqgGbTQEpk43yg",
+      "content": "OpenAI与定制ASIC厂商博通宣布合作，共同开发10吉瓦的定制人工智能加速器。博通将从2026年下半年开始部署相关系统，并于2029年年底完成。受此消息影响，博通盘中股价涨超10%。",
+      "source": "第一财经"
+    },
+    {
+      "title": "腾讯优图推出高性能通用文本嵌入模型Youtu-Embedding",
+      "url": "https://mp.weixin.qq.com/s/5iZEv9TewfQrkEyebbhq-g",
+      "content": "腾讯优图实验室开源了高性能通用文本嵌入模型Youtu-Embedding。模型面向企业级应用，可胜任文本检索、意图理解等六大任务，在中文文本嵌入评测基准CMTEB上以77.46分登顶。采用“LLM基础预训练→弱监督对齐→协同-判别式微调”的三阶段训练，结合创新微调框架与精细化数据工程，解决了多任务学习难题。",
+      "source": "腾讯开源"
+    }
+  ]
+}
