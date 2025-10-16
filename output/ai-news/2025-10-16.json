@@ -1,0 +1,18 @@
+{
+  "date": "2025-10-16",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "仅4B！阿里千问最强视觉模型新开源",
+      "url": "https://mp.weixin.qq.com/s/teLFWA3jw14EhR-eR-OG5A",
+      "content": "阿里通义千问团队推出Qwen3-VL系列4B与8B版本，提供Instruct和Thinking版本。新版本资源门槛低，核心能力不减配，在多模态性能上表现优异，多个基准测试中超越谷歌Gemini 2.5 Flash Lite、OpenAI GPT-5 Nano等同级别顶尖模型，甚至媲美阿里此前旗舰模型Qwen2.5-VL-72B。",
+      "source": "智东西"
+    },
+    {
+      "title": "谷歌 NotebookLM 视频概览支持 Nano Banana",
+      "url": "https://ai-bot.cn/sites/21562.html",
+      "content": "NotebookLM视频概览功能发布更新升级，新增了六种由 Nano Banana 提供配图支持的视觉风格：Watercolor、Papercraft、Anime、Whiteboard、Retro Print 和 Heritage。更新彻底告别了以往固定主体动态颜色的限制，效果提升明细。目前仅支持 Pro 用户。",
+      "source": "AI工具集"
+    }
+  ]
+}
