@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-20",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "李飞飞世界模型新成果RTFM 「Real-Time Frame Model」震撼问世",
+      "url": "https://mp.weixin.qq.com/s/heMBDj1zReeZkaF8n3Rnsg",
+      "content": "斯坦福大学教授李飞飞的创业公司World Labs推出了实时生成式世界模型RTFM。模型可在单个H100 GPU上运行，输入2D图像后，能生成不同视角下的新2D图像，实现3D一致性和持久性。RTFM基于大规模视频数据训练，无需显式构建3D表示，而是通过端到端学习模拟3D几何、反射等特征。",
+      "source": "机器之心"
+    },
+    {
+      "title": "美团开源 LongCat-Audio-Codec，高效语音编解码器助力实时交互落地",
+      "url": "https://mp.weixin.qq.com/s/POAWoN8lpnfTF8oF4C3hqw",
+      "content": "美团LongCat团队开源了语音编解码方案LongCat-Audio-Codec。专为语音大语言模型（Speech LLM）设计，通过语义与声学双Token并行提取机制，兼顾语音的语义和声学特征，解决了传统方案中语义与声学信息难以平衡的问题。低延迟流式解码器支持实时交互，满足车载语音助手、实时翻译等场景的需求。",
+      "source": "龙猫LongCat"
+    },
+    {
+      "title": "一键开发完整 Web 应用：Manus 1.5 正式发布，速度提升近四倍",
+      "url": "https://www.ithome.com/0/890/078.htm",
+      "content": "Manus宣布推出Manus 1.5版本。在任务执行速度、可靠性和输出质量方面显著提升，任务平均完成时间缩短至不足4分钟，速度提升近四倍。Manus 1.5提供两种模型：Manus-1.5适用于高复杂度任务，Manus-1.5-Lite则针对成本效率优化。新版本具备全栈Web应用开发功能，用户可通过对话完成从开发到部署的全过程。",
+      "source": "IT之家"
+    },
+    {
+      "title": "爱诗科技完成B+轮1亿元融资，ARR突破4000万美金",
+      "url": "https://mp.weixin.qq.com/s/D2SJ5_K4VIQiX3UN9kdMbg",
+      "content": "AI视频企业爱诗科技宣布完成1亿元人民币B+轮融资，由复星锐正、同创伟业、顺禧基金等共同投资。爱诗科技旗下产品PixVerse与拍我AI服务于C端大众与专业创作者，用户规模已突破一亿，ARR超过4000万美元，MAU超过1600万。",
+      "source": "爱诗科技AIsphere"
+    }
+  ]
+}
