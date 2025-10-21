@@ -1,0 +1,24 @@
+{
+  "date": "2025-10-21",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "DeepSeek 再开源：发布 3B MoE OCR 模型DeepSeek-OCR",
+      "url": "https://ai-bot.cn/deepseek-ocr/",
+      "content": "DeepSeek推出全新视觉文本压缩模型DeepSeek-OCR。模型参数仅3B，采用混合专家架构，视觉token数量减少20倍，压缩比达20倍，20个节点每天可处理3300万页数据。在Fox benchmark测试中，各文本长度区间准确率超85%。支持多种分辨率配置、多语言处理、复杂图表解析等多模态能力，可在多轮对话中实现10倍压缩效率。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "宇树发布180cm仿生人形机器人！会跳芭蕾能打功夫",
+      "url": "https://mp.weixin.qq.com/s/8zKSgAExF9iDyDIMM0Y0ow",
+      "content": "宇树发布第四款人形机器人H2，高180cm，重70kg。相比前代H1，H2在运动流畅性和仿生特征上有显著提升。H2拥有31个关节，分布在双臂、双腿和躯干，能完成芭蕾舞、中国武术等高难度动作。还被赋予了类似人类的面部特征，外观和运动姿态更接近人类。",
+      "source": "APPSO"
+    },
+    {
+      "title": "全球榜首！百度最新开源模型PaddleOCR-VL",
+      "url": "https://mp.weixin.qq.com/s/FsjEi0Cm7J43vARI9CNpDg",
+      "content": "百度自研多模态文档解析模型PaddleOCR-VL发布仅16小时就登顶HuggingFace Trending全球第一。模型参数仅0.9B，轻量高效，能精准识别文本、手写汉字、表格等多种复杂元素，支持109种语言。",
+      "source": "百度AI"
+    }
+  ]
+}
