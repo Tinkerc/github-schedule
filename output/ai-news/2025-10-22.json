@@ -1,0 +1,42 @@
+{
+  "date": "2025-10-22",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "Vidu Q2 参考生视频全球上线，高一致性，速度更快，价格更优惠",
+      "url": "https://mp.weixin.qq.com/s/lOzceGZYzTeti20J-NoTMA",
+      "content": "Vidu Q2 参考生视频全球上线，本次升级聚焦于高一致性，速度更快，价格更优惠三大核心，满足专业及半专业创作者日益增长的高想象力内容创作需求。目前Vidu Q2参考生视频已在全球同步上线，用户可以在Vidu网页端，或各大应用商店搜索Vidu AI APP，体验最新功能。",
+      "source": "Vidu AI"
+    },
+    {
+      "title": "Anthropic正式上线网页版Claude Code",
+      "url": "https://ai-bot.cn/claude-code-web/",
+      "content": "Anthropic发布Claude Code 网页版 ，用户无需部署即可在浏览器中使用其代码生成功能。核心功能包括连接 GitHub 仓库、自动写代码、并行处理多个任务、实时查看进度以及完成后自动创建 PR。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "CodeBuddy IDE 1.0 正式版焕新发布！支持Web Fetch、自定义指令",
+      "url": "https://mp.weixin.qq.com/s/gDq2cPs5enmXCNIJvRUuFQ",
+      "content": "CodeBuddy IDE 1.0 正式版发布，国际版全面支持 GPT-5-Codex，新增自定义指令、Web Fetch 实时获取网络信息等功能，MCP 市场正式开放，支持完整 DiffView 功能。",
+      "source": "腾讯云代码助手CodeBuddy"
+    },
+    {
+      "title": "5000元不限席位，Cherry Studio 企业版击穿底价，让每家公司都用上专属AI",
+      "url": "https://mp.weixin.qq.com/s/85rCpAsea0GKBwnqIB4Cqw",
+      "content": "Cherry Studio 企业 Express 版正式发布，以 5000 元买断价、不限员工席位，为企业提供一站式 AI 落地解决方案。该版本内置顶级闭源与开源模型，无需申请 API Key，解决网络问题，简化计费流程，支持私有化和云应用部署。",
+      "source": "Cherry Studio-千慧科技"
+    },
+    {
+      "title": "智谱推出GLM Coding Plan企业版：以最强Agentic Coding赋能千行百业",
+      "url": "https://mp.weixin.qq.com/s/UmwhEkP2lSQuSbYwwKCkYw",
+      "content": "智谱发布 GLM Coding Plan 企业版，基于 GLM-4.6 模型，为企业提供全面智能编程解决方案。产品在国际 API 平台 OpenRouter 趋势榜中名列第一，融合多模态理解、联网搜索及智能编排能力，提供从代码生成到全链条开发协同的一站式服务。企业版具备高用量、低成本、高性能和高安全性，无缝适配 10 余款主流编程工具，支持灵活成员管理和使用数据分析。",
+      "source": "智谱"
+    },
+    {
+      "title": "美团发布面向复杂问题的大模型智能体评测基准——VitaBench",
+      "url": "https://mp.weixin.qq.com/s/uOJ5ei40RhncCx7c_v0JlA",
+      "content": "美团 LongCat 团队发布 VitaBench，是面向复杂问题的大模型智能体评测基准。以外卖点餐、餐厅就餐、旅游出行三大生活场景为载体，构建了包含 66 个工具的交互式评测环境。VitaBench 从深度推理、工具使用与用户交互三大维度量化任务复杂性，通过真实用户模拟器和原子化评估准则实现细粒度评估。",
+      "source": "量子位"
+    }
+  ]
+}
