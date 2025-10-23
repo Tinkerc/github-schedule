@@ -1,0 +1,42 @@
+{
+  "date": "2025-10-23",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "OpenAI首款ChatGPT Atlas浏览器发布！免费下载使用",
+      "url": "https://mp.weixin.qq.com/s/ZKpW5eIGUX4yBbO6cyr5zA",
+      "content": "OpenAI发布首款AI原生浏览器ChatGPT Atlas。浏览器基于谷歌开源的Chromium内核打造，整合了ChatGPT对话能力，每个标签页都能直接聊天。具备浏览器上下文助手能力，可直接在浏览页面提问；内置记忆功能，记录用户浏览关键内容；“Cursor Chat”功能可选中文本进行编辑润色；Agent模式能完成网页操作，如填写表单、预订等。",
+      "source": "量子位"
+    },
+    {
+      "title": "混元世界模型1.1开源：支持多视图及视频输入，单卡部署，秒级生成",
+      "url": "https://mp.weixin.qq.com/s/V1TToEEltM1tisp_P4b2eg",
+      "content": "腾讯发布并开源了混元世界模型1.1（HunyuanWorld-Mirror）。模型新增支持多视图及视频输入，可在单张显卡上部署，秒级生成3D世界。突破了1.0版本仅支持文本或单图输入的局限，首次实现了多模态先验注入和多任务统一输出的端到端3D重建，支持点云、深度图、相机参数等多种3D几何预测，性能大幅领先现有方法。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "AipexBase，中国首个AI原生后端基础设施正式开源！",
+      "url": "https://mp.weixin.qq.com/s/wUhmDm_wiTE5Ue5Pci0thw",
+      "content": "北京跨赴科技（KuaFuAI）正式开源中国首个AI原生后端即服务（Backend-as-a-Service）平台AipexBase。让开发者“不写后端，也能拥有完整后端”，所有后端能力如数据存储、鉴权等均被自动封装，开发者可通过前端SDK或MCP协议一键调用。AipexBase原生兼容MCP，统一上下文与数据层，支持码上飞、Cursor等AI产品接入，深度适配中国开发生态，兼容飞书、钉钉、微信等生态接入。",
+      "source": "CodeFlying码上飞"
+    },
+    {
+      "title": "2B、32B！更适合开发者体质的Qwen3-VL来啦",
+      "url": "https://mp.weixin.qq.com/s/LQvyHb2ylebu37OxmMiwdg",
+      "content": "Qwen3-VL家族新增2B与32B两个密集模型尺寸，从轻量级到甜品级，覆盖视觉语言理解场景。两种版本可选：Instruct适合对话与工具调用，Thinking强化长链推理与复杂视觉理解。Qwen3-VL-32B在多个领域表现优于GPT-5 mini等，仅用32B参数匹敌235B模型。Qwen3-VL-2B小体量但表现惊人，可在极限端侧设备上运行。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "Anthropic 公司推出Claude 桌面版",
+      "url": "https://ai-bot.cn/claude-desktop/",
+      "content": "Claude桌面版正式发布，支持Mac和Windows系统。版本有四项核心功能：全局快捷键（Mac双击Option唤醒）、分享工作（截图、窗口分享、拖拽文件）、语音输入（按Caps Lock说话）和连接工具（可调用代码编辑器、本地文件、数据库）。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "灵巧手公司星际光年完成Pre-A轮融资",
+      "url": "https://mp.weixin.qq.com/s/XdZwCYtsB9pfmtw1VPmHkQ",
+      "content": "深圳星际光年科技有限公司发布新品五指灵巧手Pantheon 22，并完成Pre-A轮融资。本轮融资由赛纳资本、普华资本领投，柯熙创投跟投，深渡资本担任财务顾问。资金将主要用于灵巧操作底层技术攻关、灵巧手操作系统（小脑模型）研发及核心团队扩张。",
+      "source": "智能涌现"
+    }
+  ]
+}
