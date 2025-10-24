@@ -1,0 +1,18 @@
+{
+  "date": "2025-10-24",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "谷歌官方学习平台 Google Skills 来了，免费还实用",
+      "url": "https://ai-bot.cn/google-skills/",
+      "content": "谷歌推出AI技能学习平台Google Skills，整合Google Cloud、DeepMind等团队资源，提供近3000门课程、实验室及认证，覆盖AI基础、生成式AI、数据分析等领域。平台面向全职场人群，零门槛接入，每月免费提供35个学习点数用于实操实验。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "豆包编程升级，新增创作模式，让创意轻松实现",
+      "url": "https://mp.weixin.qq.com/s/hl4RnKZ4qzpd3jJArVRLAg",
+      "content": "豆包编程完成重大升级，让零基础用户也能轻松开发网站和应用。此次升级引入多模态输入功能，支持文字、图片、文件、画板等多种输入形式，AI可自动理解并补全逻辑。新增Agent多工具协作系统，自动联网搜索素材、配图、检查代码，确保生成内容的准确性和可用性。",
+      "source": "豆包"
+    }
+  ]
+}
