@@ -1,0 +1,36 @@
+{
+  "date": "2025-10-25",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "OpenAI收购Sky，面向Mac的自然语言交互界面",
+      "url": "https://mp.weixin.qq.com/s/ytYLk41hGpA6IwcHP3Q9mg",
+      "content": "OpenAI收购了SAI公司，该公司开发了Sky——一款面向Mac的自然语言交互界面。OpenAI将把Sky技术整合进ChatGPT，并吸纳SAI约12人的团队。SAI的三位联合创始人均出身苹果，其CEO和CTO曾创立被苹果收购的Workflow，演化为如今的Shortcuts技术。此次收购不仅是看中Sky的技术，更是为ChatGPT入局操作系统铺路。",
+      "source": "量子位"
+    },
+    {
+      "title": "支付宝推出多模态AI应用“灵光”",
+      "url": "https://ai-bot.cn/app/65239.html?menu-id=66&mininav-id=10334",
+      "content": "支付宝推出多模态AI应用“灵光”，已上线腾讯应用宝、vivo应用商店等平台并开启邀约内测。其核心功能AGI相机可通过镜头识别场景内容，实现拍摄即问、实时理解与回答，强调认知层理解，具备强场景分析与多模态推理能力。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "蚂蚁集团投的灵巧手公司，又融了数亿元",
+      "url": "https://zhidx.com/p/511092.html",
+      "content": "灵心巧手宣布完成数亿元A轮融资，由京国瑞管理公司和博佳资本领投，老股东蚂蚁集团继续加注。本轮融资将助力其加速量产能力升级、加快全场景技术研发与全球化布局。",
+      "source": "智东西"
+    },
+    {
+      "title": "谷歌官方学习平台 Google Skills 来了，免费还实用",
+      "url": "https://ai-bot.cn/google-skills/",
+      "content": "谷歌推出AI技能学习平台Google Skills，整合Google Cloud、DeepMind等团队资源，提供近3000门课程、实验室及认证，覆盖AI基础、生成式AI、数据分析等领域。平台面向全职场人群，零门槛接入，每月免费提供35个学习点数用于实操实验。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "豆包编程升级，新增创作模式，让创意轻松实现",
+      "url": "https://mp.weixin.qq.com/s/hl4RnKZ4qzpd3jJArVRLAg",
+      "content": "豆包编程完成重大升级，让零基础用户也能轻松开发网站和应用。此次升级引入多模态输入功能，支持文字、图片、文件、画板等多种输入形式，AI可自动理解并补全逻辑。新增Agent多工具协作系统，自动联网搜索素材、配图、检查代码，确保生成内容的准确性和可用性。",
+      "source": "豆包"
+    }
+  ]
+}
