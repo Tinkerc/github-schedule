@@ -1,0 +1,24 @@
+{
+  "date": "2025-10-27",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "LongCat-Video 视频生成模型正式发布，探索世界模型的第一步",
+      "url": "https://mp.weixin.qq.com/s/W2T7P825mfIDwuFIsd0EgA?scene=1&click_id=17",
+      "content": "美团开源了 LongCat-Video 的通用视频生成模型，参数量达 13.6B。模型能实现文生视频、图生视频以及视频续写等功能，能在几分钟内生成 720p、30fps 的长视频，画面连贯、人物稳定、物理逻辑合理。",
+      "source": "龙猫LongCat"
+    },
+    {
+      "title": "月之暗面开源 Agentic Coding 工具：Kimi CLI",
+      "url": "https://mp.weixin.qq.com/s/uC9bZX8fPwNj1mYALdv5yQ",
+      "content": "月之暗面科技有限公司推出开源 Agentic Coding 工具 Kimi CLI 技术预览版，采用 Shell-like UI，支持 ACP 协议。可在 GitHub 交流反馈。",
+      "source": "月之暗面Kimi"
+    },
+    {
+      "title": "MiniMax发布最新大语言模型MiniMax M2",
+      "url": "https://ai-bot.cn/minimax-m2/",
+      "content": "MiniMax公司发布最新大语言模型MiniMax M2。目前基于M2的agent免费使用，支持开发代码、研究、制作PPT等多种功能，还可接入日常编程工具。从测试数据来看，其coding能力接近Claude 4.5 Sonnet，工具使用流畅。用户可通过设置MiniMax-M2-Preview使用该模型",
+      "source": "AI工具集"
+    }
+  ]
+}
