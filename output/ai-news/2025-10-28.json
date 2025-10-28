@@ -1,0 +1,42 @@
+{
+  "date": "2025-10-28",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "豆包视频生成模型1.0 pro fast正式发布：提速3倍，价格直降72%",
+      "url": "https://mp.weixin.qq.com/s/jB4Sg7eCSflmoKd2ZaEUGg",
+      "content": "火山引擎发布豆包视频生成模型1.0 Pro Fast（Doubao – Seedance – 1.0 – pro – fast），模型在火山引擎的Seedance 1.0 Pro模型基础上，生成速度提升约3倍，价格直降72%。其生成720P的5秒视频仅需10秒，生成5秒1080P视频成本仅1.03元。",
+      "source": "火山引擎"
+    },
+    {
+      "title": "Skywork AI 的网页复刻（Web Clone）功能正式上线",
+      "url": "https://mp.weixin.qq.com/s/VYG1U43RlXlltDCZ3dbO5Q",
+      "content": "昆仑万维集团旗下的Skywork AI推出网页复刻功能，用户仅需提供网页链接、上传文件或输入文字描述，AI便能在数分钟内生成功能完备、结构清晰、风格相近的网页原型。通过深度算法解析网页逻辑与层级，实现结构级复构，而非简单复制外观。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "谷歌 Gemini 获得新技能：一个提示词、一份文件就能生成 PPT",
+      "url": "https://www.ithome.com/0/892/540.htm",
+      "content": "谷歌Gemini的免费互动工作区Canvas推出新功能，可基于一个提示词或上传的文件（文档、电子表格、研究论文等）生成PPT幻灯片，并自动配上主题和相关图片。用户能将生成的幻灯片直接导出到Google Slides进行编辑、优化或团队协作。",
+      "source": "IT之家"
+    },
+    {
+      "title": "LongCat-Video 视频生成模型正式发布，探索世界模型的第一步",
+      "url": "https://mp.weixin.qq.com/s/W2T7P825mfIDwuFIsd0EgA?scene=1&click_id=17",
+      "content": "美团开源了 LongCat-Video 的通用视频生成模型，参数量达 13.6B。模型能实现文生视频、图生视频以及视频续写等功能，能在几分钟内生成 720p、30fps 的长视频，画面连贯、人物稳定、物理逻辑合理。",
+      "source": "龙猫LongCat"
+    },
+    {
+      "title": "月之暗面开源 Agentic Coding 工具：Kimi CLI",
+      "url": "https://mp.weixin.qq.com/s/uC9bZX8fPwNj1mYALdv5yQ",
+      "content": "月之暗面科技有限公司推出开源 Agentic Coding 工具 Kimi CLI 技术预览版，采用 Shell-like UI，支持 ACP 协议。可在 GitHub 交流反馈。",
+      "source": "月之暗面Kimi"
+    },
+    {
+      "title": "MiniMax发布最新大语言模型MiniMax M2",
+      "url": "https://ai-bot.cn/minimax-m2/",
+      "content": "MiniMax公司发布最新大语言模型MiniMax M2。目前基于M2的agent免费使用，支持开发代码、研究、制作PPT等多种功能，还可接入日常编程工具。从测试数据来看，其coding能力接近Claude 4.5 Sonnet，工具使用流畅。用户可通过设置MiniMax-M2-Preview使用该模型",
+      "source": "AI工具集"
+    }
+  ]
+}
