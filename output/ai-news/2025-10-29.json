@@ -1,0 +1,24 @@
+{
+  "date": "2025-10-29",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "Flowith发布 Agent 操作系统 FlowithOS，超越 OpenAI Altas",
+      "url": "https://ai-bot.cn/flowithos/",
+      "content": "Flowith正式发布FlowithOS，为AI Agent打造的全新操作系统。解决AI普遍存在的“思考与执行脱节”问题，如跨网页、跨环境执行困难等。FlowithOS通过整合浏览器，为AI Agent提供思考与行动的环境。附：FlowithOS邀请码",
+      "source": "AI工具集"
+    },
+    {
+      "title": "OpenAI股改完成，非营利主体更名",
+      "url": "https://mp.weixin.qq.com/s/Vj5xcNqAlFwBPF-mp15jQA",
+      "content": "OpenAI完成资本结构重组，上市道路铺平。非营利主体更名为OpenAI Foundation，掌控营利实体26%股份，目前估值约1300亿美元。员工和投资者持有47%股份，微软持有32.5%股份。OpenAI还同意购买2500万美元微软Azure云服务，微软股价一度上涨3.5%。",
+      "source": "量子位"
+    },
+    {
+      "title": "Google Labs推出一款AI营销工具：Pomelli",
+      "url": "https://ai-bot.cn/pomelli/",
+      "content": "Google Labs推出AI营销工具Pomelli，帮助中小型企业快速创建符合品牌气质的社交媒体活动。用户只需提供公司网站，Pomelli会自动提取品牌信息，建立“商业DNA”，并生成活动创意和视觉素材。用户可编辑调整后直接使用。",
+      "source": "AI工具集"
+    }
+  ]
+}
