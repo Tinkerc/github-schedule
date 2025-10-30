@@ -1,0 +1,12 @@
+{
+  "date": "2025-10-30",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "MiniMax Speech 2.6：最强 Voice Agent 来袭",
+      "url": "https://mp.weixin.qq.com/s/RWXK8FYJVS4LhtocKeIxJw",
+      "content": "MiniMax Speech 2.6发布，全面升级Voice Agent场景。模型端到端延迟低于250毫秒，支持多种语言的网址、邮箱等非标准文本格式直接转换，提供Fluent LoRA功能，即使原始素材不完美，也能生成流利自然的语音。",
+      "source": "MiniMax稀宇科技"
+    }
+  ]
+}
