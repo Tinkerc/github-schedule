@@ -1,0 +1,24 @@
+{
+  "date": "2025-10-31",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "MiniMax Music 2.0：让音乐创作属于每一个人",
+      "url": "https://mp.weixin.qq.com/s/Li0iZ_N1lw9_iKbW1s4xyg",
+      "content": "MiniMax发布最新音乐模型Music 2.0。模型在音乐理解与表达上实现飞跃，能精准捕捉人声情绪与器乐张力。支持多种唱法和情感风格，可精准控制人声音色，实现一声千变。在旋律创作上，可生成结构完整、抓耳的歌曲，能独立控制多种乐器，编曲层次丰富。音质全面升级，带来沉浸式听觉体验。",
+      "source": "MiniMax稀宇科技"
+    },
+    {
+      "title": "月之暗面全新的注意力架构Kimi Linear横空出世",
+      "url": "https://ai-bot.cn/kimi-linear/",
+      "content": "月之暗面推出全新注意力架构Kimi Linear，有望成为下一代Agent LLM基石技术。架构核心是Kimi Delta Attention（KDA），通过精细化门控机制和硬件高效算法，实现性能与效率大幅提升。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "智源悟界·Emu3.5：开启多模态世界大模型新纪元",
+      "url": "https://mp.weixin.qq.com/s/84YmFK_B_67AgV6u7JAj9w",
+      "content": "北京智源人工智能研究院发布“悟界·Emu3.5”，开启多模态世界大模型新纪元。Emu3.5是340亿参数的稠密自回归Transformer模型，将图像、文本和视频等多模态数据统一建模，实现从“下一Token预测”到“下一状态预测”的能力跃迁。",
+      "source": "智源研究院"
+    }
+  ]
+}
