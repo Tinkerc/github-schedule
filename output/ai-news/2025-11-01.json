@@ -1,0 +1,36 @@
+{
+  "date": "2025-11-01",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "MiniMax Music 2.0：让音乐创作属于每一个人",
+      "url": "https://mp.weixin.qq.com/s/Li0iZ_N1lw9_iKbW1s4xyg",
+      "content": "MiniMax发布最新音乐模型Music 2.0。模型在音乐理解与表达上实现飞跃，能精准捕捉人声情绪与器乐张力。支持多种唱法和情感风格，可精准控制人声音色，实现一声千变。在旋律创作上，可生成结构完整、抓耳的歌曲，能独立控制多种乐器，编曲层次丰富。音质全面升级，带来沉浸式听觉体验。",
+      "source": "MiniMax稀宇科技"
+    },
+    {
+      "title": "美团LongCat团队发布WOWService：打造卓越智能交互体验",
+      "url": "https://mp.weixin.qq.com/s/-l5yuu31kjZV5JV_p1ELRw",
+      "content": "美团LongCat团队发布WOWService大模型交互系统技术报告，针对本地生活服务领域大模型落地的“三重困境”，提出四大核心技术框架。系统融合多智能体协同、强化学习等技术，通过人机协同标注等方式降低成本，已在美团智能客服等数十个业务场景落地。",
+      "source": "龙猫LongCat"
+    },
+    {
+      "title": "月之暗面全新的注意力架构Kimi Linear横空出世",
+      "url": "https://ai-bot.cn/kimi-linear/",
+      "content": "月之暗面推出全新注意力架构Kimi Linear，有望成为下一代Agent LLM基石技术。架构核心是Kimi Delta Attention（KDA），通过精细化门控机制和硬件高效算法，实现性能与效率大幅提升。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "OpenAI发布找Bug智能体Aardvark：全自动读代码找漏洞写修复",
+      "url": "https://mp.weixin.qq.com/s/gtONDmvlMYJXudGaQPuXzA",
+      "content": "OpenAI 发布了由 GPT-5 驱动的Agent——Aardvark，能自动在大规模代码库中发现并修复安全漏洞。Aardvark 可识别 92% 的已知与人工注入漏洞，还能定位复杂条件下的问题。通过监控代码提交、分析、验证漏洞并生成修复建议，与 OpenAI Codex 深度集成，为漏洞生成修复补丁。",
+      "source": "量子位"
+    },
+    {
+      "title": "智源悟界·Emu3.5：开启多模态世界大模型新纪元",
+      "url": "https://mp.weixin.qq.com/s/84YmFK_B_67AgV6u7JAj9w",
+      "content": "北京智源人工智能研究院发布“悟界·Emu3.5”，开启多模态世界大模型新纪元。Emu3.5是340亿参数的稠密自回归Transformer模型，将图像、文本和视频等多模态数据统一建模，实现从“下一Token预测”到“下一状态预测”的能力跃迁。",
+      "source": "智源研究院"
+    }
+  ]
+}
