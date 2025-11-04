@@ -1,0 +1,18 @@
+{
+  "date": "2025-11-04",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "LongCat-Flash-Omni 正式发布并开源：开启全模态实时交互时代",
+      "url": "https://mp.weixin.qq.com/s/ScJMzvkMjdvAinfyQacbLQ",
+      "content": "美团 LongCat 团队正式发布并开源 LongCat-Flash-Omni 模型。模型基于 LongCat-Flash 系列架构，集成多模态感知与语音重建模块，总参数达 5600 亿，激活参数 270 亿，实现低延迟实时音视频交互。",
+      "source": "龙猫LongCat"
+    },
+    {
+      "title": "阿里通义千问Qwen3-Max上线深度思考模式",
+      "url": "https://ai-bot.cn/qwen3-max/",
+      "content": "阿里 Qwen 团队宣布 Qwen3-Max Thinking 在 Qwen Chat 上线。模型是万亿参数的 MoE 模型，曾在 AIME25、HMMT25 数学测试中获满分。用户可在 Qwen Chat 中选择该模型并开启 Thinking 模式，免费体验。",
+      "source": "AI工具集"
+    }
+  ]
+}
