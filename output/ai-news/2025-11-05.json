@@ -1,0 +1,24 @@
+{
+  "date": "2025-11-05",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "AI视频创作平台SkyReels正式焕新上线",
+      "url": "https://mp.weixin.qq.com/s/tBEhmiBXy3qX283DJntLSw",
+      "content": "昆仑万维旗下AI视频创作平台SkyReels焕新上线。其Web端与移动端APP全面登陆，聚合全球顶尖AI多模态模型，提供图片生成、视频生成、数字人、音乐生成等多种创作方式。SkyReels V3模型更新，新增无限画布、数字人、模板功能、专家Agent、视频延长和风格化等能力，让专业创作更简单。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "OpenAI与亚马逊达成380亿美元算力合作",
+      "url": "https://zhidx.com/p/513144.html",
+      "content": "OpenAI与亚马逊宣布达成合作，OpenAI将在未来7年向亚马逊采购价值380亿美元（约合人民币2704.6亿元）的云计算服务。亚马逊云科技将为OpenAI提供亚马逊弹性计算云超级服务器，预计明年年底前部署完毕。",
+      "source": "智东西"
+    },
+    {
+      "title": "零一万物联合开源中国推出OAK平台“Open AgentKit”",
+      "url": "https://mp.weixin.qq.com/s/QdxN_HcLANTu_GOWzPligA",
+      "content": "零一万物与开源中国联合发布“Open AgentKit平台”（OAK），打造Agent世界的“生态适配器”。OAK平台支持多种开源大模型，提供一站式解决方案，助力开发者实现“Agent开发自由”。平台四大核心模块，包括OAK Framework、Builder、Runtime和Studio，将逐步推出并邀请社区共建。",
+      "source": "零一万物 01AI"
+    }
+  ]
+}
