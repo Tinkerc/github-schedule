@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-06",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "360发布：FG-CLIP2登顶全球最强图文跨模态模型",
+      "url": "https://mp.weixin.qq.com/s/3YYHOuRrLpIm9xvFMMKKkA",
+      "content": "360 推出的 FG-CLIP2 模型在图文跨模态领域取得重大突破。模型在八大类任务、29 项测试中全面超越 Google 与 Meta，成为目前最强的图文跨模态 VLM 模型。FG-CLIP2 能实现像素级的图像理解，精准识别细节，如毛发、斑点、色彩等，具备强大的中英文细粒度理解能力。",
+      "source": "机器之心"
+    },
+    {
+      "title": "银河通用发布环视导航基座大模型 NavFoM",
+      "url": "https://mp.weixin.qq.com/s/xQpshMNFoSQaRFm0hEVIwA",
+      "content": "银河通用联合多所高校推出全球首个跨本体全域环视导航基座大模型 NavFoM。支持全场景、多任务、跨本体，可适配多种机器人形态，如机器狗、轮式人形等。NavFoM 通过创新的 TVI Tokens 和 BATS 策略，实现时空理解与高效算力利用，基于庞大训练数据体系，其在多个国际基准上达 SOTA 水平，可直接部署于真实机器人，无需任务微调。",
+      "source": "银河通用机器人"
+    },
+    {
+      "title": "AI医疗独角兽Hippocratic AI完成8亿融资，估值250亿",
+      "url": "https://mp.weixin.qq.com/s/r4dgeLH9obB7ZrFxPSlBGQ",
+      "content": "美国生成式AI医疗独角兽Hippocratic AI完成1.26亿美元C轮融资，估值达35亿美元，较年初翻超一倍。此轮融资由谷歌母公司Alphabet旗下CapitalG等参投，资金将用于并购、产品开发和拓展国际业务等。",
+      "source": "智东西"
+    },
+    {
+      "title": "软银与 OpenAI 宣布成立合资公司，明年推出企业级 AI 解决方案",
+      "url": "https://www.ithome.com/0/895/078.htm",
+      "content": "软银集团与OpenAI宣布成立合资公司“SB OAI Japan”，计划于2026年推出企业级AI解决方案“Crystal Intelligence”。该方案将结合OpenAI技术与定制化服务，助力日本企业提升生产力和管理效率。软银将率先部署该技术，积累经验后向其他企业推广。",
+      "source": "IT之家"
+    }
+  ]
+}
