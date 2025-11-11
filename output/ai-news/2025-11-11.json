@@ -1,0 +1,24 @@
+{
+  "date": "2025-11-11",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "堆友「全能画布」来了！是天花板级的AI设计智能体",
+      "url": "https://mp.weixin.qq.com/s/ee_aFz6sLfpyVHpwtM7WdQ",
+      "content": "堆友AI反应堆正式上线AI创作全能画布，堆友用户可免费体验。堆友AI集成文生图、图生图、智能滤镜、矢量编辑、字体设计、高清放大、智能抠图、局部重绘等功能，提供一站式AI设计解决方案，实现从灵感到交付的全流程自动化。",
+      "source": "堆友"
+    },
+    {
+      "title": "全球第二、国内第一！最强百度的文心5.0 Preview",
+      "url": "https://mp.weixin.qq.com/s/3VBsJqVdxy4hOzb_aj-X4Q",
+      "content": "百度文心5.0 Preview在LMArena全球文本竞技场排名中以1432分并列第二、国内第一，与OpenAI GPT‑4.5、Anthropic Claude等顶尖模型实力相当。实测显示其在创意写作、长文本理解及复杂指令遵循方面表现卓越，生成内容兼具诗意与逻辑严谨性。",
+      "source": "机器之心"
+    },
+    {
+      "title": "OpenAI 推出 GPT-5-Codex-Mini：“经济高效型”AI 编程模型",
+      "url": "https://www.ithome.com/0/895/891.htm",
+      "content": "OpenAI推出GPT-5-Codex-Mini，是GPT-5-Codex的“经济高效型”版本。开发者可获得约4倍的使用额度。在SWE-bench Verified测试中，GPT-5-Codex-Mini得分71.3%。版本适用于轻量级工程任务或接近速率上限的情况。",
+      "source": "IT之家"
+    }
+  ]
+}
