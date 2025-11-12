@@ -1,0 +1,36 @@
+{
+  "date": "2025-11-12",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "字节发布Doubao-Seed-Code编程模型",
+      "url": "https://mp.weixin.qq.com/s/PWaaFJmnw1jsvofKNKBMjQ",
+      "content": "字节跳动正式推出Doubao-Seed-Code，专为复杂编程任务优化。模型支持256k长上下文，兼容Anthropic API与主流IDE，性能仅次于Claude Sonnet 4.5，综合使用成本降低62.7%，并登顶SWE-Bench Verified榜单。",
+      "source": "火山引擎"
+    },
+    {
+      "title": "月之暗面开源Kosong框架 降低AI AAgent开发门槛",
+      "url": "https://ai-bot.cn/kosong/",
+      "content": "月之暗面（Moonshot AI）开源全新AI代理开发框架Kosong，以“简化复杂性、释放创造力”为核心理念，为下一代智能体应用提供轻量且高可扩展的底层支持。框架通过统一LLM抽象层，封装标准化组件并搭载异步工具编排引擎，有效解决工具碎片化、接口不兼容等开发痛点。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "商汤日日新开源模型实现空间智能性能突破，多项评测领先 GPT-5",
+      "url": "https://mp.weixin.qq.com/s/pxTGSQJRrtf9Y4HqpkNb_Q",
+      "content": "商汤日日新在空间智能领域实现重要突破，正式发布并开源SenseNova-SI系列模型。在多项权威评测的空间理解和推理任务上，SenseNova-SI 不仅大幅度领先同量级开源多模态大模型，还超越了 GPT-5 和 Gemini 2.5 Pro 等国际顶尖闭源模型的表现。",
+      "source": "商汤科技SenseTime"
+    },
+    {
+      "title": "Meta发布Omnilingual ASR：覆盖1600+语言的语音识别系统",
+      "url": "https://ai-bot.cn/omnilingual-asr/",
+      "content": "Meta AI团队推出Omnilingual ASR，是全球首个支持超1600种语言的自动语音识别系统，其中500种语言首次获得AI语音识别支持。系统通过大规模预训练模型和上下文学习技术，仅需少量音频-文本样本即可扩展新语言，字符错误率低于10%的语言占比达78%。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "百度AI眼镜开售！2199元，今天定明天到手",
+      "url": "https://mp.weixin.qq.com/s/7QJvmLV1ppEP17aLuCQygA",
+      "content": "百度旗下小度AI眼镜Pro正式开售，售价2299元，是继阿里巴巴夸克AI眼镜S1后，国内第二家正式开售AI眼镜的互联网大厂，小度AI眼镜Pro是一款AI拍摄眼镜，与小米AI眼镜类型相同，并非当下更为“完全体”版本的AI+AR眼镜，融合多模态AI大模型，产品功能包括拍照、听歌识曲、智能匹配歌单、AI翻译、AI识物、AI备忘、AI录音等。",
+      "source": "智东西"
+    }
+  ]
+}
