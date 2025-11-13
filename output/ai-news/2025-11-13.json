@@ -1,0 +1,12 @@
+{
+  "date": "2025-11-13",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "OpenAI 正式发布 GPT-5.1系列双版本，ChatGPT 情商大涨",
+      "url": "https://mp.weixin.qq.com/s/B7xi8I7DpXOcapHBQfLiFw",
+      "content": "OpenAI发布的AI升级版本GPT-5.1，重点优化了对话体验而非单纯性能指标。新版本包含Instant和Thinking两大模型，前者更注重人性化交流（如自适应思考、八种风格预设），后者强化专业推理能力（简化术语表达）。相比前代，GPT-5.1在情感互动、指令理解上显著改善。",
+      "source": "APPSO"
+    }
+  ]
+}
