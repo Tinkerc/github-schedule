@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-14",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "OpenAI 正式发布 GPT-5.1系列双版本，ChatGPT 情商大涨",
+      "url": "https://mp.weixin.qq.com/s/B7xi8I7DpXOcapHBQfLiFw",
+      "content": "OpenAI发布的AI升级版本GPT-5.1，重点优化了对话体验而非单纯性能指标。新版本包含Instant和Thinking两大模型，前者更注重人性化交流（如自适应思考、八种风格预设），后者强化专业推理能力（简化术语表达）。相比前代，GPT-5.1在情感互动、指令理解上显著改善。",
+      "source": "APPSO"
+    },
+    {
+      "title": "百度发布文心大模型 5.0：参数规模超 2.4 万亿，原生全模态",
+      "url": "https://www.ithome.com/0/897/119.htm",
+      "content": "百度在世界大会上正式发布文心大模型5.0。模型参数量达2.4万亿，采用原生全模态统一建模技术，支持文本、图像、音频、视频等多模态输入输出，在多模态理解、创意写作、指令遵循等方面表现突出，综合能力达全球领先水平。",
+      "source": "IT之家"
+    },
+    {
+      "title": "全新升级、全面开放的 TRAE SOLO 正式版，限时免费",
+      "url": "https://mp.weixin.qq.com/s/tC_W-JCKWR_FXAZ6SDH7aQ",
+      "content": "字节旗下TRAE团队正式发布TRAE SOLO正式版。版本定位为“响应式编程智能体”，支持复杂项目开发，新增内置智能体SOLO CODER与SOLO BUILDER，具备上下文压缩、多任务并行、可视化工具调用等功能，可高效应对从0到1的项目搭建及从1到100的迭代优化，现面向全球用户开放，限时免费体验。",
+      "source": "机器之心"
+    },
+    {
+      "title": "李飞飞宣布正式开放首款商用世界模型产品 Marble",
+      "url": "https://mp.weixin.qq.com/s/MutPeEl76Fw9o6EHPtKRiw",
+      "content": "“AI教母”李飞飞创立的World Labs公司正式推出首款商用多模态世界模型产品Marble，用户可通过文本、图像、视频或3D布局生成高保真、可编辑的3D虚拟世界，支持导出为高斯溅射、网格或视频格式。",
+      "source": "APPSO"
+    }
+  ]
+}
