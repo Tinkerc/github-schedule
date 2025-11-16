@@ -1,0 +1,36 @@
+{
+  "date": "2025-11-16",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "登顶！GLM-4.6获LMArena代码榜全球并列第一",
+      "url": "https://mp.weixin.qq.com/s/p6iId-mCOgmGb3kZZ29HSA",
+      "content": "全球权威 AI 评测平台 LMArena 更新 Code Arena (编程与代码生成) 专项榜单，智谱 GLM-4.6 与 Anthropic Claude、OpenAI GPT-5 等顶尖模型一同位列全球榜首。",
+      "source": "智谱"
+    },
+    {
+      "title": "Dexmal原力灵机融资近10亿元，阿里巴巴、蔚来资本分别领投",
+      "url": "https://mp.weixin.qq.com/s/ecCNI7m63ugiTAy6ht2qMQ",
+      "content": "具身智能公司Dexmal原力灵机宣布完成数亿元A+轮融资，阿里巴巴为独家投资方。此前其A轮融资由蔚来资本领投，两轮融资金额近10亿元。资金将用于智能机器人软硬件技术研发与落地。Dexmal专注于具身智能技术研发，自主研发的多模态具身智能大模型MMLA可实现跨场景智能泛化。",
+      "source": "Dexmal原力灵机"
+    },
+    {
+      "title": "AI编程神器Cursor（母公司Anysphere）完成23亿美元D轮融资",
+      "url": "https://zhidx.com/p/515179.html",
+      "content": "AI编程神器Cursor（母公司Anysphere）完成23亿美元D轮融资，投后估值达293亿美元，成为全球首家估值超2000亿元人民币的AI编程创企。此轮融资由Accel和Coatue领投，英伟达、谷歌等跟投。过去一年，Anysphere估值增长超10倍，年化收入突破10亿美元。",
+      "source": "智东西"
+    },
+    {
+      "title": "ChatGPT 群聊功能上线部分地区：人机共同决策讨论",
+      "url": "https://www.ithome.com/0/897/382.htm",
+      "content": "OpenAI宣布在韩国、新西兰等部分地区试点ChatGPT群聊功能。功能基于GPT-5.1模型，支持用户与ChatGPT共同协作，可邀请亲友或同事进入共享空间，用于策划方案、决策讨论或头脑风暴。",
+      "source": "IT之家"
+    },
+    {
+      "title": "AI PPT神器 Gamma 完成6800万美元B轮融资",
+      "url": "https://zhidx.com/p/514519.html",
+      "content": "美国生成式AI创企Gamma完成6800万美元B轮融资，估值达21亿美元。Gamma创立于2020年，是一个生成式AI设计平台，可快速创建演示文稿、文档和社交媒体帖子，支持22种AI图像模型和60多种语言。",
+      "source": "智东西"
+    }
+  ]
+}
