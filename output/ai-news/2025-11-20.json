@@ -1,0 +1,18 @@
+{
+  "date": "2025-11-20",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "Meta推出基于SAM系列的3D重建模型SAM 3D",
+      "url": "https://mp.weixin.qq.com/s/-cPALWlixCFUvgtD4o_Dkw",
+      "content": "Meta发布SAM 3D与SAM 3模型，实现从2D图像到3D重建的重大突破。SAM 3D包含物体场景重建和人体姿态估计双模型，通过创新数据引擎生成近百万张图像的3D标注数据，在多项基准测试中超越现有方法。",
+      "source": "机器之心"
+    },
+    {
+      "title": "星动纪元获近10亿元A+轮融资！吉利资本领投，总订单额破5亿",
+      "url": "https://mp.weixin.qq.com/s/_il2Liv8DRr38iaXR0qazw",
+      "content": "人形机器人公司星动纪元完成近10亿元A+轮融资，由吉利资本领投。公司总订单额突破5亿元，物流领域最大单笔订单近5000万元，海外业务占比达50%。本轮融资将加速技术迭代与商业化落地。",
+      "source": "星动纪元"
+    }
+  ]
+}
