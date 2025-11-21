@@ -1,0 +1,18 @@
+{
+  "date": "2025-11-21",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "谷歌Nano Banana Pro上线，深度结合Gemini 3",
+      "url": "https://mp.weixin.qq.com/s/rZqBxTyDI9KyXod03vteCg",
+      "content": "谷歌发布专业级图像生成模型Nano Banana Pro，深度集成Gemini 3多模态能力。模型支持2K/4K高分辨率输出，可融合多达14张参考图像并保持5个人物一致性，具备精准局部编辑、多语言文字渲染及电影级调光控色功能。结合Gemini 3的知识推理与搜索引擎，能生成高准确性信息图表。",
+      "source": "机器之心"
+    },
+    {
+      "title": "蚂蚁集团领投，RockFlow完成数千万美元新一轮融资",
+      "url": "https://mp.weixin.qq.com/s/SB-bSIVSU4FUQOsk8O-uTA",
+      "content": "新加坡AI金融科技公司RockFlow完成数千万美元融资，由蚂蚁集团领投。公司推出全球首款金融交易AI Agent“Bobby”，能通过自然语言理解用户投资意图，自主完成从数据分析到实时交易的全流程。本轮融资将加速AI技术在金融服务领域的创新应用，推动复杂金融服务向普惠化、个性化发展。",
+      "source": "RockFlow"
+    }
+  ]
+}
