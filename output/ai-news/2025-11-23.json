@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-23",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "谷歌Nano Banana Pro上线，深度结合Gemini 3",
+      "url": "https://mp.weixin.qq.com/s/rZqBxTyDI9KyXod03vteCg",
+      "content": "谷歌发布专业级图像生成模型Nano Banana Pro，深度集成Gemini 3多模态能力。模型支持2K/4K高分辨率输出，可融合多达14张参考图像并保持5个人物一致性，具备精准局部编辑、多语言文字渲染及电影级调光控色功能。结合Gemini 3的知识推理与搜索引擎，能生成高准确性信息图表。",
+      "source": "机器之心"
+    },
+    {
+      "title": "腾讯混元发布全新视频生成模型：HunyuanVideo 1.5",
+      "url": "https://mp.weixin.qq.com/s/ck2ZThdaQqbfPmI5MGtKnA",
+      "content": "腾讯混元开源视频生成模型HunyuanVideo 1.5，参数仅8.3B却可生成5-10秒高清视频。模型基于DiT架构，支持中英文文生视频与图生视频，具备强指令理解能力，可精准控制运镜、人物表情及物理运动。原生支持480p/720p输出，经超分可提升至1080p，并在14G显存消费级显卡即可流畅运行，大幅降低使用门槛。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "小米具身大模型 MiMo-Embodied 发布并全面开源",
+      "url": "https://www.ithome.com/0/899/276.htm",
+      "content": "小米发布业界首个打通自动驾驶与具身智能的跨域大模型MiMo-Embodied并全面开源。模型统一了具身智能三大核心任务与自动驾驶三大关键任务，实现室内交互与道路决策能力的双向知识迁移。在29项核心基准测试中表现卓越，全面超越现有开源及专用模型。",
+      "source": "IT之家"
+    },
+    {
+      "title": "蚂蚁集团领投，RockFlow完成数千万美元新一轮融资",
+      "url": "https://mp.weixin.qq.com/s/SB-bSIVSU4FUQOsk8O-uTA",
+      "content": "新加坡AI金融科技公司RockFlow完成数千万美元融资，由蚂蚁集团领投。公司推出全球首款金融交易AI Agent“Bobby”，能通过自然语言理解用户投资意图，自主完成从数据分析到实时交易的全流程。本轮融资将加速AI技术在金融服务领域的创新应用，推动复杂金融服务向普惠化、个性化发展。",
+      "source": "RockFlow"
+    }
+  ]
+}
