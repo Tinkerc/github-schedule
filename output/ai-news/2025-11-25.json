@@ -1,0 +1,12 @@
+{
+  "date": "2025-11-25",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "Anthropic发布新一代大模型Claude Opus 4.5",
+      "url": "https://mp.weixin.qq.com/s/Czcvtyz_kD5i6VZGHWyMlw",
+      "content": "Anthropic发布新一代大模型Claude Opus 4.5，在编程能力上实现重大突破，成为首个在SWE-Bench Verified真实软件工程测试中得分超过80%的模型，并在八种编程语言的七种中排名第一。核心升级包括对模糊需求的精准理解、复杂Bug自主定位能力，以及创新的”effort”参数控制系统，可在保证性能的同时大幅降低token消耗。",
+      "source": "APPSO"
+    }
+  ]
+}
