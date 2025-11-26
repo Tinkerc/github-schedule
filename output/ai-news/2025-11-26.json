@@ -1,0 +1,12 @@
+{
+  "date": "2025-11-26",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "黑森林重磅开源FLUX.2，图像生成模型的新里程碑",
+      "url": "https://ai-bot.cn/flux-2/",
+      "content": "Black Forest Labs发布开源图像生成与编辑模型FLUX.2，支持文生图、多图参考和图像编辑，具备更丰富的细节、清晰纹理和稳定光线。分为四个版本：FLUX.2 [pro]（媲美顶级闭源模型）、FLUX.2 [flex]（可调节参数）、FLUX.2 [dev]（开源32B权重模型）和FLUX.2 [klein]（即将推出的轻量化模型）。",
+      "source": "AI工具集"
+    }
+  ]
+}
