@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-27",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "黑森林重磅开源FLUX.2，图像生成模型的新里程碑",
+      "url": "https://ai-bot.cn/flux-2/",
+      "content": "Black Forest Labs发布开源图像生成与编辑模型FLUX.2，支持文生图、多图参考和图像编辑，具备更丰富的细节、清晰纹理和稳定光线。分为四个版本：FLUX.2 [pro]（媲美顶级闭源模型）、FLUX.2 [flex]（可调节参数）、FLUX.2 [dev]（开源32B权重模型）和FLUX.2 [klein]（即将推出的轻量化模型）。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "LiblibAI 上线「基础算法F.2」！支持多图参考和图像编辑！",
+      "url": "https://mp.weixin.qq.com/s/f_y3cV7jsL5Zc4Jamlk1yg",
+      "content": "国内AI创作平台LiblibAI（哩布哩布）正式上线新一代图像生成基础算法F.2。模型在文生图、多图参考及图像编辑三大核心功能上实现全面升级，显著提升了人物与风格的一致性、复杂提示词遵循能力及精细文本渲染效果。",
+      "source": "哩布哩布AI"
+    },
+    {
+      "title": "腾讯混元3D创作引擎国际站，上线！",
+      "url": "https://mp.weixin.qq.com/s/9h5nNiOFcNBhYq6JWU06tA",
+      "content": "腾讯混元3D创作引擎正式推出国际站，其API同步在腾讯云国际站上线，面向全球开发者开放。引擎支持文生3D、图生3D、草图生3D及智能拓扑等核心功能，用户通过文字、图片或草图即可分钟级生成高质量3D模型。",
+      "source": "腾讯混元"
+    },
+    {
+      "title": "TRAE SOLO 登陆中国版，免费使用！",
+      "url": "https://mp.weixin.qq.com/s/AkW3Bq_IlraZ30kVEnU_gQ",
+      "content": "AI编程平台TRAE中国版正式推出SOLO模式并免费开放。模式内置智能体SOLO Coder，支持先制定开发计划再执行的协作流程，能调度多智能体处理复杂任务。采用全新三栏布局，实现多任务并行开发，内置代码变更对比工具与上下文管理功能。",
+      "source": "TRAE.ai"
+    }
+  ]
+}
