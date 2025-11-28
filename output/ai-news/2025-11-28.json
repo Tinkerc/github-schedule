@@ -1,0 +1,12 @@
+{
+  "date": "2025-11-28",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "DeepSeek强势回归，开源IMO金牌级数学模型DeepSeek-Math-V2",
+      "url": "https://mp.weixin.qq.com/s/FctcBGr76_geN0FAVjXWQQ",
+      "content": "DeepSeek开源新一代数学模型DeepSeek-Math-V2，实现IMO金牌级推理能力。模型突破性引入自我验证机制，通过“生成器-验证器-元验证”三重架构，使AI具备检查并修正自身推理过程的能力。在IMO 2025测试中取得83.3%高分，Putnam 2024测试接近满分。",
+      "source": "机器之心"
+    }
+  ]
+}
