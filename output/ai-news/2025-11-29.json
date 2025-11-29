@@ -1,0 +1,24 @@
+{
+  "date": "2025-11-29",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "DeepSeek强势回归，开源IMO金牌级数学模型DeepSeek-Math-V2",
+      "url": "https://mp.weixin.qq.com/s/FctcBGr76_geN0FAVjXWQQ",
+      "content": "DeepSeek开源新一代数学模型DeepSeek-Math-V2，实现IMO金牌级推理能力。模型突破性引入自我验证机制，通过“生成器-验证器-元验证”三重架构，使AI具备检查并修正自身推理过程的能力。在IMO 2025测试中取得83.3%高分，Putnam 2024测试接近满分。",
+      "source": "机器之心"
+    },
+    {
+      "title": "昆仑万维AI音乐平台Mureka正式发布V7.6与O2双模型",
+      "url": "https://mp.weixin.qq.com/s/vIKjsFA_oR4-DYBEKDjNSA",
+      "content": "昆仑万维旗下AI音乐平台Mureka正式发布V7.6与O2双模型，推动AI音乐创作进入“专业品质×实时体验”新阶段。新模型基于MusiCoT细粒度音乐建模体系，在编曲结构、语义映射及声场音质方面实现显著提升，支持10种语言生成及自定义歌手功能。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "混元3D Studio升级，可直出艺术家级3D资产",
+      "url": "https://mp.weixin.qq.com/s/QRxLAZZ0JcSJQpOMbAkpqw",
+      "content": "腾讯混元3D Studio升级至1.1版本，集成全新美术级3D生成模型PolyGen 1.5，实现端到端原生四边形网格生成技术突破。模型首创自适应混合拓扑能力，可直接生成布线规整的专业级3D资产，在布线质量、结构完整度等关键指标上超越现有SOTA方法。",
+      "source": "腾讯混元"
+    }
+  ]
+}
