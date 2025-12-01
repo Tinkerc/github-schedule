@@ -1,0 +1,12 @@
+{
+  "date": "2025-12-01",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "阶跃开源4B Agent模型GELab-Zero，跑通所有安卓设备",
+      "url": "https://mp.weixin.qq.com/s/jn3N25nj0ma5-WMLF1xBhg",
+      "content": "阶跃星辰开源GELab-Zero，推出4B参数GUI Agent模型GELab-Zero-4B-preview。模型在多项基准测试中取得同尺寸SOTA成绩，能流畅执行复杂与模糊指令。项目同步开源了完整的推理工程基建，支持一键部署、多设备任务分发，解决移动端Agent规模化落地的工程难题。",
+      "source": "量子位"
+    }
+  ]
+}
