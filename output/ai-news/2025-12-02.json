@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-02",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "LiblibAI 上线「可灵O1」全能视频模型，速来体验",
+      "url": "https://mp.weixin.qq.com/s/qNAu7OZg_pm-g4ewG6nMbw",
+      "content": "LiblibAI全球首发「可灵O1」统一多模态视频模型，是首个将视频内容增删、风格重绘、镜头延展等多项任务融于一体的大一统模型。模型支持最多7张参考图像保持内容一致性，可通过自然语言指令智能编辑视频，具备视频参考生成能力。",
+      "source": "哩布哩布AI"
+    },
+    {
+      "title": "Runway发布的最新视频生成AI模型Gen-4.5，代号”David”",
+      "url": "https://mp.weixin.qq.com/s/ynE0s6Z8XlLWcSBxo-WB6w",
+      "content": "Runway正式发布Gen-4.5视频生成模型，该模型以”Whisper Thunder (aka) David”的匿名身份登上Artificial Analysis榜单首位。Gen-4.5在运动质量、提示词遵循度和视觉逼真度方面树立新标准，ELO评分达1247分，超越Veo 3/3.1、Kling 2.5和Sora 2 Pro等主流模型。具备精确的物理模拟能力、复杂的场景构建和电影级画面质感，支持多种控制模式。",
+      "source": "机器之心"
+    }
+  ]
+}
