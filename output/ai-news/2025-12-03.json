@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-03",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "Mistral AI发布Mistral 3系列模型，全线回归Apache 2.0",
+      "url": "https://mp.weixin.qq.com/s/Ojkk_fHYcCU5CyZGGb4bPQ",
+      "content": "Mistral AI发布新一代Mistral 3系列模型，全线回归Apache 2.0开源协议。系列包括675B参数的Mistral Large 3混合专家模型，以及14B/8B/3B的Ministral 3边缘端模型。Large 3在3000台H200 GPU上训练，具备图像理解能力，在LMArena开源模型中排名第二。",
+      "source": "机器之心"
+    },
+    {
+      "title": "商汤发布 NEO 架构，重新定义多模态模型效能边界",
+      "url": "https://mp.weixin.qq.com/s/134LPbeJMpokbsuYag-K7Q",
+      "content": "商汤科技联合南洋理工大学发布全球首个原生多模态架构NEO，突破传统”视觉编码器+投影器+语言模型”的拼凑范式。架构通过原生图块嵌入、三维旋转位置编码和原生多头注意力三大创新，实现视觉与语言的深层融合。",
+      "source": "商汤科技SenseTime"
+    }
+  ]
+}
