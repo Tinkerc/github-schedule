@@ -1,0 +1,24 @@
+{
+  "date": "2025-12-04",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "LiblibAI 上线 Seedream 4.5，一致性保持/多图参考能力全面升级！",
+      "url": "https://mp.weixin.qq.com/s/zVmEKFIVAji65-h9p8jbFw",
+      "content": "国产SOTA图像模型Seedream 4.5在LiblibAI平台正式上线。相比4.0版本，新模型在一致性保持、精准文本/版式渲染、多图参考生成和真实质感模拟方面能力显著升级，尤其擅长处理中文海报、营销物料等本土化内容，支持最多10+参考图融合。",
+      "source": "哩布哩布AI"
+    },
+    {
+      "title": "可灵 2.6 全量上线！听见画面，看见声音",
+      "url": "https://mp.weixin.qq.com/s/PyTkfD9m74coWRxMc6xhsw",
+      "content": "可灵2.6全量上线，是其首个“音画同出”模型，能单次生成同时产出画面、自然语音、匹配音效及环境氛围。模型支持文生音画与图生音画两种创作路径，适配单人独白、旁白解说、多人对白、音乐表演及创意场景等多种应用。",
+      "source": "可灵AI"
+    },
+    {
+      "title": "豆包图像创作模型Seedream 4.5发布：聚焦商业生产力场景",
+      "url": "https://mp.weixin.qq.com/s/UXsaqeQTJUbpwGlmI22Xkg",
+      "content": "火山引擎发布豆包图像创作模型Seedream 4.5并开启公测。模型在主体一致性、指令遵循、空间逻辑及美学表现上显著提升，重点强化多图组合生成、海报排版与Logo设计能力，可精准满足广告营销、电商运营、影视制作等商业场景需求。",
+      "source": "火山引擎"
+    }
+  ]
+}
