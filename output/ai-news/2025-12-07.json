@@ -1,0 +1,36 @@
+{
+  "date": "2025-12-07",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "听得清，看得懂！豆包语音识别模型2.0来了",
+      "url": "https://mp.weixin.qq.com/s/U3OyDRFXElPbl0EIaBfUGA",
+      "content": "火山引擎发布豆包语音识别模型2.0。模型基于Seed混合专家架构，通过PPO强化学习实现深度上下文推理，关键词召回率提升20%。新增多模态视觉识别能力，可结合图像内容精准分辨易混淆词（如“滑鸡”与“滑稽”），支持日语、韩语、德语等13种语言的精准识别。",
+      "source": "火山引擎"
+    },
+    {
+      "title": "可灵数字人 2.0 功能正式上线！不止会说，更会演！",
+      "url": "https://mp.weixin.qq.com/s/IbHKzsWYyVUxO_flqo400g",
+      "content": "可灵全量上线数字人2.0版本，实现三大核心升级：表演力全面进化，支持精准的体态、手势与表情控制；口型与手部细节显著优化，增强真实感；单次生成视频时长延长至5分钟，覆盖科普、广告等长内容场景。",
+      "source": "可灵AI"
+    },
+    {
+      "title": "谷歌公测“奥数金牌级”推理 AI 模型 Gemini 3 Deep Think",
+      "url": "https://www.ithome.com/0/902/698.htm",
+      "content": "谷歌面向Gemini Ultra订阅用户（月费249.99美元）正式公测Gemini 3 Deep Think模式。模式采用并行推理技术，调用更多计算资源，在复杂数学、科学及逻辑问题中表现突破：在Humanity’s Last Exam测试中取得41%高分，GPQA Diamond测试达93.8%。",
+      "source": "IT之家"
+    },
+    {
+      "title": "AI视频生成产品 Pollo AI 获 1400 万美元融资",
+      "url": "https://mp.weixin.qq.com/s/3_Ywtvjm09IEZzrLJ-HQ4w",
+      "content": "AI视频生成平台Pollo AI近日完成1400万美元首轮融资，由高成资本领投，真格基金跟投。其创始人朱陈彪（阿彪）无大厂背景，凭借SEO经验推动产品早期增长，7个月月活超400万。目前平台注册用户超2000万，已实现盈亏平衡。",
+      "source": "晚点科技"
+    },
+    {
+      "title": "Google推出Workspace Studio，赋能企业全员构建AI智能体",
+      "url": "https://ai-bot.cn/workspace-studio/",
+      "content": "Google正式发布Workspace Studio，是基于Gemini 3多模态能力的新一代自动化工具。用户无需编码即可快速设计、管理并共享AI智能体，实现从简单任务到复杂流程的自动化。",
+      "source": "AI工具集"
+    }
+  ]
+}
