@@ -1,0 +1,24 @@
+{
+  "date": "2025-12-11",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "GLM-ASR开源，智谱AI输入法发布",
+      "url": "https://mp.weixin.qq.com/s/38C-ujrXM9ckbVLqbH8tVQ",
+      "content": "智谱AI发布并开源GLM-ASR系列语音识别模型，同时推出桌面端“智谱AI输入法”。系列包含云端领先模型GLM-ASR-2512和仅1.5B参数的开源SOTA端侧模型GLM-ASR-Nano-2512，后者在保证高精度的同时实现了更强的隐私保护与低延迟。",
+      "source": "智谱"
+    },
+    {
+      "title": "Mistral AI开源新一代编程模型：Devstral 2",
+      "url": "https://ai-bot.cn/devstral-2/",
+      "content": "Mistral开源代码大模型Devstral 2系列，包含123B和24B两个版本，均支持256K上下文。模型在SWE-bench Verified上分别取得72.2和68.0的高分，性能达开源头部水平，同时模型体积显著小于同类竞品。配套推出的Vibe CLI工具可将模型能力集成至终端，支持扫描项目结构、调用命令、自动生成代码变更等操作。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "生成式AI媒体平台Fal再获1.4亿美元注资",
+      "url": "https://ai-bot.cn/fal/",
+      "content": "生成式AI媒体平台Fal获得由红杉资本领投的1.4亿美元新一轮融资，英伟达风投Nventures等机构跟投，公司估值达45亿美元，较数月前增长两倍。公司为开发者提供图像、视频和音频AI模型托管服务，客户包括Adobe、Shopify等企业。",
+      "source": "AI工具集"
+    }
+  ]
+}
