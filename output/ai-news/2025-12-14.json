@@ -1,0 +1,30 @@
+{
+  "date": "2025-12-14",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "GPT-5.2 正式发布！让打工人每周少干 10 小时",
+      "url": "https://mp.weixin.qq.com/s/hsHCVWem_P_uWP3xjfB9Lw",
+      "content": "OpenAI正式发布GPT-5.2模型，推出Instant、Thinking、Pro三个版本，分别针对常规任务、复杂推理和高精度需求。模型在多项基准测试中表现突出，在GDPval知识工作任务评估中首次达到或超越人类专家水平，软件工程能力（SWE-Bench Pro）创下55.6%的新纪录。其幻觉率降低约30%，长文本处理准确率接近完美。",
+      "source": "APPSO"
+    },
+    {
+      "title": "智谱多模态开源周收官：四项视频生成核心技术开源",
+      "url": "https://mp.weixin.qq.com/s/bcye44iPp6dKsUU3hNmijQ",
+      "content": "智谱AI在多模态开源周收官之际，宣布开源四项视频生成核心技术：SCAIL影视级角色动画框架实现复杂姿态控制；RealVideo实时流式视频生成系统将首响延迟压缩至2-3秒；Kaleido多主体生成框架在开源模型中达到SOTA水平；SSVAE频谱结构化变分自编码器将模型收敛速度提升3倍。",
+      "source": "智谱"
+    },
+    {
+      "title": "谷歌重磅开源！深度研究Agent拿下SOTA",
+      "url": "https://mp.weixin.qq.com/s/Zk3wBCILM5L14MXm6NGNUg",
+      "content": "谷歌开源深度研究Agent Gemini Deep Research，在DeepSearchQA基准测试中达到46.4%的SOTA水平，性能与GPT-5 Pro相当，而成本仅为后者的十分之一。该Agent基于Gemini 3 Pro模型，具备多步搜索和复杂信息整合能力，可自动生成深度研究报告。",
+      "source": "智东西"
+    },
+    {
+      "title": "迪士尼官宣 10 亿美元投资 OpenAI，允许 Sora 生成米老鼠等角色视频",
+      "url": "https://www.ithome.com/0/904/327.htm",
+      "content": "迪士尼公司与OpenAI达成为期三年的战略合作协议，将向OpenAI投资10亿美元并获得股权。根据协议，OpenAI的Sora视频生成平台将获得迪士尼旗下超过200个角色的IP授权，包括米老鼠、漫威超级英雄、星球大战等经典形象。用户未来可通过Sora生成迪士尼角色短视频，部分精选内容还将在Disney+平台播出。",
+      "source": "IT之家"
+    }
+  ]
+}
