@@ -1,0 +1,24 @@
+{
+  "date": "2025-12-16",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "LiblibAI 上线「Wan 2.6」视频模型，中国版 SORA2 来了！",
+      "url": "https://mp.weixin.qq.com/s/_VgBVHMlPY8y09wUJl4SIQ",
+      "content": "LiblibAI平台全球首发通义万相Wan 2.6视频生成模型，支持视频参考生成、声画同步和多镜头智能调度三大核心功能。模型可直出15秒1080P高清视频，实现完整叙事生成，无需二次剪辑。其视频参考生成能力可复刻5秒内任意角色形象与音色，支持单/双人表演及多人对话场景的声画同步。",
+      "source": "哩布哩布AI"
+    },
+    {
+      "title": "英伟达发布 Nemotron 3 开源 AI 模型系列，吞吐量达上一代 4 倍",
+      "url": "https://www.ithome.com/0/905/202.htm",
+      "content": "英伟达发布Nemotron 3开源AI模型系列，包含Nano、Super和Ultra三种规格。其中Nano版本（300亿参数）已上线，其采用混合专家架构，宣称吞吐量达上一代4倍，推理token生成减少60%，具备100万token上下文窗口。该系列专为多智能体系统设计，旨在解决通信开销和推理成本等挑战。",
+      "source": "IT之家"
+    },
+    {
+      "title": "通义百聆语音双子星，同步开源！",
+      "url": "https://mp.weixin.qq.com/s/0c_cK2zwxkuR1lx-n8cNxA",
+      "content": "阿里云通义百聆开源语音双子星模型Fun-CosyVoice3与Fun-ASR。Fun-CosyVoice3支持仅3秒音频即可实现跨9种语言、18种方言的音色克隆与情感控制，首包延迟降低50%，中英混说错误率下降56.4%。Fun-ASR在嘈杂环境下识别准确率达93%，支持31种语言混说及方言识别，将流式识别首字延迟降至160毫秒。",
+      "source": "通义大模型"
+    }
+  ]
+}
