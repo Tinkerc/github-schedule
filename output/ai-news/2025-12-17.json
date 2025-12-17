@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-17",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "即梦网页版全面升级，打造一站式AI片场",
+      "url": "https://mp.weixin.qq.com/s/Szz86cppqABlYp45cezO4g",
+      "content": "即梦AI网页版全面升级，打造一站式”AI片场”。核心更新包括：上线基于Seedance 1.5 Pro的”视频3.5 Pro”模型，支持音视频联合生成及方言口型匹配；智能多帧2.0实现”视频+视频”拼接与片段精细化编辑，支持最长20个素材的一镜到底；图片4.1与4.5模型分别强化平面设计能力与人像美观度。",
+      "source": "即梦AI"
+    },
+    {
+      "title": "Seedance 1.5 pro 音视频创作模型正式发布",
+      "url": "https://mp.weixin.qq.com/s/C6YH3ifq7vJPjY_zSpWbfw",
+      "content": "字节跳动发布新一代音视频创作模型 Seedance 1.5 pro，实现音视频联合生成。模型支持从文本到音视频的合成及图像引导生成，在精准音画同步、多语言与方言口型匹配、电影级运镜控制及动态叙事表现上取得突破。",
+      "source": "字节跳动Seed"
+    }
+  ]
+}
