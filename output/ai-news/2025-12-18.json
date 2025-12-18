@@ -1,0 +1,36 @@
+{
+  "date": "2025-12-18",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "Google 发布了高速、低成本模型 Gemini 3 Flash",
+      "url": "https://mp.weixin.qq.com/s/a47cr-7HwZ78gsFRaszEIg",
+      "content": "谷歌正式发布高速、低成本模型Gemini 3 Flash，模型在多项基准测试中表现优异，其性能已超越前代Gemini 2.5 Pro，在部分指标上接近Gemini 3 Pro和GPT-5.2等前沿模型。新模型具备前沿级推理与多模态能力，响应速度提升3倍，同时显著降低了成本。",
+      "source": "机器之心"
+    },
+    {
+      "title": "更大更强！限时免费！阶跃星辰 GUI Agent 全面升级",
+      "url": "https://mp.weixin.qq.com/s/oBbW3L6bhXpsVL73GzKJXg",
+      "content": "阶跃星辰宣布其GUI Agent模型Step-GUI全面升级，新版模型支持200多个任务场景，具备更长推理步骤、更强语义理解与泛化能力。模型可在手机、PC、汽车等多端使用，并实现最短10分钟快速部署。公司开放了API供免费使用，并公开发布了技术报告与GUI-MCP协议。",
+      "source": "阶跃星辰"
+    },
+    {
+      "title": "Meta 发布 SAM Audio，多模态音频分离新突破",
+      "url": "https://www.ithome.com/0/905/849.htm",
+      "content": "Meta发布首个统一多模态音频分离模型SAM Audio，支持通过文本、视觉或时间段提示从复杂音频中精准提取目标声音。模型基于感知编码器视听技术，用户可点击视频中物体分离对应音频，或输入”狗吠”等文本指令过滤噪音。",
+      "source": "IT之家"
+    },
+    {
+      "title": "估值达465亿！明星AI编程独角兽Lovable再拿新融资",
+      "url": "https://zhidx.com/p/522126.html",
+      "content": "瑞典AI编程初创公司Lovable近日完成新一轮融资，估值飙升至66亿美元，较半年前暴涨超三倍，成为欧洲最具价值初创公司之一。本轮融资吸引了Accel等知名风投参与，标志着AI编程工具赛道竞争加剧。",
+      "source": "智东西"
+    },
+    {
+      "title": "爱诗科技携手阿里云达成全栈AI合作 AI视频全球化再启航",
+      "url": "https://mp.weixin.qq.com/s/UKnS-LtW4YNuxKNZqMgsUQ",
+      "content": "爱诗科技与阿里云签署全面合作协议，双方将在AI视频生成领域建立深度协同。阿里云将为爱诗科技提供全栈AI支持，涵盖基础设施及大模型服务，助力其自研视频生成模型PixVerse的全球化部署。",
+      "source": "爱诗科技AIsphere"
+    }
+  ]
+}
