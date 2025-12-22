@@ -1,0 +1,30 @@
+{
+  "date": "2025-12-22",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "扣子编程，开启免费公开测试",
+      "url": "https://mp.weixin.qq.com/s/iYOfM987QTN6UdZ2b9nW_w",
+      "content": "在火山引擎Force大会上，扣子开发平台正式升级为“扣子编程”并开启免费公开测试。此次升级标志着平台从AI应用搭建工具转型为赋能开发者创造力的平台，推出全新的Vibe Coding开发范式。用户只需用自然语言描述业务需求，即可自动生成智能体、工作流及跨端应用。",
+      "source": "扣子Coze"
+    },
+    {
+      "title": "OpenAI最强代码模型GPT-5.2-Codex上线",
+      "url": "https://mp.weixin.qq.com/s/dkOTZYIj5bmIdVQYfgvEeQ",
+      "content": "OpenAI发布迄今最先进的智能体编码模型GPT-5.2-Codex，模型在复杂软件工程任务中实现重大突破。新版本显著提升了指令遵循能力、长上下文理解及网络安全防护性能，在SWE-Bench Pro和Terminal-Bench 2.0等基准测试中达到最先进水平。独特的上下文压缩技术可高效处理大型代码库，支持复杂重构与迁移任务。",
+      "source": "机器之心"
+    },
+    {
+      "title": "VTP：MiniMax海螺视频团队，首次开源！",
+      "url": "https://mp.weixin.qq.com/s/GTeKG1GOCyUVbEeWXbGktw",
+      "content": "MiniMax视频团队开源视觉生成模型关键组件VTP，首次提出tokenizer的scaling性质。技术通过融合多种表征学习方法，将latent易学性与通用表征学习建立关联，显著提升下游生成系统性能。",
+      "source": "MiniMax稀宇科技"
+    },
+    {
+      "title": "苹果开源 SHARP 模型，1 秒内 AI 让照片变 3D“活”起来",
+      "url": "https://www.ithome.com/0/905/857.htm",
+      "content": "苹果公司宣布开源其新型AI模型SHARP，能在一秒内将单张2D照片转换为逼真的3D场景。与传统方案相比，处理速度提升了三个数量级，实现了近乎实时的3D转换体验。模型基于先进的3D高斯泼溅技术，通过神经网络单次前馈即可预测数百万个3D高斯球的位置与外观。",
+      "source": "IT之家"
+    }
+  ]
+}
