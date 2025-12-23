@@ -1,0 +1,12 @@
+{
+  "date": "2025-12-23",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "GLM-4.7上线并开源：更强的编码",
+      "url": "https://mp.weixin.qq.com/s/tGKf-PQV9xerbAyRew3MHQ",
+      "content": "智谱AI正式上线并开源新一代大模型GLM-4.7，该版本在编码、推理与智能体能力上实现显著提升。在多项主流基准测试中，编程能力达到开源模型领先水平，在SWE-bench Verified中获得73.8%的SOTA分数，工具调用任务τ²-Bench得分87.4分，超越Claude Sonnet 4.5。",
+      "source": "智谱"
+    }
+  ]
+}
