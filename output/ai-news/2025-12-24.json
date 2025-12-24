@@ -1,0 +1,36 @@
+{
+  "date": "2025-12-24",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "GLM-4.7上线并开源：更强的编码",
+      "url": "https://mp.weixin.qq.com/s/tGKf-PQV9xerbAyRew3MHQ",
+      "content": "智谱AI正式上线并开源新一代大模型GLM-4.7，该版本在编码、推理与智能体能力上实现显著提升。在多项主流基准测试中，编程能力达到开源模型领先水平，在SWE-bench Verified中获得73.8%的SOTA分数，工具调用任务τ²-Bench得分87.4分，超越Claude Sonnet 4.5。",
+      "source": "智谱"
+    },
+    {
+      "title": "MiniMax M2.1：多语言编程SOTA，为真实世界复杂任务而生",
+      "url": "https://mp.weixin.qq.com/s/QOv0GLq5-T--gKGIF912RQ",
+      "content": "MiniMax发布新一代大模型MiniMax M2.1，该版本在多语言编程与真实世界复杂任务处理上实现显著突破。模型系统性提升了Rust、Java、Golang等十余种编程语言能力，在SWE-bench Verified基准测试中获得74分，超越Claude Sonnet 4.5。其创新的VIBE基准测试显示，M2.1在全栈应用构建能力上接近顶级闭源模型水平。",
+      "source": "MiniMax稀宇科技"
+    },
+    {
+      "title": "阿里发布新一代端到端语音交互模型：Fun-Audio-Chat",
+      "url": "https://mp.weixin.qq.com/s/58ncSl-Mb0uG4Up08AuG1A",
+      "content": "阿里通义发布新一代端到端语音交互模型Fun-Audio-Chat，模型采用创新的端到端序列到序列架构，实现从语音输入直接生成语音输出，无需传统ASR+LLM+TTS多模块拼接，显著降低延迟。在OpenAudioBench、MMAU等多个权威评测中，模型在同尺寸模型中排名第一，综合性能超越GLM4-Voice、Kimi-Audio等主流产品。",
+      "source": "通义大模型"
+    },
+    {
+      "title": "面壁智能完成数亿元融资，加码投入领跑端侧 AI",
+      "url": "https://mp.weixin.qq.com/s/-jZoiossQP1QISXUqBU3ig",
+      "content": "面壁智能近日宣布完成数亿元融资，投资方包括京国瑞、国科投资、中金保时捷基金等多家机构。本轮融资将主要用于加大端侧高效大模型的研发投入，加速端侧AI的商业化进程。",
+      "source": "面壁智能"
+    },
+    {
+      "title": "钉钉发布全球首个为 AI 打造的工作智能操作系统 Agent OS",
+      "url": "https://mp.weixin.qq.com/s/GQNLyMWB7P-wykhq6kM-QA",
+      "content": "钉钉发布AI工作操作系统“Agent OS”，重构企业工作方式。系统作为全球首个为AI打造的工作智能操作系统，可统一调度和管理各类AI智能体。核心组件包括交互界面“钉钉ONE”、通用智能体“悟空”及企业级AI硬件“DingTalk Real”。",
+      "source": "APPSO"
+    }
+  ]
+}
