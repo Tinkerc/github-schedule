@@ -1,0 +1,18 @@
+{
+  "date": "2025-12-26",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "阿里最强“PS模型”开源：Qwen-Image-Edit-2511",
+      "url": "https://mp.weixin.qq.com/s/sk1YVv_zxaA0MNXPX4kPtg",
+      "content": "阿里开源图像编辑模型Qwen-Image-Edit-2511，显著提升人物一致性与风格稳定性，集成LoRA模块实现光照、材质及视角控制。实测显示其人像融合、文字渲染效果自然，但几何推理与精细镜头控制仍有不足。",
+      "source": "智东西"
+    },
+    {
+      "title": "生数科技联合清华发布 TurboDiffusion提速200倍",
+      "url": "https://mp.weixin.qq.com/s/r2LGRULflwl59ieQq-KdOw",
+      "content": "生数科技联合清华大学开源视频生成加速框架TurboDiffusion，最高可实现200倍推理加速，推动AI视频生成迈入“实时生成”时代。框架通过低比特注意力加速、稀疏-线性注意力等四项核心技术，在单张RTX 5090显卡上能将生成1080P高清视频的时间从分钟级压缩至秒级，几乎不影响生成质量。",
+      "source": "生数科技"
+    }
+  ]
+}
