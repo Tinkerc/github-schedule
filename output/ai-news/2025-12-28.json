@@ -1,0 +1,36 @@
+{
+  "date": "2025-12-28",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "智谱推出轻量级AI IDE编程工具：Zcode",
+      "url": "https://ai-bot.cn/sites/69134.html",
+      "content": "智谱推出AI编程工具Zcode，深度融合AI Agent与开发工具链。工具支持跨仓库全代码库理解、多仓库上下文推理及自动化代码审查，具备对话变更自动保存、代码回滚、可视化Git界面等功能，针对前端开发集成内置浏览器和元素选择器，助力开发者高效协作，无缝融入现有工作流。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Qwen Code 重磅更新：让 AI 编程跳出命令行",
+      "url": "https://mp.weixin.qq.com/s/GScWRLFZDNciEIYXGb9KJQ",
+      "content": "通义千问Qwen Code发布v0.5.0版本，实现从命令行工具向开发生态的关键升级。本次更新重磅推出VSCode插件，开发者可在IDE内直接唤出AI对话界面进行编程。同时发布的TypeScript SDK允许开发者以编程方式集成其智能能力，便于构建Web或移动应用。",
+      "source": "通义千问Qwen"
+    },
+    {
+      "title": "Skywork Sheets 2.0重磅上线：一键解锁高效办公新体验",
+      "url": "https://mp.weixin.qq.com/s/wN6GSjeksAqDLU7zgSmEZg",
+      "content": "Skywork Sheets 2.0版本近日正式上线，核心突破在于实现了“表格与报告的深度融合”。用户仅需输入数据，AI即可自动完成整理分析、生成可视化图表并撰写完整报告，实现“输入数据，输出成果”的闭环。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "小红书开源 InstanceAssemble：让 AI 精准还原复杂图像排版",
+      "url": "https://www.ithome.com/0/908/118.htm",
+      "content": "小红书与复旦大学联合推出布局控制生成方案InstanceAssemble，通过创新“实例组装注意力”机制，实现了从简单布局到密集复杂场景的精准图像生成。技术能根据用户指定的物体位置和内容描述，在对应位置高精度生成图像，解决了布局对齐不准的行业难题。",
+      "source": "IT之家"
+    },
+    {
+      "title": "曦诺未来宣布完成超亿元天使轮融资，宁德时代和小米投了",
+      "url": "https://zhidx.com/p/524104.html",
+      "content": "杭州灵巧手企业曦诺未来今日宣布完成超亿元天使轮融资，由宁德时代旗下溥泉资本领投，小米战投等跟投。该公司成立数月即研发出全球首款全自研高自由度腱绳驱动灵巧手Xynova Flex 1，拥有25个自由度，自重仅380克，负载超30公斤。",
+      "source": "智东西"
+    }
+  ]
+}
