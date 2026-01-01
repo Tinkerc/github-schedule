@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-01",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "Kimi 完成 5 亿美元新融资",
+      "url": "https://mp.weixin.qq.com/s/gtPTI2Cf2WwGUBcn_yc9uQ",
+      "content": "中国大模型公司月之暗面（Kimi）近期完成5亿美元C轮融资，由IDG资本领投1.5亿美元，阿里巴巴、腾讯及王慧文等老股东超额认购，投后估值达43亿美元。创始人杨植麟内部信透露，公司现金储备已超100亿元人民币，因此“可以不着急IPO”。本轮融资将用于加速K3大模型的研发和扩增算力。",
+      "source": "晚点LatePost"
+    },
+    {
+      "title": "Vidu Agent全球正式上线，商业广告一键成片",
+      "url": "https://mp.weixin.qq.com/s/nWniDOOBI6bnV8zQw3B0kw",
+      "content": "Vidu推出AI视频创作工具Vidu Agent，支持20多种语言和200多种音色，覆盖商业广告、产品TVC、剧情片等多种创作场景，能一键生成高质量视频。其分镜编辑功能让创作者可以轻松调整镜头顺序、时长和转场效果，实时预览修改后的视频。",
+      "source": "Vidu AI"
+    },
+    {
+      "title": "软银完成对OpenAI承诺的225亿美元额外投资",
+      "url": "https://mp.weixin.qq.com/s/PtRuR-4OhQOLOUn5xfdYdg",
+      "content": "软银向OpenAI的400亿美元（约合人民币2799亿元）巨额投资已全部到账，使其持股比例达到约11%。这笔史上最大额AI投资的前提是OpenAI需在年底前完成重组并转为营利组织，否则投资将大幅缩减。为筹集资金，软银已清仓其持有的英伟达股份。投资将部分用于支持OpenAI、甲骨文和软银联合建设的AI基础设施“星际之门”。",
+      "source": "智东西"
+    },
+    {
+      "title": "MiniMax今起招股，1月9日敲钟代码00100",
+      "url": "https://mp.weixin.qq.com/s/bdGiuM0iBQwD_DnKwOSjzg",
+      "content": "中国AI公司MiniMax正式启动港股上市进程，预计于2026年1月9日挂牌，股票代码00100。此次IPO发行估值超461亿港元，拟募资超6亿美元。公司获得阿里巴巴、阿布扎比投资局等14家基石投资者支持。",
+      "source": "量子位"
+    }
+  ]
+}
