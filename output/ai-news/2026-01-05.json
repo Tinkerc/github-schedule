@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-05",
+  "weekday": "周日",
+  "items": [
+    {
+      "title": "DeepSeek 发布新论文：提出全新 mHC 架构",
+      "url": "https://ai-bot.cn/mhc/",
+      "content": "DeepSeek发布新论文提出全新mHC（流形约束超连接）架构，解决传统超连接在大规模模型训练中的不稳定性问题，同时保持其性能增益。框架通过将残差连接空间投影到特定流形来恢复恒等映射属性，并结合基础设施优化提升效率。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "ListenHub完成200万美元融资，ARR 300万美元进军北美",
+      "url": "https://36kr.com/newsflashes/3620283612300549",
+      "content": "AI内容生成平台ListenHub的母公司MarsWave已完成200万美元天使+轮融资，由天际资本领投，小米联合创始人王川跟投。公司年经常性收入（ARR）已突破300万美元并实现月度盈亏平衡。此次融资将主要用于进军北美市场，并已任命具有百度、MiniMax等背景的新COO负责全球增长。",
+      "source": "36氪"
+    },
+    {
+      "title": "TRAE 中国版 SOLO 已全量免费开放！",
+      "url": "https://mp.weixin.qq.com/s/YC0z99VN0G4dv6s2X122Zg",
+      "content": "中国版TRAE SOLO模式现已向全部用户免费开放。AI编程助手支持项目迭代、问题修复与架构重构等复杂开发任务，具备智能任务规划和自主编排智能体能力。用户可免费使用内置的豆包、GLM、MiniMax、Kimi等多款模型，产品将自动基于模型效果和速度配置最佳上下文窗口。",
+      "source": "TRAE.ai"
+    }
+  ]
+}
