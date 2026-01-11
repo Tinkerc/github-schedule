@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-11",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "MiniMax 港股挂牌，历史上IPO规模最大的AI大模型公司诞生",
+      "url": "https://mp.weixin.qq.com/s/ltJt47C1P4C9ebZqBkicgw",
+      "content": "全球化AI大模型公司MiniMax（股票代码：0100.HK）在香港联交所主板正式挂牌上市。开盘后股价一度大涨超50%，截至发稿涨幅达63%，报269港元，市值约831亿港元。此次IPO以每股165港元定价上限发行，募集资金总额约55.4亿港元，其公开发售部分获得1837倍超额认购，市场反响热烈。",
+      "source": "财联社"
+    },
+    {
+      "title": "ChatDev 2.0：零代码构建多智能体，快速开发一切",
+      "url": "https://mp.weixin.qq.com/s/i1n7AxUJq5xeCKoTtSyDeA",
+      "content": "清华大学、上海交通大学、OpenBMB与面壁智能联合团队正式开源多智能体框架ChatDev 2.0。新版实现了从“代码驱动”到“零代码可视化交互”的飞跃，用户通过简单“拖拽+配置”即可在无限画布上构建复杂多智能体系统。",
+      "source": "面壁智能"
+    },
+    {
+      "title": "多模态检索新标杆，Qwen3-VL-Embedding&Reranker开源！",
+      "url": "https://mp.weixin.qq.com/s/n1o3_SVUW6Btd2LnTfZfXg",
+      "content": "通义千问团队正式开源多模态检索模型Qwen3-VL-Embedding与Qwen3-VL-Reranker。该系列模型基于Qwen3-VL构建，专为图文、视频等混合内容的理解与检索设计，能在统一框架内处理文本、图像、视觉文档及视频等多种模态输入。",
+      "source": "通义大模型"
+    }
+  ]
+}
