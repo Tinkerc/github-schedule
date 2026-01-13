@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-13",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "自变量获字节、红杉等10亿元投资，构建物理世界的基础模型",
+      "url": "https://mp.weixin.qq.com/s/92U2n8wyDxzXCxz8JHGoFQ",
+      "content": "具身智能机器人公司“自变量”近期完成10亿元A++轮融资，投资方包括字节跳动、红杉中国、深创投等顶级机构。公司是国内唯一同时获得字节、美团、阿里投资的具身智能企业，凸显市场对其技术领先性的高度认可。",
+      "source": "自变量机器人"
+    },
+    {
+      "title": "千寻智能开源具身智能基础模型Spirit v1.5",
+      "url": "https://mp.weixin.qq.com/s/-ucsVHZnXS3GFXnq_KAehQ",
+      "content": "国产具身智能模型千寻Spirit v1.5在权威真机评测基准RoboChallenge上以总分66.09、成功率50.33%的成绩超越美国公司Physical Intelligence的Pi0.5模型，登顶全球榜首。是该榜单自上线以来首个击败基准模型的国产模型，也是首个成功率突破50%的具身智能模型。",
+      "source": "量子位"
+    },
+    {
+      "title": "Humanify 获数千万元首轮融资打造 AI OS",
+      "url": "https://mp.weixin.qq.com/s/wWsSE9HQy9qxKJ-C7sF6LA",
+      "content": "AI初创公司Humanify（人格智能）近日宣布完成数千万元种子轮融资，由五源资本领投，奇绩创坛跟投。公司成立于2024年，专注于开发具备“类人认知与自主意识”的下一代AI模型与原生操作系统。本轮资金将主要用于模型和操作系统研发、扩大团队，加速智能在真实场景的落地。",
+      "source": "Z Potentials"
+    },
+    {
+      "title": "谷歌联合零售巨头推出通用商务协议 UCP",
+      "url": "https://www.ithome.com/0/912/491.htm",
+      "content": "谷歌联合Shopify、沃尔玛、Target等零售巨头推出全新开放标准——通用商务协议（UCP），为AI智能体购物场景建立全流程标准化框架。协议支持智能体参与从商品发现到售后支持的全部环节，通过标准化实现不同系统间的协同运作，并可兼容谷歌此前发布的智能体支付、互联等协议。",
+      "source": "IT之家"
+    }
+  ]
+}
