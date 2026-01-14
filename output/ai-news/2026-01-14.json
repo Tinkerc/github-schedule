@@ -1,0 +1,12 @@
+{
+  "date": "2026-01-14",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "智谱联合华为开源首个国产芯片训练的多模态SOTA模型GLM-Image",
+      "url": "https://mp.weixin.qq.com/s/89kksB37sUs-mmG20AW5Fw",
+      "content": "智谱AI与华为联合开源新一代图像生成模型GLM-Image，是首个在国产昇腾Atlas 800T A2芯片上完成全流程训练的SOTA多模态模型。模型采用创新的“自回归+扩散解码器”混合架构，在复杂视觉文字生成（CVTG-2K）和长文本渲染（LongText-Bench）榜单中取得开源模型最优成绩，尤其擅长汉字生成任务。",
+      "source": "智谱"
+    }
+  ]
+}
