@@ -1,0 +1,48 @@
+{
+  "date": "2026-01-15",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "智谱联合华为开源首个国产芯片训练的多模态SOTA模型GLM-Image",
+      "url": "https://mp.weixin.qq.com/s/89kksB37sUs-mmG20AW5Fw",
+      "content": "智谱AI与华为联合开源新一代图像生成模型GLM-Image，是首个在国产昇腾Atlas 800T A2芯片上完成全流程训练的SOTA多模态模型。模型采用创新的“自回归+扩散解码器”混合架构，在复杂视觉文字生成（CVTG-2K）和长文本渲染（LongText-Bench）榜单中取得开源模型最优成绩，尤其擅长汉字生成任务。",
+      "source": "智谱"
+    },
+    {
+      "title": "全球首个通用实时世界模型 PixVerse R1",
+      "url": "https://mp.weixin.qq.com/s/Goh5t9Gqlf-ndPF32EGftQ",
+      "content": "PixVerse正式发布全球首个通用实时世界模型PixVerse R1，开创视频内容从”录好再播”到”因你而生”的新范式。模型支持无限流生成、多模态交互与即时响应，最高支持1080P分辨率。",
+      "source": "爱诗科技 AIsphere"
+    },
+    {
+      "title": "Genspark 官宣 ARR 突破 1 亿美元",
+      "url": "https://www.linkedin.com/posts/gensparkai_we-hit-100m-arr-annual-run-rate-in-just-activity-7416765533062221824-IFCS/",
+      "content": "Genspark 通过 LinkedIn 宣布，其产品上线仅 9 个月，年度经常性收入（ARR）已突破 1 亿美元，跻身全球增长最快的 AI 公司行列。同时，Genspark 预告 Genspark AI Workspace 2.0 将在两周内发布。",
+      "source": "LinkedIn"
+    },
+    {
+      "title": "商汤「办公小浣熊」APP上线！",
+      "url": "https://mp.weixin.qq.com/s/bt16ORabpiqQdmw3CQ-WqA",
+      "content": "商汤科技正式上线「办公小浣熊APP」iOS移动版应用。APP主打移动办公场景下的AI生产力工具，支持用户通过手机进行复杂表格数据分析、语音输入快速记录，并实现电脑与手机间的任务无缝接力。",
+      "source": "商汤科技SenseTime"
+    },
+    {
+      "title": "MiniMax 开源新评测集：定义Coding Agent 的生产级标准",
+      "url": "https://mp.weixin.qq.com/s/7H0NrTfDC2zCWmu5Pm_jfA",
+      "content": "MiniMax开源新一代Coding Agent评测集OctoCodingBench，首次将评估重点从”结果正确”转向”过程规范遵循”。评测集通过Check-level准确率和Instance-level成功率两项指标，系统评估AI编程助手在遵循命名规范、安全规则、团队协作规范等过程约束的能力。",
+      "source": "MiniMax稀宇科技"
+    },
+    {
+      "title": "快手宣布可灵 12 月收入超 2000 万美元",
+      "url": "https://ir.kuaishou.com/zh-hans/news-releases/news-release-details/kelingainianhuashouruyunxingluzai2025nian12yueda24yimeijin",
+      "content": "快手科技宣布其视频生成大模型可灵AI在2025年12月单月收入突破2000万美元，年化收入运行率达2.4亿美元。产品在上线第10个月实现ARR破1亿美元后，于第19个月再次实现跨越式增长。2025年12月，可灵AI通过”全能灵感周”集中发布了可灵视频O1、可灵图片O1等多款新模型，在视频编辑、一致性保持等方面实现技术突破。",
+      "source": "快手科技"
+    },
+    {
+      "title": "一年融2.2亿，DeepWisdom终于发布了第一款产品Atoms",
+      "url": "https://mp.weixin.qq.com/s/XzK3PyJC2-FOiAluUwxQdA",
+      "content": "AI编程平台DeepWisdom正式发布核心产品Atoms，平台基于多智能体架构，让用户”用一句话启动一家创业公司”。只需输入想法，平台可调用产品经理、工程师等AI智能体，完成从市场调研、全栈开发到部署上线的完整产品闭环。公司在2025年完成累计2.2亿元人民币融资。",
+      "source": "暗涌Waves"
+    }
+  ]
+}
