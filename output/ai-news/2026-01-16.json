@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-16",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "千问App上线AI购物，真正能帮你办事的AI来了！",
+      "url": "https://mp.weixin.qq.com/s/gqTkVJ4UsdFqJoZsYfGbyQ",
+      "content": "千问App正式上线400多项AI办事功能，标志着从”聊天对话”迈入”AI办事时代”。应用深度接入淘宝、支付宝、高德、飞猪等阿里生态业务，在全球首次实现AI点外卖、购物、订机票酒店等实用功能，用户可在对话界面内完成支付无需跳转。上线的”任务助理”支持多步骤复杂任务规划，新增学习辅助功能。",
+      "source": "阿里巴巴"
+    },
+    {
+      "title": "阶跃星辰原生语音推理模型 Step-Audio-R1.1 登顶榜首",
+      "url": "https://mp.weixin.qq.com/s/UqVjKZCrneK0fkIX0oC3UQ",
+      "content": "阶跃星辰开源语音推理模型Step-Audio-R1.1在权威评测Artificial Analysis Speech Reasoning中以96.4%准确率登顶全球第一，超越Grok、Gemini等主流模型。是全球首个开源原生语音推理模型，具备深度语音推理和实时响应能力，可端到端理解音频内容并进行复杂逻辑推理。",
+      "source": "阶跃星辰"
+    },
+    {
+      "title": "OpenAI签下近700亿AI芯片巨单！",
+      "url": "https://zhidx.com/p/528906.html",
+      "content": "OpenAI与美国AI芯片公司Cerebras签署价值近100亿美元（约697亿元人民币）的超级订单，将部署750兆瓦的Cerebras晶圆级系统，打造全球最大高速AI推理平台。合作将于2026年起分阶段实施，2028年前完成，Cerebras芯片推理速度达GPU系统的15倍。",
+      "source": "智东西"
+    }
+  ]
+}
