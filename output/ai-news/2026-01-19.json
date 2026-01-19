@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-19",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "国产芯片全程训练，GLM-Image登顶Hugging Face Trending",
+      "url": "https://mp.weixin.qq.com/s/0fhU7NI5muWLPrrYgHv1pA",
+      "content": "智谱AI与华为联合研发的多模态模型GLM-Image在开源后24小时内登顶Hugging Face Trending榜单首位，成为首个完全依托国产昇腾芯片完成全流程训练的SOTA模型。模型采用创新的”自回归+扩散解码器”混合架构，在复杂视觉文本生成和长文本渲染任务中表现优异，尤其擅长汉字生成。",
+      "source": "智谱"
+    },
+    {
+      "title": "美团 LongCat-Flash-Thinking-2601 发布，工具调用能力登顶开源 SOTA！",
+      "url": "https://mp.weixin.qq.com/s/LpvkaFNQq61Y3cD9YhgugQ",
+      "content": "美团LongCat团队发布并开源智能体模型LongCat-Flash-Thinking-2601，在智能体工具调用、搜索等核心评测中达到开源SOTA水平。模型创新引入”重思考”模式，支持8个并行推理路径协同工作，在复杂随机任务中性能超越Claude。",
+      "source": "龙猫LongCat"
+    },
+    {
+      "title": "谷歌最强 AI 开放翻译模型：TranslateGemma 登场",
+      "url": "https://www.ithome.com/0/913/641.htm",
+      "content": "谷歌发布基于Gemma 3架构的开放翻译模型系列TranslateGemma，提供4B、12B和27B三种参数规模。系列支持55种核心语言及多模态图像翻译，其中12B版本翻译质量超越参数量更大的基线模型，4B模型性能与12B基线相当，可在手机端流畅运行。",
+      "source": "IT之家"
+    },
+    {
+      "title": "混元3D Studio 1.2全面开放公测！支持笔刷交互、八视图输入",
+      "url": "https://mp.weixin.qq.com/s/B0LxZTO08noBLERUiMmt2w",
+      "content": "腾讯混元3D Studio 1.2版本今日全面开放公测，无需申请即可体验。该版本核心升级包括PartGen 1.5组件生成模型，拆分精度提升至1536³分辨率，并首次支持笔刷交互，用户可通过笔刷进行细粒度组件拆分控制。",
+      "source": "腾讯混元"
+    }
+  ]
+}
