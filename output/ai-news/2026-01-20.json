@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-20",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "扣子 2.0，让 Agent 更进一步",
+      "url": "https://mp.weixin.qq.com/s/PZY_pyf0wBLYKFMNQedoxg",
+      "content": "字节跳动旗下AI智能体平台“扣子”正式发布2.0版本，推出四大核心功能升级。Agent Skills技能系统支持用户为AI安装行业专业能力包；Agent Plan支持设定长期目标后由AI自主规划执行；Agent Office提供深度职场场景理解与洞察；Agent Coding实现云端一站式开发。",
+      "source": "扣子Coze"
+    },
+    {
+      "title": "安克与飞书联合发布AI录音豆",
+      "url": "https://mp.weixin.qq.com/s/kNwZHnVQIrJe-mKDsInsdQ",
+      "content": "安克与飞书联合发布AI录音豆，产品单体仅重10克，采用豆型轻巧设计，可夹于衣领、袖口等位置实现无感佩戴。内置的AI能力由飞书提供，支持多语言转写翻译、会议纪要自动生成，能将录音内容智能分析为鱼骨图等可视化图表，自动同步至飞书多维表格。",
+      "source": "Anker安克"
+    },
+    {
+      "title": "AI视频领军企业爱诗科技与中国儒意达成战略合作",
+      "url": "https://mp.weixin.qq.com/s/fS_Yi86kPza6RTco9a82iw",
+      "content": "AI视频生成企业爱诗科技与港股上市公司中国儒意达成战略合作，并获得1420万美元战略投资。双方将共同探索AI技术在影视制作、流媒体平台南瓜电影及游戏业务中的创新应用，重点开发影视视觉设计、视效制作、宣传素材智能生成等环节。爱诗科技将获得中国儒意优质版权内容授权，合作研发多模态智能体技术。",
+      "source": "爱诗科技AIsphere"
+    },
+    {
+      "title": "光轮智能联手World Labs破解评测规模化难题",
+      "url": "https://mp.weixin.qq.com/s/_g4sP1prQySAvTz-LMfSxA",
+      "content": "光轮智能与World Labs合作破解具身智能规模化评测难题，通过”数字表亲”仿真方案替代传统高成本数字孪生技术。该方案基于轻量真实世界采集数据，利用3D高斯泼溅技术快速生成可物理交互的仿真环境，将环境创建时间压缩至分钟级。",
+      "source": "光轮智能"
+    }
+  ]
+}
