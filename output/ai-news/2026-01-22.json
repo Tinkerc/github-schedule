@@ -1,0 +1,18 @@
+{
+  "date": "2026-01-22",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "10B击败200B！阶跃星辰开源视觉语言SOTA：Step3-VL-10B",
+      "url": "https://mp.weixin.qq.com/s/Sh5j0uG0wtR04XHrg-EoYA",
+      "content": "阶跃星辰（StepFun）开源10B参数多模态模型Step3-VL-10B，在多项基准测试中性能超越参数量20倍以上的主流大模型。模型在视觉感知、数学竞赛、逻辑推理等核心维度达到SOTA水平，其创新的并行协调推理机制（PaCoRe）显著提升复杂任务处理能力。",
+      "source": "阶跃星辰"
+    },
+    {
+      "title": "MiniMax推出Agent 2.0，升级为进阶型桌面智能协作伙伴",
+      "url": "https://mp.weixin.qq.com/s/I2RgH04J2l5mG1x492T17A",
+      "content": "MiniMax发布第二代智能体产品MiniMax Agent 2.0，推出“AI原生工作台”新范式。平台包含桌面端应用，支持Windows和Mac系统，可深度打通本地文件与环境，实现本地与云端任务的无缝协同。核心创新“Expert Agents”专家系统，通过封装行业SOP与私有知识，将专业能力从通用70分提升至95分以上。",
+      "source": "机器之心"
+    }
+  ]
+}
