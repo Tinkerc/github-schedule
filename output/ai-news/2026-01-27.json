@@ -1,0 +1,18 @@
+{
+  "date": "2026-01-27",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "千问最强模型Qwen3-Max-Thinking正式发布",
+      "url": "https://mp.weixin.qq.com/s/kkpblUFmiS2WeBUxWQAICw",
+      "content": "阿里正式发布其规模最大、能力最强的推理模型Qwen3-Max-Thinking。模型总参数量超万亿，预训练数据达36T Tokens，在多项国际专业基准测试中刷新纪录。其创新性地采用了测试时扩展机制，在提升推理性能的同时更加经济。",
+      "source": "阿里云"
+    },
+    {
+      "title": "英伟达20亿美元加码CoreWeave，冲刺5GW算力",
+      "url": "https://mp.weixin.qq.com/s/xkCtjwoWWLf0x42e5NcWPQ",
+      "content": "英伟达宣布追加投资20亿美元给云服务商CoreWeave，持股比例升至超11%，成为其第二大股东。双方将深化合作，目标在2030年前建成超5GW的AI算力项目。值得注意的是，英伟达首次独立向CoreWeave供应Vera CPU芯片，可能预示其将进入数据中心CPU市场，与英特尔、AMD竞争。",
+      "source": "钛媒体"
+    }
+  ]
+}
