@@ -1,0 +1,12 @@
+{
+  "date": "2026-01-28",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "阿里通义开源Z-Image基座模型",
+      "url": "https://mp.weixin.qq.com/s/ZOtEIXvDUesoPebmWfOocw",
+      "content": "阿里通义开源发布6B参数的非蒸馏基座模型Z-Image，专注于解决AI绘画风格单一、人像同质化等痛点。模型支持从写实到动漫的多元风格生成，通过原生架构优化，显著提升对LoRA、ControlNet等微调方法的兼容性。",
+      "source": "通义大模型"
+    }
+  ]
+}
