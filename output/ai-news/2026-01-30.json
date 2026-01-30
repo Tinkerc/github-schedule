@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-30",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "昆仑万维开源视频生成模型SkyReels-V3，重塑创作流程",
+      "url": "https://mp.weixin.qq.com/s/6al-Q9lXH4WamZ_1DQTPKw",
+      "content": "昆仑万维旗下Skywork AI宣布开源视频生成模型SkyReels-V3，模型在单一架构中整合参考图像转视频、视频延长、音频驱动虚拟形象三大功能。图像转视频技术在参考一致性（0.6698）和视觉质量（0.8119）指标上超越Vidu、Kling等主流模型；视频延长支持镜头切换与叙事扩展；虚拟形象模块可实现音画同步的长视频生成。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "MiniMax Music 2.5: 格莱美级创作，不再需要录音棚",
+      "url": "https://mp.weixin.qq.com/s/hy1RzvAytRSxX63qodEExw",
+      "content": "MiniMax正式推出新一代AI音乐生成模型MiniMax Music 2.5，突破性实现14种段落结构（如前奏、副歌、桥段）的标签化精准控制，支持创作者像专业编曲人一样设计整曲情绪曲线。",
+      "source": "MiniMax稀宇科技"
+    },
+    {
+      "title": "昆仑天工Mureka V8重磅发布：定义AI音乐新品类",
+      "url": "https://mp.weixin.qq.com/s/p9d1WCjxae1EJhaIJ_qReg",
+      "content": "昆仑万维旗下昆仑天工正式发布Mureka V8音乐大模型，宣布“AI音乐是一种新的音乐品类”。模型基于MusiCoT技术体系，在旋律完整性、人声表现力、编曲层次及混音质感上实现突破，生成效果达到可直接发布水准。",
+      "source": "昆仑万维集团"
+    }
+  ]
+}
