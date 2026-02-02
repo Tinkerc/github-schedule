@@ -1,0 +1,36 @@
+{
+  "date": "2026-02-02",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "宇树开源 UnifoLM-VLA-0 大模型，助力通用人形机器人操作",
+      "url": "https://www.ithome.com/0/917/656.htm",
+      "content": "宇树科技宣布开源视觉-语言-动作大模型UnifoLM-VLA-0。模型基于Qwen2.5-VL-7B架构，通过340小时真机数据训练，融合2D/3D空间感知与动力学预测能力，突破传统VLM在物理交互中的局限。",
+      "source": "IT之家"
+    },
+    {
+      "title": "商汤开源SenseNova-MARS：突破多模态搜索推理天花板",
+      "url": "https://mp.weixin.qq.com/s/w4SWWs8Ib1FmfHB59zydlQ",
+      "content": "商汤科技开源多模态自主推理模型SenseNova-MARS（8B/32B双版本），模型在MMSearch、HR-MMSearch等核心基准测试中以69.74分综合得分超越Gemini-3-Pro（69.06分）与GPT-5.2（67.64分），成为首个支持动态视觉推理与图文搜索深度融合的开源Agentic VLM。",
+      "source": "商汤科技SenseTime"
+    },
+    {
+      "title": "Qwen3-ASR开源：够稳定，能流式，多语言！",
+      "url": "https://mp.weixin.qq.com/s/gE0D-oKWQuES31FVriFDrg",
+      "content": "阿里云千问团队开源Qwen3-ASR系列语音识别模型，包含1.7B/0.6B参数版本及强制对齐模型。该系列支持52种语言与方言识别，覆盖中文22种地方口音及多国英语变体，在嘈杂环境、歌唱场景下均表现稳定。",
+      "source": "千问Qwen"
+    },
+    {
+      "title": "OpenAI宣布2月13日下线GPT-4o等旧模型",
+      "url": "https://mp.weixin.qq.com/s/m07-Frzi02OVdCoOltk73A",
+      "content": "OpenAI宣布将于2月13日从ChatGPT平台下线GPT-4o、GPT-4.1系列等旧模型。此举引发用户强烈反响，部分用户称GPT-4o的“温暖对话风格”具有不可替代的情感价值，尤其满足创意交流与情绪陪伴需求。OpenAI表示将集中资源优化主流模型，并在GPT-5.2中改进个性与创造力。API服务暂不受影响。",
+      "source": "APPSO"
+    },
+    {
+      "title": "苹果20亿美元收购以色列AI公司Q.ai",
+      "url": "https://mp.weixin.qq.com/s/M4kctKiY1KUiIMIOxFe-Ow",
+      "content": "苹果公司以近20亿美元收购以色列AI初创企业Q.ai，为其自2014年收购Beats以来规模第二大的交易。Q.ai核心技术为通过分析面部微表情与肌肉运动识别“无声语音”，用户无需发声即可通过唇动输入指令。该技术有望集成至AirPods、iPhone及计划于2026年推出的AI眼镜中，实现私密、无干扰的交互体验。",
+      "source": "极客公园"
+    }
+  ]
+}
