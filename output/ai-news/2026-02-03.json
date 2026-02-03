@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-03",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "智谱GLM-OCR发布：性能SOTA，搞定复杂文档",
+      "url": "https://mp.weixin.qq.com/s/TVanw2YyfxMlzoaOrR-Naw",
+      "content": "智谱AI正式发布并开源专业级OCR模型GLM-OCR，以仅0.9B参数实现”小尺寸、高精度”的文档解析能力。模型在权威评测OmniDocBench V1.5中以94.6分登顶，在文本识别、公式识别、表格解析及信息抽取等任务中均取得SOTA表现。特别针对手写体、复杂表格、代码文档等高难场景进行优化，支持PDF和图像批量处理，吞吐量达1.86页/秒。",
+      "source": "智谱"
+    },
+    {
+      "title": "马斯克宣布SpaceX完成对xAI的收购，估值达1.25万亿美元",
+      "url": "https://mp.weixin.qq.com/s/zBrQFEpR4_BCy9zKd2oMjA",
+      "content": "马斯克正式宣布SpaceX完成对xAI的收购，合并后公司估值达1.25万亿美元，每股发行价526.59美元。马斯克在内部信中表示，此次整合将打造”地球上最具雄心的垂直创新引擎”，涵盖AI、火箭技术、太空互联网等多领域。合并后，SpaceX将推进在太空部署数据中心的计划，利用太空太阳能资源降低AI算力成本。",
+      "source": "量子位"
+    },
+    {
+      "title": "马斯克旗下 xAI 发布 Grok Imagine 1.0",
+      "url": "https://ai-bot.cn/grok-imagine-1-0/",
+      "content": "马斯克旗下的人工智能公司xAI正式发布Grok Imagine 1.0版本，是该AI视频生成工具的重大升级。新版本支持生成10秒时长、720p分辨率的视频，显著提升了音频质量，实现了音画同步与情感化配音功能。",
+      "source": "AI工具集"
+    }
+  ]
+}
