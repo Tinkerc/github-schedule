@@ -1,0 +1,18 @@
+{
+  "date": "2026-02-05",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "通义千问 Qwen3-Coder-Next 开源：小而强！",
+      "url": "https://mp.weixin.qq.com/s/0cksg6oCGWtivy41UR4PMw",
+      "content": "通义开源Qwen3-Coder-Next编程智能体模型，采用80B总参数的MoE架构，每次推理仅激活3B参数，显著降低算力需求。在SWE-Bench Verified基准上取得超70%的问题解决率，性能接近更大规模的稠密模型。",
+      "source": "通义大模型"
+    },
+    {
+      "title": "昆仑天工面向全球发布“Skywork桌面版”",
+      "url": "https://mp.weixin.qq.com/s/rA414LJkzsui0j-7Kr3rOQ",
+      "content": "昆仑天工全球发布“Skywork桌面版”AI应用，支持Windows系统本地化运行，无需上传文件至云端。可跨格式理解并处理电脑中的文档、图片、视频等文件，实现多任务并行与内容生成。用户可选择Claude或Gemini模型，并自动调用百余项内置技能。",
+      "source": "昆仑万维集团"
+    }
+  ]
+}
