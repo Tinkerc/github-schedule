@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-08",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "OpenAI发布新一代编程模型：GPT-5.3-Codex",
+      "url": "https://mp.weixin.qq.com/s/f6VzFsK6Nwwp6nD7LJDuBg",
+      "content": "OpenAI推出新一代编程模型GPT-5.3-Codex，宣称为全球最强智能体编程模型。模型在SWE-Bench Pro和Terminal-Bench 2.0测试中取得SOTA成绩，编程得分较Claude Opus 4.6高11.9%。具备调试、部署及办公软件操作能力，速度提升25%，能参与自身开发优化。",
+      "source": "智东西"
+    },
+    {
+      "title": "Anthropic发布新一代AI模型Claude Opus 4.6",
+      "url": "https://mp.weixin.qq.com/s/Z5J48QTKmm4lt_GQqtqLIQ",
+      "content": "Anthropic发布新一代AI模型Claude Opus 4.6，具备100万token上下文窗口和自适应思考能力。在编程、金融分析、办公软件操作等领域表现卓越：16个AI代理两周内写出可编译Linux的C编译器，自主发现500多个零日漏洞，在GDPval-AA评测中超越GPT-5.2。",
+      "source": "量子位"
+    },
+    {
+      "title": "AI营销平台PallasAI 完成数千万元融资",
+      "url": "https://mp.weixin.qq.com/s/DfU8ab6waj9Vfl8B5mV1PA",
+      "content": "AI营销平台PallasAI完成数千万元融资，由有赞独家投资。公司推出行业首款标准化GEO AI Agent产品，通过可见性评分、营销图谱和Agent内容协作三大功能，帮助中小企业量化品牌在AI生态中的曝光度。",
+      "source": "Founder Park"
+    },
+    {
+      "title": "生数科技宣布完成超过6亿元人民币A+轮融资",
+      "url": "https://mp.weixin.qq.com/s/ZR4_oL4u9jVOicg9utJWNA",
+      "content": "北京生数科技宣布完成超6亿元A+轮融资，创下国内视频生成领域单笔融资新纪录。公司由清华大学背景团队创立，其Vidu Q3视频生成模型在专业影视制作场景中表现突出，位列全球第二，客户覆盖索尼、腾讯、字节跳动等企业。",
+      "source": "智东西"
+    }
+  ]
+}
