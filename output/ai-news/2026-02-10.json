@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-10",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "字节跳动推出新一代AI视频生成模型Seedance 2.0",
+      "url": "https://ai-bot.cn/seedance-2-0/",
+      "content": "字节跳动推出新一代AI视频生成模型Seedance 2.0，支持多模态参考生成，可同时上传图片、视频、音频等最多12个参考文件，精准复刻运镜逻辑与动作细节。该模型突破在于融合AI生成与后期编辑，用户可直接修改不满意部分，显著降低废片率。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "Skywork推出SkyBot——最适合小白用户的OpenClaw工具",
+      "url": "https://mp.weixin.qq.com/s/7ZqVrsKhKEF5tMxyxe7DeA",
+      "content": "天工Skywork推出SkyBot，号称全球最适合小白用户的OpenClaw工具。该产品将火爆的AI代理OpenClaw进行云端化改造，用户无需配置硬件或命令行，点击即可领取7×24小时云端AI助理。",
+      "source": "昆仑万维集团"
+    },
+    {
+      "title": "智谱清言APP正式上线「学习搭子」随时随地，马上学",
+      "url": "https://mp.weixin.qq.com/s/YTFAU7VZp02RtQBaehgnSQ",
+      "content": "智谱清言APP正式上线”学习搭子”功能，支持用户随时随地利用碎片化时间进行学习。该功能网页端上线两周内已创建超1.2万个学习项目，现移动端全面开放，无需邀请码即可体验。",
+      "source": "智谱清言"
+    },
+    {
+      "title": "腾讯推出全场景职场 AI 智能体桌面工作台WorkBuddy",
+      "url": "https://mp.weixin.qq.com/s/jepj-IFv3UR9LpZlt-h82w",
+      "content": "腾讯推出全场景AI办公助手WorkBuddy，正式开放内测申请。产品定位为桌面智能工作台，支持自然语言交互，能听懂指令后自主操作本地文件，实现PPT生成、数据整理、知识库构建等复杂任务。与聊天机器人不同，WorkBuddy强调“执行能力”，可像真实同事一样交付成果。",
+      "source": "腾讯云代码助手"
+    }
+  ]
+}
