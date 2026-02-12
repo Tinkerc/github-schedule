@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-12",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "智谱最新旗舰模型 GLM-5 开源：编程、智能体能力取得开源 SOTA",
+      "url": "https://mp.weixin.qq.com/s/MVo6DIcGNje_YtLgVa4PaQ",
+      "content": "智谱AI开源GLM-5大模型，其参数规模扩展至744B（激活40B），预训练数据达28.5T，在Coding与Agent能力上实现开源SOTA，综合表现逼近Claude Opus 4.5。该模型在SWE-bench、Terminal Bench等编程基准中领先开源模型，能端到端完成复杂系统工程与长程Agent任务，支持自动售货机经营模拟等资源规划场景。",
+      "source": "智谱"
+    },
+    {
+      "title": "Z Code推出ADE智能体开发环境，实现“对话即编程”新范式",
+      "url": "https://mp.weixin.qq.com/s/S1XlaKsGoZGzVzu_RNSjkg",
+      "content": "智谱AI正式发布Z Code全新版本，首次定义ADE（智能体开发环境），通过图形化界面将复杂CLI交互转化为多智能体协作平台。环境支持可视化配置管理、跨设备远程开发及多任务并行处理，内置实时预览浏览器与会话级版本管理功能，可灵活调度Claude Code等主流工具链。",
+      "source": "Z Code"
+    },
+    {
+      "title": "LongCat 发布原生「深度研究」智能体",
+      "url": "https://mp.weixin.qq.com/s/eIynIOol3gCgbwknOL-XFw",
+      "content": "美团旗下LongCat正式上线“深度研究”智能体功能，依托美团本地生活真实交易数据与行业洞察，为用户生成个性化吃喝玩乐攻略。智能体具备长程任务规划与多工具调用能力，支持400轮交互与256K上下文处理，在BrowseComp、MCP-Atlas等权威评测中达到开源模型SOTA水平。",
+      "source": "龙猫LongCat"
+    }
+  ]
+}
