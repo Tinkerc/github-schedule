@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-14",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "MiniMax M2.5 发布：1美金/小时，真实世界工作王者",
+      "url": "https://mp.weixin.qq.com/s/M4LBGM3Jcy0syWvQ_78ahw",
+      "content": "MiniMax正式发布M2.5模型，其在编程、搜索工具调用、办公等高阶生产力场景性能达到或刷新行业SOTA水平。模型显著提升了任务拆解能力和推理效率，在编程基准SWE-Bench Verified上完成任务的速度比上一代M2.1快37%。",
+      "source": "MiniMax稀宇科技"
+    },
+    {
+      "title": "Anthropic 宣布完成高达 300 亿美元的 G 轮融资",
+      "url": "https://mp.weixin.qq.com/s/PAvcEhGn78lbwFK47CwnoQ",
+      "content": "AI公司Anthropic（即Claude的研发公司）宣布完成高达300亿美元的G轮融资，投后估值达3800亿美元，创造了AI公司单轮股权融资的新纪录。本轮融资由新加坡主权基金GIC和Coatue领投，多家顶级资本参与。",
+      "source": "APPSO"
+    },
+    {
+      "title": "谷歌宣布 Gemini 3 Deep Think 深度思考大模型升级",
+      "url": "https://mp.weixin.qq.com/s/fPFvzRH04mSQOTSSrz-gLg",
+      "content": "谷歌发布了Gemini 3 Deep Think模型的重大升级。新版模型在多项顶尖基准测试中刷新纪录，尤其在竞技编程平台Codeforces获得3455分的Elo评级，在全球排名第八，仅有7位顶尖程序员能在比赛中胜过它。模型在ARC-AGI-2推理基准、“人类的最后考试”（不使用工具）、物理及化学奥林匹克笔试等多个学术竞赛中取得了金牌级别的领先成绩。",
+      "source": "机器之心"
+    },
+    {
+      "title": "OpenAI 发布 GPT-5.3-Codex-Spark ：专为实时编程而生",
+      "url": "https://www.ithome.com/0/921/533.htm",
+      "content": "OpenAI联合Cerebras推出主打实时编程的新模型GPT-5.3-Codex-Spark。模型针对高速软件开发场景优化，能以超过每秒1000个token的速度进行推理，实现近乎即时的编码反馈，以解决AI长时间自主编程时开发者等待过长、掌控感降低的问题。",
+      "source": "IT之家"
+    }
+  ]
+}
