@@ -21,25 +21,42 @@ pip install -r requirements.txt
 ## Architecture
 
 ### Entry Point
-`main.py` is the orchestrator that:
-1. Discovers all `.py` files in the `script/` directory
-2. Executes them in alphabetical order (sorted by filename)
-3. Each script is dynamically loaded and its `job()` function is called
-4. After all scripts complete, git operations are performed (currently commented out)
+`main.py` is the orchestrator that uses `TaskRunner` to:
+1. Discover all `Task` and `Notifier` classes in the `tasks/` directory
+2. Execute tasks in PRIORITY order (ai_news → github_trending → trending_ai)
+3. Collect task execution results
+4. Execute notifiers based on subscribed task results
+5. Print execution summary
 
-### Script Conventions
-Each script in `script/` must:
-- Define a `job()` function as the entry point
-- Use `datetime.datetime.now().strftime('%Y-%m-%d')` for date handling
-- Output results to the `output/` directory (organized by subdirectories)
-- Handle their own errors and print progress messages
+### Task Framework
+All tasks inherit from base classes in `core/base.py`:
 
-Scripts are executed in filename order:
-- `1.ai-news.py` - Fetches AI news from https://ai-bot.cn/daily-ai-news/ and saves as JSON
-- `2.wecom-robot.py` - Reads the news JSON and posts to WeChat Work webhook
-- `github-trending.py` - Scrapes GitHub trending repositories for multiple languages
-- `bigmodel-stream-official.py` - Makes API calls to ZhipuAI (GLM-4 model)
-- `github-trending-ai-analysis.py` - Independent script for GitHub Trending AI analysis (uses GLM-4.7)
+**Task base class** - For data fetching and analysis jobs:
+- `TASK_ID`: Unique task identifier
+- `PRIORITY`: Execution order (lower numbers run first)
+- `execute()`: Main task logic, returns True/False
+
+**Notifier base class** - For notification modules:
+- `NOTIFIER_ID`: Unique notifier identifier
+- `SUBSCRIBE_TO`: List of task IDs to subscribe to
+- `send(task_results)`: Send notification based on task results
+
+### Task Structure
+```
+tasks/
+├── ai_news.py           # Fetches AI news (PRIORITY: 10)
+├── github_trending.py   # Scrapes GitHub trending (PRIORITY: 20)
+├── trending_ai.py       # AI analysis of trending (PRIORITY: 30)
+└── wecom_robot.py       # WeChat Work notification (SUBSCRIBE_TO: ['ai_news'])
+```
+
+Each task can be run independently for testing:
+```bash
+python -m tasks.ai_news
+python -m tasks.github_trending
+python -m tasks.trending_ai
+python -m tasks.wecom_robot
+```
 
 ### Output Structure
 ```
@@ -66,10 +83,14 @@ The `.github/workflows/blank.yml` workflow:
 
 ## Development Notes
 - The codebase uses Chinese for comments and user-facing messages
-- Git operations in `main.py` are currently disabled (line 81: `#git_add_commit_push()`)
-- Scripts use `importlib.util` for dynamic module loading to execute scripts in order
-- The WeChat Work webhook URL is hardcoded in `2.wecom-robot.py:56` (should be externalized to secrets)
-- API keys for external services (like BIGMODEL_API_KEY) are read from environment variables
-- The `github-trending-ai-analysis.py` script runs independently via GitHub Actions workflow
-- Output: `output/github-trending-ai-analysis/YYYY/YYYY-MM-DD.md`
-- Requires `BIGMODEL_API_KEY` environment variable
+- Task framework uses `importlib.util` for dynamic task and notifier discovery
+- Environment variables are loaded from `.env` file using `python-dotenv`
+- Required environment variables:
+  - `BIGMODEL_API_KEY`: For AI analysis in trending_ai task
+  - `WECOM_WEBHOOK_URL`: For WeChat Work notifications
+- Each task inherits helper methods from Task base class:
+  - `get_output_path(filename)`: Get full path for output files
+  - `get_today()`: Get current date as YYYY-MM-DD
+  - `get_year()`: Get current year as YYYY
+- Task execution is priority-based (lower PRIORITY value runs first)
+- Notifiers only run if their subscribed tasks succeed
