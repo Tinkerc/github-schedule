@@ -81,7 +81,7 @@ GitHub Trending 数据:
 
     try:
         print("正在调用 AI 分析...")
-        response = requests.post(url, headers=headers, json=payload, timeout=30)
+        response = requests.post(url, headers=headers, json=payload, timeout=120)
 
         if response.status_code == 200:
             result = response.json()
