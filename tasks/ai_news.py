@@ -24,30 +24,19 @@ class AINewsTask(Task):
             response = requests.get(url, timeout=10)
             response.raise_for_status()
 
-            # 保存HTML到临时文件
-            today = self.get_today()
-            output_dir = os.path.join(
-                os.path.dirname(os.path.dirname(__file__)),
-                'output',
-                'ai-news'
-            )
-            os.makedirs(output_dir, exist_ok=True)
-
-            html_file = os.path.join(output_dir, f'{today}.html')
-            with codecs.open(html_file, 'w', 'utf-8') as f:
-                f.write(response.text)
-
             # 解析新闻
-            news = self._parse_news_from_file(html_file)
+            news = self._parse_news_from_html(response.text)
             if not news:
                 return False
 
             print(f"Successfully parsed {len(news['items'])} news items")
 
-            # 保存为JSON
-            json_file = os.path.join(output_dir, f"{today}.json")
+            # 保存为JSON，使用 get_output_path 确保正确的路径结构
+            today = self.get_today()
+            year = self.get_year()
+            json_file = self.get_output_path(f'ai-news/{year}/{today}.json')
+            import json
             with codecs.open(json_file, 'w', 'utf-8') as f:
-                import json
                 json.dump(news, f, ensure_ascii=False, indent=2)
 
             print(f"News data saved to: {json_file}")
@@ -57,12 +46,9 @@ class AINewsTask(Task):
             print(f"Failed to fetch AI news: {str(e)}")
             return False
 
-    def _parse_news_from_file(self, file_path):
-        """从HTML文件解析新闻数据"""
+    def _parse_news_from_html(self, html_content):
+        """从HTML内容解析新闻数据"""
         try:
-            with codecs.open(file_path, 'r', 'utf-8') as f:
-                html_content = f.read()
-
             doc = pq(html_content)
             # 获取第一个news-list区块
             first_news_list = doc('.news-list').eq(0)
