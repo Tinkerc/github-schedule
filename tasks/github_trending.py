@@ -21,10 +21,8 @@ class GitHubTrendingTask(Task):
         try:
             strdate = self.get_today()
             stryear = self.get_year()
-            filename = f'{stryear}/{strdate}.md'
-
-            # 确保年份目录存在
-            os.makedirs(stryear, exist_ok=True)
+            # 使用 get_output_path 确保 output/github-trending/ 前缀
+            filename = self.get_output_path(f'github-trending/{stryear}/{strdate}.md')
 
             # 创建markdown文件
             self._create_markdown(strdate, filename)

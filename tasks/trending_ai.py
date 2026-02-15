@@ -28,7 +28,8 @@ class TrendingAITask(Task):
         # 1. 读取 trending 数据
         strdate = self.get_today()
         stryear = self.get_year()
-        trending_file = f'{stryear}/{strdate}.md'
+        # 使用 get_output_path 确保 output/github-trending/ 前缀
+        trending_file = self.get_output_path(f'github-trending/{stryear}/{strdate}.md')
 
         if not os.path.exists(trending_file):
             print(f"✗ 未找到 trending 数据文件: {trending_file}")
@@ -45,7 +46,8 @@ class TrendingAITask(Task):
             return False
 
         # 3. 保存分析结果
-        analysis_file = f'{stryear}/{strdate}-analysis.md'
+        # 使用 get_output_path 确保 output/github-trending/ 前缀
+        analysis_file = self.get_output_path(f'github-trending/{stryear}/{strdate}-analysis.md')
         success = self._save_analysis(analysis, analysis_file)
 
         if success:

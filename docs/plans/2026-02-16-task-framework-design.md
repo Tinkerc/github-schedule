@@ -134,7 +134,7 @@ class GitHubTrendingTask(Task):
 
     def execute(self) -> bool:
         # Scrape GitHub trending for python, javascript, go, java
-        # Save to output/YYYY/YYYY-MM-DD.md
+        # Save to output/github-trending/YYYY/YYYY-MM-DD.md
         return True
 ```
 
@@ -145,9 +145,9 @@ class TrendingAITask(Task):
     PRIORITY = 30
 
     def execute(self) -> bool:
-        # Read output/YYYY/YYYY-MM-DD.md
+        # Read output/github-trending/YYYY/YYYY-MM-DD.md
         # Call ZhipuAI API for analysis
-        # Save to output/YYYY/YYYY-MM-DD-analysis.md
+        # Save to output/github-trending/YYYY/YYYY-MM-DD-analysis.md
         return True
 ```
 
@@ -155,15 +155,14 @@ class TrendingAITask(Task):
 ```python
 class WeComNotifier(Notifier):
     NOTIFIER_ID = "wecom"
-    SUBSCRIBE_TO = ["ai_news"]  # Only subscribe to ai_news
+    SUBSCRIBE_TO = ["ai_news", "trending_ai"]  # Subscribe to both ai_news and trending_ai
 
     def send(self, task_results: Dict[str, Any]) -> bool:
-        # Check if ai_news succeeded
-        if "ai_news" in task_results and task_results["ai_news"]:
-            # Read output/ai-news/YYYY-MM-DD.json
-            # Send to WeChat Work webhook
-            return True
-        return False
+        # Send two separate messages:
+        # 1. If ai_news succeeded: read output/ai-news/YYYY/YYYY-MM-DD.json and send
+        # 2. Always send trending: prioritize output/github-trending/YYYY/YYYY-MM-DD-analysis.md
+        #    fallback to output/github-trending/YYYY/YYYY-MM-DD.md
+        return True
 ```
 
 ---
@@ -184,8 +183,9 @@ class WeComNotifier(Notifier):
    ↓
 4. TaskRunner.run_notifiers(task_results)
    - For each Notifier:
-     - WeComNotifier checks SUBSCRIBE_TO = ["ai_news"]
-     - If ai_news succeeded, read output/ai-news/YYYY-MM-DD.json
+     - WeComNotifier checks SUBSCRIBE_TO = ["ai_news", "trending_ai"]
+     - If ai_news succeeded, read output/ai-news/YYYY/YYYY-MM-DD.json and send
+     - Always send trending (prioritizes AI analysis, falls back to raw data)
      - Send to WeChat Work webhook
    ↓
 5. Print statistics
@@ -196,8 +196,8 @@ class WeComNotifier(Notifier):
 
 **Task Output Convention:**
 - `ai_news`: → `output/ai-news/YYYY-MM-DD.json`
-- `github_trending`: → `output/YYYY/YYYY-MM-DD.md`
-- `trending_ai`: → `output/YYYY/YYYY-MM-DD-analysis.md`
+- `github_trending`: → `output/github-trending/YYYY/YYYY-MM-DD.md`
+- `trending_ai`: → `output/github-trending/YYYY/YYYY-MM-DD-analysis.md`
 
 ---
 
@@ -425,8 +425,9 @@ class EmailNotifier(Notifier):
 **Changes:**
 - Wrap in `class WeComNotifier(Notifier)`
 - `job()` → `send(self, task_results)`
-- Check `task_results["ai_news"]` before reading file
-- Keep functions: `create_content_from_json()`, `send_wecom_message()`
+- Subscribe to both ["ai_news", "trending_ai"]
+- Send two separate messages: AI News + GitHub Trending
+- Keep functions: `create_content_from_json()`, `create_trending_content()`, `send_wecom_message()`
 
 ---
 
