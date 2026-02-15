@@ -6,23 +6,25 @@
 import json
 
 # 模拟 AI 新闻内容（4条）
-ai_news_content = """# AI快讯 (2026-02-16 周一)
-## 今日要闻
-### OpenAI 发布新模型 GPT-5
-> 今天，OpenAI 正式发布了备受期待的 GPT-5 模型，该模型在推理能力、多模态理解和代码生成方面均有显著提升
-来源：AIbot [查看详情](https://ai-bot.cn)
+ai_news_content = """
+# GitHub Trending AI 分析报告
 
-### Claude 4 推出企业版
-> Anthropic 宣布推出 Claude 4 企业版，针对企业客户增加了更严格的安全控制和定制化能力
-来源：AIbot [查看详情](https://ai-bot.cn)
+> 分析日期: 2026-02-15
 
-### Google Gemini 2.0 开源
-> Google 宣布将 Gemini 2.0 模型开源，研究社区可以免费使用和修改该模型
-来源：AIbot [查看详情](https://ai-bot.cn)
+---
 
-### Meta 发布 Llama 4
-> Meta 发布了 Llama 4 系列模型，包括 7B、13B、70B 三个版本，性能全面超越前代
-来源：AIbot [查看详情](https://ai-bot.cn)
+# GitHub Trending 2026-02-15 分析报告
+
+## 4. 推荐关注
+| 适用人群                | 推荐项目                                  | 推荐理由                                                                 |
+|-------------------------|-------------------------------------------|--------------------------------------------------------------------------|
+| AI Agent 开发者         | openclaw/openclaw                         | 196k星的端侧AI助理标杆，可学习跨平台本地AI应用的架构设计                  |
+| AI Agent 开发者         | ChromeDevTools/chrome-devtools-mcp        | 官方出品的Agent调试工具，是未来Agent开发的必备基础设施                    |
+| 研发效率/DevOps 开发者  | github/gh-aw                              | GitHub官方的智能工作流框架，可学习如何把Agent能力和研发流程深度结合        |
+| 量化/交易开发者         | nautechsystems/nautilus_trader            | 当前开源领域性能最强的量化交易框架之一，替代Python方案大幅提升策略效率    |
+| AI基础设施开发者        | alibaba/zvec                              | 轻量进程内向量数据库，无需单独部署，适合嵌入端侧AI应用                    |
+| IoT/智能家居开发者      | ruvnet/wifi-densepose                     | WiFi感知技术的落地方案，代表下一代无接触感知的核心发展方向                |
+| 效率工具爱好者          | steipete/gogcli                           | 谷歌全家桶命令行工具，可在终端一站式操作Gmail、日历、云盘等服务            |
 
 """
 
@@ -90,8 +92,8 @@ trending_content = """### 今日热榜 Top 15
     📦 Swift ⭐ 68k stars
 """
 
-# 合并内容
-full_content = ai_news_content + "\n\n---\n\n" + "## GitHub Trending 今日热榜\n" + trending_content
+# Use only AI news content
+full_content = ai_news_content
 
 # 计算长度
 print("=" * 60)
@@ -102,15 +104,11 @@ print(f"\n1. AI 新闻部分:")
 print(f"   字符数: {len(ai_news_content)}")
 print(f"   字节数 (UTF-8): {len(ai_news_content.encode('utf-8'))}")
 
-print(f"\n2. GitHub Trending 部分:")
-print(f"   字符数: {len(trending_content)}")
-print(f"   字节数 (UTF-8): {len(trending_content.encode('utf-8'))}")
-
-print(f"\n3. 完整内容:")
+print(f"\n2. 完整内容 (仅AI新闻):")
 print(f"   字符数: {len(full_content)}")
 print(f"   字节数 (UTF-8): {len(full_content.encode('utf-8'))}")
 
-print(f"\n4. 企业微信限制:")
+print(f"\n3. 企业微信限制:")
 print(f"   最大支持: 4096 字节")
 print(f"   当前使用: {len(full_content.encode('utf-8'))} 字节")
 print(f"   剩余空间: {4096 - len(full_content.encode('utf-8'))} 字节")
@@ -126,13 +124,10 @@ print("=" * 60)
 
 if len(full_content.encode('utf-8')) > 4096:
     print("\n当前内容会超长，建议:")
-    print("1. 减少 GitHub Trending 条数（15条 → 5-8条）")
+    print("1. 缩短 AI 新闻内容")
     print("2. 简化每条信息的格式")
-    print("3. 分成两条消息发送")
 else:
-    print("\n当前长度安全，但建议:")
-    print("1. 保留一定缓冲空间")
-    print("2. 监控实际使用情况")
+    print("\n当前长度安全，可以正常发送")
 
 # 显示部分内容预览
 print("\n" + "=" * 60)
