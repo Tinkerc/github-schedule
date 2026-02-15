@@ -6,6 +6,7 @@ Python-based scheduled task automation system that runs daily via GitHub Actions
 
 - **AI News Scraping**: Daily fetches AI industry news from https://ai-bot.cn/daily-ai-news/
 - **GitHub Trending**: Tracks trending repositories for multiple programming languages (Python, JavaScript, Go, Java)
+- **AI-Powered Analysis**: Analyzes GitHub trending data using ZhipuAI GLM-4 model
 - **WeChat Work Integration**: Sends daily AI news notifications to Enterprise WeChat
 - **Automated Execution**: Runs daily at 00:00 UTC via GitHub Actions
 
@@ -37,17 +38,18 @@ cp .env.example .env
 
 **Required:**
 - `WECOM_WEBHOOK_URL`: Enterprise WeChat webhook URL for sending notifications
+- `BIGMODEL_API_KEY`: ZhipuAI API key for AI analysis (get from https://open.bigmodel.cn/)
 
 **Optional:**
 - `MAILUSERNAME`: Email username (for future use)
 - `MAILPASSWORD`: Email password (for future use)
-- `BIGMODEL_API_KEY`: ZhipuAI API key for GLM-4 model
 
 ### GitHub Actions Secrets
 
 For GitHub Actions, configure these secrets in your repository settings (`Settings > Secrets and variables > Actions`):
 
 - `WECOM_WEBHOOK_URL`
+- `BIGMODEL_API_KEY`
 - `MAILUSERNAME` (optional)
 - `MAILPASSWORD` (optional)
 
@@ -74,25 +76,29 @@ python main.py
 
 This will execute all scripts in the `script/` directory in alphabetical order:
 1. `1.ai-news.py` - Fetches and saves AI news as JSON
-2. `2.wecom-robot.py` - Posts news to WeChat Work webhook
-3. `github-trending.py` - Scrapes GitHub trending repositories
+2. `2.github-trending.py` - Scrapes GitHub trending repositories and saves as markdown
+3. `3.ai-analyze-trending.py` - Analyzes trending data using AI and generates insights
+4. `4.wecom-robot.py` - Posts news to WeChat Work webhook
 
 ### Individual Scripts
 
 Run individual scripts directly:
 
 ```bash
-python script/1.ai-news.py
-python script/2.wecom-robot.py
-python script/github-trending.py
+python script/1.ai-news.py           # Fetch AI news
+python script/2.github-trending.py   # Scrape GitHub trending
+python script/3.ai-analyze-trending.py  # Analyze trending with AI
+python script/4.wecom-robot.py       # Send notifications
 ```
 
 ## Output Structure
 
 ```
 output/
-├── ai-news/          # Daily AI news JSON files (YYYY-MM-DD.json)
-└── {year}/           # GitHub trending markdown by year
+├── ai-news/              # Daily AI news JSON files (YYYY-MM-DD.json)
+└── {year}/               # GitHub trending and AI analysis by year
+    ├── {date}.md         # Raw trending data
+    └── {date}-analysis.md  # AI-generated analysis report
 ```
 
 ## Development
