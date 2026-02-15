@@ -20,35 +20,48 @@ def checkPathExist(path):
         os.makedirs(path)
 
 
-def scrape(language, filename):
+def scrape_trending(filename):
+    """获取 GitHub Trending 总榜（15条）"""
     HEADERS = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'Accept-Encoding': 'gzip,deflate,sdch',
         'Accept-Language': 'zh-CN,zh;q=0.8'
     }
-    url = 'https://github.com/trending/{language}'.format(language=language)
+    url = 'https://github.com/trending'
     r = requests.get(url, headers=HEADERS, timeout=10)
     r.raise_for_status()
     d = pq(r.content)
     items = d('div.Box article.Box-row')
+
+    # 只获取前15条
+    items = items[:15]
+
     with codecs.open(filename, "a", "utf-8") as f:
-        f.write('\n#### {language}\n'.format(language=language))
-        for item in items:
+        f.write('\n### 今日热榜 Top 15\n\n')
+        for idx, item in enumerate(items, 1):
             i = pq(item)
             title = i(".lh-condensed a").text()
             description = i("p.col-9").text()
             url = i(".lh-condensed a").attr("href")
             url = "https://github.com" + url
-            f.write(u"* [{title}]({url}):{description}\n".format(title=title, url=url, description=description))
+
+            # 获取编程语言标签
+            language_span = i("span[itemprop='programmingLanguage']")
+            language = language_span.text() if language_span else "Unknown"
+
+            # 获取星标数
+            stars_link = i("a[href*='/stargazers']")
+            stars = stars_link.text().strip() if stars_link else ""
+
+            f.write(u"{idx}. **[{title}]({url})**\n".format(idx=idx, title=title, url=url))
+            if description:
+                f.write(u"   > {description}\n".format(description=description))
+            f.write(u"   📦 {language} ⭐ {stars}\n\n".format(language=language, stars=stars))
 
 
 def job():
-    # 获取环境变量的值，如果不存在则返回默认值
-    env_variable_value = os.environ.get('username', 'default_value')
-    env_variable_value_password = os.environ.get('password', 'default_value')
-    env_variable_value_appId = os.environ.get('appId', 'default_value')
-
+    """主任务函数 - 获取 GitHub Trending 总榜"""
     strdate = datetime.datetime.now().strftime('%Y-%m-%d')
     stryear = datetime.datetime.now().strftime('%Y')
 
@@ -56,12 +69,12 @@ def job():
     output_dir = os.path.join('output', 'github-trending', stryear)
     checkPathExist(output_dir)
     filename = os.path.join(output_dir, f'{strdate}.md')
+
+    # 创建文件标题
     createMarkdown(strdate, filename)
-    scrape('python', filename)
-    #scrape('swift', filename)
-    scrape('javascript', filename)
-    scrape('go', filename)
-    scrape('java', filename)
+
+    # 获取总榜数据
+    scrape_trending(filename)
 
     print(f"✓ GitHub trending data saved to: {filename}")
 

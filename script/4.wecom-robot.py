@@ -54,9 +54,17 @@ def create_trending_content():
         with codecs.open(trending_file, 'r', 'utf-8') as f:
             content = f.read()
 
-        # 只显示前 400 字符，避免消息过长
-        if len(content) > 400:
-            content = content[:400] + "\n\n... (更多内容请查看仓库)"
+        # 单独发送，可以使用全部 4096 字节（留一些缓冲）
+        max_bytes = 3800  # 预留 296 字节给标题等
+        current_bytes = len(content.encode('utf-8'))
+
+        if current_bytes > max_bytes:
+            # 截断到接近 max_bytes，但保留完整字符
+            content_utf8 = content.encode('utf-8')
+            content = content_utf8[:max_bytes].decode('utf-8', errors='ignore')
+            content += "\n\n... (更多内容请查看仓库)"
+
+        print(f"GitHub trending 内容: {current_bytes} 字节 (限制: {max_bytes})")
 
         return content
     except Exception as e:
@@ -64,10 +72,15 @@ def create_trending_content():
         return None
 
 def job():
-    # 获取当天的日期
+    """发送两条独立的消息：AI News 和 GitHub Trending"""
     today = datetime.datetime.now().strftime('%Y-%m-%d')
+    webhook_url = os.environ.get('WECOM_WEBHOOK_URL')
 
-    # 构建JSON文件路径
+    if not webhook_url:
+        print("错误: 未设置环境变量 WECOM_WEBHOOK_URL")
+        return
+
+    # ========== 第一条消息：AI News ==========
     json_file = os.path.join(
         os.path.dirname(os.path.dirname(__file__)),
         'output',
@@ -75,28 +88,38 @@ def job():
         f'{today}.json'
     )
 
-    # 检查文件是否存在
-    if not os.path.exists(json_file):
+    if os.path.exists(json_file):
+        print("\n" + "="*60)
+        print("发送第一条消息: AI 快讯")
+        print("="*60)
+
+        news_content = create_content_from_json(json_file)
+        if news_content:
+            if send_wecom_message(webhook_url, news_content):
+                print("✓ AI 快讯已成功发送到企业微信")
+        else:
+            print("✗ 创建 AI 快讯内容失败")
+    else:
         print(f"未找到今日的新闻数据: {json_file}")
-        return
 
-    # 创建消息内容 - AI News
-    content = create_content_from_json(json_file)
-    if not content:
-        return
+    # ========== 第二条消息：GitHub Trending ==========
+    print("\n" + "="*60)
+    print("发送第二条消息: GitHub Trending")
+    print("="*60)
 
-    # 添加 GitHub trending 内容
     trending_content = create_trending_content()
     if trending_content:
-        content += "\n\n---\n\n" + "## GitHub Trending 今日热榜\n" + trending_content
+        # 添加标题
+        full_trending_message = "# GitHub Trending 今日热榜\n\n" + trending_content
 
-    # 发送到企业微信
-    webhook_url = os.environ.get('WECOM_WEBHOOK_URL')
-    if not webhook_url:
-        print("错误: 未设置环境变量 WECOM_WEBHOOK_URL")
-        return
-    if send_wecom_message(webhook_url, content):
-        print("新闻和 Trending 已成功发送到企业微信")
+        if send_wecom_message(webhook_url, full_trending_message):
+            print("✓ GitHub Trending 已成功发送到企业微信")
+    else:
+        print("✗ 未找到 GitHub Trending 数据")
+
+    print("\n" + "="*60)
+    print("消息发送完成")
+    print("="*60)
 
 def send_wecom_message(webhook_url, content):
     headers = {
