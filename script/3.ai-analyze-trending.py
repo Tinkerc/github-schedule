@@ -63,7 +63,7 @@ GitHub Trending 数据:
         "messages": [
             {
                 "role": "system",
-                "content": "你是一个技术专家，擅长分析开源项目和技术趋势。请用中文回答，使用清晰的 markdown 格式。"
+                "content": "你是一位资深技术专家，长期关注开源生态与前沿工程实践。请对以下 GitHub 项目列表中的每一个项目，用一句简洁、准确、有洞察力的话进行解读，说明其核心价值、技术特点或潜在影响。"
             },
             {
                 "role": "user",
@@ -165,7 +165,7 @@ def job():
         os.makedirs(stryear)
 
     # 保存到 {YEAR}/{DATE}-analysis.md
-    analysis_file = f'{stryear}/{strdate}-analysis.md'
+    analysis_file = f'output/github-trending/{stryear}/{strdate}-analysis.md'
     success = save_analysis(analysis, analysis_file)
 
     if success:
