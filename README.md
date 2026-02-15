@@ -83,21 +83,21 @@ Run the main script to execute all scheduled tasks:
 python main.py
 ```
 
-This will execute all scripts in the `script/` directory in alphabetical order:
-1. `1.ai-news.py` - Fetches and saves AI news as JSON
-2. `2.github-trending.py` - Scrapes GitHub trending repositories and saves as markdown
-3. `3.ai-analyze-trending.py` - Analyzes trending data using AI and generates insights
-4. `4.wecom-robot.py` - Posts news to WeChat Work webhook
+This will execute all tasks in priority order:
+1. `ai_news` (PRIORITY: 10) - Fetches and saves AI news as JSON
+2. `github_trending` (PRIORITY: 20) - Scrapes GitHub trending repositories and saves as markdown
+3. `trending_ai` (PRIORITY: 30) - Analyzes trending data using AI and generates insights
+4. `wecom` (Notifier) - Posts news to WeChat Work webhook
 
-### Individual Scripts
+### Individual Tasks
 
-Run individual scripts directly:
+Run individual tasks directly for testing:
 
 ```bash
-python script/1.ai-news.py           # Fetch AI news
-python script/2.github-trending.py   # Scrape GitHub trending
-python script/3.ai-analyze-trending.py  # Analyze trending with AI
-python script/4.wecom-robot.py       # Send notifications
+python -m tasks.ai_news           # Fetch AI news
+python -m tasks.github_trending   # Scrape GitHub trending
+python -m tasks.trending_ai       # Analyze trending with AI
+python -m tasks.wecom_robot       # Send notifications
 ```
 
 ## Output Structure
@@ -115,13 +115,41 @@ output/
 
 ## Development
 
-### Script Conventions
+### Task Framework
 
-Each script in `script/` must:
-- Define a `job()` function as the entry point
-- Use `datetime.datetime.now().strftime('%Y-%m-%d')` for date handling
-- Output results to the `output/` directory
-- Handle their own errors and print progress messages
+This project uses a task-based architecture with base classes:
+
+**Task Base Class** - For data fetching and analysis jobs:
+- Inherit from `core.base.Task`
+- Set `TASK_ID` and `PRIORITY` attributes
+- Implement `execute()` method returning True/False
+
+**Notifier Base Class** - For notification modules:
+- Inherit from `core.base.Notifier`
+- Set `NOTIFIER_ID` and `SUBSCRIBE_TO` attributes
+- Implement `send(task_results)` method
+
+### Adding New Tasks
+
+1. Create a new file in `tasks/` directory
+2. Inherit from `Task` or `Notifier` base class
+3. Set required attributes (TASK_ID/NOTIFIER_ID, PRIORITY/SUBSCRIBE_TO)
+4. Implement the required method (execute() or send())
+5. Test independently: `python -m tasks.<your_task>`
+
+Example:
+```python
+# tasks/my_task.py
+from core.base import Task
+
+class MyTask(Task):
+    TASK_ID = "my_task"
+    PRIORITY = 15
+
+    def execute(self) -> bool:
+        # Your task logic here
+        return True
+```
 
 ### Git Proxy Configuration
 
