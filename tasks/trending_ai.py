@@ -70,14 +70,15 @@ class TrendingAITask(Task):
             return None
 
     def _call_ai_analysis(self, trending_content):
-        """调用 ZhipuAI (GLM-4) 进行分析"""
-        api_key = os.environ.get('BIGMODEL_API_KEY')
+        """调用 Volcengine (豆包) 大模型 API 进行分析"""
+        api_key = os.environ.get('VOLCENGINE_API_KEY')
         if not api_key:
-            print("警告: 未设置 BIGMODEL_API_KEY 环境变量，跳过 AI 分析")
-            print("提示: 如需启用 AI 分析，请设置环境变量: export BIGMODEL_API_KEY=your_key")
+            print("警告: 未设置 VOLCENGINE_API_KEY 环境变量，跳过 AI 分析")
+            print("提示: 如需启用 AI 分析，请设置环境变量: export VOLCENGINE_API_KEY=your_key")
             return None
 
-        url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+        model = os.environ.get('VOLCENGINE_MODEL', 'ep-20250215154848-djsgr')
+        url = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
 
         # 构建分析 prompt
         prompt = f"""请分析以下 GitHub Trending 数据，提供以下内容：
@@ -95,18 +96,17 @@ GitHub Trending 数据:
 """
 
         payload = {
-            "model": "glm-4",
+            "model": model,
             "messages": [
                 {
                     "role": "system",
-                    "content": "你是一个技术专家，擅长分析开源项目和技术趋势。请用中文回答，使用清晰的 markdown 格式。"
+                    "content": "你是一位资深技术专家，长期关注开源生态与前沿工程实践。请对以下 GitHub 项目列表中的每一个项目，用一句简洁、准确、有洞察力的话进行解读，说明其核心价值、技术特点或潜在影响。"
                 },
                 {
                     "role": "user",
                     "content": prompt
                 }
             ],
-            "temperature": 0.7,
             "max_tokens": 2000
         }
 
