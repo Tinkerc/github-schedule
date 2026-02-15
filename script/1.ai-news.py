@@ -13,17 +13,18 @@ def fetch_ai_news():
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
-        
-        # 创建输出目录
+
+        # 创建输出目录（按年份组织）
         today = datetime.datetime.now().strftime('%Y-%m-%d')
-        output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'output', 'ai-news')
+        year = datetime.datetime.now().strftime('%Y')
+        output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'output', 'ai-news', year)
         os.makedirs(output_dir, exist_ok=True)
-        
+
         # 保存文件
         output_file = os.path.join(output_dir, f'{today}.html')
         with codecs.open(output_file, 'w', 'utf-8') as f:
             f.write(response.text)
-        
+
         return output_file
     except Exception as e:
         print(f"Failed to fetch AI news: {str(e)}")

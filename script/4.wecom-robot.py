@@ -74,6 +74,7 @@ def create_trending_content():
 def job():
     """发送两条独立的消息：AI News 和 GitHub Trending"""
     today = datetime.datetime.now().strftime('%Y-%m-%d')
+    year = datetime.datetime.now().strftime('%Y')
     webhook_url = os.environ.get('WECOM_WEBHOOK_URL')
 
     if not webhook_url:
@@ -85,6 +86,7 @@ def job():
         os.path.dirname(os.path.dirname(__file__)),
         'output',
         'ai-news',
+        year,
         f'{today}.json'
     )
 

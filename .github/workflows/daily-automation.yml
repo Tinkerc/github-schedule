@@ -1,31 +1,29 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
-name: Daily Github-Schedule
+name: Daily Automation
 
 on:
-   push:
-   schedule:
-    - cron: "0 2 * * *"
+  schedule:
+    - cron: "0 2 * * *"  # 每日 00:00 UTC (北京时间 08:00)
+  workflow_dispatch:  # 支持手动触发
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
     - name: Set up Python 3.11
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-    
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        
-    - name: Run script
+
+    - name: Run daily automation scripts
       env:
         WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
         VOLCENGINE_API_KEY: ${{ secrets.VOLCENGINE_API_KEY }}
@@ -33,14 +31,11 @@ jobs:
       run: |
         python main.py
 
-    # Runs a set of commands using the runners shell
-    - name: push to origin master
+    - name: Commit and push results
       run: |
-        echo start push
         git config --global user.name "tinkerc"
         git config --global user.email "chenruoyun@126.com"
-        
         git add -A
-        git commit -m $(date '+%Y-%m-%d')
+        git commit -m "feat: update daily automation $(date '+%Y-%m-%d')" || echo "No changes to commit"
+        git pull --rebase --autostash || true
         git push
-      
