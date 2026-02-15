@@ -25,11 +25,7 @@ jobs:
 
     - name: Run AI analysis
       env:
-        username: ${{ secrets.MAILUSERNAME }}
-        password: ${{ secrets.MAILPASSWORD }}
-        appId: 3920410
         WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
-        BIGMODEL_API_KEY: ${{ secrets.BIGMODEL_API_KEY }}
         VOLCENGINE_API_KEY: ${{ secrets.VOLCENGINE_API_KEY }}
         VOLCENGINE_MODEL: ${{ secrets.VOLCENGINE_MODEL }}
       run: |

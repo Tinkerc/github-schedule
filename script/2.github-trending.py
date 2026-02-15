@@ -48,17 +48,22 @@ def job():
     env_variable_value = os.environ.get('username', 'default_value')
     env_variable_value_password = os.environ.get('password', 'default_value')
     env_variable_value_appId = os.environ.get('appId', 'default_value')
-    
+
     strdate = datetime.datetime.now().strftime('%Y-%m-%d')
     stryear = datetime.datetime.now().strftime('%Y')
-    filename = stryear + '/{date}.md'.format(date=strdate)
-    checkPathExist(stryear)
+
+    # 输出目录改为 output/github-trending/{YEAR}/
+    output_dir = os.path.join('output', 'github-trending', stryear)
+    checkPathExist(output_dir)
+    filename = os.path.join(output_dir, f'{strdate}.md')
     createMarkdown(strdate, filename)
     scrape('python', filename)
     #scrape('swift', filename)
     scrape('javascript', filename)
     scrape('go', filename)
     scrape('java', filename)
+
+    print(f"✓ GitHub trending data saved to: {filename}")
 
 
 if __name__ == '__main__':

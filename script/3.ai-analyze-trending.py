@@ -15,7 +15,7 @@ def get_trending_markdown_path():
     """获取当天的 trending markdown 文件路径"""
     strdate = datetime.datetime.now().strftime('%Y-%m-%d')
     stryear = datetime.datetime.now().strftime('%Y')
-    filename = f'{stryear}/{strdate}.md'
+    filename = f'output/github-trending/{stryear}/{strdate}.md'
     return filename
 
 
@@ -33,14 +33,15 @@ def read_trending_data(filename):
 
 
 def call_ai_analysis(trending_content):
-    """调用 ZhipuAI (GLM-4) 进行分析"""
-    api_key = os.environ.get('BIGMODEL_API_KEY')
+    """调用火山引擎（豆包）大模型 API 进行分析"""
+    api_key = os.environ.get('VOLCENGINE_API_KEY')
     if not api_key:
-        print("警告: 未设置 BIGMODEL_API_KEY 环境变量，跳过 AI 分析")
-        print("提示: 如需启用 AI 分析，请设置环境变量: export BIGMODEL_API_KEY=your_key")
+        print("警告: 未设置 VOLCENGINE_API_KEY 环境变量，跳过 AI 分析")
+        print("提示: 如需启用 AI 分析，请设置环境变量: export VOLCENGINE_API_KEY=your_key")
         return None
 
-    url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+    model = os.environ.get('VOLCENGINE_MODEL', 'ep-20250215154848-djsgr')
+    url = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
 
     # 构建分析 prompt
     prompt = f"""请分析以下 GitHub Trending 数据，提供以下内容：
@@ -58,7 +59,7 @@ GitHub Trending 数据:
 """
 
     payload = {
-        "model": "glm-4",
+        "model": model,
         "messages": [
             {
                 "role": "system",
@@ -69,7 +70,6 @@ GitHub Trending 数据:
                 "content": prompt
             }
         ],
-        "temperature": 0.7,
         "max_tokens": 2000
     }
 
@@ -81,24 +81,37 @@ GitHub Trending 数据:
 
     try:
         print("正在调用 AI 分析...")
-        response = requests.post(url, headers=headers, json=payload, timeout=60)
-        response.raise_for_status()
+        response = requests.post(url, headers=headers, json=payload, timeout=30)
 
-        result = response.json()
-
-        if 'choices' in result and len(result['choices']) > 0:
-            analysis = result['choices'][0]['message']['content']
-            print("✓ AI 分析完成")
-            return analysis
+        if response.status_code == 200:
+            result = response.json()
+            if 'choices' in result and len(result['choices']) > 0:
+                analysis = result['choices'][0]['message']['content']
+                print("✓ AI 分析完成")
+                return analysis
+            else:
+                print("错误: AI 响应格式异常")
+                return None
+        elif response.status_code == 401:
+            print("错误: 认证失败: API Key 无效或已过期")
+            return None
+        elif response.status_code == 429:
+            print("错误: 请求频率超限，请稍后重试")
+            return None
         else:
-            print("错误: AI 响应格式异常")
+            print(f"错误: API 调用失败 - HTTP {response.status_code}")
+            try:
+                error_detail = response.json()
+                print(f"错误详情: {error_detail}")
+            except:
+                print(f"响应内容: {response.text[:500]}")
             return None
 
     except requests.exceptions.Timeout:
         print("错误: AI 请求超时")
         return None
-    except requests.exceptions.RequestException as e:
-        print(f"错误: AI 请求失败 - {str(e)}")
+    except requests.exceptions.ConnectionError:
+        print("错误: 网络连接错误")
         return None
     except Exception as e:
         print(f"错误: AI 分析过程出错 - {str(e)}")
