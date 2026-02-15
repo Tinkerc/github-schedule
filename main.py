@@ -2,7 +2,11 @@ import os
 import sys
 import importlib.util
 from datetime import datetime
+from dotenv import load_dotenv
 from script.utils.git_helper import git_add_commit_push
+
+# 加载 .env 文件中的环境变量
+load_dotenv()
 
 def load_and_execute_script(script_path):
     try:
