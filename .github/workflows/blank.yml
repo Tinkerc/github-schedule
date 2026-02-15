@@ -30,6 +30,7 @@ jobs:
         username: ${{ secrets.MAILUSERNAME }}
         password: ${{ secrets.MAILPASSWORD }}
         appId: 3920410
+        WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
       run: |
         python main.py
 

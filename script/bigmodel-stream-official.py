@@ -30,9 +30,9 @@ def get_response(major_info):
         "User-Agent": "DMXAPI/1.0.0 (https://www.dmxapi.com)",
         "Content-Type": "application/json",
     }
-    logger.info(
-                f"\n=== Sending intro request to ZhipuAI for {major_info['major_name']} (ID: {major_info['major_id']}) ==="
-            )
+    logging.info(
+        f"\n=== Sending intro request to ZhipuAI for {major_info['major_name']} (ID: {major_info['major_id']}) ==="
+    )
     response = requests.post(url, headers=headers, json=payload)
     response_json = response.json()
     if 'choices' in response_json and len(response_json['choices']) > 0:

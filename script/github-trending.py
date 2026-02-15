@@ -7,15 +7,9 @@ import os
 import time
 from pyquery import PyQuery as pq
 
-
-def git_add_commit_push(date, filename):
-    cmd_git_add = 'git add {filename}'.format(filename=filename)
-    cmd_git_commit = 'git commit -m "{date}"'.format(date=date)
-    cmd_git_push = 'git push -u origin master'
-
-    os.system(cmd_git_add)
-    os.system(cmd_git_commit)
-    os.system(cmd_git_push)
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+from utils.git_helper import git_add_commit_push
 
 
 def createMarkdown(date, filename):
@@ -36,8 +30,8 @@ def scrape(language, filename):
         'Accept-Language': 'zh-CN,zh;q=0.8'
     }
     url = 'https://github.com/trending/{language}'.format(language=language)
-    r = requests.get(url, headers=HEADERS)
-    assert r.status_code == 200
+    r = requests.get(url, headers=HEADERS, timeout=10)
+    r.raise_for_status()
     d = pq(r.content)
     items = d('div.Box article.Box-row')
     with codecs.open(filename, "a", "utf-8") as f:
@@ -51,7 +45,7 @@ def scrape(language, filename):
             f.write(u"* [{title}]({url}):{description}\n".format(title=title, url=url, description=description))
 
 
-def job1():
+def job():
     # 获取环境变量的值，如果不存在则返回默认值
     env_variable_value = os.environ.get('username', 'default_value')
     env_variable_value_password = os.environ.get('password', 'default_value')
@@ -70,4 +64,4 @@ def job1():
 
 
 if __name__ == '__main__':
-    job1()
+    job()

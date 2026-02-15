@@ -8,6 +8,10 @@ import time
 from pyquery import PyQuery as pq
 import json
 
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+from utils.git_helper import git_add_commit_push
+
 
 
 def create_content_from_json(json_file):
@@ -53,18 +57,12 @@ def job():
         return
     
     # 发送到企业微信
-    webhook_url = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=2e9f5a61-9ec3-4049-b981-c9b01f56f410'
+    webhook_url = os.environ.get('WECOM_WEBHOOK_URL')
+    if not webhook_url:
+        print("错误: 未设置环境变量 WECOM_WEBHOOK_URL")
+        return
     if send_wecom_message(webhook_url, content):
         print("新闻已成功发送到企业微信")
-
-def git_add_commit_push(date, filename):
-    cmd_git_add = 'git add {filename}'.format(filename=filename)
-    cmd_git_commit = 'git commit -m "{date}"'.format(date=date)
-    cmd_git_push = 'git push -u origin master'
-
-    os.system(cmd_git_add)
-    os.system(cmd_git_commit)
-    os.system(cmd_git_push)
 
 def send_wecom_message(webhook_url, content):
     headers = {
@@ -77,7 +75,7 @@ def send_wecom_message(webhook_url, content):
         }
     }
     try:
-        response = requests.post(webhook_url, headers=headers, json=data)
+        response = requests.post(webhook_url, headers=headers, json=data, timeout=10)
         response.raise_for_status()
         result = response.json()
         if result['errcode'] != 0:

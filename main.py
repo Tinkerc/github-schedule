@@ -2,28 +2,8 @@ import os
 import sys
 import importlib.util
 from datetime import datetime
+from script.utils.git_helper import git_add_commit_push
 
-def git_add_commit_push():
-    try:
-        # 添加output目录下所有文件
-        cmd_git_add = 'git add output/*'
-        os.system(cmd_git_add)
-        cmd_git_add = 'git add script/*'
-        os.system(cmd_git_add)
-
-        
-        # 提交并推送
-        today = datetime.now().strftime('%Y-%m-%d')
-        cmd_git_commit = f'git commit -m "feat: update data {today}"'
-        cmd_git_push = 'git push -u origin main'
-
-        os.system(cmd_git_commit)
-        os.system(cmd_git_push)
-        print(f"Files in output directory committed to Git repository")
-        return True
-    except Exception as e:
-        print(f"Git operation failed: {str(e)}")
-        return False
 def load_and_execute_script(script_path):
     try:
         # 获取脚本文件名（不含路径和扩展名）

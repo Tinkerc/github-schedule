@@ -11,7 +11,7 @@ import json
 def fetch_ai_news():
     url = "https://ai-bot.cn/daily-ai-news/"
     try:
-        response = requests.get(url)
+        response = requests.get(url, timeout=10)
         response.raise_for_status()
         
         # 创建输出目录

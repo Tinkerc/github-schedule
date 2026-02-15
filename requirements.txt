@@ -1,5 +1,5 @@
-cssselect
-lxml
-pyquery
-requests
-schedule
+# Core dependencies with version locking
+cssselect==1.2.0
+lxml==5.3.0
+pyquery==2.0.1
+requests==2.32.3
