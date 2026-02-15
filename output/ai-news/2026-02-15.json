@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-15",
+  "weekday": "周六",
+  "items": [
+    {
+      "title": "豆包大模型2.0正式发布",
+      "url": "https://mp.weixin.qq.com/s/1dlAeBOu1FPkCabQ_UIMEA",
+      "content": "字节跳动今日宣布豆包大模型正式进入2.0阶段，发布Seed2.0，包含Pro、Lite、Mini和Code四个版本。新版本围绕现实复杂任务进行系统性优化，在推理、多模态理解和复杂指令执行能力上显著提升。豆包2.0 Pro在多项顶尖学术与推理基准测试中表现优异，综合能力达到或超越GPT 5.2与Gemini 3 Pro等顶尖模型。",
+      "source": "字节跳动"
+    },
+    {
+      "title": "阿里云通义 CoPaw 发布：对标 OpenClaw",
+      "url": "https://mp.weixin.qq.com/s/65ZkjKxzbxI0qPkejXkvtg",
+      "content": "AgentScope团队正式发布个人智能体“CoPaw”，定位为“协同个人智能体工作台”，成为用户可本地部署的专属智能搭档。相较于其前身OpenClaw，CoPaw聚焦于极简安装与统一体验，既支持用户本地电脑（macOS/Windows/Linux）通过简单命令快速部署，也支持在“魔搭创空间”一键云端部署。",
+      "source": "通义实验室"
+    },
+    {
+      "title": "“思考”更深，生成更准｜Seedream 5.0 Lite 发布",
+      "url": "https://mp.weixin.qq.com/s/J18YVIqrd9gMqEVcIT-i5w",
+      "content": "字节跳动发布新一代多模态AI模型Seedream 5.0 Lite。该版本不追求更高分辨率，而是大幅强化模型的“思考”与“推理”能力，包括视觉推理、信息可视化、风格迁移和精准图片编辑等。核心亮点是首次引入实时检索增强能力，可结合网络实时信息进行创作。",
+      "source": "字节跳动Seed"
+    },
+    {
+      "title": "灵心巧手宣布完成近15亿元B轮融资",
+      "url": "https://zhidx.com/p/534934.html",
+      "content": "灵心巧手宣布完成了近15亿元人民币的B轮融资，由道得投资、盛世投资领投。这是该公司在2025年以来的第6轮融资。其核心产品是Linker Hand系列灵巧手，覆盖多种技术路线，其中Linker Hand O6为全球最轻灵巧手。",
+      "source": "智东西"
+    }
+  ]
+}
