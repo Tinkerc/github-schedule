@@ -2,8 +2,8 @@
   {
     "title": "LT6502: A 6502-based homebrew laptop",
     "url": "https://github.com/TechPaula/LT6502",
-    "points": 67,
-    "comments_count": 8,
+    "points": 69,
+    "comments_count": 9,
     "posted_at": "2026-02-16T01:12:35",
     "source": "hackernews",
     "hn_id": 47025399
@@ -11,7 +11,7 @@
   {
     "title": "I Fixed Windows Native Development",
     "url": "https://marler8997.github.io/blog/fixed-windows/",
-    "points": 417,
+    "points": 419,
     "comments_count": 221,
     "posted_at": "2026-02-15T19:25:26",
     "source": "hackernews",
@@ -20,8 +20,8 @@
   {
     "title": "EU bans the destruction of unsold apparel, clothing, accessories and footwear",
     "url": "https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en",
-    "points": 153,
-    "comments_count": 98,
+    "points": 155,
+    "comments_count": 102,
     "posted_at": "2026-02-16T01:10:18",
     "source": "hackernews",
     "hn_id": 47025378
@@ -29,7 +29,7 @@
   {
     "title": "Hideki Sato, designer of all Sega's consoles, has died",
     "url": "https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/",
-    "points": 130,
+    "points": 131,
     "comments_count": 3,
     "posted_at": "2026-02-16T00:19:51",
     "source": "hackernews",
@@ -45,6 +45,15 @@
     "hn_id": 47024506
   },
   {
+    "title": "Palantir Gets Millions of Dollars from New York City's Public Hospitals",
+    "url": "https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/",
+    "points": 27,
+    "comments_count": 0,
+    "posted_at": "2026-02-16T01:37:10",
+    "source": "hackernews",
+    "hn_id": 47025624
+  },
+  {
     "title": "I love the work of the ArchWiki maintainers",
     "url": "https://k7r.eu/i-love-the-work-of-the-archwiki-maintainers/",
     "points": 779,
@@ -54,13 +63,13 @@
     "hn_id": 47020191
   },
   {
-    "title": "Palantir Gets Millions of Dollars from New York City's Public Hospitals",
-    "url": "https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/",
-    "points": 24,
-    "comments_count": 0,
-    "posted_at": "2026-02-16T01:37:10",
+    "title": "Palantir vs. the \"Republik\": US analytics firm takes magazine to court",
+    "url": "https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html",
+    "points": 55,
+    "comments_count": 7,
+    "posted_at": "2026-02-16T00:51:17",
     "source": "hackernews",
-    "hn_id": 47025624
+    "hn_id": 47025188
   },
   {
     "title": "An Enslaved Gardener Transformed the Pecan into a Cash Crop",
@@ -72,15 +81,6 @@
     "hn_id": 47024676
   },
   {
-    "title": "Palantir vs. the \"Republik\": US analytics firm takes magazine to court",
-    "url": "https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html",
-    "points": 53,
-    "comments_count": 7,
-    "posted_at": "2026-02-16T00:51:17",
-    "source": "hackernews",
-    "hn_id": 47025188
-  },
-  {
     "title": "Flashpoint Archive – Over 200k web games and animations preserved",
     "url": "https://flashpointarchive.org",
     "points": 265,
@@ -90,6 +90,15 @@
     "hn_id": 47021354
   },
   {
+    "title": "Real-time PathTracing with global illumination in WebGL",
+    "url": "https://erichlof.github.io/THREE.js-PathTracing-Renderer/",
+    "points": 17,
+    "comments_count": 1,
+    "posted_at": "2026-02-13T02:35:39",
+    "source": "hackernews",
+    "hn_id": 46993014
+  },
+  {
     "title": "Reversed engineered game Starflight (1986)",
     "url": "https://github.com/s-macke/starflight-reverse",
     "points": 66,
@@ -97,15 +106,6 @@
     "posted_at": "2026-02-15T19:37:29",
     "source": "hackernews",
     "hn_id": 47022943
-  },
-  {
-    "title": "Real-time PathTracing with global illumination in WebGL",
-    "url": "https://erichlof.github.io/THREE.js-PathTracing-Renderer/",
-    "points": 16,
-    "comments_count": 1,
-    "posted_at": "2026-02-13T02:35:39",
-    "source": "hackernews",
-    "hn_id": 46993014
   },
   {
     "title": "Oat – Ultra-lightweight, semantic, zero-dependency HTML UI component library",
@@ -128,11 +128,20 @@
   {
     "title": "Amazon, Google Unwittingly Reveal the Severity of the U.S. Surveillance State",
     "url": "https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly",
-    "points": 433,
-    "comments_count": 282,
+    "points": 434,
+    "comments_count": 284,
     "posted_at": "2026-02-15T20:42:17",
     "source": "hackernews",
     "hn_id": 47023238
+  },
+  {
+    "title": "1940s Irish sci-fi novel features early mecha and gravity assists",
+    "url": "https://github.com/cavedave/Manannan",
+    "points": 14,
+    "comments_count": 3,
+    "posted_at": "2026-02-15T22:55:53",
+    "source": "hackernews",
+    "hn_id": 47024184
   },
   {
     "title": "RynnBrain",
@@ -151,15 +160,6 @@
     "posted_at": "2026-02-14T23:35:47",
     "source": "hackernews",
     "hn_id": 47015294
-  },
-  {
-    "title": "1940s Irish sci-fi novel features early mecha and gravity assists",
-    "url": "https://github.com/cavedave/Manannan",
-    "points": 13,
-    "comments_count": 3,
-    "posted_at": "2026-02-15T22:55:53",
-    "source": "hackernews",
-    "hn_id": 47024184
   },
   {
     "title": "Two different tricks for fast LLM inference",
@@ -183,7 +183,7 @@
     "title": "Build Gaussian Splat Experiences with SuperSplat Studio",
     "url": "https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio/",
     "points": 18,
-    "comments_count": 2,
+    "comments_count": 3,
     "posted_at": "2026-02-12T01:00:20",
     "source": "hackernews",
     "hn_id": 46977477
@@ -254,8 +254,8 @@
   {
     "title": "Inner-Platform Effect",
     "url": "https://en.wikipedia.org/wiki/Inner-platform_effect",
-    "points": 29,
-    "comments_count": 5,
+    "points": 30,
+    "comments_count": 6,
     "posted_at": "2026-02-15T22:48:43",
     "source": "hackernews",
     "hn_id": 47024112
