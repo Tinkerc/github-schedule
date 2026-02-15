@@ -14,7 +14,7 @@ class WeComNotifier(Notifier):
     """企业微信通知器"""
 
     NOTIFIER_ID = "wecom"
-    SUBSCRIBE_TO = ["ai_news", "trending_ai"]  # 订阅 ai_news 和 trending_ai 任务
+    SUBSCRIBE_TO = ["ai_news", "trending_ai", "tech_insights"]  # 订阅 ai_news, trending_ai 和 tech_insights 任务
 
     def send(self, task_results):
         """
@@ -44,7 +44,48 @@ class WeComNotifier(Notifier):
         else:
             print("未发送 AI 快讯：任务未成功执行")
 
-        # ========== 第二条消息：GitHub Trending ==========
+        # ========== 第二条消息：Tech Insights ==========
+        if "tech_insights" in task_results and task_results["tech_insights"]:
+            print("\n" + "="*60)
+            print("发送第三条消息: 技术行业动态简报")
+            print("="*60)
+
+            insights_path = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)),
+                'output',
+                'tech-insights',
+                f'{self._get_today()}.md'
+            )
+
+            if not os.path.exists(insights_path):
+                print(f"⚠️ 技术简报文件不存在: {insights_path}")
+            else:
+                with codecs.open(insights_path, 'r', 'utf-8') as f:
+                    content = f.read()
+
+                # 企业微信markdown消息长度限制为2048字节
+                # 如果内容过长，需要分段发送
+                max_bytes = 1900  # 留一些余量
+                current_bytes = len(content.encode('utf-8'))
+
+                if current_bytes > max_bytes:
+                    print(f"内容过长 ({current_bytes} 字节)，将分段发送")
+                    if self._send_long_markdown(webhook_url, content, max_bytes):
+                        print("✓ 技术行业动态简报已成功发送到企业微信（分段）")
+                        success_count += 1
+                    else:
+                        print("✗ 发送技术简报失败")
+                else:
+                    full_message = "## 📊 技术行业动态简报\n\n" + content
+                    if self._send_wecom_message(webhook_url, full_message):
+                        print("✓ 技术行业动态简报已成功发送到企业微信")
+                        success_count += 1
+                    else:
+                        print("✗ 发送技术简报失败")
+        else:
+            print("未发送技术简报：任务未成功执行")
+
+        # ========== 第三条消息：GitHub Trending ==========
         print("\n" + "="*60)
         print("发送第二条消息: GitHub Trending")
         print("="*60)
@@ -169,6 +210,51 @@ class WeComNotifier(Notifier):
         except Exception as e:
             print(f"读取 GitHub trending 数据失败: {str(e)}")
             return None
+
+    def _send_long_markdown(self, webhook_url, content, max_bytes):
+        """分段发送长markdown消息"""
+        try:
+            lines = content.split('\n')
+            chunks = []
+            current_chunk = []
+
+            for line in lines:
+                # 检查是否是二级标题（## 开头），作为分段点
+                if line.startswith('## ') and current_chunk:
+                    chunks.append('\n'.join(current_chunk))
+                    current_chunk = [line]
+                else:
+                    current_chunk.append(line)
+
+                # 如果当前chunk超过限制，强制分割
+                if len('\n'.join(current_chunk).encode('utf-8')) > max_bytes:
+                    if len(current_chunk) > 1:
+                        chunks.append('\n'.join(current_chunk[:-1]))
+                        current_chunk = [line]
+                    else:
+                        # 单行就超长，强制分割
+                        chunks.append('\n'.join(current_chunk))
+                        current_chunk = []
+
+            # 添加最后一个chunk
+            if current_chunk:
+                chunks.append('\n'.join(current_chunk))
+
+            # 发送每个chunk
+            for idx, chunk in enumerate(chunks, 1):
+                prefix = f"\n\n（第 {idx}/{len(chunks)} 部分）" if len(chunks) > 1 else ""
+                message = "## 📊 技术行业动态简报" + prefix + "\n\n" + chunk
+                if not self._send_wecom_message(webhook_url, message):
+                    return False
+                # 避免发送过快
+                import time
+                time.sleep(1)
+
+            return True
+
+        except Exception as e:
+            print(f"✗ 分段发送失败: {str(e)}")
+            return False
 
     def _send_wecom_message(self, webhook_url, content):
         """发送企业微信消息"""
