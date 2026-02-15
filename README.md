@@ -104,10 +104,13 @@ python script/4.wecom-robot.py       # Send notifications
 
 ```
 output/
-├── ai-news/              # Daily AI news JSON files (YYYY-MM-DD.json)
-└── {year}/               # GitHub trending and AI analysis by year
-    ├── {date}.md         # Raw trending data
-    └── {date}-analysis.md  # AI-generated analysis report
+├── ai-news/                    # Daily AI news JSON files (YYYY-MM-DD.json)
+├── github-trending/            # GitHub trending data organized by year
+│   └── {year}/                 # Yearly subdirectories
+│       └── {date}.md           # Raw trending data
+└── github-analysis/            # AI-generated analysis reports organized by year
+    └── {year}/                 # Yearly subdirectories
+        └── {date}-analysis.md  # AI-generated analysis report
 ```
 
 ## Development
