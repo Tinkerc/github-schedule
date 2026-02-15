@@ -118,24 +118,37 @@ GitHub Trending 数据:
 
         try:
             print("正在调用 AI 分析...")
-            response = requests.post(url, headers=headers, json=payload, timeout=60)
-            response.raise_for_status()
+            response = requests.post(url, headers=headers, json=payload, timeout=120)
 
-            result = response.json()
-
-            if 'choices' in result and len(result['choices']) > 0:
-                analysis = result['choices'][0]['message']['content']
-                print("✓ AI 分析完成")
-                return analysis
+            if response.status_code == 200:
+                result = response.json()
+                if 'choices' in result and len(result['choices']) > 0:
+                    analysis = result['choices'][0]['message']['content']
+                    print("✓ AI 分析完成")
+                    return analysis
+                else:
+                    print("✗ AI 响应格式异常")
+                    return None
+            elif response.status_code == 401:
+                print("✗ 认证失败: API Key 无效或已过期")
+                return None
+            elif response.status_code == 429:
+                print("✗ 请求频率超限，请稍后重试")
+                return None
             else:
-                print("✗ AI 响应格式异常")
+                print(f"✗ API 调用失败 - HTTP {response.status_code}")
+                try:
+                    error_detail = response.json()
+                    print(f"错误详情: {error_detail}")
+                except:
+                    print(f"响应内容: {response.text[:500]}")
                 return None
 
         except requests.exceptions.Timeout:
             print("✗ AI 请求超时")
             return None
-        except requests.exceptions.RequestException as e:
-            print(f"✗ AI 请求失败 - {str(e)}")
+        except requests.exceptions.ConnectionError:
+            print("✗ 网络连接错误")
             return None
         except Exception as e:
             print(f"✗ AI 分析过程出错 - {str(e)}")
