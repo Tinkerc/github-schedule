@@ -45,9 +45,13 @@ All tasks inherit from base classes in `core/base.py`:
 ```
 tasks/
 ├── ai_news.py           # Fetches AI news (PRIORITY: 10)
+├── hackernews.py        # Fetches Hacker News Top 30 (PRIORITY: 15)
+├── producthunt.py       # Scrapes Product Hunt Top 20 (PRIORITY: 16)
+├── techblogs.py         # Fetches Dev.to trending articles (PRIORITY: 17)
 ├── github_trending.py   # Scrapes GitHub trending (PRIORITY: 20)
 ├── trending_ai.py       # AI analysis of trending (PRIORITY: 30)
-└── wecom_robot.py       # WeChat Work notification (SUBSCRIBE_TO: ['ai_news'])
+├── tech_insights.py     # AI-powered tech industry brief (PRIORITY: 40)
+└── wecom_robot.py       # WeChat Work notification (SUBSCRIBE_TO: ['ai_news', 'trending_ai', 'tech_insights'])
 ```
 
 Each task can be run independently for testing:
@@ -61,8 +65,12 @@ python -m tasks.wecom_robot
 ### Output Structure
 ```
 output/
-├── ai-news/          # Daily AI news JSON files (YYYY-MM-DD.json)
-└── {year}/           # GitHub trending markdown by year
+├── ai-news/              # Daily AI news JSON files (YYYY-MM-DD.json)
+├── hackernews/           # Hacker News stories JSON (YYYY-MM-DD.json)
+├── producthunt/          # Product Hunt products JSON (YYYY-MM-DD.json)
+├── techblogs/            # Tech blog articles JSON (YYYY-MM-DD.json)
+├── tech-insights/        # AI-generated industry brief (YYYY-MM-DD.md)
+└── {year}/               # GitHub trending markdown by year
 ```
 
 ### GitHub Actions Workflow
@@ -74,10 +82,34 @@ The `.github/workflows/blank.yml` workflow:
 - Commits and pushes all changes back to the repository
 - Expects secrets: `MAILUSERNAME`, `MAILPASSWORD`
 
+### Tech Industry Insights System
+The new tech insights tracking system (PRIORITY 15-40) aggregates data from multiple sources:
+
+**Data Collection Tasks:**
+- `hackernews.py` - Fetches Top 30 stories from Hacker News Official API
+- `producthunt.py` - Scrapes Top 20 products (with fallback to mock data)
+- `techblogs.py` - Fetches trending articles from Dev.to API
+
+**AI Analysis Task:**
+- `tech_insights.py` - Aggregates all data sources and generates AI-powered brief
+- Uses ZhipuAI GLM-4-flash model for fast analysis
+- Falls back to mock data if API unavailable
+- Generates structured markdown with sections: hot topics, projects, trends, AI updates, tools, insights
+
+**Notification:**
+- `wecom_robot.py` - Extended to send tech_insights brief
+- Implements message splitting for long content (>1900 bytes)
+- Splits on ## headings for better readability
+
+**Testing:**
+- Run `python test_tech_insights.py` for comprehensive integration test
+- All tasks independently testable via `python -m tasks.<task_name>`
+
 ## Dependencies
 - `requests` - HTTP client
 - `pyquery` - HTML parsing (jQuery-like API for Python)
 - `lxml` - XML/HTML processing
+- `zhipuai` - ZhipuAI SDK for GLM model API access
 - `schedule` - Job scheduling (not actively used in current implementation)
 - `cssselect` - CSS selector support for lxml
 
@@ -88,6 +120,7 @@ The `.github/workflows/blank.yml` workflow:
 - Required environment variables:
   - `VOLCENGINE_API_KEY`: For AI analysis in trending_ai task
   - `VOLCENGINE_MODEL`: (optional) Volcengine model endpoint, defaults to 'ep-20250215154848-djsgr'
+  - `BIGMODEL_API_KEY`: For ZhipuAI API in tech_insights task
   - `WECOM_WEBHOOK_URL`: For WeChat Work notifications
 - Each task inherits helper methods from Task base class:
   - `get_output_path(filename)`: Get full path for output files
