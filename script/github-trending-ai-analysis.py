@@ -355,24 +355,61 @@ class MarkdownReportGenerator:
         return '\n'.join(f"- {line.strip()}" for line in lines if line.strip())
 
 
+def job():
+    """主任务入口"""
+    start_time = time.time()
+    logger.info("="*60)
+    logger.info("GitHub Trending AI 分析任务开始")
+    logger.info("="*60)
+
+    try:
+        # 1. 获取当前日期
+        date = datetime.datetime.now().strftime('%Y-%m-%d')
+        logger.info(f"目标日期: {date}")
+
+        # 2. 爬取 GitHub Trending 数据
+        logger.info("步骤 1/4: 爬取 GitHub Trending 数据")
+        scraper = GitHubTrendingScraper()
+        projects = scraper.scrape_all_languages()
+
+        if len(projects) == 0:
+            logger.error("未爬取到任何项目，任务终止")
+            return
+
+        logger.info(f"成功获取 {len(projects)} 个项目")
+
+        # 3. AI 批量分析
+        logger.info("步骤 2/4: AI 批量分析项目")
+        analyzer = GLMAnalyzer()
+        analyses = analyzer.analyze_projects(projects)
+
+        if len(analyses.get('projects', [])) == 0:
+            logger.error("AI 分析失败，任务终止")
+            return
+
+        # 4. 生成趋势概览
+        logger.info("步骤 3/4: 生成趋势概览和热门领域")
+        trend_summary = analyzer.generate_trend_summary(analyses)
+
+        # 5. 生成报告
+        logger.info("步骤 4/4: 生成 Markdown 报告")
+        generator = MarkdownReportGenerator('output')
+        report_path = generator.generate(date, projects, analyses, trend_summary)
+
+        # 6. 输出统计信息
+        elapsed = time.time() - start_time
+        logger.info("="*60)
+        logger.info("任务完成！")
+        logger.info(f"执行时间: {elapsed:.2f} 秒")
+        logger.info(f"分析项目数: {len(projects)}")
+        logger.info(f"报告路径: {report_path}")
+        logger.info("="*60)
+
+    except Exception as e:
+        logger.error(f"任务执行失败: {str(e)}")
+        import traceback
+        traceback.print_exc()
+
+
 if __name__ == '__main__':
-    # 完整流程测试
-    logger.info("开始 GitHub Trending AI 分析")
-
-    # 1. 爬取数据
-    scraper = GitHubTrendingScraper()
-    projects = scraper.scrape_all_languages()[:5]  # 测试 5 个
-
-    # 2. AI 分析
-    analyzer = GLMAnalyzer()
-    analyses = analyzer.analyze_projects(projects)
-
-    # 3. 趋势总结
-    trend_summary = analyzer.generate_trend_summary(analyses)
-
-    # 4. 生成报告
-    generator = MarkdownReportGenerator('output')
-    date = datetime.datetime.now().strftime('%Y-%m-%d')
-    report_path = generator.generate(date, projects, analyses, trend_summary)
-
-    logger.info(f"分析完成！报告路径: {report_path}")
+    job()
