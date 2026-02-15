@@ -25,14 +25,20 @@ jobs:
 
     - name: Run AI analysis
       env:
+        username: ${{ secrets.MAILUSERNAME }}
+        password: ${{ secrets.MAILPASSWORD }}
+        appId: 3920410
+        WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
         BIGMODEL_API_KEY: ${{ secrets.BIGMODEL_API_KEY }}
+        VOLCENGINE_API_KEY: ${{ secrets.VOLCENGINE_API_KEY }}
+        VOLCENGINE_MODEL: ${{ secrets.VOLCENGINE_MODEL }}
       run: |
-        python script/github-trending-ai-analysis.py
+        python main.py
 
     - name: Commit and push results
       run: |
         git config --global user.name "tinkerc"
         git config --global user.email "chenruoyun@126.com"
         git add -A
-        git commit -m "feat: update trending AI analysis $(date '+%Y-%m-%d')" || echo "No changes to commit"
+        git commit -m "feat: update daily automation $(date '+%Y-%m-%d')" || echo "No changes to commit"
         git push
