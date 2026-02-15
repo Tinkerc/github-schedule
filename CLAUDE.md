@@ -86,7 +86,8 @@ The `.github/workflows/blank.yml` workflow:
 - Task framework uses `importlib.util` for dynamic task and notifier discovery
 - Environment variables are loaded from `.env` file using `python-dotenv`
 - Required environment variables:
-  - `BIGMODEL_API_KEY`: For AI analysis in trending_ai task
+  - `VOLCENGINE_API_KEY`: For AI analysis in trending_ai task
+  - `VOLCENGINE_MODEL`: (optional) Volcengine model endpoint, defaults to 'ep-20250215154848-djsgr'
   - `WECOM_WEBHOOK_URL`: For WeChat Work notifications
 - Each task inherits helper methods from Task base class:
   - `get_output_path(filename)`: Get full path for output files

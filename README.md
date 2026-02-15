@@ -6,7 +6,7 @@ Python-based scheduled task automation system that runs daily via GitHub Actions
 
 - **AI News Scraping**: Daily fetches AI industry news from https://ai-bot.cn/daily-ai-news/
 - **GitHub Trending**: Tracks trending repositories for multiple programming languages (Python, JavaScript, Go, Java)
-- **AI-Powered Analysis**: Analyzes GitHub trending data using ZhipuAI GLM-4 model
+- **AI-Powered Analysis**: Analyzes GitHub trending data using Volcengine Doubao model
 - **WeChat Work Integration**: Sends daily AI news notifications to Enterprise WeChat
 - **Automated Execution**: Runs daily at 00:00 UTC via GitHub Actions
 
@@ -43,9 +43,8 @@ cp .env.example .env
 
 **Required:**
 - `WECOM_WEBHOOK_URL`: Enterprise WeChat webhook URL for sending notifications
-- `BIGMODEL_API_KEY`: ZhipuAI API key for AI analysis (get from https://open.bigmodel.cn/)
-- `VOLCENGINE_API_KEY`: VolcEngine API key for alternative AI model support
-- `VOLCENGINE_MODEL`: VolcEngine model identifier (e.g., ep-20241205153016-l8qhs)
+- `VOLCENGINE_API_KEY`: Volcengine API key for AI analysis (get from https://console.volcengine.com/ark)
+- `VOLCENGINE_MODEL`: (optional) Volcengine model endpoint, defaults to 'ep-20250215154848-djsgr'
 
 **Optional:**
 - `MAILUSERNAME`: Email username (for future use)
@@ -56,9 +55,8 @@ cp .env.example .env
 For GitHub Actions, configure these secrets in your repository settings (`Settings > Secrets and variables > Actions`):
 
 - `WECOM_WEBHOOK_URL` (required)
-- `BIGMODEL_API_KEY` (required)
 - `VOLCENGINE_API_KEY` (required)
-- `VOLCENGINE_MODEL` (required)
+- `VOLCENGINE_MODEL` (optional)
 - `MAILUSERNAME` (optional)
 - `MAILPASSWORD` (optional)
 
