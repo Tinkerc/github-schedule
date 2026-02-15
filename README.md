@@ -10,6 +10,11 @@ Python-based scheduled task automation system that runs daily via GitHub Actions
 - **WeChat Work Integration**: Sends daily AI news notifications to Enterprise WeChat
 - **Automated Execution**: Runs daily at 00:00 UTC via GitHub Actions
 
+## Requirements
+
+- **Python 3.11 or higher** (required by lxml 5.3.0+)
+- pip (Python package manager)
+
 ## Installation
 
 1. Clone the repository:
@@ -39,6 +44,8 @@ cp .env.example .env
 **Required:**
 - `WECOM_WEBHOOK_URL`: Enterprise WeChat webhook URL for sending notifications
 - `BIGMODEL_API_KEY`: ZhipuAI API key for AI analysis (get from https://open.bigmodel.cn/)
+- `VOLCENGINE_API_KEY`: VolcEngine API key for alternative AI model support
+- `VOLCENGINE_MODEL`: VolcEngine model identifier (e.g., ep-20241205153016-l8qhs)
 
 **Optional:**
 - `MAILUSERNAME`: Email username (for future use)
@@ -48,8 +55,10 @@ cp .env.example .env
 
 For GitHub Actions, configure these secrets in your repository settings (`Settings > Secrets and variables > Actions`):
 
-- `WECOM_WEBHOOK_URL`
-- `BIGMODEL_API_KEY`
+- `WECOM_WEBHOOK_URL` (required)
+- `BIGMODEL_API_KEY` (required)
+- `VOLCENGINE_API_KEY` (required)
+- `VOLCENGINE_MODEL` (required)
 - `MAILUSERNAME` (optional)
 - `MAILPASSWORD` (optional)
 
