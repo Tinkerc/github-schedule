@@ -1,0 +1,218 @@
+[
+  {
+    "title": "How dev.to became my comfortable corner of the internet (and my New Year resolution)",
+    "url": "https://dev.to/ujja/how-devto-became-my-comfortable-corner-of-the-internet-and-my-new-year-resolution-54h8",
+    "author": "ujja",
+    "published_at": "2026-02-09",
+    "source": "devto",
+    "tags": [
+      "discuss",
+      "community",
+      "watercooler",
+      "mentalhealth"
+    ],
+    "reading_time_minutes": 2,
+    "positive_reactions_count": 171
+  },
+  {
+    "title": "Stack Overflow: Time for a Change?",
+    "url": "https://dev.to/richardpascoe/stack-overflow-time-for-a-change-c2p",
+    "author": "Richard Pascoe",
+    "published_at": "2026-02-10",
+    "source": "devto",
+    "tags": [
+      "discuss",
+      "community",
+      "learning"
+    ],
+    "reading_time_minutes": 2,
+    "positive_reactions_count": 89
+  },
+  {
+    "title": "How Seriously Should We Take State of JS and Other Developer Surveys?",
+    "url": "https://dev.to/sylwia-lask/how-seriously-should-we-take-state-of-js-and-other-developer-surveys-9ce",
+    "author": "Sylwia Laskowska",
+    "published_at": "2026-02-10",
+    "source": "devto",
+    "tags": [
+      "javascript",
+      "node",
+      "frontend",
+      "webdev"
+    ],
+    "reading_time_minutes": 4,
+    "positive_reactions_count": 83
+  },
+  {
+    "title": "ASCII Whisper: Local P2P Chat with Sound FX and Battleship",
+    "url": "https://dev.to/annavi11arrea1/ascii-whisper-local-p2p-chat-with-sound-fx-and-battleship-18c7",
+    "author": "Anna Villarreal",
+    "published_at": "2026-02-11",
+    "source": "devto",
+    "tags": [
+      "devchallenge",
+      "githubchallenge",
+      "cli",
+      "githubcopilot"
+    ],
+    "reading_time_minutes": 6,
+    "positive_reactions_count": 66
+  },
+  {
+    "title": "One Month at a Startup: What Stayed With Me After I Left",
+    "url": "https://dev.to/itsugo/one-month-at-a-startup-what-stayed-with-me-after-i-left-42an",
+    "author": "Aryan Choudhary",
+    "published_at": "2026-02-10",
+    "source": "devto",
+    "tags": [
+      "career",
+      "startup",
+      "learning",
+      "mentalhealth"
+    ],
+    "reading_time_minutes": 5,
+    "positive_reactions_count": 103
+  },
+  {
+    "title": "Remember Your First Computer Book?",
+    "url": "https://dev.to/richardpascoe/remember-your-first-computer-book-4fml",
+    "author": "Richard Pascoe",
+    "published_at": "2026-02-13",
+    "source": "devto",
+    "tags": [
+      "discuss",
+      "community",
+      "learning"
+    ],
+    "reading_time_minutes": 2,
+    "positive_reactions_count": 63
+  },
+  {
+    "title": "Get **** done. I hate what Trello has become",
+    "url": "https://dev.to/karsten_biedermann/get-done-i-hate-what-trello-has-become-5a05",
+    "author": "Karsten Biedermann",
+    "published_at": "2026-02-11",
+    "source": "devto",
+    "tags": [
+      "programming",
+      "productivity",
+      "discuss",
+      "startup"
+    ],
+    "reading_time_minutes": 2,
+    "positive_reactions_count": 27
+  },
+  {
+    "title": "Top 7 Featured DEV Posts of the Week",
+    "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-43cc",
+    "author": "Jess Lee",
+    "published_at": "2026-02-10",
+    "source": "devto",
+    "tags": [
+      "top7",
+      "discuss"
+    ],
+    "reading_time_minutes": 2,
+    "positive_reactions_count": 63
+  },
+  {
+    "title": "I Shipped the Solution to Knowledge Collapse in 21 Days",
+    "url": "https://dev.to/the-foundation/i-built-federated-ai-knowledge-commons-heres-how-56oj",
+    "author": "Daniel Nwaneri",
+    "published_at": "2026-02-09",
+    "source": "devto",
+    "tags": [
+      "ai",
+      "opensource",
+      "activitypub",
+      "discuss"
+    ],
+    "reading_time_minutes": 7,
+    "positive_reactions_count": 47
+  },
+  {
+    "title": "Re-creating a Pantone Color Deck in CSS",
+    "url": "https://dev.to/madsstoumann/re-creating-a-pantone-color-deck-in-css-3108",
+    "author": "Mads Stoumann",
+    "published_at": "2026-02-11",
+    "source": "devto",
+    "tags": [
+      "html",
+      "css",
+      "tutorial",
+      "webdev"
+    ],
+    "reading_time_minutes": 6,
+    "positive_reactions_count": 28
+  },
+  {
+    "title": "Why Learning Basic Robotics Made Me a Better Software Engineer in the Age of AI",
+    "url": "https://dev.to/javz/why-learning-basic-robotics-made-me-a-better-software-engineer-in-the-age-of-ai-fdh",
+    "author": "Julien Avezou",
+    "published_at": "2026-02-10",
+    "source": "devto",
+    "tags": [
+      "discuss",
+      "ai",
+      "robotics",
+      "programming"
+    ],
+    "reading_time_minutes": 2,
+    "positive_reactions_count": 54
+  },
+  {
+    "title": "Five Git Config Settings Every Dev Needs",
+    "url": "https://dev.to/nickytonline/five-git-config-settings-every-dev-needs-3e55",
+    "author": "Nick Taylor",
+    "published_at": "2026-02-10",
+    "source": "devto",
+    "tags": [
+      "git"
+    ],
+    "reading_time_minutes": 4,
+    "positive_reactions_count": 41
+  },
+  {
+    "title": "What was your win this week??",
+    "url": "https://dev.to/devteam/what-was-your-win-this-week-a3a",
+    "author": "Jess Lee",
+    "published_at": "2026-02-13",
+    "source": "devto",
+    "tags": [
+      "weeklyretro",
+      "discuss"
+    ],
+    "reading_time_minutes": 1,
+    "positive_reactions_count": 34
+  },
+  {
+    "title": "Your IDE is an Attack Vector",
+    "url": "https://dev.to/aezur/your-ide-is-an-attack-vector-2i0b",
+    "author": "Peter Mulligan",
+    "published_at": "2026-02-12",
+    "source": "devto",
+    "tags": [
+      "vscode",
+      "security",
+      "phishing",
+      "tooling"
+    ],
+    "reading_time_minutes": 5,
+    "positive_reactions_count": 34
+  },
+  {
+    "title": "Implemented a Feature where the Theme on my Portfolio changes based on the Holiday (Because it's fun) 💫",
+    "url": "https://dev.to/francistrdev/implemented-a-feature-where-the-theme-on-my-portfolio-changes-based-on-the-holiday-because-its-31jo",
+    "author": "👾 FrancisTRᴅᴇᴠ 👾",
+    "published_at": "2026-02-10",
+    "source": "devto",
+    "tags": [
+      "discuss",
+      "react",
+      "nextjs",
+      "css"
+    ],
+    "reading_time_minutes": 5,
+    "positive_reactions_count": 37
+  }
+]
