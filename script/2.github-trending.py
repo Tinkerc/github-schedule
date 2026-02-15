@@ -7,9 +7,7 @@ import os
 import time
 from pyquery import PyQuery as pq
 
-import sys
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from utils.git_helper import git_add_commit_push
+# git_helper import removed - unused
 
 
 def createMarkdown(date, filename):
