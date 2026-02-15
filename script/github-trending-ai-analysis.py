@@ -251,11 +251,128 @@ class GLMAnalyzer:
             raise
 
 
-if __name__ == '__main__':
-    # 测试 AI 分析
-    scraper = GitHubTrendingScraper()
-    projects = scraper.scrape_all_languages()[:5]  # 先测试 5 个
+class MarkdownReportGenerator:
+    """Markdown 报告生成器"""
 
+    def __init__(self, output_dir):
+        """
+        初始化报告生成器
+
+        Args:
+            output_dir: str, 输出基础目录
+        """
+        self.output_dir = output_dir
+
+    def generate(self, date, projects, analyses, trend_summary):
+        """
+        生成 Markdown 报告
+
+        Args:
+            date: str, 日期 (YYYY-MM-DD)
+            projects: list[dict], 原始项目数据
+            analyses: dict, AI 分析结果
+            trend_summary: dict, 趋势分析结果
+
+        Returns:
+            str: 报告文件路径
+        """
+        # 创建输出目录
+        year = date.split('-')[0]
+        output_path = os.path.join(self.output_dir, 'github-trending-ai-analysis', year)
+        os.makedirs(output_path, exist_ok=True)
+
+        filename = os.path.join(output_path, f'{date}.md')
+
+        # 生成报告内容
+        content = self._generate_content(date, projects, analyses, trend_summary)
+
+        # 写入文件
+        with codecs.open(filename, 'w', 'utf-8') as f:
+            f.write(content)
+
+        logger.info(f"报告已保存: {filename}")
+        return filename
+
+    def _generate_content(self, date, projects, analyses, trend_summary):
+        """生成报告内容"""
+        content = f"""# GitHub Trending 每日分析报告 - {date}
+
+## 📈 今日趋势概览
+
+{trend_summary.get('trend_overview', '')}
+
+## 🔥 热门领域
+
+"""
+
+        # 热门领域
+        for domain in trend_summary.get('hot_domains', []):
+            content += f"""### {domain.get('domain', '未知领域')}
+
+{domain.get('reason', '')}
+
+**相关项目：** {', '.join(domain.get('projects', []))}
+
+"""
+
+        # 项目详情
+        content += "\n## 📦 项目详情分析\n\n"
+
+        # 创建项目名称到分析的映射
+        analysis_map = {p['name']: p for p in analyses.get('projects', [])}
+
+        for idx, project in enumerate(projects, 1):
+            name = project['name']
+            analysis = analysis_map.get(name, {})
+
+            content += f"""### {idx}. [{name}]({project['url']})
+
+**星标：** {project['stars']} (今日 +{project['stars_today']}) | **语言：** {project['language']}
+
+**核心功能：** {analysis.get('core_functionality', '暂无')}
+
+**适用场景：**
+{self._format_list(analysis.get('use_cases', ''))}
+
+**技术栈：** {analysis.get('tech_stack', '未知')}
+
+**技术亮点：**
+{self._format_list(analysis.get('tech_highlights', ''))}
+
+**学习价值：** {analysis.get('learning_value', '暂无')}
+
+---
+
+"""
+
+        return content
+
+    def _format_list(self, text):
+        """格式化列表文本"""
+        if not text:
+            return "- 暂无"
+        lines = text.strip().split('\n')
+        return '\n'.join(f"- {line.strip()}" for line in lines if line.strip())
+
+
+if __name__ == '__main__':
+    # 完整流程测试
+    logger.info("开始 GitHub Trending AI 分析")
+
+    # 1. 爬取数据
+    scraper = GitHubTrendingScraper()
+    projects = scraper.scrape_all_languages()[:5]  # 测试 5 个
+
+    # 2. AI 分析
     analyzer = GLMAnalyzer()
     analyses = analyzer.analyze_projects(projects)
-    print(f"分析结果: {json.dumps(analyses, ensure_ascii=False, indent=2)}")
+
+    # 3. 趋势总结
+    trend_summary = analyzer.generate_trend_summary(analyses)
+
+    # 4. 生成报告
+    generator = MarkdownReportGenerator('output')
+    date = datetime.datetime.now().strftime('%Y-%m-%d')
+    report_path = generator.generate(date, projects, analyses, trend_summary)
+
+    logger.info(f"分析完成！报告路径: {report_path}")
