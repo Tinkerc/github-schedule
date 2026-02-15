@@ -150,15 +150,30 @@ class GLMAnalyzer:
             "max_tokens": 8000
         }
 
-        for attempt in range(3):
+        for attempt in range(5):  # 增加重试次数到 5 次
             try:
-                logger.info(f"正在调 GLM-4.7 API (尝试 {attempt + 1}/3)")
+                logger.info(f"正在调 GLM-4.7 API (尝试 {attempt + 1}/5)")
                 response = requests.post(
                     self.api_url,
                     headers=self.headers,
                     json=payload,
                     timeout=60
                 )
+
+                # 检查是否是 429 错误
+                if response.status_code == 429:
+                    retry_after = response.headers.get('Retry-After')
+                    wait_time = 10 * (3 ** attempt)  # 指数退避: 10s, 30s, 90s, 270s, 810s
+                    if retry_after:
+                        wait_time = max(wait_time, int(retry_after))
+
+                    logger.warning(f"API 速率限制，等待 {wait_time} 秒后重试 (尝试 {attempt + 1}/5)")
+                    if attempt < 4:
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        raise requests.exceptions.HTTPError("429 Too Many Requests - 已达到最大重试次数")
+
                 response.raise_for_status()
 
                 result = response.json()
@@ -171,9 +186,12 @@ class GLMAnalyzer:
                     raise ValueError("Invalid API response")
 
             except requests.exceptions.RequestException as e:
-                logger.warning(f"API 请求失败 (尝试 {attempt + 1}/3): {str(e)}")
-                if attempt < 2:
+                if "429" not in str(e) and attempt < 4:
+                    logger.warning(f"API 请求失败 (尝试 {attempt + 1}/5): {str(e)}")
                     time.sleep(10)
+                elif "429" in str(e):
+                    # 429 错误已经在上面处理了
+                    raise
                 else:
                     raise
 
