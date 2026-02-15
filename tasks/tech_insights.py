@@ -3,6 +3,7 @@ from core.base import Task
 import os
 import json
 from typing import List, Dict, Any
+from zhipuai import ZhipuAI
 
 class TechInsightsTask(Task):
     """综合分析所有数据源，生成技术行业简报"""
@@ -38,9 +39,8 @@ class TechInsightsTask(Task):
             # 构建AI提示词
             prompt = self._build_prompt(hn_data, ph_data, tb_data)
 
-            # 调用AI分析（暂时使用Mock）
-            # TODO: 下一步集成真实ZhipuAI API
-            insights = self._mock_ai_analysis(prompt)
+            # 调用AI分析
+            insights = self._call_ai_analysis(prompt)
 
             # 保存简报
             output_path = self.get_output_path(f"tech-insights/{self.get_today()}.md")
@@ -133,6 +133,39 @@ class TechInsightsTask(Task):
         for item in data[:10]:
             formatted.append(f"- **{item['title']}** by {item['author']} ({item['source']})")
         return '\n'.join(formatted)
+
+    def _call_ai_analysis(self, prompt: str) -> str:
+        """调用ZhipuAI API生成分析"""
+        try:
+            # 从环境变量获取API Key
+            api_key = os.getenv("BIGMODEL_API_KEY")
+            if not api_key:
+                print(f"[{self.TASK_ID}] ⚠️ 未找到BIGMODEL_API_KEY环境变量，使用Mock数据")
+                return self._mock_ai_analysis(prompt)
+
+            # 初始化客户端
+            client = ZhipuAI(api_key=api_key)
+
+            print(f"[{self.TASK_ID}] 正在调用ZhipuAI API生成分析...")
+
+            # 调用API
+            response = client.chat.completions.create(
+                model="glm-4-flash",  # 使用快速模型
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_tokens=2000,
+            )
+
+            # 提取结果
+            insights = response.choices[0].message.content.strip()
+            print(f"[{self.TASK_ID}] ✓ AI分析生成成功")
+            return insights
+
+        except Exception as e:
+            print(f"[{self.TASK_ID}] ⚠️ API调用失败: {str(e)}，使用Mock数据")
+            return self._mock_ai_analysis(prompt)
 
     def _mock_ai_analysis(self, prompt: str) -> str:
         """Mock AI分析（开发测试用）"""
