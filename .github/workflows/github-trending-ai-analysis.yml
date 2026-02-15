@@ -1,0 +1,38 @@
+name: GitHub Trending AI Analysis
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # 每日 00:00 UTC
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run AI analysis
+      env:
+        BIGMODEL_API_KEY: ${{ secrets.BIGMODEL_API_KEY }}
+      run: |
+        python script/github-trending-ai-analysis.py
+
+    - name: Commit and push results
+      run: |
+        git config --global user.name "tinkerc"
+        git config --global user.email "chenruoyun@126.com"
+        git add -A
+        git commit -m "feat: update trending AI analysis $(date '+%Y-%m-%d')" || echo "No changes to commit"
+        git push
