@@ -1,0 +1,183 @@
+# coding:utf-8
+"""
+GitHub Trending AI 分析脚本
+读取 GitHub Trending 数据，调用 AI 进行分析，生成分析报告
+"""
+
+import datetime
+import os
+import json
+import requests
+import codecs
+
+
+def get_trending_markdown_path():
+    """获取当天的 trending markdown 文件路径"""
+    strdate = datetime.datetime.now().strftime('%Y-%m-%d')
+    stryear = datetime.datetime.now().strftime('%Y')
+    filename = f'output/github-trending/{stryear}/{strdate}.md'
+    return filename
+
+
+def read_trending_data(filename):
+    """读取 trending markdown 文件内容"""
+    if not os.path.exists(filename):
+        print(f"错误: 未找到 trending 数据文件: {filename}")
+        return None
+
+    with codecs.open(filename, 'r', 'utf-8') as f:
+        content = f.read()
+
+    print(f"✓ 成功读取 trending 数据: {filename}")
+    return content
+
+
+def call_ai_analysis(trending_content):
+    """调用火山引擎（豆包）大模型 API 进行分析"""
+    api_key = os.environ.get('VOLCENGINE_API_KEY')
+    if not api_key:
+        print("警告: 未设置 VOLCENGINE_API_KEY 环境变量，跳过 AI 分析")
+        print("提示: 如需启用 AI 分析，请设置环境变量: export VOLCENGINE_API_KEY=your_key")
+        return None
+
+    model = os.environ.get('VOLCENGINE_MODEL', 'ep-20250215154848-djsgr')
+    url = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
+
+    # 构建分析 prompt
+    prompt = f"""请分析以下 GitHub Trending 数据，提供以下内容：
+
+1. **趋势概览**: 总结今天的整体趋势，有哪些突出的技术方向？
+2. **热门项目分析**: 选取 3-5 个最有趣或最受欢迎的项目，详细介绍它们的特点、价值和应用场景
+3. **技术趋势**: 从这些项目中分析出当前的技术趋势（如 AI、Web3、云原生等）
+4. **推荐关注**: 列出值得开发者关注和学习的项目
+
+请用中文回答，使用 markdown 格式，保持专业但易懂的语气。
+
+---
+GitHub Trending 数据:
+{trending_content}
+"""
+
+    payload = {
+        "model": model,
+        "messages": [
+            {
+                "role": "system",
+                "content": "你是一位资深技术专家，长期关注开源生态与前沿工程实践。请对以下 GitHub 项目列表中的每一个项目，用一句简洁、准确、有洞察力的话进行解读，说明其核心价值、技术特点或潜在影响。"
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ],
+        "max_tokens": 2000
+    }
+
+    headers = {
+        "Accept": "application/json",
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+
+    try:
+        print("正在调用 AI 分析...")
+        response = requests.post(url, headers=headers, json=payload, timeout=120)
+
+        if response.status_code == 200:
+            result = response.json()
+            if 'choices' in result and len(result['choices']) > 0:
+                analysis = result['choices'][0]['message']['content']
+                print("✓ AI 分析完成")
+                return analysis
+            else:
+                print("错误: AI 响应格式异常")
+                return None
+        elif response.status_code == 401:
+            print("错误: 认证失败: API Key 无效或已过期")
+            return None
+        elif response.status_code == 429:
+            print("错误: 请求频率超限，请稍后重试")
+            return None
+        else:
+            print(f"错误: API 调用失败 - HTTP {response.status_code}")
+            try:
+                error_detail = response.json()
+                print(f"错误详情: {error_detail}")
+            except:
+                print(f"响应内容: {response.text[:500]}")
+            return None
+
+    except requests.exceptions.Timeout:
+        print("错误: AI 请求超时")
+        return None
+    except requests.exceptions.ConnectionError:
+        print("错误: 网络连接错误")
+        return None
+    except Exception as e:
+        print(f"错误: AI 分析过程出错 - {str(e)}")
+        return None
+
+
+def save_analysis(analysis_content, output_filename):
+    """保存 AI 分析结果到文件"""
+    try:
+        with codecs.open(output_filename, 'w', 'utf-8') as f:
+            # 添加标题
+            strdate = datetime.datetime.now().strftime('%Y-%m-%d')
+            f.write(f"# GitHub Trending AI 分析报告\n\n")
+            f.write(f"> 分析日期: {strdate}\n\n")
+            f.write("---\n\n")
+            f.write(analysis_content)
+
+        print(f"✓ 分析结果已保存: {output_filename}")
+        return True
+    except Exception as e:
+        print(f"错误: 保存分析结果失败 - {str(e)}")
+        return False
+
+
+def job():
+    """主任务函数"""
+    print("\n" + "="*60)
+    print("GitHub Trending AI 分析")
+    print("="*60)
+
+    # 1. 读取 trending 数据
+    trending_file = get_trending_markdown_path()
+    trending_content = read_trending_data(trending_file)
+
+    if not trending_content:
+        return False
+
+    # 2. 调用 AI 分析
+    analysis = call_ai_analysis(trending_content)
+
+    if not analysis:
+        print("\nAI 分析未完成，跳过保存步骤")
+        return False
+
+    # 3. 保存分析结果
+    strdate = datetime.datetime.now().strftime('%Y-%m-%d')
+    stryear = datetime.datetime.now().strftime('%Y')
+
+    # 确保输出目录存在
+    if not os.path.exists(stryear):
+        os.makedirs(stryear)
+
+    # 保存到 {YEAR}/{DATE}-analysis.md
+    analysis_file = f'output/github-trending/{stryear}/{strdate}-analysis.md'
+    success = save_analysis(analysis, analysis_file)
+
+    if success:
+        print("\n" + "="*60)
+        print("✓ AI 分析任务完成")
+        print(f"原始数据: {trending_file}")
+        print(f"分析报告: {analysis_file}")
+        print("="*60)
+        return True
+    else:
+        return False
+
+
+if __name__ == '__main__':
+    job()
