@@ -33,12 +33,21 @@ def create_content_from_json(json_file):
         return None
 
 def create_trending_content():
-    """从 GitHub trending markdown 文件创建内容"""
+    """优先从AI分析文件创建内容，如果不存在则使用原始trending数据"""
     try:
         today = datetime.datetime.now().strftime('%Y-%m-%d')
         year = datetime.datetime.now().strftime('%Y')
 
-        # GitHub trending 文件路径
+        # 优先尝试AI分析文件
+        analysis_file = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)),
+            'output',
+            'github-trending',
+            year,
+            f'{today}-analysis.md'
+        )
+
+        # 回退到原始trending文件
         trending_file = os.path.join(
             os.path.dirname(os.path.dirname(__file__)),
             'output',
@@ -47,12 +56,25 @@ def create_trending_content():
             f'{today}.md'
         )
 
-        if not os.path.exists(trending_file):
-            print(f"未找到 GitHub trending 数据: {trending_file}")
-            return None
+        content = None
+        source_type = ""
 
-        with codecs.open(trending_file, 'r', 'utf-8') as f:
-            content = f.read()
+        # 优先使用AI分析结果
+        if os.path.exists(analysis_file):
+            print(f"✓ 找到AI分析文件: {analysis_file}")
+            with codecs.open(analysis_file, 'r', 'utf-8') as f:
+                content = f.read()
+            source_type = "AI分析"
+        elif os.path.exists(trending_file):
+            print(f"⚠ 未找到AI分析文件，使用原始trending数据: {trending_file}")
+            with codecs.open(trending_file, 'r', 'utf-8') as f:
+                content = f.read()
+            source_type = "原始数据"
+        else:
+            print(f"✗ 未找到任何数据文件")
+            print(f"  - AI分析: {analysis_file}")
+            print(f"  - 原始数据: {trending_file}")
+            return None
 
         # 单独发送，可以使用全部 4096 字节（留一些缓冲）
         max_bytes = 3800  # 预留 296 字节给标题等
@@ -64,7 +86,7 @@ def create_trending_content():
             content = content_utf8[:max_bytes].decode('utf-8', errors='ignore')
             content += "\n\n... (更多内容请查看仓库)"
 
-        print(f"GitHub trending 内容: {current_bytes} 字节 (限制: {max_bytes})")
+        print(f"GitHub trending 内容 ({source_type}): {current_bytes} 字节 (限制: {max_bytes})")
 
         return content
     except Exception as e:
@@ -111,8 +133,13 @@ def job():
 
     trending_content = create_trending_content()
     if trending_content:
-        # 添加标题
-        full_trending_message = "# GitHub Trending 今日热榜\n\n" + trending_content
+        # 检查内容是否已包含标题（AI分析结果自带标题）
+        if not trending_content.startswith('#'):
+            # 原始trending数据，需要添加标题
+            full_trending_message = "# GitHub Trending 今日热榜\n\n" + trending_content
+        else:
+            # AI分析结果，已有标题，直接使用
+            full_trending_message = trending_content
 
         if send_wecom_message(webhook_url, full_trending_message):
             print("✓ GitHub Trending 已成功发送到企业微信")
