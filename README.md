@@ -60,6 +60,51 @@ For GitHub Actions, configure these secrets in your repository settings (`Settin
 - `MAILUSERNAME` (optional)
 - `MAILPASSWORD` (optional)
 
+## Notion Integration
+
+The system can sync AI-generated markdown content to Notion databases for mobile access.
+
+### Setup
+
+1. **Create Notion Integration**
+   - Go to https://www.notion.so/my-integrations
+   - Create a new integration and copy the "Internal Integration Token"
+   - This is your `NOTION_API_KEY`
+
+2. **Create Notion Databases**
+   - Create a database for each content type (Tech Insights, GitHub Trending, etc.)
+   - Add these properties to each database:
+     - `Title` (title type)
+     - `Date` (date type)
+     - `Source` (select type, add option "github-schedule")
+
+3. **Get Database IDs**
+   - Open each database in Notion
+   - Copy the database ID from the URL: `https://notion.so/workspace/[DATABASE_ID]?v=...`
+
+4. **Configure the Project**
+   - Copy `config/notion_config.json.example` to `config/notion_config.json`
+   - Add your database IDs to the config file
+   - Or set environment variables: `NOTION_DB_TECH_INSIGHTS`, etc.
+
+5. **Add to .env file**
+   ```bash
+   NOTION_API_KEY=your_integration_token_here
+   NOTION_DB_TECH_INSIGHTS=your_database_id_here
+   ```
+
+### Testing
+
+Test with dry-run mode (no API calls):
+```bash
+NOTION_DRY_RUN=true python -m tasks.tech_insights
+```
+
+Test with actual sync:
+```bash
+python tests/manual_notion_test.py --task tech_insights --real
+```
+
 ## Usage
 
 ### Quick Verification
