@@ -1,241 +1,166 @@
-# GitHub Schedule
+# GitHub Schedule Automation System
 
-Python-based scheduled task automation system that runs daily via GitHub Actions. It fetches data from various sources (AI news, GitHub trending, etc.) and processes it.
+自动化数据采集与分析系统，通过 GitHub Actions 定时执行，聚合多源数据并生成智能洞察。
 
-## Features
+## ⚡ 快速开始
 
-- **AI News Scraping**: Daily fetches AI industry news from https://ai-bot.cn/daily-ai-news/
-- **GitHub Trending**: Tracks trending repositories for multiple programming languages (Python, JavaScript, Go, Java)
-- **AI-Powered Analysis**: Analyzes GitHub trending data using Volcengine Doubao model
-- **WeChat Work Integration**: Sends daily AI news notifications to Enterprise WeChat
-- **Automated Execution**: Runs daily at 00:00 UTC via GitHub Actions
+### 环境要求
+- Python 3.8+
+- 依赖包见 `requirements.txt`
 
-## Requirements
-
-- **Python 3.11 or higher** (required by lxml 5.3.0+)
-- pip (Python package manager)
-
-## Installation
-
-1. Clone the repository:
+### 安装
 ```bash
-git clone https://github.com/yourusername/github-schedule.git
+# 克隆仓库
+git clone <repository-url>
 cd github-schedule
-```
 
-2. Install dependencies:
-```bash
+# 安装依赖
 pip install -r requirements.txt
-```
 
-## Configuration
-
-### Required Environment Variables
-
-Create a `.env` file (or set in GitHub Actions secrets) with the following variables:
-
-```bash
-# Copy the example file
+# 配置环境变量
 cp .env.example .env
-
-# Edit .env with your actual values
+# 编辑 .env 文件，填入必要的 API keys
 ```
 
-**Required:**
-- `WECOM_WEBHOOK_URL`: Enterprise WeChat webhook URL for sending notifications
-- `VOLCENGINE_API_KEY`: Volcengine API key for AI analysis (get from https://console.volcengine.com/ark)
-- `VOLCENGINE_MODEL`: (optional) Volcengine model endpoint, defaults to 'ep-20250215154848-djsgr'
-
-**Optional:**
-- `MAILUSERNAME`: Email username (for future use)
-- `MAILPASSWORD`: Email password (for future use)
-
-### GitHub Actions Secrets
-
-For GitHub Actions, configure these secrets in your repository settings (`Settings > Secrets and variables > Actions`):
-
-- `WECOM_WEBHOOK_URL` (required)
-- `VOLCENGINE_API_KEY` (required)
-- `VOLCENGINE_MODEL` (optional)
-- `MAILUSERNAME` (optional)
-- `MAILPASSWORD` (optional)
-
-## Notion Integration (Optional)
-
-The system can sync AI-generated markdown content to Notion for mobile access.
-
-### Sync Modes
-
-The Notion integration supports two sync modes:
-
-**Sub-Page Mode (Recommended)**
-- Creates daily pages as children under a parent page
-- Better organization with hierarchical structure
-- One parent page per task type
-
-**Database Mode (Legacy)**
-- Creates entries as rows in a Notion database
-- Traditional table-based organization
-
-### Setup
-
-1. **Create Notion Integration**
-   - Go to https://www.notion.so/my-integrations
-   - Create a new integration and copy the "Internal Integration Token"
-   - This is your `NOTION_API_KEY`
-
-2. **Choose Your Sync Mode**
-
-   **For Sub-Page Mode (Recommended):**
-   - Create a parent page for each content type in Notion
-   - Share each page with your integration (click "..." → "Add connections")
-   - Get the page ID from the URL (32-character string after `/` and before `?`)
-
-   **For Database Mode:**
-   - Create a database for each content type
-   - Add properties: `Title` (title), `Date` (date), `Source` (select with "github-schedule" option)
-   - Add your integration to each database
-   - Get the database ID from the URL (32-character string)
-
-3. **Configure Environment Variables**
-   Add to your `.env` file:
-
-   ```bash
-   # Enable Notion sync
-   NOTION_ENABLED=true
-
-   # Your Notion Integration credentials
-   NOTION_API_KEY=ntn_your_token_here
-
-   # Sub-Page Mode (recommended)
-   NOTION_PAGE_TECH_INSIGHTS=32_char_page_id_here
-   NOTION_PAGE_TRENDING_AI=32_char_page_id_here
-
-   # OR Database Mode (legacy)
-   NOTION_DB_TECH_INSIGHTS=32_char_db_id_here
-   NOTION_DB_TRENDING_AI=32_char_db_id_here
-   ```
-
-   **Priority:** Tasks check `NOTION_PAGE_*` first, then fall back to `NOTION_DB_*`.
-
-### Getting Page/Database IDs
-
-1. Open your Notion page or database
-2. Copy the 32-character ID from the URL: `notion.so/workspace/[ID]?v=...`
-
-### Test Configuration
-
+### 运行
 ```bash
-# Dry run (no API calls)
-NOTION_DRY_RUN=true python main.py
-
-# Real sync
+# 手动执行
 python main.py
 ```
 
-### Documentation
+## 📁 项目结构
 
-- [Sub-Page Configuration](docs/notion-subpage-config.md) - Detailed setup guide for both modes
-- [Migration Guide](docs/notion-migration-guide.md) - Migrating from old config file format
-
-## Usage
-
-### Quick Verification
-
-Before running the automation, verify your setup:
-
-```bash
-# Run quick verification tests
-python test_manual.py
+```
+github-schedule/
+├── src/                    # 应用源代码
+│   ├── core/              # 核心框架（Task/Notifier基类）
+│   └── tasks/             # 业务任务（数据采集、AI分析）
+├── scripts/               # 工具脚本
+│   ├── tools/            # 实用工具（验证、调试、清理）
+│   ├── demos/            # 功能演示
+│   └── manual/           # 手动测试脚本
+├── tests/                 # 测试代码
+├── docs/                  # 完整文档
+└── output/                # 数据输出
 ```
 
-See [TESTING.md](TESTING.md) for detailed testing instructions.
+## 📚 文档
 
-### Manual Execution
+完整文档请查看 [`docs/`](./docs/) 目录：
 
-Run the main script to execute all scheduled tasks:
+- **[使用指南](./docs/guides/)** - 快速开始、配置说明、测试指南
+- **[开发文档](./docs/development/)** - 开发者指南、代码规范
+- **[项目文档](./docs/projects/)** - 各功能模块的设计与实现文档
+
+## 🔧 核心功能
+
+### 数据采集任务（PRIORITY 10-20）
+- **AI News** - 每日AI新闻聚合
+- **HackerNews** - Top 30热门文章
+- **ProductHunt** - Top 20新产品
+- **TechBlogs** - 技术博客趋势
+- **GitHub Trending** - 多语言趋势项目
+
+### AI分析任务（PRIORITY 30-40）
+- **Trending AI** - AI驱动的趋势分析
+- **Tech Insights** - 综合技术行业简报
+
+### 通知渠道
+- **WeChat Work** - 企业微信机器人推送
+- **Notion** - 自动同步到Notion数据库/页面
+
+## 🧪 测试
 
 ```bash
-python main.py
+# 运行所有测试
+pytest
+
+# 运行单元测试
+pytest tests/unit/
+
+# 运行集成测试
+pytest tests/integration/
+
+# 运行特定测试
+pytest tests/integration/notion/test_notion_client.py -v
 ```
 
-This will execute all tasks in priority order:
-1. `ai_news` (PRIORITY: 10) - Fetches and saves AI news as JSON
-2. `github_trending` (PRIORITY: 20) - Scrapes GitHub trending repositories and saves as markdown
-3. `trending_ai` (PRIORITY: 30) - Analyzes trending data using AI and generates insights
-4. `wecom` (Notifier) - Posts news to WeChat Work webhook
+## ⚙️ 配置
 
-### Individual Tasks
-
-Run individual tasks directly for testing:
+主要环境变量（见 `.env.example`）：
 
 ```bash
-python -m tasks.ai_news           # Fetch AI news
-python -m tasks.github_trending   # Scrape GitHub trending
-python -m tasks.trending_ai       # Analyze trending with AI
-python -m tasks.wecom_robot       # Send notifications
+# AI分析（必需）
+VOLCENGINE_API_KEY=your_api_key_here
+VOLCENGINE_MODEL=ep-20250215154848-djsgr
+
+# 企业微信通知（必需）
+WECOM_WEBHOOK_URL=your_webhook_url
+
+# Notion集成（可选）
+NOTION_ENABLED=true
+NOTION_API_KEY=your_notion_token
+NOTION_PAGE_TECH_INSIGHTS=page_id_here
+NOTION_PAGE_TRENDING_AI=page_id_here
 ```
 
-## Output Structure
+## 📊 输出数据
+
+数据按日期和类型保存在 `output/` 目录：
 
 ```
 output/
-├── ai-news/                    # Daily AI news JSON files (YYYY-MM-DD.json)
-├── github-trending/            # GitHub trending data organized by year
-│   └── {year}/                 # Yearly subdirectories
-│       └── {date}.md           # Raw trending data
-└── github-analysis/            # AI-generated analysis reports organized by year
-    └── {year}/                 # Yearly subdirectories
-        └── {date}-analysis.md  # AI-generated analysis report
+├── ai-news/{year}/{date}.json      # AI新闻
+├── hackernews/{date}.json          # HN数据
+├── producthunt/{date}.json         # PH数据
+├── techblogs/{date}.json           # 技术博客
+├── tech-insights/{date}.md         # AI分析报告
+└── github-trending/{year}/{date}.md # GitHub趋势
 ```
 
-## Development
+## 🚀 GitHub Actions
 
-### Task Framework
+项目配置了每日自动执行（UTC 00:00），工作流定义在 `.github/workflows/blank.yml`。
 
-This project uses a task-based architecture with base classes:
+## 🛠️ 开发
 
-**Task Base Class** - For data fetching and analysis jobs:
-- Inherit from `core.base.Task`
-- Set `TASK_ID` and `PRIORITY` attributes
-- Implement `execute()` method returning True/False
+### 添加新任务
 
-**Notifier Base Class** - For notification modules:
-- Inherit from `core.base.Notifier`
-- Set `NOTIFIER_ID` and `SUBSCRIBE_TO` attributes
-- Implement `send(task_results)` method
+1. 在 `src/tasks/` 创建新任务类，继承 `Task`
+2. 设置 `TASK_ID` 和 `PRIORITY`
+3. 实现 `execute()` 方法
+4. 运行 `python -m tasks.your_task` 测试
 
-### Adding New Tasks
+### 添加新通知器
 
-1. Create a new file in `tasks/` directory
-2. Inherit from `Task` or `Notifier` base class
-3. Set required attributes (TASK_ID/NOTIFIER_ID, PRIORITY/SUBSCRIBE_TO)
-4. Implement the required method (execute() or send())
-5. Test independently: `python -m tasks.<your_task>`
+1. 在 `src/tasks/` 创建通知器类，继承 `Notifier`
+2. 设置 `NOTIFIER_ID` 和 `SUBSCRIBE_TO`
+3. 实现 `send()` 方法
 
-Example:
-```python
-# tasks/my_task.py
-from core.base import Task
+详细开发指南见 [CLAUDE.md](./docs/development/CLAUDE.md)
 
-class MyTask(Task):
-    TASK_ID = "my_task"
-    PRIORITY = 15
+## 📝 更新日志
 
-    def execute(self) -> bool:
-        # Your task logic here
-        return True
-```
+### 2026-02-16
+- ✨ 迁移到 `src/` 布局（现代Python项目结构）
+- ✨ 重组文档目录（简化结构）
+- ✨ 完全分类测试文件
+- ✨ 新增工具脚本分类
 
-### Git Proxy Configuration
+详见：[MIGRATION_TO_SRC_LAYOUT.md](./MIGRATION_TO_SRC_LAYOUT.md)
 
-If you need to use a proxy for Git operations:
+## 📄 许可证
 
-```shell
-git config http.proxy http://127.0.0.1:7890
-git config https.proxy https://127.0.0.1:7890
-```
+[请添加您的许可证信息]
 
-## License
+## 🤝 贡献
 
-This project is open source and available under the MIT License.
+欢迎提交 Issue 和 Pull Request！
+
+---
+
+**快速链接：**
+- 📖 [完整文档](./docs/)
+- 🔧 [配置指南](./docs/guides/getting-started.md)
+- 🧪 [测试指南](./docs/guides/testing.md)
+- 💡 [开发规范](./docs/development/CLAUDE.md)

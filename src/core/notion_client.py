@@ -295,10 +295,11 @@ class NotionClient:
             notion = NotionAPI(auth=self.api_key)
 
             # Create new page under parent
+            # Note: For pages under a page, use "title" not "Name"
             notion.pages.create(
                 parent={"page_id": parent_page_id},
                 properties={
-                    "Name": {
+                    "title": {
                         "title": [
                             {
                                 "text": {
@@ -339,6 +340,7 @@ class NotionClient:
     def _delete_existing_sub_pages(self, parent_page_id: str, date: str):
         """
         Find and delete existing child pages with matching date title.
+        Uses blocks.children.list for more reliable results than search API.
 
         Args:
             parent_page_id: ID of the parent page
@@ -355,34 +357,39 @@ class NotionClient:
         try:
             notion = NotionAPI(auth=self.api_key)
 
-            # Search for child pages with matching title
-            # Note: Notion search API doesn't support filtering by parent directly
-            # We'll search by title and verify parent in results
-            response = notion.pages.search(
-                query=date,
-                filter={
-                    "property": "object",
-                    "value": "page"
-                }
-            )
+            # Use blocks.children.list to get all children directly
+            # This is more reliable than search API which may have indexing delays
+            response = notion.blocks.children.list(block_id=parent_page_id)
+            children = response.get('results', [])
 
-            # Filter results to only pages under our parent
-            child_pages = []
-            for page in response.get('results', []):
-                page_id = page['id']
-                # Check if this page is a child of our parent
-                # The parent info is in page['parent']
-                if page.get('parent', {}).get('page_id') == parent_page_id:
-                    # Also verify the title matches
-                    title = page['properties']['Name']['title'][0]['text']['content']
-                    if title == date:
-                        child_pages.append(page)
+            deleted_count = 0
 
-            # Delete each matching page (archive it)
-            for page in child_pages:
-                page_id = page['id']
-                notion.pages.update(page_id, archived=True)
-                self._log(f"Deleted existing sub-page: {page_id}")
+            # Find and delete child pages with matching title
+            for child in children:
+                if child.get('type') == 'child_page':
+                    child_id = child['id']
+
+                    # Get the page to read its title
+                    try:
+                        page = notion.pages.retrieve(child_id)
+                        title_prop = page.get('properties', {}).get('title', {})
+
+                        # Extract title from property
+                        if title_prop.get('type') == 'title' and title_prop.get('title'):
+                            title = title_prop['title'][0]['text']['content']
+
+                            # Delete if title matches
+                            if title == date:
+                                notion.pages.update(child_id, archived=True)
+                                self._log(f"Deleted existing sub-page: {child_id} (title: {title})")
+                                deleted_count += 1
+
+                    except Exception as page_error:
+                        self._log(f"Error checking page {child_id}: {page_error}")
+                        # Continue to next child
+
+            if deleted_count > 0:
+                self._log(f"Deleted {deleted_count} existing sub-page(s) with title '{date}'")
 
         except APIResponseError as e:
             print(f"[Notion] API error while deleting sub-pages: {e}")

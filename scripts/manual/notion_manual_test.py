@@ -12,7 +12,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Add project root to path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from pathlib import Path
+project_root = Path(__file__).parent.parent.parent
+src_path = project_root / 'src'
+sys.path.insert(0, str(src_path))
 
 from core.notion_client import NotionClient
 

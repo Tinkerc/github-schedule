@@ -1,10 +1,13 @@
 # main.py
 import os
 import sys
+from pathlib import Path
 from dotenv import load_dotenv
 
-# Add project root to path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Add src directory to path for imports
+project_root = Path(__file__).parent
+src_path = project_root / 'src'
+sys.path.insert(0, str(src_path))
 
 from core.runner import TaskRunner
 
@@ -20,7 +23,7 @@ def main():
     
 
     # 创建任务执行器
-    runner = TaskRunner(tasks_dir="tasks")
+    runner = TaskRunner(tasks_dir=str(src_path / "tasks"))
 
     # 发现所有任务和通知器
     print("\n发现任务和通知器...")
