@@ -76,6 +76,28 @@ class NotionClient:
         self._log(f"No database ID configured for {task_id} (NOTION_DB_{task_id.upper()})")
         return None
 
+    def _get_parent_page_id(self, task_id: str) -> Optional[str]:
+        """
+        Get parent page ID for a task from environment variable.
+
+        Args:
+            task_id: Task identifier (e.g., 'tech_insights')
+
+        Returns:
+            Parent page ID string or None if not configured
+        """
+        # Check environment variable
+        env_var_name = f'NOTION_PAGE_{task_id.upper()}'
+        page_id = os.environ.get(env_var_name)
+
+        if page_id:
+            self._log(f"Using parent page ID from {env_var_name}")
+            return page_id
+
+        # Not found
+        self._log(f"No parent page ID configured for {task_id} (NOTION_PAGE_{task_id.upper()})")
+        return None
+
     def _log(self, message: str):
         """Print debug message if debug mode is enabled"""
         if self.debug:

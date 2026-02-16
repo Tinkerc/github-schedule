@@ -49,6 +49,26 @@ def test_get_database_id_not_found():
     db_id = client._get_database_id('unknown_task')
     assert db_id is None
 
+def test_get_parent_page_id_from_env():
+    """Test getting parent page ID from environment variable"""
+    os.environ['NOTION_API_KEY'] = 'test_key'
+    os.environ['NOTION_PAGE_TECH_INSIGHTS'] = 'page-456'
+
+    client = NotionClient()
+    result = client._get_parent_page_id("tech_insights")
+    assert result == "page-456"
+
+    # Cleanup
+    del os.environ['NOTION_PAGE_TECH_INSIGHTS']
+
+def test_get_parent_page_id_not_found():
+    """Test returning None when parent page ID not configured"""
+    os.environ['NOTION_API_KEY'] = 'test_key'
+
+    client = NotionClient()
+    result = client._get_parent_page_id("nonexistent")
+    assert result is None
+
 from unittest.mock import patch, MagicMock
 
 def test_sync_markdown_returns_false_on_no_config():
