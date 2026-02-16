@@ -11,6 +11,7 @@ import requests
 import codecs
 
 from core.base import Task
+from core.notion_client import NotionClient
 
 
 class TrendingAITask(Task):
@@ -55,6 +56,25 @@ class TrendingAITask(Task):
             print("✓ AI 分析任务完成")
             print(f"原始数据: {trending_file}")
             print(f"分析报告: {analysis_file}")
+
+            # 同步到 Notion
+            try:
+                client = NotionClient()
+                if client.is_available():
+                    notion_success = client.sync_markdown(
+                        task_id=self.TASK_ID,
+                        markdown_content=analysis,
+                        date=strdate
+                    )
+                    if notion_success:
+                        print("✓ 已同步到 Notion")
+                    else:
+                        print("⚠️ Notion 同步失败")
+                else:
+                    print("⚠️ Notion 未配置，跳过同步")
+            except Exception as e:
+                print(f"⚠️ Notion 同步异常: {str(e)}")
+
             print("="*60)
             return True
         else:
