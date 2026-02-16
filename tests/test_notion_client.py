@@ -156,4 +156,63 @@ def test_sync_markdown_dry_run_mode():
     del os.environ['NOTION_ENABLED']
     del os.environ['NOTION_DRY_RUN']
 
+@patch('core.notion_client.NotionAPI')
+def test_delete_existing_sub_pages(mock_notion_api):
+    """Test deleting existing sub-pages with matching date"""
+    from unittest.mock import Mock
+    # Setup mock
+    mock_client = Mock()
+    mock_notion_api.return_value = mock_client
+
+    # Mock search response to find pages
+    mock_client.pages.search.return_value = {
+        'results': [
+            {
+                'id': 'page-1',
+                'parent': {'page_id': 'parent-123'},
+                'properties': {'Name': {'title': [{'text': {'content': '2026-02-16'}}]}}
+            },
+            {
+                'id': 'page-2',
+                'parent': {'page_id': 'parent-123'},
+                'properties': {'Name': {'title': [{'text': {'content': '2026-02-16'}}]}}
+            }
+        ]
+    }
+    mock_client.pages.update.return_value = {}
+
+    os.environ['NOTION_API_KEY'] = 'test_key'
+    os.environ['NOTION_ENABLED'] = 'true'
+    client = NotionClient()
+    client.dry_run = False
+
+    client._delete_existing_sub_pages(
+        parent_page_id="parent-123",
+        date="2026-02-16"
+    )
+
+    # Verify both pages were archived
+    assert mock_client.pages.update.call_count == 2
+    calls = mock_client.pages.update.call_args_list
+    assert calls[0][1]['archived'] is True
+    assert calls[1][1]['archived'] is True
+
+    # Cleanup
+    del os.environ['NOTION_ENABLED']
+
+def test_delete_existing_sub_pages_dry_run():
+    """Test dry run mode doesn't delete"""
+    os.environ['NOTION_API_KEY'] = 'test_key'
+    os.environ['NOTION_ENABLED'] = 'true'
+    os.environ['NOTION_DRY_RUN'] = 'true'
+
+    client = NotionClient()
+
+    # Should not raise any errors
+    client._delete_existing_sub_pages("parent-123", "2026-02-16")
+
+    # Cleanup
+    del os.environ['NOTION_DRY_RUN']
+    del os.environ['NOTION_ENABLED']
+
 

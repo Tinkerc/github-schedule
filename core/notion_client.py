@@ -320,6 +320,61 @@ class NotionClient:
             print(f"[Notion] Failed to create sub-page: {e}")
             raise
 
+    def _delete_existing_sub_pages(self, parent_page_id: str, date: str):
+        """
+        Find and delete existing child pages with matching date title.
+
+        Args:
+            parent_page_id: ID of the parent page
+            date: Date string to match in page titles
+
+        Returns:
+            None
+        """
+        # Dry run mode
+        if self.dry_run:
+            print(f"[Notion] DRY RUN: Would delete existing sub-pages '{date}' under parent {parent_page_id}")
+            return
+
+        try:
+            notion = NotionAPI(auth=self.api_key)
+
+            # Search for child pages with matching title
+            # Note: Notion search API doesn't support filtering by parent directly
+            # We'll search by title and verify parent in results
+            response = notion.pages.search(
+                query=date,
+                filter={
+                    "property": "object",
+                    "value": "page"
+                }
+            )
+
+            # Filter results to only pages under our parent
+            child_pages = []
+            for page in response.get('results', []):
+                page_id = page['id']
+                # Check if this page is a child of our parent
+                # The parent info is in page['parent']
+                if page.get('parent', {}).get('page_id') == parent_page_id:
+                    # Also verify the title matches
+                    title = page['properties']['Name']['title'][0]['text']['content']
+                    if title == date:
+                        child_pages.append(page)
+
+            # Delete each matching page (archive it)
+            for page in child_pages:
+                page_id = page['id']
+                notion.pages.update(page_id, archived=True)
+                self._log(f"Deleted existing sub-page: {page_id}")
+
+        except APIResponseError as e:
+            print(f"[Notion] API error while deleting sub-pages: {e}")
+            # Don't raise - we want to continue to creation
+        except Exception as e:
+            print(f"[Notion] Failed to delete existing sub-pages: {e}")
+            # Don't raise - we want to continue to creation
+
     def _sync_to_published_markdown(self, data_source_id: str, database_id: str, markdown_content: str, date: str):
         """
         Sync content to a Published Markdown data source.
