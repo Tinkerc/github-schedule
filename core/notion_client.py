@@ -112,15 +112,30 @@ class NotionClient:
                 print(f"[Notion] NOTION_API_KEY not configured")
                 return False
 
-            # 3. Delete existing entry for this date
-            if self.config.get('settings', {}).get('delete_duplicates', True):
-                self._find_and_delete_existing(database_id, date)
+            # 3. Detect database type (Published Markdown vs standard)
+            notion = NotionAPI(auth=self.api_key)
+            db_info = notion.databases.retrieve(database_id)
 
-            # 4. Create new entry
-            self._create_new_entry(database_id, markdown_content, date)
+            # Check if it's a Published Markdown database (has data_sources)
+            is_published_markdown = 'data_sources' in db_info and db_info['data_sources']
 
-            print(f"[Notion] ✓ Successfully synced {task_id} for {date}")
-            return True
+            if is_published_markdown:
+                self._log("Detected Published Markdown data source")
+                # Extract data source ID
+                ds_id = db_info['data_sources'][0]['id'].replace('-', '')
+                return self._sync_to_published_markdown(ds_id, database_id, markdown_content, date)
+            else:
+                self._log("Detected standard database")
+                # Use standard database API
+                # 3a. Delete existing entry for this date
+                if self.config.get('settings', {}).get('delete_duplicates', True):
+                    self._find_and_delete_existing(database_id, date)
+
+                # 4a. Create new entry
+                self._create_new_entry(database_id, markdown_content, date)
+
+                print(f"[Notion] ✓ Successfully synced {task_id} for {date}")
+                return True
 
         except Exception as e:
             print(f"[Notion] ✗ Sync failed for {task_id}: {str(e)}")
@@ -144,10 +159,11 @@ class NotionClient:
                 }
             )
 
-            # Delete each matching page
+            # Delete each matching page (archive it)
             for page in response.get('results', []):
                 page_id = page['id']
-                notion.pages.delete(page_id)
+                # Notion API uses archived=True to delete/archive pages
+                notion.pages.update(page_id, archived=True)
                 self._log(f"Deleted existing page: {page_id}")
 
         except APIResponseError as e:
@@ -214,4 +230,116 @@ class NotionClient:
         except Exception as e:
             print(f"[Notion] Failed to create new entry: {e}")
             raise
+
+    def _sync_to_published_markdown(self, data_source_id: str, database_id: str, markdown_content: str, date: str):
+        """
+        Sync content to a Published Markdown data source.
+        Published Markdown databases use different property types and APIs.
+        """
+        try:
+            notion = NotionAPI(auth=self.api_key)
+
+            # 1. Delete existing entry for this date
+            if self.config.get('settings', {}).get('delete_duplicates', True):
+                self._find_and_delete_in_published_markdown(data_source_id, date)
+
+            # 2. Create new entry in Published Markdown format
+            # Published Markdown uses rich_text for Title and Source, not title/select
+            notion.pages.create(
+                parent={"database_id": database_id},
+                properties={
+                    "Name": {
+                        "title": [
+                            {
+                                "text": {
+                                    "content": date
+                                }
+                            }
+                        ]
+                    },
+                    "Title": {
+                        "rich_text": [
+                            {
+                                "type": "text",
+                                "text": {
+                                    "content": date
+                                }
+                            }
+                        ]
+                    },
+                    "Date": {
+                        "date": {
+                            "start": date
+                        }
+                    },
+                    "Source": {
+                        "rich_text": [
+                            {
+                                "type": "text",
+                                "text": {
+                                    "content": "github-schedule"
+                                }
+                            }
+                        ]
+                    }
+                },
+                children=[
+                    {
+                        "object": "block",
+                        "type": "paragraph",
+                        "paragraph": {
+                            "rich_text": [
+                                {
+                                    "type": "text",
+                                    "text": {
+                                        "content": markdown_content
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            )
+
+            print(f"[Notion] ✓ Successfully synced to Published Markdown for {date}")
+            return True
+
+        except APIResponseError as e:
+            print(f"[Notion] API error while syncing to Published Markdown: {e}")
+            raise
+        except Exception as e:
+            print(f"[Notion] Failed to sync to Published Markdown: {e}")
+            raise
+
+    def _find_and_delete_in_published_markdown(self, data_source_id: str, date: str):
+        """
+        Find and delete existing pages in a Published Markdown data source.
+        """
+        try:
+            notion = NotionAPI(auth=self.api_key)
+
+            # Query the data source for pages with matching date
+            response = notion.data_sources.query(
+                data_source_id=data_source_id,
+                filter={
+                    "property": "Date",
+                    "date": {
+                        "equals": date
+                    }
+                }
+            )
+
+            # Delete each matching page (archive it)
+            for page in response.get('results', []):
+                page_id = page['id']
+                # Notion API uses archived=True to delete/archive pages
+                notion.pages.update(page_id, archived=True)
+                self._log(f"Deleted existing page from Published Markdown: {page_id}")
+
+        except APIResponseError as e:
+            print(f"[Notion] API error while deleting from Published Markdown: {e}")
+            raise
+        except Exception as e:
+            print(f"[Notion] Failed to delete existing entries from Published Markdown: {e}")
+            # Don't raise - we want to continue to creation
 
