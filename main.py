@@ -17,6 +17,8 @@ def main():
     print("GitHub Schedule Automation System")
     print("="*60)
 
+    
+
     # 创建任务执行器
     runner = TaskRunner(tasks_dir="tasks")
 
