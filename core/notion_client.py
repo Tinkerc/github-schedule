@@ -129,7 +129,7 @@ class NotionClient:
                 self._log("Detected standard database")
                 # Use standard database API
                 # 3a. Delete existing entry for this date
-                if self.config.get('settings', {}).get('delete_duplicates', True):
+                if self.delete_duplicates:
                     self._find_and_delete_existing(database_id, date)
 
                 # 4a. Create new entry
@@ -241,7 +241,7 @@ class NotionClient:
             notion = NotionAPI(auth=self.api_key)
 
             # 1. Delete existing entry for this date
-            if self.config.get('settings', {}).get('delete_duplicates', True):
+            if self.delete_duplicates:
                 self._find_and_delete_in_published_markdown(data_source_id, date)
 
             # 2. Create new entry in Published Markdown format

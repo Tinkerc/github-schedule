@@ -70,6 +70,7 @@ def test_sync_markdown_returns_false_on_no_api_key():
 
 def test_sync_markdown_dry_run_mode():
     """Test that dry_run mode returns True without API calls"""
+    os.environ['NOTION_ENABLED'] = 'true'
     os.environ['NOTION_API_KEY'] = 'test_key'
     os.environ['NOTION_DRY_RUN'] = 'true'
 
@@ -85,6 +86,7 @@ def test_sync_markdown_dry_run_mode():
         mock_create.assert_not_called()
 
     # Cleanup
+    del os.environ['NOTION_ENABLED']
     del os.environ['NOTION_DRY_RUN']
 
 
