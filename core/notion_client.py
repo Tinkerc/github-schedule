@@ -10,7 +10,7 @@ class NotionClient:
     """Shared Notion API client for syncing markdown content"""
 
     def __init__(self):
-        """Initialize NotionClient with configuration from file and environment"""
+        """Initialize NotionClient from environment variables only"""
         # Warn about obsolete config file
         config_path = Path(__file__).parent.parent / 'config' / 'notion_config.json'
         if config_path.exists():
@@ -18,35 +18,27 @@ class NotionClient:
             print("[Notion] ⚠️  Please use environment variables instead")
             print("[Notion] ⚠️  See docs/notion-migration-guide.md for help")
 
+        # Load master switch
+        self.enabled = os.environ.get('NOTION_ENABLED', 'false').lower() == 'true'
+
+        if not self.enabled:
+            self.api_key = None
+            self.debug = False
+            self.dry_run = False
+            self.delete_duplicates = True
+            self._log("Notion sync disabled (NOTION_ENABLED=false)")
+            return  # Early return, skip other initialization
+
+        # Only load these if enabled
         self.api_key = os.environ.get('NOTION_API_KEY')
         self.debug = os.environ.get('NOTION_DEBUG', 'false').lower() == 'true'
         self.dry_run = os.environ.get('NOTION_DRY_RUN', 'false').lower() == 'true'
-        self.config = self._load_config()  # Keep this for now, remove in Task 3
+        self.delete_duplicates = os.environ.get('NOTION_DELETE_DUPLICATES', 'true').lower() == 'true'
 
-    def _load_config(self) -> dict:
-        """Load configuration from config/notion_config.json"""
-        config_path = Path(__file__).parent.parent / 'config' / 'notion_config.json'
-
-        default_config = {
-            "databases": {},
-            "settings": {
-                "enabled": True,
-                "delete_duplicates": True
-            }
-        }
-
-        if not config_path.exists():
-            self._log(f"Config file not found: {config_path}")
-            return default_config
-
-        try:
-            with open(config_path, 'r', encoding='utf-8') as f:
-                config = json.load(f)
-                self._log(f"Loaded config from {config_path}")
-                return config
-        except Exception as e:
-            self._log(f"Failed to load config: {e}")
-            return default_config
+        # Validate API key if enabled
+        if not self.api_key:
+            print("[Notion] ⚠️  NOTION_ENABLED=true but NOTION_API_KEY not set")
+            print("[Notion] ⚠️  Notion sync will be skipped")
 
     def is_available(self) -> bool:
         """Check if Notion client is properly configured"""
