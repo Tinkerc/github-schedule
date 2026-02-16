@@ -105,7 +105,8 @@ class NotionClient:
 
     def sync_markdown(self, task_id: str, markdown_content: str, date: str) -> bool:
         """
-        Sync markdown content to Notion database.
+        Sync markdown content to Notion.
+        Supports both database entries and sub-pages.
 
         Args:
             task_id: Task identifier (e.g., 'tech_insights')
@@ -124,18 +125,34 @@ class NotionClient:
                 print(f"[Notion] Content length: {len(markdown_content)} chars")
                 return True
 
-            # 1. Check configuration
-            database_id = self._get_database_id(task_id)
-            if not database_id:
-                print(f"[Notion] No database configured for {task_id}")
-                return False
-
-            # 2. Check API key
+            # 1. Check API key
             if not self.api_key:
                 print(f"[Notion] NOTION_API_KEY not configured")
                 return False
 
-            # 3. Detect database type (Published Markdown vs standard)
+            # 2. Check for parent page ID (sub-page mode)
+            parent_page_id = self._get_parent_page_id(task_id)
+            if parent_page_id:
+                self._log("Using sub-page mode")
+                # Delete existing entry for this date
+                if self.delete_duplicates:
+                    self._delete_existing_sub_pages(parent_page_id, date)
+
+                # Create new sub-page
+                self._create_sub_page(parent_page_id, markdown_content, date)
+
+                print(f"[Notion] ✓ Successfully synced {task_id} for {date} (sub-page)")
+                return True
+
+            # 3. Fall back to database mode
+            database_id = self._get_database_id(task_id)
+            if not database_id:
+                print(f"[Notion] No parent page or database configured for {task_id}")
+                return False
+
+            self._log("Using database mode")
+
+            # 4. Detect database type (Published Markdown vs standard)
             notion = NotionAPI(auth=self.api_key)
             db_info = notion.databases.retrieve(database_id)
 
@@ -149,12 +166,11 @@ class NotionClient:
                 return self._sync_to_published_markdown(ds_id, database_id, markdown_content, date)
             else:
                 self._log("Detected standard database")
-                # Use standard database API
-                # 3a. Delete existing entry for this date
+                # 4a. Delete existing entry for this date
                 if self.delete_duplicates:
                     self._find_and_delete_existing(database_id, date)
 
-                # 4a. Create new entry
+                # 4b. Create new entry
                 self._create_new_entry(database_id, markdown_content, date)
 
                 print(f"[Notion] ✓ Successfully synced {task_id} for {date}")

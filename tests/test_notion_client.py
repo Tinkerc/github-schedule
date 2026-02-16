@@ -215,4 +215,68 @@ def test_delete_existing_sub_pages_dry_run():
     del os.environ['NOTION_DRY_RUN']
     del os.environ['NOTION_ENABLED']
 
+@patch('core.notion_client.NotionAPI')
+def test_sync_markdown_uses_sub_page_mode(mock_notion_api):
+    """Test sync_markdown uses sub-page mode when parent_page_id configured"""
+    from unittest.mock import Mock
+    mock_client = Mock()
+    mock_notion_api.return_value = mock_client
+    mock_client.databases.retrieve.return_value = {}  # Not called in sub-page mode
+
+    os.environ['NOTION_API_KEY'] = 'test_key'
+    os.environ['NOTION_ENABLED'] = 'true'
+    os.environ['NOTION_PAGE_TECH_INSIGHTS'] = 'parent-123'
+
+    client = NotionClient()
+    client.dry_run = False
+
+    # Mock delete and create methods
+    with patch.object(client, '_delete_existing_sub_pages') as mock_delete:
+        with patch.object(client, '_create_sub_page', return_value=True) as mock_create:
+            result = client.sync_markdown(
+                task_id='tech_insights',
+                markdown_content='# Test',
+                date='2026-02-16'
+            )
+
+            assert result is True
+            mock_delete.assert_called_once_with('parent-123', '2026-02-16')
+            mock_create.assert_called_once_with('parent-123', '# Test', '2026-02-16')
+
+    # Cleanup
+    del os.environ['NOTION_PAGE_TECH_INSIGHTS']
+    del os.environ['NOTION_ENABLED']
+
+@patch('core.notion_client.NotionAPI')
+def test_sync_markdown_falls_back_to_database(mock_notion_api):
+    """Test sync_markdown falls back to database mode when no parent_page_id"""
+    from unittest.mock import Mock
+    mock_client = Mock()
+    mock_notion_api.return_value = mock_client
+    mock_client.databases.retrieve.return_value = {
+        'id': 'db-123',
+        'data_sources': []
+    }
+
+    os.environ['NOTION_API_KEY'] = 'test_key'
+    os.environ['NOTION_ENABLED'] = 'true'
+    os.environ['NOTION_DB_TECH_INSIGHTS'] = 'db-123'
+
+    client = NotionClient()
+    client.dry_run = False
+
+    result = client.sync_markdown(
+        task_id='tech_insights',
+        markdown_content='# Test',
+        date='2026-02-16'
+    )
+
+    assert result is True
+    # Verify database API was called (not sub-page methods)
+    mock_client.databases.retrieve.assert_called()
+
+    # Cleanup
+    del os.environ['NOTION_DB_TECH_INSIGHTS']
+    del os.environ['NOTION_ENABLED']
+
 
