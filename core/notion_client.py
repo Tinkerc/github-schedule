@@ -11,10 +11,17 @@ class NotionClient:
 
     def __init__(self):
         """Initialize NotionClient with configuration from file and environment"""
+        # Warn about obsolete config file
+        config_path = Path(__file__).parent.parent / 'config' / 'notion_config.json'
+        if config_path.exists():
+            print("[Notion] ⚠️  WARNING: config/notion_config.json is no longer used")
+            print("[Notion] ⚠️  Please use environment variables instead")
+            print("[Notion] ⚠️  See docs/notion-migration-guide.md for help")
+
         self.api_key = os.environ.get('NOTION_API_KEY')
         self.debug = os.environ.get('NOTION_DEBUG', 'false').lower() == 'true'
         self.dry_run = os.environ.get('NOTION_DRY_RUN', 'false').lower() == 'true'
-        self.config = self._load_config()
+        self.config = self._load_config()  # Keep this for now, remove in Task 3
 
     def _load_config(self) -> dict:
         """Load configuration from config/notion_config.json"""
