@@ -1,8 +1,8 @@
 {
   "databases": {
-    "tech_insights": "",
-    "trending_ai": "",
-    "ai_news": ""
+    "tech_insights": "YOUR_32_CHAR_DATABASE_ID",
+    "trending_ai": "YOUR_32_CHAR_DATABASE_ID",
+    "ai_news": "YOUR_32_CHAR_DATABASE_ID"
   },
   "settings": {
     "enabled": true,
