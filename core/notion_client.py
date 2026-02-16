@@ -3,6 +3,8 @@ import json
 import time
 from typing import Optional
 from pathlib import Path
+from notion_client import Client as NotionAPI
+from notion_client.errors import APIResponseError
 
 class NotionClient:
     """Shared Notion API client for syncing markdown content"""
@@ -127,16 +129,89 @@ class NotionClient:
     def _find_and_delete_existing(self, database_id: str, date: str):
         """
         Find and delete existing pages matching the date.
-        TODO: Implement Notion API query and delete
         """
-        self._log(f"Would delete existing entries for {date} in {database_id}")
-        pass
+        try:
+            notion = NotionAPI(auth=self.api_key)
+
+            # Query database for pages with matching date
+            response = notion.databases.query(
+                database_id=database_id,
+                filter={
+                    "property": "Date",
+                    "date": {
+                        "equals": date
+                    }
+                }
+            )
+
+            # Delete each matching page
+            for page in response.get('results', []):
+                page_id = page['id']
+                notion.pages.delete(page_id)
+                self._log(f"Deleted existing page: {page_id}")
+
+        except APIResponseError as e:
+            print(f"[Notion] API error while deleting: {e}")
+            raise
+        except Exception as e:
+            print(f"[Notion] Failed to delete existing entries: {e}")
+            # Don't raise - we want to continue to creation
 
     def _create_new_entry(self, database_id: str, markdown_content: str, date: str):
         """
         Create a new page in Notion with the markdown content.
-        TODO: Implement Notion API page creation
         """
-        self._log(f"Would create new entry for {date} in {database_id}")
-        pass
+        try:
+            notion = NotionAPI(auth=self.api_key)
+
+            # Create new page
+            notion.pages.create(
+                parent={"database_id": database_id},
+                properties={
+                    "Title": {
+                        "title": [
+                            {
+                                "text": {
+                                    "content": date
+                                }
+                            }
+                        ]
+                    },
+                    "Date": {
+                        "date": {
+                            "start": date
+                        }
+                    },
+                    "Source": {
+                        "select": {
+                            "name": "github-schedule"
+                        }
+                    }
+                },
+                children=[
+                    {
+                        "object": "block",
+                        "type": "paragraph",
+                        "paragraph": {
+                            "rich_text": [
+                                {
+                                    "type": "text",
+                                    "text": {
+                                        "content": markdown_content
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            )
+
+            self._log(f"Created new page for {date}")
+
+        except APIResponseError as e:
+            print(f"[Notion] API error while creating page: {e}")
+            raise
+        except Exception as e:
+            print(f"[Notion] Failed to create new entry: {e}")
+            raise
 
