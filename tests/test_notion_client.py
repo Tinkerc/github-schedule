@@ -49,3 +49,42 @@ def test_get_database_id_not_found():
     db_id = client._get_database_id('unknown_task')
     assert db_id is None
 
+from unittest.mock import patch, MagicMock
+
+def test_sync_markdown_returns_false_on_no_config():
+    """Test that sync_markdown returns False when database not configured"""
+    os.environ['NOTION_API_KEY'] = 'test_key'
+
+    client = NotionClient()
+    result = client.sync_markdown('unknown_task', '# Test', '2026-02-16')
+    assert result == False
+
+def test_sync_markdown_returns_false_on_no_api_key():
+    """Test that sync_markdown returns False when no API key"""
+    if 'NOTION_API_KEY' in os.environ:
+        del os.environ['NOTION_API_KEY']
+
+    client = NotionClient()
+    result = client.sync_markdown('tech_insights', '# Test', '2026-02-16')
+    assert result == False
+
+def test_sync_markdown_dry_run_mode():
+    """Test that dry_run mode returns True without API calls"""
+    os.environ['NOTION_API_KEY'] = 'test_key'
+    os.environ['NOTION_DRY_RUN'] = 'true'
+
+    client = NotionClient()
+
+    with patch.object(client, '_find_and_delete_existing') as mock_delete, \
+         patch.object(client, '_create_new_entry') as mock_create:
+        result = client.sync_markdown('tech_insights', '# Test Content', '2026-02-16')
+
+        # Should succeed without calling API methods
+        assert result == True
+        mock_delete.assert_not_called()
+        mock_create.assert_not_called()
+
+    # Cleanup
+    del os.environ['NOTION_DRY_RUN']
+
+
