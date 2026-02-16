@@ -1,0 +1,11 @@
+{
+  "databases": {
+    "tech_insights": "",
+    "trending_ai": "",
+    "ai_news": ""
+  },
+  "settings": {
+    "enabled": true,
+    "delete_duplicates": true
+  }
+}
