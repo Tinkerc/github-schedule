@@ -60,7 +60,7 @@ For GitHub Actions, configure these secrets in your repository settings (`Settin
 - `MAILUSERNAME` (optional)
 - `MAILPASSWORD` (optional)
 
-## Notion Integration
+## Notion Integration (Optional)
 
 The system can sync AI-generated markdown content to Notion databases for mobile access.
 
@@ -77,33 +77,44 @@ The system can sync AI-generated markdown content to Notion databases for mobile
      - `Title` (title type)
      - `Date` (date type)
      - `Source` (select type, add option "github-schedule")
+   - Add your integration to each database (click "..." → "Add connections")
 
 3. **Get Database IDs**
    - Open each database in Notion
-   - Copy the database ID from the URL: `https://notion.so/workspace/[DATABASE_ID]?v=...`
+   - Copy the 32-character database ID from the URL: `https://notion.so/workspace/[DATABASE_ID]?v=...`
 
-4. **Configure the Project**
-   - Copy `config/notion_config.json.example` to `config/notion_config.json`
-   - Add your database IDs to the config file
-   - Or set environment variables: `NOTION_DB_TECH_INSIGHTS`, etc.
-
-5. **Add to .env file**
+4. **Configure Environment Variables**
+   Add to your `.env` file:
    ```bash
-   NOTION_API_KEY=your_integration_token_here
-   NOTION_DB_TECH_INSIGHTS=your_database_id_here
+   # Enable Notion sync
+   NOTION_ENABLED=true
+
+   # Your Notion Integration credentials
+   NOTION_API_KEY=ntn_your_token_here
+
+   # Database IDs (from your Notion database URLs)
+   NOTION_DB_TECH_INSIGHTS=32_char_id_here
+   NOTION_DB_TRENDING_AI=32_char_id_here
    ```
 
-### Testing
+### Getting Database IDs
 
-Test with dry-run mode (no API calls):
+1. Open your Notion database
+2. Copy the 32-character ID from the URL: `notion.so/workspace/[DATABASE_ID]?v=...`
+
+### Test Configuration
+
 ```bash
-NOTION_DRY_RUN=true python -m tasks.tech_insights
+# Dry run (no API calls)
+NOTION_DRY_RUN=true python main.py
+
+# Real sync
+python main.py
 ```
 
-Test with actual sync:
-```bash
-python tests/manual_notion_test.py --task tech_insights --real
-```
+### Migration from Old Config
+
+If you were using the old `config/notion_config.json` file, see [docs/notion-migration-guide.md](docs/notion-migration-guide.md) for migration instructions.
 
 ## Usage
 
