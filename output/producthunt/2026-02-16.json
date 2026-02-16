@@ -1,0 +1,41 @@
+[
+  {
+    "name": "AI Code Assistant Pro",
+    "description": "Write code 10x faster with AI-powered autocomplete and suggestions",
+    "url": "https://producthunt.com/posts/ai-code-assistant",
+    "votes_count": 1245,
+    "comments_count": 89,
+    "tags": [
+      "Developer Tools",
+      "AI",
+      "Productivity"
+    ],
+    "source": "producthunt"
+  },
+  {
+    "name": "WASM Studio",
+    "description": "Complete IDE for WebAssembly development in your browser",
+    "url": "https://producthunt.com/posts/wasm-studio",
+    "votes_count": 876,
+    "comments_count": 45,
+    "tags": [
+      "WebAssembly",
+      "Developer Tools",
+      "IDE"
+    ],
+    "source": "producthunt"
+  },
+  {
+    "name": "RustML Framework",
+    "description": "High-performance machine learning framework written in Rust",
+    "url": "https://producthunt.com/posts/rustml",
+    "votes_count": 654,
+    "comments_count": 32,
+    "tags": [
+      "Machine Learning",
+      "Rust",
+      "Framework"
+    ],
+    "source": "producthunt"
+  }
+]
