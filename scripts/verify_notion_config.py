@@ -15,6 +15,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from dotenv import load_dotenv
 from core.notion_client import NotionClient
+from notion_client import Client as NotionAPI
 
 
 def check_database_id_format(db_id: str) -> bool:
@@ -24,6 +25,36 @@ def check_database_id_format(db_id: str) -> bool:
     # Remove any dashes or spaces
     clean_id = db_id.replace('-', '').replace(' ', '')
     return len(clean_id) == 32 and clean_id.isalnum()
+
+
+def verify_parent_pages(client, config):
+    """Verify parent pages exist and are accessible"""
+    print("\n=== Verifying Parent Pages ===")
+
+    parent_pages = {}
+    # Get all NOTION_PAGE_* environment variables
+    for key, value in os.environ.items():
+        if key.startswith('NOTION_PAGE_') and value:
+            task_id = key.replace('NOTION_PAGE_', '').lower()
+            parent_pages[task_id] = value
+
+    if not parent_pages:
+        print("No parent pages configured (NOTION_PAGE_* variables)")
+        return
+
+    notion = NotionAPI(auth=client.api_key)
+
+    for task_id, page_id in parent_pages.items():
+        if not page_id:
+            print(f"⚠ {task_id}: Parent page ID empty (not configured)")
+            continue
+
+        try:
+            page = notion.pages.retrieve(page_id)
+            title = page['properties']['Name']['title'][0]['text']['content']
+            print(f"✓ {task_id}: Parent page '{title}' accessible")
+        except Exception as e:
+            print(f"✗ {task_id}: Failed to access parent page - {e}")
 
 
 def verify_configuration():
@@ -113,6 +144,9 @@ def verify_configuration():
             print(f"     {env_var}")
         print()
         return False
+
+    # Check 2.5: Parent Pages (if configured)
+    verify_parent_pages(client, None)
 
     # Check 3: Client Availability
     print("✓ Step 3: Testing Client Availability")
