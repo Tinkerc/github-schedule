@@ -254,6 +254,72 @@ class NotionClient:
             print(f"[Notion] Failed to create new entry: {e}")
             raise
 
+    def _create_sub_page(self, parent_page_id: str, markdown_content: str, date: str) -> bool:
+        """
+        Create a new page under a parent page with markdown content.
+
+        Args:
+            parent_page_id: ID of the parent page
+            markdown_content: Full markdown content
+            date: Date string for page title
+
+        Returns:
+            bool: True if successful
+
+        Raises:
+            Exception: If API call fails (except in dry run)
+        """
+        # Dry run mode
+        if self.dry_run:
+            print(f"[Notion] DRY RUN: Would create sub-page '{date}' under parent {parent_page_id}")
+            print(f"[Notion] Content length: {len(markdown_content)} chars")
+            return True
+
+        try:
+            notion = NotionAPI(auth=self.api_key)
+
+            # Create new page under parent
+            notion.pages.create(
+                parent={"page_id": parent_page_id},
+                properties={
+                    "Name": {
+                        "title": [
+                            {
+                                "text": {
+                                    "content": date
+                                }
+                            }
+                        ]
+                    }
+                },
+                children=[
+                    {
+                        "object": "block",
+                        "type": "paragraph",
+                        "paragraph": {
+                            "rich_text": [
+                                {
+                                    "type": "text",
+                                    "text": {
+                                        "content": markdown_content
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            )
+
+            self._log(f"Created sub-page '{date}' under parent {parent_page_id}")
+            return True
+
+        except APIResponseError as e:
+            print(f"[Notion] API error while creating sub-page: {e}")
+            raise
+        except Exception as e:
+            print(f"[Notion] Failed to create sub-page: {e}")
+            raise
+
     def _sync_to_published_markdown(self, data_source_id: str, database_id: str, markdown_content: str, date: str):
         """
         Sync content to a Published Markdown data source.

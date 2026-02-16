@@ -71,6 +71,53 @@ def test_get_parent_page_id_not_found():
 
 from unittest.mock import patch, MagicMock
 
+@patch('core.notion_client.NotionAPI')
+def test_create_sub_page(mock_notion_api):
+    """Test creating a sub-page under a parent page"""
+    from unittest.mock import Mock
+    # Setup mock
+    mock_client = Mock()
+    mock_notion_api.return_value = mock_client
+    mock_client.pages.create.return_value = {"id": "new-page-123"}
+
+    os.environ['NOTION_API_KEY'] = 'test_key'
+    client = NotionClient()
+    client.dry_run = False
+
+    result = client._create_sub_page(
+        parent_page_id="parent-123",
+        markdown_content="# Test Content\n\nThis is test content.",
+        date="2026-02-16"
+    )
+
+    assert result is True
+    mock_client.pages.create.assert_called_once()
+
+    # Verify the call arguments
+    call_args = mock_client.pages.create.call_args
+    assert call_args[1]['parent']['page_id'] == "parent-123"
+    assert call_args[1]['properties']['Name']['title'][0]['text']['content'] == "2026-02-16"
+
+def test_create_sub_page_dry_run():
+    """Test dry run mode for sub-page creation"""
+    os.environ['NOTION_API_KEY'] = 'test_key'
+    os.environ['NOTION_ENABLED'] = 'true'
+    os.environ['NOTION_DRY_RUN'] = 'true'
+
+    client = NotionClient()
+
+    result = client._create_sub_page(
+        parent_page_id="parent-123",
+        markdown_content="# Test",
+        date="2026-02-16"
+    )
+
+    assert result is True
+
+    # Cleanup
+    del os.environ['NOTION_DRY_RUN']
+    del os.environ['NOTION_ENABLED']
+
 def test_sync_markdown_returns_false_on_no_config():
     """Test that sync_markdown returns False when database not configured"""
     os.environ['NOTION_API_KEY'] = 'test_key'
