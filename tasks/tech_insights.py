@@ -1,5 +1,6 @@
 # tasks/tech_insights.py
 from core.base import Task
+from core.notion_client import NotionClient
 import os
 import json
 import requests
@@ -49,6 +50,25 @@ class TechInsightsTask(Task):
 
             print(f"[{self.TASK_ID}] ✓ 技术简报生成成功")
             print(f"[{self.TASK_ID}] 输出文件: {output_path}")
+
+            # 同步到 Notion
+            try:
+                client = NotionClient()
+                if client.is_available():
+                    success = client.sync_markdown(
+                        task_id=self.TASK_ID,
+                        markdown_content=insights,
+                        date=self.get_today()
+                    )
+                    if success:
+                        print(f"[{self.TASK_ID}] ✓ 已同步到 Notion")
+                    else:
+                        print(f"[{self.TASK_ID}] ⚠️ Notion 同步失败")
+                else:
+                    print(f"[{self.TASK_ID}] ⚠️ Notion 未配置，跳过同步")
+            except Exception as e:
+                print(f"[{self.TASK_ID}] ⚠️ Notion 同步异常: {str(e)}")
+
             return True
 
         except Exception as e:
