@@ -42,12 +42,14 @@ class NotionClient:
 
     def is_available(self) -> bool:
         """Check if Notion client is properly configured"""
-        if not self.api_key:
-            self._log("NOTION_API_KEY not configured")
+        # Check master switch
+        if not self.enabled:
+            self._log("Notion sync disabled by NOTION_ENABLED")
             return False
 
-        if not self.config.get('settings', {}).get('enabled', True):
-            self._log("Notion sync disabled in config")
+        # Check API key
+        if not self.api_key:
+            self._log("NOTION_API_KEY not configured")
             return False
 
         return True
