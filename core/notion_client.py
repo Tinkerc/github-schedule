@@ -56,24 +56,24 @@ class NotionClient:
 
     def _get_database_id(self, task_id: str) -> Optional[str]:
         """
-        Get database ID for a task.
-        Priority: Environment variable > Config file > None
+        Get database ID for a task from environment variable.
+
+        Args:
+            task_id: Task identifier (e.g., 'tech_insights')
+
+        Returns:
+            Database ID string or None if not configured
         """
-        # 1. Check environment variable override
+        # Check environment variable
         env_var_name = f'NOTION_DB_{task_id.upper()}'
-        env_db_id = os.environ.get(env_var_name)
-        if env_db_id:
-            self._log(f"Using database ID from env var {env_var_name}")
-            return env_db_id
+        db_id = os.environ.get(env_var_name)
 
-        # 2. Check config file
-        config_db_id = self.config.get('databases', {}).get(task_id)
-        if config_db_id:
-            self._log(f"Using database ID from config for {task_id}")
-            return config_db_id
+        if db_id:
+            self._log(f"Using database ID from {env_var_name}")
+            return db_id
 
-        # 3. Not found
-        self._log(f"No database ID configured for {task_id}")
+        # Not found
+        self._log(f"No database ID configured for {task_id} (NOTION_DB_{task_id.upper()})")
         return None
 
     def _log(self, message: str):
