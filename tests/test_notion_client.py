@@ -18,3 +18,34 @@ def test_notion_client_init_with_api_key():
     client = NotionClient()
     assert client is not None
     # Note: Actual availability check requires valid key format
+
+def test_get_database_id_from_env_var():
+    """Test that environment variables override config file"""
+    os.environ['NOTION_API_KEY'] = 'test_key'
+    os.environ['NOTION_DB_TECH_INSIGHTS'] = 'env_db_id_123'
+
+    client = NotionClient()
+    db_id = client._get_database_id('tech_insights')
+    assert db_id == 'env_db_id_123'
+
+    # Cleanup
+    del os.environ['NOTION_DB_TECH_INSIGHTS']
+
+def test_get_database_id_from_config():
+    """Test that config file is used when no env var is set"""
+    os.environ['NOTION_API_KEY'] = 'test_key'
+
+    client = NotionClient()
+    # Use the default config which has empty strings
+    db_id = client._get_database_id('tech_insights')
+    # Should return None or empty string from config
+    assert db_id is None or db_id == ''
+
+def test_get_database_id_not_found():
+    """Test that None is returned for unknown task_id"""
+    os.environ['NOTION_API_KEY'] = 'test_key'
+
+    client = NotionClient()
+    db_id = client._get_database_id('unknown_task')
+    assert db_id is None
+
