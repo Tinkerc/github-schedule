@@ -70,7 +70,7 @@
       "learning"
     ],
     "reading_time_minutes": 2,
-    "positive_reactions_count": 74
+    "positive_reactions_count": 76
   },
   {
     "title": "One Month at a Startup: What Stayed With Me After I Left",
@@ -170,7 +170,7 @@
       "git"
     ],
     "reading_time_minutes": 4,
-    "positive_reactions_count": 42
+    "positive_reactions_count": 43
   },
   {
     "title": "What was your win this week??",
@@ -186,21 +186,6 @@
     "positive_reactions_count": 41
   },
   {
-    "title": "Your IDE is an Attack Vector",
-    "url": "https://dev.to/aezur/your-ide-is-an-attack-vector-2i0b",
-    "author": "Peter Mulligan",
-    "published_at": "2026-02-12",
-    "source": "devto",
-    "tags": [
-      "vscode",
-      "security",
-      "phishing",
-      "tooling"
-    ],
-    "reading_time_minutes": 5,
-    "positive_reactions_count": 35
-  },
-  {
     "title": "I Stopped Trying to Learn Every DevOps Tool: And Started Building a Platform Instead",
     "url": "https://dev.to/maame-codes/i-stopped-trying-to-learn-every-devops-tool-and-started-building-a-platform-instead-33i6",
     "author": "Maame Afua A. P. Fordjour ",
@@ -213,6 +198,21 @@
       "beginners"
     ],
     "reading_time_minutes": 3,
-    "positive_reactions_count": 88
+    "positive_reactions_count": 90
+  },
+  {
+    "title": "Your \"Read Later\" list is a graveyard. It is time to stop hoarding.",
+    "url": "https://dev.to/the_nortern_dev/your-read-later-list-is-a-graveyard-it-is-time-to-stop-hoarding-388g",
+    "author": "NorthernDev",
+    "published_at": "2026-02-11",
+    "source": "devto",
+    "tags": [
+      "discuss",
+      "showdev",
+      "productivity",
+      "privacy"
+    ],
+    "reading_time_minutes": 3,
+    "positive_reactions_count": 75
   }
 ]
