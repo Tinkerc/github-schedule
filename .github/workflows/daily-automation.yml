@@ -28,6 +28,7 @@ jobs:
         WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
         VOLCENGINE_API_KEY: ${{ secrets.VOLCENGINE_API_KEY }}
         VOLCENGINE_MODEL: ${{ secrets.VOLCENGINE_MODEL }}
+        NOTION_ENABLED: ${{ secrets.NOTION_ENABLED }}
         NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
         NOTION_DB_TECH_INSIGHTS: ${{ secrets.NOTION_DB_TECH_INSIGHTS }}
         NOTION_DB_TRENDING_AI: ${{ secrets.NOTION_DB_TRENDING_AI }}
