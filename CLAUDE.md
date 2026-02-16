@@ -105,6 +105,33 @@ The new tech insights tracking system (PRIORITY 15-40) aggregates data from mult
 - Run `python test_tech_insights.py` for comprehensive integration test
 - All tasks independently testable via `python -m tasks.<task_name>`
 
+### Notion Integration (Updated)
+The Notion integration now supports two modes:
+
+1. **Sub-Page Mode**: Creates pages under a parent page (recommended)
+   - Configure via `NOTION_PAGE_*` environment variables
+   - Each task gets its own parent page
+   - Daily pages are created as children
+
+2. **Database Mode**: Creates database entries (legacy)
+   - Configure via `NOTION_DB_*` environment variables
+   - Pages appear as rows in a database
+
+The `NotionClient.sync_markdown()` method automatically detects which mode to use based on environment variables.
+Tasks don't need to know which mode is active.
+
+**Testing:**
+- Run `python scripts/test_sub_page_creation.py` for manual testing
+- Run `python scripts/verify_notion_config.py` to validate config
+
+**Environment Variables:**
+- `NOTION_PAGE_TECH_INSIGHTS`: Parent page ID for tech_insights (sub-page mode)
+- `NOTION_PAGE_TRENDING_AI`: Parent page ID for trending_ai (sub-page mode)
+- `NOTION_DB_TECH_INSIGHTS`: Database ID for tech_insights (database mode)
+- `NOTION_DB_TRENDING_AI`: Database ID for trending_ai (database mode)
+
+**Priority:** Tasks check `NOTION_PAGE_*` first, then fall back to `NOTION_DB_*`.
+
 ## Dependencies
 - `requests` - HTTP client
 - `pyquery` - HTML parsing (jQuery-like API for Python)

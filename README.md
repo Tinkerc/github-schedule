@@ -62,7 +62,20 @@ For GitHub Actions, configure these secrets in your repository settings (`Settin
 
 ## Notion Integration (Optional)
 
-The system can sync AI-generated markdown content to Notion databases for mobile access.
+The system can sync AI-generated markdown content to Notion for mobile access.
+
+### Sync Modes
+
+The Notion integration supports two sync modes:
+
+**Sub-Page Mode (Recommended)**
+- Creates daily pages as children under a parent page
+- Better organization with hierarchical structure
+- One parent page per task type
+
+**Database Mode (Legacy)**
+- Creates entries as rows in a Notion database
+- Traditional table-based organization
 
 ### Setup
 
@@ -71,20 +84,22 @@ The system can sync AI-generated markdown content to Notion databases for mobile
    - Create a new integration and copy the "Internal Integration Token"
    - This is your `NOTION_API_KEY`
 
-2. **Create Notion Databases**
-   - Create a database for each content type (Tech Insights, GitHub Trending, etc.)
-   - Add these properties to each database:
-     - `Title` (title type)
-     - `Date` (date type)
-     - `Source` (select type, add option "github-schedule")
-   - Add your integration to each database (click "..." → "Add connections")
+2. **Choose Your Sync Mode**
 
-3. **Get Database IDs**
-   - Open each database in Notion
-   - Copy the 32-character database ID from the URL: `https://notion.so/workspace/[DATABASE_ID]?v=...`
+   **For Sub-Page Mode (Recommended):**
+   - Create a parent page for each content type in Notion
+   - Share each page with your integration (click "..." → "Add connections")
+   - Get the page ID from the URL (32-character string after `/` and before `?`)
 
-4. **Configure Environment Variables**
+   **For Database Mode:**
+   - Create a database for each content type
+   - Add properties: `Title` (title), `Date` (date), `Source` (select with "github-schedule" option)
+   - Add your integration to each database
+   - Get the database ID from the URL (32-character string)
+
+3. **Configure Environment Variables**
    Add to your `.env` file:
+
    ```bash
    # Enable Notion sync
    NOTION_ENABLED=true
@@ -92,15 +107,21 @@ The system can sync AI-generated markdown content to Notion databases for mobile
    # Your Notion Integration credentials
    NOTION_API_KEY=ntn_your_token_here
 
-   # Database IDs (from your Notion database URLs)
-   NOTION_DB_TECH_INSIGHTS=32_char_id_here
-   NOTION_DB_TRENDING_AI=32_char_id_here
+   # Sub-Page Mode (recommended)
+   NOTION_PAGE_TECH_INSIGHTS=32_char_page_id_here
+   NOTION_PAGE_TRENDING_AI=32_char_page_id_here
+
+   # OR Database Mode (legacy)
+   NOTION_DB_TECH_INSIGHTS=32_char_db_id_here
+   NOTION_DB_TRENDING_AI=32_char_db_id_here
    ```
 
-### Getting Database IDs
+   **Priority:** Tasks check `NOTION_PAGE_*` first, then fall back to `NOTION_DB_*`.
 
-1. Open your Notion database
-2. Copy the 32-character ID from the URL: `notion.so/workspace/[DATABASE_ID]?v=...`
+### Getting Page/Database IDs
+
+1. Open your Notion page or database
+2. Copy the 32-character ID from the URL: `notion.so/workspace/[ID]?v=...`
 
 ### Test Configuration
 
@@ -112,9 +133,10 @@ NOTION_DRY_RUN=true python main.py
 python main.py
 ```
 
-### Migration from Old Config
+### Documentation
 
-If you were using the old `config/notion_config.json` file, see [docs/notion-migration-guide.md](docs/notion-migration-guide.md) for migration instructions.
+- [Sub-Page Configuration](docs/notion-subpage-config.md) - Detailed setup guide for both modes
+- [Migration Guide](docs/notion-migration-guide.md) - Migrating from old config file format
 
 ## Usage
 
