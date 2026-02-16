@@ -2,8 +2,8 @@
 from core.base import Task
 import os
 import json
+import requests
 from typing import List, Dict, Any
-from zhipuai import ZhipuAI
 
 class TechInsightsTask(Task):
     """综合分析所有数据源，生成技术行业简报"""
@@ -135,34 +135,72 @@ class TechInsightsTask(Task):
         return '\n'.join(formatted)
 
     def _call_ai_analysis(self, prompt: str) -> str:
-        """调用ZhipuAI API生成分析"""
+        """调用Volcengine (豆包) 大模型 API生成分析"""
         try:
             # 从环境变量获取API Key
-            api_key = os.getenv("BIGMODEL_API_KEY")
+            api_key = os.environ.get('VOLCENGINE_API_KEY')
             if not api_key:
-                print(f"[{self.TASK_ID}] ⚠️ 未找到BIGMODEL_API_KEY环境变量，使用Mock数据")
+                print(f"[{self.TASK_ID}] ⚠️ 未找到VOLCENGINE_API_KEY环境变量，使用Mock数据")
                 return self._mock_ai_analysis(prompt)
 
-            # 初始化客户端
-            client = ZhipuAI(api_key=api_key)
+            model = os.environ.get('VOLCENGINE_MODEL', 'ep-20250215154848-djsgr')
+            url = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
 
-            print(f"[{self.TASK_ID}] 正在调用ZhipuAI API生成分析...")
+            print(f"[{self.TASK_ID}] 正在调用Volcengine API生成分析...")
 
-            # 调用API
-            response = client.chat.completions.create(
-                model="glm-4-flash",  # 使用快速模型
-                messages=[
-                    {"role": "user", "content": prompt}
+            payload = {
+                "model": model,
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": "你是一位资深技术行业分析师。请基于提供的数据源，生成简洁、准确、有洞察力的技术行业动态简报。"
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
                 ],
-                temperature=0.7,
-                max_tokens=2000,
-            )
+                "max_tokens": 2000
+            }
 
-            # 提取结果
-            insights = response.choices[0].message.content.strip()
-            print(f"[{self.TASK_ID}] ✓ AI分析生成成功")
-            return insights
+            headers = {
+                "Accept": "application/json",
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            }
 
+            response = requests.post(url, headers=headers, json=payload, timeout=120)
+
+            if response.status_code == 200:
+                result = response.json()
+                if 'choices' in result and len(result['choices']) > 0:
+                    insights = result['choices'][0]['message']['content'].strip()
+                    print(f"[{self.TASK_ID}] ✓ AI分析生成成功")
+                    return insights
+                else:
+                    print(f"[{self.TASK_ID}] ⚠️ AI响应格式异常，使用Mock数据")
+                    return self._mock_ai_analysis(prompt)
+            elif response.status_code == 401:
+                print(f"[{self.TASK_ID}] ⚠️ 认证失败: API Key无效或已过期，使用Mock数据")
+                return self._mock_ai_analysis(prompt)
+            elif response.status_code == 429:
+                print(f"[{self.TASK_ID}] ⚠️ 请求频率超限，使用Mock数据")
+                return self._mock_ai_analysis(prompt)
+            else:
+                print(f"[{self.TASK_ID}] ⚠️ API调用失败 - HTTP {response.status_code}，使用Mock数据")
+                try:
+                    error_detail = response.json()
+                    print(f"[{self.TASK_ID}] 错误详情: {error_detail}")
+                except:
+                    print(f"[{self.TASK_ID}] 响应内容: {response.text[:500]}")
+                return self._mock_ai_analysis(prompt)
+
+        except requests.exceptions.Timeout:
+            print(f"[{self.TASK_ID}] ⚠️ AI请求超时，使用Mock数据")
+            return self._mock_ai_analysis(prompt)
+        except requests.exceptions.ConnectionError:
+            print(f"[{self.TASK_ID}] ⚠️ 网络连接错误，使用Mock数据")
+            return self._mock_ai_analysis(prompt)
         except Exception as e:
             print(f"[{self.TASK_ID}] ⚠️ API调用失败: {str(e)}，使用Mock数据")
             return self._mock_ai_analysis(prompt)

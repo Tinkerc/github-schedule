@@ -92,7 +92,7 @@ The new tech insights tracking system (PRIORITY 15-40) aggregates data from mult
 
 **AI Analysis Task:**
 - `tech_insights.py` - Aggregates all data sources and generates AI-powered brief
-- Uses ZhipuAI GLM-4-flash model for fast analysis
+- Uses Volcengine (豆包) API for AI analysis (same as trending_ai)
 - Falls back to mock data if API unavailable
 - Generates structured markdown with sections: hot topics, projects, trends, AI updates, tools, insights
 
@@ -109,7 +109,6 @@ The new tech insights tracking system (PRIORITY 15-40) aggregates data from mult
 - `requests` - HTTP client
 - `pyquery` - HTML parsing (jQuery-like API for Python)
 - `lxml` - XML/HTML processing
-- `zhipuai` - ZhipuAI SDK for GLM model API access
 - `schedule` - Job scheduling (not actively used in current implementation)
 - `cssselect` - CSS selector support for lxml
 
@@ -118,9 +117,8 @@ The new tech insights tracking system (PRIORITY 15-40) aggregates data from mult
 - Task framework uses `importlib.util` for dynamic task and notifier discovery
 - Environment variables are loaded from `.env` file using `python-dotenv`
 - Required environment variables:
-  - `VOLCENGINE_API_KEY`: For AI analysis in trending_ai task
+  - `VOLCENGINE_API_KEY`: For AI analysis in trending_ai and tech_insights tasks
   - `VOLCENGINE_MODEL`: (optional) Volcengine model endpoint, defaults to 'ep-20250215154848-djsgr'
-  - `BIGMODEL_API_KEY`: For ZhipuAI API in tech_insights task
   - `WECOM_WEBHOOK_URL`: For WeChat Work notifications
 - Each task inherits helper methods from Task base class:
   - `get_output_path(filename)`: Get full path for output files

@@ -1,272 +1,272 @@
 [
   {
+    "title": "I’m joining OpenAI",
+    "url": "https://steipete.me/posts/2026/openclaw",
+    "points": 605,
+    "comments_count": 440,
+    "posted_at": "2026-02-16T05:54:15",
+    "source": "hackernews",
+    "hn_id": 47028013
+  },
+  {
+    "title": "Magnus Carlsen Wins the Freestyle (Chess960) World Championship",
+    "url": "https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/",
+    "points": 143,
+    "comments_count": 65,
+    "posted_at": "2026-02-16T06:17:10",
+    "source": "hackernews",
+    "hn_id": 47028227
+  },
+  {
+    "title": "Pink noise reduces REM sleep and may harm sleep quality",
+    "url": "https://www.pennmedicine.org/news/pink-noise-reduces-rem-sleep-and-may-harm-sleep-quality",
+    "points": 53,
+    "comments_count": 29,
+    "posted_at": "2026-02-16T08:35:12",
+    "source": "hackernews",
+    "hn_id": 47029397
+  },
+  {
     "title": "LT6502: A 6502-based homebrew laptop",
     "url": "https://github.com/TechPaula/LT6502",
-    "points": 69,
-    "comments_count": 9,
+    "points": 315,
+    "comments_count": 138,
     "posted_at": "2026-02-16T01:12:35",
     "source": "hackernews",
     "hn_id": 47025399
   },
   {
-    "title": "I Fixed Windows Native Development",
+    "title": "Modern CSS Code Snippets: Stop writing CSS like it's 2015",
+    "url": "https://modern-css.com",
+    "points": 248,
+    "comments_count": 99,
+    "posted_at": "2026-02-16T02:04:10",
+    "source": "hackernews",
+    "hn_id": 47025851
+  },
+  {
+    "title": "Error payloads in Zig",
+    "url": "https://srcreigh.ca/posts/error-payloads-in-zig/",
+    "points": 47,
+    "comments_count": 5,
+    "posted_at": "2026-02-16T07:08:43",
+    "source": "hackernews",
+    "hn_id": 47028705
+  },
+  {
+    "title": "Radio host David Greene says Google's NotebookLM tool stole his voice",
+    "url": "https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/",
+    "points": 101,
+    "comments_count": 62,
+    "posted_at": "2026-02-16T02:05:24",
+    "source": "hackernews",
+    "hn_id": 47025864
+  },
+  {
+    "title": "Audio is the one area small labs are winning",
+    "url": "https://www.amplifypartners.com/blog-posts/arming-the-rebels-with-gpus-gradium-kyutai-and-audio-ai",
+    "points": 110,
+    "comments_count": 19,
+    "posted_at": "2026-02-13T13:39:45",
+    "source": "hackernews",
+    "hn_id": 46999285
+  },
+  {
+    "title": "I gave Claude access to my pen plotter",
+    "url": "https://harmonique.one/posts/i-gave-claude-access-to-my-pen-plotter",
+    "points": 100,
+    "comments_count": 41,
+    "posted_at": "2026-02-14T00:15:58",
+    "source": "hackernews",
+    "hn_id": 47004384
+  },
+  {
+    "title": "I fixed Windows native development",
     "url": "https://marler8997.github.io/blog/fixed-windows/",
-    "points": 419,
-    "comments_count": 221,
+    "points": 680,
+    "comments_count": 329,
     "posted_at": "2026-02-15T19:25:26",
     "source": "hackernews",
     "hn_id": 47022891
   },
   {
+    "title": "I Love Board Games: A Personal Obsession Explained by Psychology",
+    "url": "https://www.thesswnetwork.com/post/why-i-love-board-games-a-personal-obsession-explained-by-psychology",
+    "points": 5,
+    "comments_count": 0,
+    "posted_at": "2026-02-12T01:13:17",
+    "source": "hackernews",
+    "hn_id": 46977678
+  },
+  {
+    "title": "Show HN: Microgpt is a GPT you can visualize in the browser",
+    "url": "https://microgpt.boratto.ca",
+    "points": 121,
+    "comments_count": 8,
+    "posted_at": "2026-02-16T02:40:35",
+    "source": "hackernews",
+    "hn_id": 47026186
+  },
+  {
     "title": "EU bans the destruction of unsold apparel, clothing, accessories and footwear",
     "url": "https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en",
-    "points": 155,
-    "comments_count": 102,
+    "points": 796,
+    "comments_count": 552,
     "posted_at": "2026-02-16T01:10:18",
     "source": "hackernews",
     "hn_id": 47025378
   },
   {
-    "title": "Hideki Sato, designer of all Sega's consoles, has died",
-    "url": "https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/",
-    "points": 131,
-    "comments_count": 3,
-    "posted_at": "2026-02-16T00:19:51",
+    "title": "Language a Wood for Thought: Susan Howe's Work",
+    "url": "https://www.poetryfoundation.org/articles/1769037/language-a-wood-for-thought",
+    "points": 11,
+    "comments_count": 1,
+    "posted_at": "2026-02-12T07:07:10",
     "source": "hackernews",
-    "hn_id": 47024907
+    "hn_id": 46982509
   },
   {
-    "title": "Gwtar: A static efficient single-file HTML format",
-    "url": "https://gwern.net/gwtar",
-    "points": 38,
-    "comments_count": 6,
-    "posted_at": "2026-02-15T23:37:06",
+    "title": "Show HN: VOOG – Moog-style polyphonic synthesizer in Python with tkinter GUI",
+    "url": "https://github.com/gpasquero/voog",
+    "points": 70,
+    "comments_count": 13,
+    "posted_at": "2026-02-16T03:40:57",
     "source": "hackernews",
-    "hn_id": 47024506
+    "hn_id": 47026768
   },
   {
-    "title": "Palantir Gets Millions of Dollars from New York City's Public Hospitals",
-    "url": "https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/",
-    "points": 27,
+    "title": "Pocketblue – Fedora Atomic for mobile devices",
+    "url": "https://github.com/pocketblue/pocketblue",
+    "points": 61,
+    "comments_count": 13,
+    "posted_at": "2026-02-16T00:40:13",
+    "source": "hackernews",
+    "hn_id": 47025085
+  },
+  {
+    "title": "Show HN: Klaw.sh – Kubernetes for AI agents",
+    "url": "https://github.com/klawsh/klaw.sh",
+    "points": 40,
+    "comments_count": 31,
+    "posted_at": "2026-02-16T01:22:59",
+    "source": "hackernews",
+    "hn_id": 47025478
+  },
+  {
+    "title": "GNU Pies – Program Invocation and Execution Supervisor",
+    "url": "https://www.gnu.org.ua/software/pies/",
+    "points": 64,
+    "comments_count": 46,
+    "posted_at": "2026-02-16T04:53:26",
+    "source": "hackernews",
+    "hn_id": 47027427
+  },
+  {
+    "title": "Transforming a Clojure Database into a Library with GraalVM Native Image and FFI",
+    "url": "https://avelino.run/chrondb-polyglot-ffi-clojure-graalvm-native-image/",
+    "points": 14,
     "comments_count": 0,
-    "posted_at": "2026-02-16T01:37:10",
+    "posted_at": "2026-02-12T05:03:58",
     "source": "hackernews",
-    "hn_id": 47025624
+    "hn_id": 46980930
   },
   {
-    "title": "I love the work of the ArchWiki maintainers",
-    "url": "https://k7r.eu/i-love-the-work-of-the-archwiki-maintainers/",
-    "points": 779,
-    "comments_count": 136,
-    "posted_at": "2026-02-15T09:20:58",
+    "title": "JavaScript-heavy approaches are not compatible with long-term performance goals",
+    "url": "https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/",
+    "points": 13,
+    "comments_count": 6,
+    "posted_at": "2026-02-16T08:26:23",
     "source": "hackernews",
-    "hn_id": 47020191
-  },
-  {
-    "title": "Palantir vs. the \"Republik\": US analytics firm takes magazine to court",
-    "url": "https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html",
-    "points": 55,
-    "comments_count": 7,
-    "posted_at": "2026-02-16T00:51:17",
-    "source": "hackernews",
-    "hn_id": 47025188
-  },
-  {
-    "title": "An Enslaved Gardener Transformed the Pecan into a Cash Crop",
-    "url": "https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/",
-    "points": 42,
-    "comments_count": 29,
-    "posted_at": "2026-02-15T23:53:13",
-    "source": "hackernews",
-    "hn_id": 47024676
-  },
-  {
-    "title": "Flashpoint Archive – Over 200k web games and animations preserved",
-    "url": "https://flashpointarchive.org",
-    "points": 265,
-    "comments_count": 62,
-    "posted_at": "2026-02-15T13:43:59",
-    "source": "hackernews",
-    "hn_id": 47021354
+    "hn_id": 47029339
   },
   {
     "title": "Real-time PathTracing with global illumination in WebGL",
     "url": "https://erichlof.github.io/THREE.js-PathTracing-Renderer/",
-    "points": 17,
-    "comments_count": 1,
+    "points": 131,
+    "comments_count": 13,
     "posted_at": "2026-02-13T02:35:39",
     "source": "hackernews",
     "hn_id": 46993014
   },
   {
-    "title": "Reversed engineered game Starflight (1986)",
-    "url": "https://github.com/s-macke/starflight-reverse",
-    "points": 66,
-    "comments_count": 36,
-    "posted_at": "2026-02-15T19:37:29",
+    "title": "Gwtar: A static efficient single-file HTML format",
+    "url": "https://gwern.net/gwtar",
+    "points": 187,
+    "comments_count": 65,
+    "posted_at": "2026-02-15T23:37:06",
     "source": "hackernews",
-    "hn_id": 47022943
-  },
-  {
-    "title": "Oat – Ultra-lightweight, semantic, zero-dependency HTML UI component library",
-    "url": "https://oat.ink/",
-    "points": 304,
-    "comments_count": 87,
-    "posted_at": "2026-02-15T16:17:05",
-    "source": "hackernews",
-    "hn_id": 47021980
-  },
-  {
-    "title": "How Is Data Stored?",
-    "url": "https://www.makingsoftware.com/chapters/how-is-data-stored",
-    "points": 72,
-    "comments_count": 4,
-    "posted_at": "2026-02-10T22:56:09",
-    "source": "hackernews",
-    "hn_id": 46960485
-  },
-  {
-    "title": "Amazon, Google Unwittingly Reveal the Severity of the U.S. Surveillance State",
-    "url": "https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly",
-    "points": 434,
-    "comments_count": 284,
-    "posted_at": "2026-02-15T20:42:17",
-    "source": "hackernews",
-    "hn_id": 47023238
-  },
-  {
-    "title": "1940s Irish sci-fi novel features early mecha and gravity assists",
-    "url": "https://github.com/cavedave/Manannan",
-    "points": 14,
-    "comments_count": 3,
-    "posted_at": "2026-02-15T22:55:53",
-    "source": "hackernews",
-    "hn_id": 47024184
-  },
-  {
-    "title": "RynnBrain",
-    "url": "https://github.com/alibaba-damo-academy/RynnBrain",
-    "points": 49,
-    "comments_count": 1,
-    "posted_at": "2026-02-11T08:08:01",
-    "source": "hackernews",
-    "hn_id": 46968964
-  },
-  {
-    "title": "My smart sleep mask broadcasts users' brainwaves to an open MQTT broker",
-    "url": "https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/",
-    "points": 557,
-    "comments_count": 234,
-    "posted_at": "2026-02-14T23:35:47",
-    "source": "hackernews",
-    "hn_id": 47015294
+    "hn_id": 47024506
   },
   {
     "title": "Two different tricks for fast LLM inference",
     "url": "https://www.seangoedecke.com/fast-llm-inference/",
-    "points": 128,
-    "comments_count": 58,
+    "points": 174,
+    "comments_count": 64,
     "posted_at": "2026-02-15T17:27:33",
     "source": "hackernews",
     "hn_id": 47022329
   },
   {
-    "title": "The seam through the center of things",
-    "url": "https://usefulfictions.substack.com/p/the-seam-through-the-center-of-things",
-    "points": 21,
+    "title": "True Nature: The Lives of Peter Matthiessen",
+    "url": "https://www.lrb.co.uk/the-paper/v48/n02/christian-lorentzen/i-m-always-in-the-club",
+    "points": 15,
     "comments_count": 4,
-    "posted_at": "2026-02-13T04:13:13",
+    "posted_at": "2026-02-11T09:32:59",
     "source": "hackernews",
-    "hn_id": 46994456
+    "hn_id": 46969642
   },
   {
-    "title": "Build Gaussian Splat Experiences with SuperSplat Studio",
-    "url": "https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio/",
-    "points": 18,
-    "comments_count": 3,
-    "posted_at": "2026-02-12T01:00:20",
+    "title": "Show HN: Pangolin: Open-source identity-based VPN (Twingate/Zscaler alternative)",
+    "url": "https://github.com/fosrl/pangolin",
+    "points": 50,
+    "comments_count": 20,
+    "posted_at": "2026-02-15T18:50:18",
     "source": "hackernews",
-    "hn_id": 46977477
+    "hn_id": 47022745
   },
   {
-    "title": "A practical guide to observing the night sky for real skies and real equipment",
-    "url": "https://stargazingbuddy.com/",
-    "points": 98,
-    "comments_count": 17,
-    "posted_at": "2026-02-13T00:35:10",
+    "title": "Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door",
+    "url": "https://knock-knock.net",
+    "points": 103,
+    "comments_count": 41,
+    "posted_at": "2026-02-16T01:06:25",
     "source": "hackernews",
-    "hn_id": 46990888
+    "hn_id": 47025338
   },
   {
-    "title": "Constraint Propagation for Fun",
-    "url": "https://eli.li/constraint-propagation-for-fun",
-    "points": 38,
-    "comments_count": 0,
-    "posted_at": "2026-02-10T22:43:16",
+    "title": "Towards Autonomous Mathematics Research",
+    "url": "https://arxiv.org/abs/2602.10177",
+    "points": 86,
+    "comments_count": 42,
+    "posted_at": "2026-02-16T02:35:40",
     "source": "hackernews",
-    "hn_id": 46960305
+    "hn_id": 47026134
   },
   {
-    "title": "Zvec: A lightweight, fast, in-process vector database",
-    "url": "https://github.com/alibaba/zvec",
-    "points": 198,
-    "comments_count": 35,
-    "posted_at": "2026-02-13T16:53:51",
+    "title": "Amazon's Ring and Google's Nest reveal the severity of U.S. surveillance state",
+    "url": "https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly",
+    "points": 708,
+    "comments_count": 528,
+    "posted_at": "2026-02-15T20:42:17",
     "source": "hackernews",
-    "hn_id": 47000535
+    "hn_id": 47023238
   },
   {
-    "title": "Interference Pattern Formed in a Finger Gap Is Not Single Slit Diffraction",
-    "url": "https://note.com/hydraenids/n/nbe89030deaba",
-    "points": 81,
-    "comments_count": 10,
-    "posted_at": "2026-02-13T11:28:47",
+    "title": "Editor's Note: Retraction of article containing fabricated quotations",
+    "url": "https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/",
+    "points": 159,
+    "comments_count": 131,
+    "posted_at": "2026-02-16T02:29:54",
     "source": "hackernews",
-    "hn_id": 46998580
+    "hn_id": 47026071
   },
   {
-    "title": "Instagram's URL Blackhole",
-    "url": "https://medium.com/@shredlife/instagrams-url-blackhole-c1733e081664",
-    "points": 279,
-    "comments_count": 44,
-    "posted_at": "2026-02-14T00:42:04",
+    "title": "Continuous batching from first principles (2025)",
+    "url": "https://huggingface.co/blog/continuous_batching",
+    "points": 23,
+    "comments_count": 4,
+    "posted_at": "2026-02-16T06:47:26",
     "source": "hackernews",
-    "hn_id": 47004689
-  },
-  {
-    "title": "DjVu and its connection to Deep Learning (2023)",
-    "url": "https://scottlocklin.wordpress.com/2023/05/31/djvu-and-its-connection-to-deep-learning/",
-    "points": 52,
-    "comments_count": 7,
-    "posted_at": "2026-02-15T17:05:35",
-    "source": "hackernews",
-    "hn_id": 47022213
-  },
-  {
-    "title": "uBlock filter list to hide all YouTube Shorts",
-    "url": "https://github.com/i5heu/ublock-hide-yt-shorts/",
-    "points": 1062,
-    "comments_count": 314,
-    "posted_at": "2026-02-15T01:36:45",
-    "source": "hackernews",
-    "hn_id": 47016443
-  },
-  {
-    "title": "Inner-Platform Effect",
-    "url": "https://en.wikipedia.org/wiki/Inner-platform_effect",
-    "points": 30,
-    "comments_count": 6,
-    "posted_at": "2026-02-15T22:48:43",
-    "source": "hackernews",
-    "hn_id": 47024112
-  },
-  {
-    "title": "5,300-year-old 'bow drill' rewrites story of ancient Egyptian tools",
-    "url": "https://www.ncl.ac.uk/press/articles/latest/2026/02/ancientegyptiandrillbit/",
-    "points": 151,
-    "comments_count": 65,
-    "posted_at": "2026-02-11T12:12:00",
-    "source": "hackernews",
-    "hn_id": 46970733
+    "hn_id": 47028545
   }
 ]

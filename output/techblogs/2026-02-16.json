@@ -26,7 +26,7 @@
       "learning"
     ],
     "reading_time_minutes": 2,
-    "positive_reactions_count": 89
+    "positive_reactions_count": 90
   },
   {
     "title": "How Seriously Should We Take State of JS and Other Developer Surveys?",
@@ -56,7 +56,21 @@
       "githubcopilot"
     ],
     "reading_time_minutes": 6,
-    "positive_reactions_count": 66
+    "positive_reactions_count": 73
+  },
+  {
+    "title": "Remember Your First Computer Book?",
+    "url": "https://dev.to/richardpascoe/remember-your-first-computer-book-4fml",
+    "author": "Richard Pascoe",
+    "published_at": "2026-02-13",
+    "source": "devto",
+    "tags": [
+      "discuss",
+      "community",
+      "learning"
+    ],
+    "reading_time_minutes": 2,
+    "positive_reactions_count": 69
   },
   {
     "title": "One Month at a Startup: What Stayed With Me After I Left",
@@ -72,20 +86,6 @@
     ],
     "reading_time_minutes": 5,
     "positive_reactions_count": 103
-  },
-  {
-    "title": "Remember Your First Computer Book?",
-    "url": "https://dev.to/richardpascoe/remember-your-first-computer-book-4fml",
-    "author": "Richard Pascoe",
-    "published_at": "2026-02-13",
-    "source": "devto",
-    "tags": [
-      "discuss",
-      "community",
-      "learning"
-    ],
-    "reading_time_minutes": 2,
-    "positive_reactions_count": 63
   },
   {
     "title": "Get **** done. I hate what Trello has become",
@@ -170,7 +170,7 @@
       "git"
     ],
     "reading_time_minutes": 4,
-    "positive_reactions_count": 41
+    "positive_reactions_count": 42
   },
   {
     "title": "What was your win this week??",
@@ -183,7 +183,7 @@
       "discuss"
     ],
     "reading_time_minutes": 1,
-    "positive_reactions_count": 34
+    "positive_reactions_count": 41
   },
   {
     "title": "Your IDE is an Attack Vector",
@@ -198,21 +198,21 @@
       "tooling"
     ],
     "reading_time_minutes": 5,
-    "positive_reactions_count": 34
+    "positive_reactions_count": 35
   },
   {
-    "title": "Implemented a Feature where the Theme on my Portfolio changes based on the Holiday (Because it's fun) 💫",
-    "url": "https://dev.to/francistrdev/implemented-a-feature-where-the-theme-on-my-portfolio-changes-based-on-the-holiday-because-its-31jo",
-    "author": "👾 FrancisTRᴅᴇᴠ 👾",
-    "published_at": "2026-02-10",
+    "title": "I Stopped Trying to Learn Every DevOps Tool: And Started Building a Platform Instead",
+    "url": "https://dev.to/maame-codes/i-stopped-trying-to-learn-every-devops-tool-and-started-building-a-platform-instead-33i6",
+    "author": "Maame Afua A. P. Fordjour ",
+    "published_at": "2026-02-11",
     "source": "devto",
     "tags": [
-      "discuss",
-      "react",
-      "nextjs",
-      "css"
+      "devops",
+      "career",
+      "learning",
+      "beginners"
     ],
-    "reading_time_minutes": 5,
-    "positive_reactions_count": 37
+    "reading_time_minutes": 3,
+    "positive_reactions_count": 88
   }
 ]
