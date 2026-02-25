@@ -1,0 +1,48 @@
+{
+  "date": "2026-02-25",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "全球首个面向AI智能体的进化协作平台——EvoMap",
+      "url": "https://ai-bot.cn/sites/72249.html",
+      "content": "全球首个面向AI智能体的进化协作平台EvoMap。通过独创的基因进化协议（GEP），将智能体在任务中积累的成功策略封装为标准化的“基因胶囊”，通过去中心化网络实现全球共享、验证与继承，解决AI智能体生态中“经验孤岛”的痛点。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "千寻智能完成近20亿融资，引领具身基模进化与商业化落地",
+      "url": "https://mp.weixin.qq.com/s/dqo8BbZt5gpUeYJo2OnBuA",
+      "content": "千寻智能近日完成近20亿元人民币融资，资本方覆盖顶级、产业、国有及战投机构，阵容强大。其开源模型Spirit v1.5在性能上超越了Pi0.5，凭借独特的“数据金字塔”训练理念和低成本数据采集技术，构筑了核心竞争壁垒。",
+      "source": "千寻智能Spirit AI"
+    },
+    {
+      "title": "10 亿美元融资！李飞飞「世界模型」公司估值 50 亿美元",
+      "url": "https://mp.weixin.qq.com/s/4J2XAdbHLmEdjQyByLKYPA",
+      "content": "李飞飞创立的World Labs近期完成10亿美元巨额融资，公司估值飙升至50亿美元。投资者包括Autodesk、英伟达、AMD、a16z等顶级巨头。公司今年1月推出了“World API”，为企业提供大型世界模型的API接入，并与Autodesk等公司展开B2B合作，探索商业化路径。",
+      "source": "极客公园"
+    },
+    {
+      "title": "智平方又完成5轮B轮系列融资，融资规模超10亿，估值超百亿",
+      "url": "https://mp.weixin.qq.com/s/bpH140Emz94bCGh_gWRhlA",
+      "content": "智平方宣布完成B轮融资，规模超10亿元人民币，估值超过百亿，一年内累计完成12轮融资，成为融资最快的具身智能企业。本轮融资方阵容强大，百度、中国中车等产业与资本巨头集体加注。",
+      "source": "智平方科技"
+    },
+    {
+      "title": "Anthropic 推出安全工具 Claude Code Security",
+      "url": "https://ai-bot.cn/claude-code-security/",
+      "content": "Anthropic推出“Claude Code Security”AI代码安全扫描工具，以研究预览版形式向企业及团队用户开放。工具基于其旗舰模型Claude Opus 4.6，采用模拟人类安全研究员的推理方式，能追踪数据流、发现业务逻辑缺陷和访问控制绕过等传统静态分析难以捕捉的复杂漏洞。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "谷歌正式发布新一代旗舰模型Gemini 3.1 Pro",
+      "url": "https://mp.weixin.qq.com/s/pph2c_mvL5yw0MUuoohxuQ",
+      "content": "谷歌正式发布其新一代旗舰模型Gemini 3.1 Pro，在12项基准测试中超越Claude Opus 4.6、GPT-5.2等主流模型，尤其是在衡量推理能力的ARC-AGI-2测试中获得77.1%的高分。模型在复杂任务处理上进步显著，社区实测可生成WebOS操作系统、交互式3D沙盒，能创作生动的SVG动画。",
+      "source": "智东西"
+    },
+    {
+      "title": "Google DeepMind推出最新AI音乐生成模型：Lyria 3",
+      "url": "https://ai-bot.cn/lyria-3/",
+      "content": "Google DeepMind推出了新一代AI音乐生成模型Lyria 3，已集成至Gemini应用。用户无需自行创作歌词，仅需通过文字描述、上传照片或视频，可一键生成包含自动作词、作曲、人声演唱的30秒高质量音乐片段。模型支持对节奏、情绪、人声进行精细调控，会自动为歌曲生成配套封面。",
+      "source": "AI工具集"
+    }
+  ]
+}
