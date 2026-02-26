@@ -1,0 +1,12 @@
+{
+  "date": "2026-02-26",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "AI 音乐创作平台 ProducerAI 正式加入Google Labs",
+      "url": "https://www.ithome.com/0/923/415.htm",
+      "content": "谷歌实验室宣布，生成式AI音乐创作平台ProducerAI正式推出。平台深度融合了Gemini、Lyria 3、Veo等大模型，为音乐人提供从作词、编曲到混音的全链路支持。用户通过简单文字指令即可生成不同流派的歌曲，进行后期处理。平台为所有音频输出嵌入了SynthID隐形水印。",
+      "source": "IT之家"
+    }
+  ]
+}
