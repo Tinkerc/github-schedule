@@ -1,0 +1,18 @@
+{
+  "date": "2026-02-27",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "谷歌推出 Nano Banana 2 图像 AI 模型：支持 4K 分辨率输出",
+      "url": "https://mp.weixin.qq.com/s/BREQ0Lf3CZ4Jdu3U1bcEMg",
+      "content": "Google 旗下 DeepMind 正式发布新一代图像生成模型 Nano Banana 2（Gemini 3.1 Flash Image）。模型在图像质量与生成速度上取得平衡，核心在于利用 Gemini 的知识库与实时网络搜索，大幅提升了对复杂中文提示、空间比例、真实世界常识（如地标、古诗词意境）及多对象一致性的理解能力。",
+      "source": "APPSO"
+    },
+    {
+      "title": "华为云码道（CodeArts）代码智能体公测版正式发布",
+      "url": "https://mp.weixin.qq.com/s/wBgbVOc3x32qiVRQ3NEHlQ",
+      "content": "华为云在线上发布会上正式发布了华为云码道（CodeArts）代码智能体的公测版。是一个集成代码大模型、IDE与自主开发模式的AI编码解决方案。覆盖代码生成、单元测试、研发知识问答、规范驱动开发等场景，支持IDE、VS Code等多种开发环境。",
+      "source": "华为云"
+    }
+  ]
+}
