@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-04",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "阿里千问开源四款 Qwen3.5 小尺寸模型",
+      "url": "https://mp.weixin.qq.com/s/QsZehll61twbdJ1JPm6I1g",
+      "content": "阿里千问宣布开源4款Qwen3.5小尺寸模型：Qwen3.5-0.8B/2B/4B/9B。该系列采用原生多模态训练和最新架构，覆盖从端侧到服务器的轻量级AI需求。其中0.8B/2B适合移动设备和IoT边缘部署；4B定位为轻量级Agent基座；9B性能媲美gpt-oss-120B。",
+      "source": "通义实验室"
+    },
+    {
+      "title": "小红书发布并开源端到端文档识别模型：FireRed-OCR",
+      "url": "https://mp.weixin.qq.com/s/if7rvPDqf4TGPADji-Z_3g",
+      "content": "小红书团队发布并开源端到端文档识别模型FireRed-OCR，基于Qwen3-VL架构，首创”三阶段渐进优化”策略与”几何+语义”数据工厂，解决通用VLM处理复杂文档时的”结构性幻觉”问题。模型在权威评测OmniDocBench v1.5中取得端到端方案SOTA，综合评分92.9%领先Gemini-3.0 Pro等模型。",
+      "source": "小红书技术REDtech"
+    },
+    {
+      "title": "阿里通义语音双模型 Fun-CosyVoice3.5 与 Fun-AudioGen-VD 发布",
+      "url": "https://mp.weixin.qq.com/s/sTNC7bVphs9zofly3lBoUQ",
+      "content": "通义实验室发布两款语音生成模型Fun-CosyVoice3.5与Fun-AudioGen-VD，首创FreeStyle指令控制范式，用户可通过自然语言描述语气、情绪、场景等细节，无需依赖固定标签。Fun-CosyVoice3.5支持多语种复刻与精细化表达控制，新增泰语、印尼语等4个小语种，生僻字读错率降至5.3%；Fun-AudioGen-VD则实现端到端声音设计，可生成角色化音色并模拟环境声学效果。",
+      "source": "通义实验室"
+    }
+  ]
+}
