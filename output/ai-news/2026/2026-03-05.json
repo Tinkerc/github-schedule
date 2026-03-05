@@ -1,0 +1,36 @@
+{
+  "date": "2026-03-05",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "Flowith 完成千万美元种子轮和种子+轮融资",
+      "url": "https://mp.weixin.qq.com/s/dVbncrjOd_gQg5gXXhU0Nw",
+      "content": "AI创作平台Flowith宣布完成千万美元种子轮及种子+轮融资，种子轮由祥峰投资等机构参与，种子+轮由红杉中国种子基金、江远投资联合领投。Flowith致力于打造Agentic AI时代的”行动派”操作系统，已推出多线程画布交互、云端无限Agent及首款本地化AI全链路创作助手FlowithOS。",
+      "source": "Z Potentials"
+    },
+    {
+      "title": "谷歌 Gemini 3.1 Flash-Lite 登场，首字响应提速 2.5 倍",
+      "url": "https://www.ithome.com/0/925/591.htm",
+      "content": "谷歌发布轻量级AI模型Gemini 3.1 Flash-Lite，称其为Gemini 3系列中速度最快、最具成本效益的模型。模型首字响应速度较2.5 Flash提升2.5倍，整体输出速度提升45%，定价为每百万输入Tokens 0.25美元、输出1.50美元。模型在Arena.ai获1432分Elo得分，GPQA Diamond测试达86.9%，多项指标超越前代。",
+      "source": "IT之家"
+    },
+    {
+      "title": "阶跃星辰 Step 3.5 Flash 预训练/中训练/训练框架全部开源！",
+      "url": "https://mp.weixin.qq.com/s/POJJNoJHS0nIARiw7DKMPw",
+      "content": "阶跃星辰宣布Step 3.5 Flash预训练/中训练/训练框架全部开源，包括Base权重、Midtrain权重及Steptron训练框架。该模型是阶跃迄今能力最强的开源基础模型，具备强大推理与Agent智能，专为Agent而生。",
+      "source": "阶跃星辰"
+    },
+    {
+      "title": "OpenAI深夜发新模型GPT-5.3 Instant！幻觉率暴降27%",
+      "url": "https://mp.weixin.qq.com/s/_ToOYA2ZN546IrsIX5WdIg",
+      "content": "OpenAI正式发布GPT-5.3 Instant模型，针对用户反馈的”过于保守、爱说教”问题进行优化。新模型回答更直击重点，减少冗长限制性说明和拒答行为，幻觉率在联网模式下降低26.8%，非联网模式降低19.7%。",
+      "source": "智东西"
+    },
+    {
+      "title": "QoderWork 重磅更新 | 正式发布支持 Windows 版",
+      "url": "https://mp.weixin.qq.com/s/9qvRL56mH2wNCuqG7pWYkw",
+      "content": "QoderWork正式发布Windows版本，同时推出三大升级：支持标准和旗舰两档模型分级选择，满足不同任务需求；新增预制沙盒环境，在隔离虚拟环境中执行任务，提升稳定性与成功率；上线Skills技能广场，集成文档协作、效率工具、设计UI等主流技能一键安装。",
+      "source": "Qoder"
+    }
+  ]
+}
