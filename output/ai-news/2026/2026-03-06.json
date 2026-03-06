@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-06",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "OpenAI 最强模型 GPT-5.4 正式登场：原生支持计算机操控",
+      "url": "https://mp.weixin.qq.com/s/02ld3POFBIHI5bIJompCZA",
+      "content": "OpenAI正式发布GPT-5.4，首次在单一模型中融合推理、编程、计算机原生交互、深度网页搜索及百万级Token上下文五大能力。模型在GDPval知识工作测试中得分83%，在SWE-Bench Pro编程测试中达57.7%，并在OSWorld计算机操作测试中取得75%成绩，均为业界领先。",
+      "source": "量子位"
+    },
+    {
+      "title": "阿里开源HiClaw： Team 版 OpenClaw，5分钟完成本地安装",
+      "url": "https://mp.weixin.qq.com/s/1zPiI3GIExxMnK4BtDzCCQ",
+      "content": "阿里云开源HiClaw，作为OpenClaw的”Team版”升级方案，引入Manager Agent架构实现多Agent协作管理。HiClaw通过AI Gateway集中管理API凭证，解决原生OpenClaw的安全风险；Worker Agent运行在独立容器中，技能与记忆完全隔离。系统内置Matrix服务器和Element客户端，支持移动端随时指挥，无需配置飞书/钉钉机器人。",
+      "source": "阿里云开发者"
+    },
+    {
+      "title": "VAST完成5000万美元A轮融资，加速构建世界模型与UGC互动内容平台",
+      "url": "https://mp.weixin.qq.com/s/0C6j-jovp0Nsl3lKmygdKA",
+      "content": "通用人工智能公司VAST宣布完成5000万美元A轮融资，由阿里、恒旭资本联合领投，元禾璞华、百度风投等跟投，老股东春华创投超额加注。VAST旗下Tripo Studio平台已聚集超650万创作者，累计生成近1亿个3D模型。本轮资金将重点投入世界模型研发与UGC互动内容平台建设。",
+      "source": "VAST AI"
+    },
+    {
+      "title": "微软开源 Phi-4-Reasoning-Vision-15B 视觉推理模型",
+      "url": "https://www.ithome.com/0/926/026.htm",
+      "content": "微软发布Phi-4-Reasoning-Vision-15B开源模型，采用MIT许可证，是Phi-4系列首个同时具备高分辨率视觉感知与选择性推理能力的小语言模型。模型可根据任务需求在”推理模式”与”非推理模式”间自动切换，数学推理时启用多步思考链，简单OCR任务则直接输出以降低延迟。",
+      "source": "IT之家"
+    }
+  ]
+}
