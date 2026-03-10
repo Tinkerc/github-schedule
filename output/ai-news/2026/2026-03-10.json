@@ -1,0 +1,12 @@
+{
+  "date": "2026-03-10",
+  "weekday": "周二",
+  "items": [
+    {
+      "title": "智谱发布AutoClaw（澳龙）：国内首个一键安装本地版OpenClaw",
+      "url": "https://mp.weixin.qq.com/s/ksLlPO58gnHgm2W-zVi4Rw",
+      "content": "智谱正式上线AutoClaw（中文名”澳龙”），成为国内首个支持一键安装的本地版OpenClaw工具。产品预置50+热门Skills，支持macOS和Windows双平台，1分钟即可完成部署，一键接入飞书等即时通讯工具。AutoClaw内置智谱专为Agent场景优化的Pony-Alpha-2模型（内测中），集成AutoGLM Browser-Use浏览器操作能力，可稳定执行多步骤、跨页面的复杂任务。",
+      "source": "智谱"
+    }
+  ]
+}
