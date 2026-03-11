@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-11",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "人类社交网络巨头Meta收购了AI社交网络Moltbook",
+      "url": "https://mp.weixin.qq.com/s/d0TCzh8o68_7CCgwoIk3ug",
+      "content": "Meta正式收购AI社交网络Moltbook，创始人Matt Schlicht和Ben Parr将于3月16日加入Meta超级智能实验室（MSL）。Moltbook上线一个多月即吸引19.4万个AI智能体和超200万帖子，曾因”AI自发建立宗教”等话题引发热议，后被揭穿多为人类伪装。Meta看中其智能体验证身份与互联的系统机制，为构建”智能体身份注册表”铺路，以应对AI从聊天工具向自主实体演进的趋势。",
+      "source": "机器之心"
+    },
+    {
+      "title": "新加坡MetaComp获数千万美元Pre-A+轮融资",
+      "url": "https://mp.weixin.qq.com/s/mYvVxkWTV_dJj0-aIHlEuQ",
+      "content": "新加坡金融科技公司MetaComp完成数千万美元Pre-A+轮融资，由知名互联网大厂战投及Spark Venture等机构投资，老股东跟投。公司2025年已实现净利润转正，即时流动资金超1亿美元，月支付交易流水超10亿美元，财富在管规模超5亿美元。",
+      "source": "暗涌Waves"
+    },
+    {
+      "title": "Dify 完成 3000 万美元融资，红杉领投",
+      "url": "https://mp.weixin.qq.com/s/yasp_N840roIfH5b-LPXHQ",
+      "content": "AI应用开发平台Dify完成3000万美元Pre-A轮融资，由红杉中国领投，GL Ventures、Alt-Alpha Capital、五源资本等跟投。本轮融资将用于提升Agent可靠性、企业级运营管控能力、降低构建门槛及建设开源生态。Dify是一个开源的Agentic Workflow构建平台，提供可视化构建器和生产级工程基础设施，帮助团队快速构建、部署和运维AI工作流。",
+      "source": "Dify"
+    }
+  ]
+}
