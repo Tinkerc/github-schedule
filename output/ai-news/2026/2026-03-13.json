@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-13",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "安全养虾发布！讯飞AstronClaw全面开放",
+      "url": "https://mp.weixin.qq.com/s/NcciPigdHQOkaAGeJeDyGg",
+      "content": "科大讯飞AstronClaw全面开放，基于OpenClaw打造云端AI助手，支持一键部署、沙箱隔离运行保障数据安全。产品接入企业微信、钉钉、飞书等主流IM，内置120+官方Skills并支持调用ClawHub生态10,000+技能，覆盖办公、营销、金融等场景。集成星火X2、Kimi-K2.5、GLM-5等多款旗舰大模型。",
+      "source": "讯飞开放平台"
+    },
+    {
+      "title": "爱诗科技完成C轮融资，鼎晖领投，全面开启“可玩现实”新纪元",
+      "url": "https://mp.weixin.qq.com/s/dapuwBFEa9u6VjKhg3ZSGQ",
+      "content": "AI视频生成企业爱诗科技宣布完成C轮融资，由鼎晖香港基金、鼎晖VGC、鼎晖百孚领投，中国儒意、三七互娱、亦庄国投、众为资本等国内外多家机构跟投。本轮资金将用于视频基础模型迭代、实时世界模型研发及全球化团队建设。其PixVerse V5.6模型在Artificial Analysis榜单中位列图生视频与文生视频全球第二，全球首发实时世界模型PixVerse R1，用户规模已突破1亿。",
+      "source": "爱诗科技AIsphere"
+    },
+    {
+      "title": "阶跃AI推出StepClaw一键部署OpenClaw，5 万个免费体验名额",
+      "url": "https://mp.weixin.qq.com/s/LvOo7f_PoYEwTKGI_FLatQ",
+      "content": "阶跃星辰推出基于OpenClaw打造的云端AI助手”StepClaw“，用户可在阶跃AI APP一键部署，无需自备服务器。产品搭载Step 3.5 Flash模型，提供双核CPU、4GB内存及40GB存储，支持7×24小时云端运行和长期记忆能力。",
+      "source": "阶跃星辰"
+    },
+    {
+      "title": "安全免配置，威努特WinClaw正式发布",
+      "url": "https://mp.weixin.qq.com/s/JNC4DuPniSyw5Urym7ElXA",
+      "content": "威努特正式发布安全龙虾产品WinClaw，针对OpenClaw存在的安全风险（CNNVD通报82个漏洞，含12个超危漏洞）及配置复杂等问题，构建五层安全防护体系：身份认证双向鉴权、安装审查拦截14类危险模式、消息拦截41条安全规则、执行约束敏感操作二次确认、监控审计本地日志追溯。",
+      "source": "威努特安全网络"
+    },
+    {
+      "title": "英伟达最强开源权重 AI 模型：Nemotron 3 Super 登场",
+      "url": "https://www.ithome.com/0/928/184.htm",
+      "content": "英伟达发布最强开源权重AI模型Nemotron 3 Super，拥有1200亿参数（MoE架构，推理时仅激活120亿），吞吐量较前代提升5倍，准确率翻倍。模型配备100万Token超长上下文窗口，专为多智能体系统设计，可解决”上下文爆炸”和”推理税”问题。采用Mamba-Transformer混合架构，引入”潜在MoE”新技术，支持多Token预测。",
+      "source": "IT之家"
+    },
+    {
+      "title": "百度智能云发布全球首款手机龙虾应用：红手指Operator",
+      "url": "https://mp.weixin.qq.com/s/0zzSHy9xGS2KlvXEu8CS4g",
+      "content": "百度智能云发布全球首款手机龙虾应用”红手指Operator“，已上线安卓市场。应用结合OpenClaw与自研移动端AI Agent能力，用户通过聊天即可指挥手机完成打车、外卖订餐等跨App交互操作，实现”一句话搞定复杂任务”。应用具备深度语义理解、高效执行和精准方案产出能力，可完成信息搜集、定时推送、自动下载等流程。",
+      "source": "百度"
+    },
+    {
+      "title": "光轮智能完成10亿元融资，全球首个具身数据独角兽诞生",
+      "url": "https://mp.weixin.qq.com/s/8KZA0lEiYDt-ZxWxHDKVUQ",
+      "content": "光轮智能完成10亿元A++及A+++轮融资，投资方包括新希望集团、三安光电家族办公室、奥克斯等产业方及建投华科等财务机构，成为全球首个具身数据领域独角兽。公司构建世界-行为-评测三层架构，提供物理仿真、规模化数据生产与模型评测服务，已服务英伟达、谷歌、Figure AI、字节、智元等头部客户，在仿真合成数据、仿真评测、人类视频数据三项能力上实现全球交付冠军。",
+      "source": "光轮智能"
+    }
+  ]
+}
