@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-17",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "智谱推出GLM-5-Turbo：龙虾增强的基座模型",
+      "url": "https://mp.weixin.qq.com/s/be2YN5Zi49BLRPJLEJm9uw",
+      "content": "智谱发布GLM-5-Turbo龙虾增强基座模型，专为OpenClaw Agent场景深度优化。模型在工具调用、指令遵循、定时任务及长链路执行等核心能力上显著增强，在自研ZClawBench评测中获国产模型第一。阿里、字节、美团等互联网大厂内测评价其”精准稳定、长任务不掉链子”。",
+      "source": "智谱"
+    },
+    {
+      "title": "清华开源 OpenMAIC，国内首个L4级AI课堂",
+      "url": "https://mp.weixin.qq.com/s/zryQas1YMkPuvASCYB9xeQ?scene=1&click_id=29",
+      "content": "清华大学研究团队开源国内首个L4级AI课堂平台OpenMAIC，平台通过多智能体协作，将PDF、论文等资料自动生成互动式课堂，配备AI老师、助教及虚拟学生角色，实现语音讲解、实时互动、白板标注等功能。教师上传材料，系统可自动解析生成课件、测验及PBL网页，大幅降低备课成本。",
+      "source": "机器之心"
+    },
+    {
+      "title": "通义推出Fun-CineForge，首个影视级配音多模态大模型",
+      "url": "https://mp.weixin.qq.com/s/MylZJGEYgYiBS6fq53v2XQ",
+      "content": "通义实验室开源首个支持影视级配音的多模态模型Fun-CineForge，配套开放高质量数据集构建方法CineDub。模型基于CosyVoice3底层能力，创新引入”时间模态”，融合视觉、文本、音频、时间四种模态，实现口型同步、情绪表达、音色一致和时间对齐四大功能，支持独白、旁白、双人及多人对话场景。",
+      "source": "通义实验室"
+    },
+    {
+      "title": "阿里云旗下AI Agent产品JVS Claw正式推出移动端App",
+      "url": "https://mp.weixin.qq.com/s/AMYSpEpjh-wymbFOABmjWg",
+      "content": "阿里云旗下AI Agent产品JVS Claw正式推出移动端App，基于开源OpenClaw架构打造，主打”开箱即用、云端隔离”。用户可通过手机App直接”遥控”专属云电脑（6核/12GB Linux环境），让Clawbot自动完成网页编写、数据查询、定时任务等复杂操作，无需接入飞书或QQ等第三方工具。",
+      "source": "智东西"
+    }
+  ]
+}
