@@ -1,0 +1,18 @@
+{
+  "date": "2026-03-18",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "OpenAI推出GPT-5.4 mini和GPT-5.4 nano，实力逼近满血版",
+      "url": "https://mp.weixin.qq.com/s/2hpcOsnLirmjeopKFFCl3w",
+      "content": "OpenAI最新推出GPT-5.4 mini与GPT-5.4 nano两款轻量级模型，GPT-5.4 mini在SWE-Bench Pro编码基准测试中取得54.4%成绩，比满血版GPT-5.4低3.3个百分点，运行速度较上一代提升2倍，同时支持40万token超长上下文，输入价格仅0.75美元/百万token，输出价格为满血版的三分之一。GPT-5.4 nano定位超轻量任务，价格仅为满血版1/12。",
+      "source": "新智元"
+    },
+    {
+      "title": "Skywork 正式推出 SkyClaw，全天候云端 AI 原生助理",
+      "url": "https://mp.weixin.qq.com/s/nGWO6eXXKoX2FqIrDHznoA",
+      "content": "昆仑万维旗下Skywork正式推出云端AI原生助理SkyClaw，发布首批六大官方Skills，涵盖Skywork PPT、Document、Excel、Design、Search及Mureka Music Maker，用户可通过GitHub或Clawhub平台调用。SkyClaw基于开源架构OpenClaw深度重构，支持24/7云端持续运行，本地离线也能自动完成任务。",
+      "source": "昆仑万维集团"
+    }
+  ]
+}
