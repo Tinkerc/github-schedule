@@ -1,0 +1,12 @@
+{
+  "date": "2026-03-19",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "小米推出三款面向面向 Agent 时代的大模型",
+      "url": "https://mp.weixin.qq.com/s/MW7iUWM-i4cN1AKe21B-Cg",
+      "content": "小米连发三款面向Agent时代的大模型：MiMo-V2-Pro 旗舰基座模型，1T参数/42B激活，1M上下文；MiMo-V2-Omni 全模态Agent基座，融合文本/视觉/语音，支持GUI操作与工具调用；MiMo-V2-TTS 语音合成模型，支持多粒度情感控制、方言与歌声。三者分别以”Healer Alpha”和”Hunter Alpha”代号在OpenRouter匿名测试，",
+      "source": "小米技术"
+    }
+  ]
+}
