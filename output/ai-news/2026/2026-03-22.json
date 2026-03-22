@@ -1,0 +1,36 @@
+{
+  "date": "2026-03-22",
+  "weekday": "周五",
+  "items": [
+    {
+      "title": "Cursor推出AI编程模型Composer 2",
+      "url": "https://cursor.com/cn/blog/composer-2",
+      "content": "Cursor正式推出Composer 2，已在Cursor中上线。模型具备前沿级编码能力，定价为每百万输入token 2.50美元，在智能与成本之间实现最优平衡。在CursorBench测试中，Composer 2性能显著优于前代及竞品；在Terminal-Bench 2.0基准测试中得分61.7%，超越Opus 4.6（58.0%）和Composer 1.5（47.9%）。",
+      "source": "Cursor"
+    },
+    {
+      "title": "阿里推出Qwen3.5-Max-Preview最新一代旗舰模型预览版",
+      "url": "https://mp.weixin.qq.com/s/wx2hhUdMJ4OavlM814rq_w?scene=1",
+      "content": "阿里通义千问推出Qwen3.5-Max-Preview 预览版，模型在代码、数学、多语言理解等能力上实现显著提升。作为Qwen3.5系列旗舰模型，采用混合专家（MoE）架构，总参数量达235B，激活参数22B，在保持高效推理的同时实现性能突破。模型支持长达256K tokens的上下文窗口，擅长复杂推理和长文本处理。",
+      "source": "千问大模型"
+    },
+    {
+      "title": "商汤大装置×大晓机器人×广西产业技术研究院达成三方战略合作",
+      "url": "https://mp.weixin.qq.com/s/8vDiOf9T_RNjiTAawXXtrw?scene=1&click_id=11",
+      "content": "商汤大装置、大晓机器人与广西产业技术研究院达成三方战略合作，共同赋能广西具身智能产业升级。三方将协同构建”算力—数据—模型—场景”四位一体产业闭环，依托”广西—东盟具身智能中试训练场”，打造专属算力调度平台、具身高质量数据集和规模化机器人应用场景，助力广西打造面向东盟的具身智能产业创新高地。",
+      "source": "商汤科技SenseTime"
+    },
+    {
+      "title": "腾讯QClaw全面开放，无需邀请码下载就能用",
+      "url": "https://mp.weixin.qq.com/s/Tu8Eskf6Pmb5Kp9GIJp-Zw?scene=1&click_id=5",
+      "content": "腾讯QClaw AI助手正式开启全量公测，无需邀请码即可下载使用。新版本打通微信、企业微信、QQ、飞书、钉钉五大IM平台，率先实现企业微信自动回复消息功能，可总结聊天内容、写文档、订日程等。新增「像素工作室」可视化界面，用像素风格展示AI工作状态；推出可视化定时任务功能，支持周期性任务管理与一键执行。",
+      "source": "腾讯云"
+    },
+    {
+      "title": "Vidu AI推出ViduClaw「V龙」智能体",
+      "url": "https://mp.weixin.qq.com/s/vvCYfrP8rkKaHOf_Kxjzjg",
+      "content": "生数科技旗下AI视频平台Vidu正式推出ViduClaw「V龙」智能体。产品定位为可商用的一站式AI视频Agent解决方案，支持”一键成片”功能——用户仅需上传一张产品图加一句话描述，或一个参考视频加一张图加一句话，可自动生成15-30秒完整广告片，涵盖分镜脚本、场景拆解、画面与配音同步输出。",
+      "source": "Vidu AI"
+    }
+  ]
+}
