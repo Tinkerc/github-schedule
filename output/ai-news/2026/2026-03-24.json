@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-24",
+  "weekday": "周一",
+  "items": [
+    {
+      "title": "MiniMax Token Plan：全球首个支持全模态模型的订阅计划",
+      "url": "https://mp.weixin.qq.com/s/o4KGGgtp32vRMecOYCbVmA",
+      "content": "MiniMax推出全球首个支持全模态模型的订阅计划Token Plan，在原Coding Plan基础上新增视频、语音、音乐、图像等多模态模型调用能力，一个Key可满足代码编写、内容创作、视频生成等需求。同时推出语音/视频资源包可节省20%成本。",
+      "source": "MiniMax 稀宇科技"
+    },
+    {
+      "title": "美团开源LongCat-Flash-Prover数学证明模型",
+      "url": "https://ai-bot.cn/longcat-flash-prover/",
+      "content": "美团开源LongCat-Flash-Prover 大模型，采用 5677 亿参数 MoE 架构，专注解决复杂数学证明问题。模型引入混合专家迭代框架，整合 Lean4 与 AST 多阶段严格验证，有效消除幻觉。在 MiniF2F-Test 上取得 97.1% 成绩，PutnamBench 解决 41.5% 问题，两项测试均刷新 SOTA 水平。",
+      "source": "AI工具集"
+    },
+    {
+      "title": "腾讯推出AI设计工具Ardot，即将开启公测",
+      "url": "https://mp.weixin.qq.com/s/LEPIP7wMI_Tr8pG1xeHFnA",
+      "content": "腾讯推出自研AI设计工具Ardot，能帮助设计师从”做图的”回归”设计师”角色。Ardot旨在成为”最懂设计师的小助手”，承担重复性工作，如自动整理图层、智能调整细节，让设计师专注于创意与洞察，实现灵感更快落地。",
+      "source": "腾讯设计Ardot"
+    },
+    {
+      "title": "百度推出首个国产企业级满血版OpenClaw「DuMate」",
+      "url": "https://mp.weixin.qq.com/s/SPAbERDHmNnQoMwtoJ1dlQ",
+      "content": "百度智能云DuMate（中文名：搭子）正式上线，成为国内首个企业级满血版OpenClaw产品。产品用自然语言为交互入口，支持Word、Excel、PPT等办公软件的原生操作，具备文件智能管理、多源数据分析、办公操作自动化三大核心功能。DuMate内置百度搜索等Skills全家桶能力，支持灵活扩展。",
+      "source": "百度"
+    },
+    {
+      "title": "微信推出官方龙虾插件微信ClawBot",
+      "url": "https://mp.weixin.qq.com/s/o_FPvJ0tY6aGqGn4Ea7Rpw",
+      "content": "微信正式推出微信ClawBot插件，支持接入 OpenClaw（龙虾）。用户通过「我-设置-插件」获取安装指令，扫码可将龙虾连接至微信，实现聊天式远程操控。目前插件逐步放量中，需更新至微信最新版本。同时，腾讯云 Lighthouse（含企业版 Claw Pro）、自研 WorkBuddy、本地 QClaw 等也已支持微信通道。",
+      "source": "腾讯"
+    },
+    {
+      "title": "智谱推出成长型 AI 生命体GLM-Claw",
+      "url": "https://mp.weixin.qq.com/s/uyroJXpjMr6a52Rs68weiw",
+      "content": "智谱推出GLM-Claw智能体，支持打造一群”懂你的AI虾兵”协助处理各类事务。产品定位为个性化AI助手团队，可协同完成复杂任务，提升用户工作与生活效率。通过多智能体协作机制，实现从单一对话向多任务处理的升级。",
+      "source": "智谱清言"
+    }
+  ]
+}
