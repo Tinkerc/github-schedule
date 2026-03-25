@@ -1,0 +1,18 @@
+{
+  "date": "2026-03-25",
+  "weekday": "周三",
+  "items": [
+    {
+      "title": "OpenAI宣布关停Sora，战略转向企业级生产力工具",
+      "url": "https://mp.weixin.qq.com/s/-f35MPQ4CJeO8P-nggCRaQ",
+      "content": "OpenAI宣布关停Sora视频生成平台，包括App、API及ChatGPT视频功能。关停根本原因是OpenAI为筹备IPO进行的战略收缩，将算力转向下一代模型”Spud”及企业级生产力工具。同时OpenAI刚与迪士尼达成三年IP授权协议并获10亿美元投资意向，现已终止合作。",
+      "source": "APPSO"
+    },
+    {
+      "title": "MiniMax Office Skills：开源一套生产级办公文档引擎",
+      "url": "https://mp.weixin.qq.com/s/JKkdMqnHQUnpt0UYRsLTTA",
+      "content": "MiniMax宣布开源一套生产级Office文档引擎MiniMax Office Skills，包含Word、Excel、PDF、PPT四大组件，采用MIT协议。方案能解决AI生成文档”能用但不好用”的痛点，确保公式、格式、数据透视表等高级功能完整保留。技术选型上，Word采用.NET OpenXML SDK非python-docx，Excel直接操作XML非openpyxl，换取更高保真度。",
+      "source": "MiniMax 稀宇科技"
+    }
+  ]
+}
