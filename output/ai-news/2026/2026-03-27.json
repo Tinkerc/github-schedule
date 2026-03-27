@@ -1,0 +1,18 @@
+{
+  "date": "2026-03-27",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "谷歌推出AI音乐生成模型 Lyria 3 Pro",
+      "url": "https://www.ithome.com/0/932/738.htm",
+      "content": "谷歌推出旗下先进AI音乐生成模型Lyria 3 Pro，较前代在生成结构和长度上大幅提升。模型可精准处理前奏、主歌、副歌、桥段等编曲要素，支持生成最长约3分钟的完整音轨。模型不会直接模仿特定艺术家风格，训练数据仅使用合法授权内容，且所有生成音频均嵌有SynthID数字水印。",
+      "source": "IT之家"
+    },
+    {
+      "title": "美团龙猫团队开源多模态大模型LongCat-Next",
+      "url": "https://ai-bot.cn/longcat-next/",
+      "content": "美团龙猫团队推出LongCat-Next多模态模型，核心创新为LoZA稀疏注意力机制。模型支持1M超长上下文，通过智能筛查将50%低重要模块替换为流式稀疏注意力，实现128K解码速度提升10倍、算力节省30%。模型包含Flash-Exp和Flash-Lite两个版本，在长文本任务表现超越Qwen-3。",
+      "source": "AI工具集"
+    }
+  ]
+}
