@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-17",
+  "weekday": "周四",
+  "items": [
+    {
+      "title": "腾讯开源自托管 AI 智能助手 Octop",
+      "url": "https://mp.weixin.qq.com/s/7UloEXX6UM02alU56yiZJQ",
+      "content": "腾讯云旗下自托管多智能体AI助手Octop正式推出1.0 GA版本，面向一人公司、家庭、小团队轻协同场景。新版本围绕知识沉淀、多端触达、权限管控与安全加固完成能力闭环。同步上线腾讯云轻量应用服务器Lighthouse与CVM官方镜像市场，一条命令可部署属于自己的AI协作中枢。",
+      "source": "腾讯云服务器"
+    }
+  ]
+}
