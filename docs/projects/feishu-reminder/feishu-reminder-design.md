@@ -19,6 +19,7 @@
 - 每次发送前查询免密钥接口 `GET https://api.gold-api.com/price/XAU`，读取美元每金衡盎司报价和采集时间 `updatedAt`。请求超时为 8 秒，卡片显示北京时间。
 - 使用最近一条有效的 XAU/USD 快照作为基准。差价为本次价格减上次价格，涨跌幅为差价除以上次价格再乘 100%。卡片同时显示基准价格和采集时间。首次采集只建立基准。
 - 定时运行与手动观察时段将有效的新报价保存为 `quote.json`，记录 `symbol`、`currency`、十进制价格字符串 `price` 和 UTC 采集时间 `updatedAt`。工作流用原生 GitHub 令牌恢复同一分支最新的 `feishu-gold-xau-quote` 文件产物。同分支观察运行按队列串行执行。文件产物使用仓库的保留期，每个运行保留一份快照。手动 `test` 可读基准并预览比较结果。
+- 恢复步骤先根据运行时的 `RUNNER_TEMP` 确定快照目录，并经 `GITHUB_ENV` 传给发送和归档步骤。目录在调用 GitHub API 之前设置，以便读取历史失败时仍可保存新报价。GitHub 在作业级 `env` 中无法解析 `runner.temp`，验证时检查工作流表达式作用域和三个步骤的路径一致性。[GitHub Actions 上下文](https://docs.github.com/en/actions/reference/workflows-and-actions/contexts#context-availability) · [跨步骤环境变量](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-commands#setting-an-environment-variable)
 - 报价已超过 5 分钟、采集时间重复或倒退时，保留上次有效快照并跳过涨跌计算。行情接口或基准读取失败时继续发送卡片。新报价在尝试发送飞书前落盘，即使飞书发送失败也能保留这条采集记录。
 
 ## 固定锚点参考汇率

@@ -31,7 +31,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
-      GOLD_QUOTE_DIR: ${{ runner.temp }}/feishu-gold
       GOLD_QUOTE_ARTIFACT: feishu-gold-xau-quote
     steps:
       - uses: actions/checkout@v7
@@ -48,6 +47,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          GOLD_QUOTE_DIR="$RUNNER_TEMP/feishu-gold"
+          printf 'GOLD_QUOTE_DIR=%s\n' "$GOLD_QUOTE_DIR" >> "$GITHUB_ENV"
           previous_run_id=$(
             gh api --paginate --slurp "repos/$GITHUB_REPOSITORY/actions/artifacts?name=$GOLD_QUOTE_ARTIFACT&per_page=100" |
               jq -r --arg branch "$GITHUB_REF_NAME" '
