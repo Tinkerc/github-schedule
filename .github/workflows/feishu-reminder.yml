@@ -1,0 +1,88 @@
+name: Feishu Gold Observation Reminder
+
+on:
+  schedule:
+    - cron: '30 1 * * 1-5' # 北京时间 09:30
+    - cron: '0 7 * * 1-5'  # 北京时间 15:00
+    - cron: '0 13 * * 1-5' # 北京时间 21:00
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: '选择提醒时段，test 发送测试卡片'
+        type: choice
+        required: true
+        default: test
+        options:
+          - test
+          - morning
+          - afternoon
+          - evening
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: feishu-gold-${{ github.ref }}-${{ inputs.slot == 'test' && 'test' || 'observation' }}
+  queue: max
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GOLD_QUOTE_DIR: ${{ runner.temp }}/feishu-gold
+      GOLD_QUOTE_ARTIFACT: feishu-gold-xau-quote
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+
+      - name: Restore previous gold quote
+        continue-on-error: true
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          previous_run_id=$(
+            gh api --paginate --slurp "repos/$GITHUB_REPOSITORY/actions/artifacts?name=$GOLD_QUOTE_ARTIFACT&per_page=100" |
+              jq -r --arg branch "$GITHUB_REF_NAME" '
+                [.[].artifacts[] | select(.expired == false and .workflow_run.head_branch == $branch)]
+                | max_by([.created_at, .id]) | .workflow_run.id // empty
+              '
+          )
+          if [[ -n "$previous_run_id" ]]; then
+            gh run download "$previous_run_id" --repo "$GITHUB_REPOSITORY" \
+              --name "$GOLD_QUOTE_ARTIFACT" --dir "$GOLD_QUOTE_DIR/previous"
+          fi
+
+      - name: Send Feishu reminder
+        id: send
+        shell: bash
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+          REMINDER_CRON: ${{ github.event.schedule }}
+          REMINDER_SLOT: ${{ inputs.slot }}
+        run: |
+          if [[ "$GITHUB_EVENT_NAME" == schedule ]]; then
+            trigger=(--cron "$REMINDER_CRON")
+          else
+            trigger=(--slot "$REMINDER_SLOT")
+          fi
+          python scripts/feishu_reminder.py "${trigger[@]}" \
+            --previous-quote "$GOLD_QUOTE_DIR/previous/quote.json" \
+            --save-quote "$GOLD_QUOTE_DIR/current/quote.json"
+
+      - name: Archive new gold quote
+        if: ${{ !cancelled() && (steps.send.outcome == 'success' || steps.send.outcome == 'failure') && inputs.slot != 'test' }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ env.GOLD_QUOTE_ARTIFACT }}
+          path: ${{ env.GOLD_QUOTE_DIR }}/current/quote.json
+          if-no-files-found: ignore
+          overwrite: true
