@@ -120,7 +120,19 @@ output/
 
 ## 🚀 GitHub Actions
 
-项目配置了每日自动执行（UTC 00:00），工作流定义在 `.github/workflows/blank.yml`。
+项目包含两个互不依赖的工作流：
+
+- `daily-automation.yml`：执行原有的每日数据采集、分析和通知。
+- `x-to-wecom.yml`：查询 X API v2 Recent Search，并将结果单独推送到企业微信机器人；默认每天北京时间 09:30 运行，也支持手动执行和临时覆盖查询条件。
+
+启用 X 推送前，请在 GitHub 仓库的 `Settings → Secrets and variables → Actions` 中配置：
+
+- Secret `X_BEARER_TOKEN`：X Developer App 的 Bearer Token。
+- Secret `WECOM_X_WEBHOOK_URL`：用于 X 推送的企业微信机器人 webhook；未设置时会复用现有的 `WECOM_WEBHOOK_URL`。
+- Variable `X_QUERY`：X Recent Search 查询，例如 `from:OpenAI -is:retweet`。
+- Variable `X_MAX_RESULTS`：可选，范围为 10–100，默认 10。
+
+配置后可在 Actions 页面选择 **X to WeCom**，通过 **Run workflow** 立即验证。X API 的可用权限、调用配额和费用取决于对应开发者账号套餐。
 
 ## 🛠️ 开发
 

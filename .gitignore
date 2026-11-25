@@ -172,10 +172,18 @@ cython_debug/
 
 # macOS
 .DS_Store
-*.DS_Store
-.github/.DS_Store
-**/.DS_Store
-.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.apdisk
+.Thumbnails/
 
 # Git worktrees
 .worktrees/
